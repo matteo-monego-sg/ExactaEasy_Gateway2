@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcquisitionGetError" xml:space="preserve">
+    <value>카메라 {0}에서 획득 매개변수를 가져올 수 없습니다.</value>
+  </data>
+  <data name="AcquisitionParameter" xml:space="preserve">
+    <value>획득 매개변수</value>
+  </data>
+  <data name="ActualValue" xml:space="preserve">
+    <value>실제 값</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>추가</value>
+  </data>
+  <data name="AdvancedRecipeParameter" xml:space="preserve">
+    <value>고급 레시피 매개변수</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>모두</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>모든</value>
+  </data>
+  <data name="Assistants" xml:space="preserve">
+    <value>어시스턴트</value>
+  </data>
+  <data name="AtLeastOneCameraInError" xml:space="preserve">
+    <value>하나 이상의 카메라 활성화 오류</value>
+  </data>
+  <data name="AuditFailed" xml:space="preserve">
+    <value>감사 실패</value>
+  </data>
+  <data name="Average" xml:space="preserve">
+    <value>평균</value>
+  </data>
+  <data name="Backup" xml:space="preserve">
+    <value>백업</value>
+  </data>
+  <data name="BackupCamParamsFailed" xml:space="preserve">
+    <value>카메라 매개변수 백업 실패</value>
+  </data>
+  <data name="BackupRestore" xml:space="preserve">
+    <value>백업/복원</value>
+  </data>
+  <data name="BackupVialAxisFailed" xml:space="preserve">
+    <value>백업 카메라 바이알 축이 실패했습니다.</value>
+  </data>
+  <data name="Bad" xml:space="preserve">
+    <value>Bad</value>
+  </data>
+  <data name="BatchID" xml:space="preserve">
+    <value>배치 ID</value>
+  </data>
+  <data name="BtnApply" xml:space="preserve">
+    <value>적용</value>
+  </data>
+  <data name="BtnConfig" xml:space="preserve">
+    <value>Config</value>
+  </data>
+  <data name="BtnEdit" xml:space="preserve">
+    <value>편집</value>
+  </data>
+  <data name="BtnLiveStart" xml:space="preserve">
+    <value>ROI 라이브 시작</value>
+  </data>
+  <data name="BtnLiveStartFF" xml:space="preserve">
+    <value>풀프레임 라이브 시작</value>
+  </data>
+  <data name="BtnLiveStop" xml:space="preserve">
+    <value>ROI 중지 라이브</value>
+  </data>
+  <data name="BtnLiveStopFF" xml:space="preserve">
+    <value>풀프레임 라이브 중지</value>
+  </data>
+  <data name="BtnSave" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="BtnUndo" xml:space="preserve">
+    <value>실행 취소</value>
+  </data>
+  <data name="BypassHMIsendRecipe" xml:space="preserve">
+    <value>HMI 레시피 적용 안 함</value>
+  </data>
+  <data name="calibrationTurbidimeter" xml:space="preserve">
+    <value>임계값</value>
+  </data>
+  <data name="Cal_Dark" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="Cal_Good" xml:space="preserve">
+    <value>Good</value>
+  </data>
+  <data name="Cal_Light" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Cal_NumSamples" xml:space="preserve">
+    <value>유형별 요소 수</value>
+  </data>
+  <data name="Cal_Start" xml:space="preserve">
+    <value>수집 시작</value>
+  </data>
+  <data name="Cal_Stop" xml:space="preserve">
+    <value>획득 중지</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>카메라</value>
+  </data>
+  <data name="CameraError" xml:space="preserve">
+    <value>카메라 오류</value>
+  </data>
+  <data name="CameraList" xml:space="preserve">
+    <value>카메라 목록</value>
+  </data>
+  <data name="CameraNotFound" xml:space="preserve">
+    <value>카메라 번호: {0} IP: {1} 구성 설정에서 찾을 수 없습니다.</value>
+  </data>
+  <data name="CameraNotFound2" xml:space="preserve">
+    <value>카메라를 찾을 수 없음</value>
+  </data>
+  <data name="CameraNotReady" xml:space="preserve">
+    <value>카메라가 준비되지 않았습니다.</value>
+  </data>
+  <data name="CameraParamsBackupOk" xml:space="preserve">
+    <value>카메라 매개변수 백업 성공</value>
+  </data>
+  <data name="CameraRecipeNotFound" xml:space="preserve">
+    <value>카메라 레시피를 찾을 수 없습니다.</value>
+  </data>
+  <data name="CameraResetting" xml:space="preserve">
+    <value>카메라가 다시 시작 중입니다... 잠시만 기다려주세요</value>
+  </data>
+  <data name="Cameras" xml:space="preserve">
+    <value>카메라</value>
+  </data>
+  <data name="CameraStatus" xml:space="preserve">
+    <value>카메라 상태</value>
+  </data>
+  <data name="CameraStatusNotAvailable" xml:space="preserve">
+    <value>카메라 상태를 사용할 수 없음</value>
+  </data>
+  <data name="CantBindToCamera" xml:space="preserve">
+    <value>카메라에 바인딩할 수 없습니다.</value>
+  </data>
+  <data name="CantChangeLanguageWhileMachineIsRunning" xml:space="preserve">
+    <value>시스템이 실행 중인 동안 언어를 변경할 수 없습니다.</value>
+  </data>
+  <data name="CantFindGlobalConfig" xml:space="preserve">
+    <value>글로벌 구성 파일 "globalConfig.xml"을 찾을 수 없습니다.</value>
+  </data>
+  <data name="CantSaveRecipe" xml:space="preserve">
+    <value>레시피를 저장할 수 없습니다.</value>
+  </data>
+  <data name="CantSaveRecipeWhileMachineRunning" xml:space="preserve">
+    <value>머신이 실행되는 동안 레시피를 저장할 수 없음</value>
+  </data>
+  <data name="CheckVialAxis" xml:space="preserve">
+    <value>바이알 축 확인</value>
+  </data>
+  <data name="Condition" xml:space="preserve">
+    <value>조건</value>
+  </data>
+  <data name="Config" xml:space="preserve">
+    <value>Config</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>현재</value>
+  </data>
+  <data name="CustomerEvaluation" xml:space="preserve">
+    <value>고객 평가</value>
+  </data>
+  <data name="DateTime" xml:space="preserve">
+    <value>날짜 시간</value>
+  </data>
+  <data name="Device" xml:space="preserve">
+    <value>장치</value>
+  </data>
+  <data name="DeviceRecipeWrong" xml:space="preserve">
+    <value>장치 레시피가 잘못되었거나 누락되었습니다.</value>
+  </data>
+  <data name="Devices" xml:space="preserve">
+    <value>장치</value>
+  </data>
+  <data name="DevicesParameters" xml:space="preserve">
+    <value>장치 매개변수</value>
+  </data>
+  <data name="DigitalTwinNoCSV" xml:space="preserve">
+    <value>CSV가 없습니다.</value>
+  </data>
+  <data name="Digitizer" xml:space="preserve">
+    <value>디지타이저</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>비활성화</value>
+  </data>
+  <data name="DownloadImages" xml:space="preserve">
+    <value>이미지 다운로드</value>
+  </data>
+  <data name="DownloadingImages" xml:space="preserve">
+    <value>이미지 다운로드</value>
+  </data>
+  <data name="DownLoadParam" xml:space="preserve">
+    <value>이미지 다운로드 카메라 ....</value>
+  </data>
+  <data name="Dump" xml:space="preserve">
+    <value>Dump</value>
+  </data>
+  <data name="ElaborationGetError" xml:space="preserve">
+    <value>카메라 레시피 매개 변수 {0}을(를) 읽을 수 없습니다.</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>사용</value>
+  </data>
+  <data name="EnableKnapp" xml:space="preserve">
+    <value>Knapp 사용</value>
+  </data>
+  <data name="ErrorReport" xml:space="preserve">
+    <value>보고서를 생성하는 동안 오류가 발생했습니다.</value>
+  </data>
+  <data name="ErrorSendingParameters" xml:space="preserve">
+    <value>매개변수 전송 중 오류</value>
+  </data>
+  <data name="ErrorStartingKnapp" xml:space="preserve">
+    <value>Knapp 시작 중 오류</value>
+  </data>
+  <data name="ErrorStoppingKnapp" xml:space="preserve">
+    <value>Knapp 중지 중 오류</value>
+  </data>
+  <data name="ErrorUploadingParameters" xml:space="preserve">
+    <value>파라미터 업로드 중 오류 발생</value>
+  </data>
+  <data name="EvaluationScale" xml:space="preserve">
+    <value>평가 척도</value>
+  </data>
+  <data name="Every" xml:space="preserve">
+    <value>모든</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>종료</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>내보내기</value>
+  </data>
+  <data name="ExportCameraParams" xml:space="preserve">
+    <value>카메라 파라미터 내보내기</value>
+  </data>
+  <data name="ExportPDF" xml:space="preserve">
+    <value>PDF 내보내기</value>
+  </data>
+  <data name="ExportPDFInProgress" xml:space="preserve">
+    <value>PDF 내보내기 진행 중, 잠시만 기다려주세요.</value>
+  </data>
+  <data name="ExportVialAxis" xml:space="preserve">
+    <value>바이알 축 내보내기</value>
+  </data>
+  <data name="FatalError" xml:space="preserve">
+    <value>치명적인 오류가 발생했습니다! 구성을 확인하고 다시 시작하세요.</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="FeaturesGetError" xml:space="preserve">
+    <value>카메라 {0}에서 기능을 가져올 수 없습니다.</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>필터</value>
+  </data>
+  <data name="Frames" xml:space="preserve">
+    <value>프레임</value>
+  </data>
+  <data name="Frequency" xml:space="preserve">
+    <value>빈도</value>
+  </data>
+  <data name="FWver" xml:space="preserve">
+    <value>FW ver.</value>
+  </data>
+  <data name="GetParametersFailed" xml:space="preserve">
+    <value>매개변수 가져오기에 실패했습니다.</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Good</value>
+  </data>
+  <data name="GretelPCs" xml:space="preserve">
+    <value>그레텔 PC</value>
+  </data>
+  <data name="HardReset" xml:space="preserve">
+    <value>하드 리셋</value>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>머리</value>
+  </data>
+  <data name="HMIEnable" xml:space="preserve">
+    <value>HMI 활성화</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>홈</value>
+  </data>
+  <data name="IdTool" xml:space="preserve">
+    <value>도구 ID</value>
+  </data>
+  <data name="ImageSaved" xml:space="preserve">
+    <value>이미지 저장됨</value>
+  </data>
+  <data name="ImagesDownloaded" xml:space="preserve">
+    <value>이미지가 성공적으로 다운로드되었습니다.</value>
+  </data>
+  <data name="ImagesDownloads" xml:space="preserve">
+    <value>이미지 다운로드 중</value>
+  </data>
+  <data name="ImagesDumpSettings" xml:space="preserve">
+    <value>이미지 덤프 설정</value>
+  </data>
+  <data name="ImagesNotDownloaded" xml:space="preserve">
+    <value>이미지 다운로드 실패</value>
+  </data>
+  <data name="ImagesNotUploaded" xml:space="preserve">
+    <value>이미지 업로드 실패</value>
+  </data>
+  <data name="ImagesUpload" xml:space="preserve">
+    <value>이미지 업로드</value>
+  </data>
+  <data name="ImagesUploads" xml:space="preserve">
+    <value>이미지 업로드</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>증가</value>
+  </data>
+  <data name="Inspection" xml:space="preserve">
+    <value>검사</value>
+  </data>
+  <data name="InspectionSettings" xml:space="preserve">
+    <value>검사 설정</value>
+  </data>
+  <data name="InvalidLightCtrl" xml:space="preserve">
+    <value>잘못된 조명 컨트롤러</value>
+  </data>
+  <data name="Knapp" xml:space="preserve">
+    <value>Knapp</value>
+  </data>
+  <data name="KnappIdle" xml:space="preserve">
+    <value>Knapp 유휴</value>
+  </data>
+  <data name="KnappRunning" xml:space="preserve">
+    <value>Knapp 실행 중</value>
+  </data>
+  <data name="KnappSettingsError" xml:space="preserve">
+    <value>Knapp 설정 오류</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>마지막</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>레벨</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="LiveMode" xml:space="preserve">
+    <value>라이브 모드 ROI</value>
+  </data>
+  <data name="LiveModeFF" xml:space="preserve">
+    <value>라이브 모드 풀프레임</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>로드</value>
+  </data>
+  <data name="LoadRecipeAndApply" xml:space="preserve">
+    <value>레시피 로드 및 적용</value>
+  </data>
+  <data name="LoadRecipeWithoutApply" xml:space="preserve">
+    <value>적용하지 않고 레시피 로드</value>
+  </data>
+  <data name="Logic" xml:space="preserve">
+    <value>논리</value>
+  </data>
+  <data name="Logs" xml:space="preserve">
+    <value>로그</value>
+  </data>
+  <data name="MachineEvaluation" xml:space="preserve">
+    <value>머신 평가</value>
+  </data>
+  <data name="MachineParameter" xml:space="preserve">
+    <value>머신 파라미터</value>
+  </data>
+  <data name="MaxValue" xml:space="preserve">
+    <value>최대값</value>
+  </data>
+  <data name="Measure" xml:space="preserve">
+    <value>측정값</value>
+  </data>
+  <data name="MinValue" xml:space="preserve">
+    <value>최소값</value>
+  </data>
+  <data name="Missing" xml:space="preserve">
+    <value>누락</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>모드</value>
+  </data>
+  <data name="ModuleName" xml:space="preserve">
+    <value>모듈 이름</value>
+  </data>
+  <data name="MoreSettings" xml:space="preserve">
+    <value>더 많은 설정</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="NetworkNodes" xml:space="preserve">
+    <value>네트워크 노드</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>아니요</value>
+  </data>
+  <data name="NoActiveRecipe" xml:space="preserve">
+    <value>활성 레시피 없음</value>
+  </data>
+  <data name="NoCameraAvailable" xml:space="preserve">
+    <value>사용 가능한 카메라가 없습니다!</value>
+  </data>
+  <data name="NoDefaultPrinter" xml:space="preserve">
+    <value>오류: 기본 프린터를 찾을 수 없습니다.</value>
+  </data>
+  <data name="NodeId" xml:space="preserve">
+    <value>노드 ID</value>
+  </data>
+  <data name="Nodes" xml:space="preserve">
+    <value>노드</value>
+  </data>
+  <data name="NoEditingAvailable" xml:space="preserve">
+    <value>현재 매개변수 편집이 허용되지 않습니다!</value>
+  </data>
+  <data name="NoReadyToRunAvailable" xml:space="preserve">
+    <value>현재 매개변수 편집이 허용되지 않습니다!</value>
+  </data>
+  <data name="NoRecipeAvailable" xml:space="preserve">
+    <value>사용 가능한 레시피가 없습니다!</value>
+  </data>
+  <data name="Normalization" xml:space="preserve">
+    <value>정규화</value>
+  </data>
+  <data name="NSample" xml:space="preserve">
+    <value>샘플</value>
+  </data>
+  <data name="OfflineAnalysis" xml:space="preserve">
+    <value>오프라인 분석</value>
+  </data>
+  <data name="OnPattern" xml:space="preserve">
+    <value>패턴에</value>
+  </data>
+  <data name="OnReject" xml:space="preserve">
+    <value>거부 시</value>
+  </data>
+  <data name="Parameter" xml:space="preserve">
+    <value>매개변수</value>
+  </data>
+  <data name="PixelInfo" xml:space="preserve">
+    <value>픽셀 정보</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>잠시만 기다려주세요</value>
+  </data>
+  <data name="PleaseWaitWindowsService" xml:space="preserve">
+    <value>윈도우 서비스를 기다려주세요</value>
+  </data>
+  <data name="Prev" xml:space="preserve">
+    <value>이전</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>신고하기</value>
+  </data>
+  <data name="Printing" xml:space="preserve">
+    <value>인쇄 중...</value>
+  </data>
+  <data name="PrintKnapp" xml:space="preserve">
+    <value>인쇄 냅</value>
+  </data>
+  <data name="PUM" xml:space="preserve">
+    <value>P.U.M.</value>
+  </data>
+  <data name="Range" xml:space="preserve">
+    <value>범위</value>
+  </data>
+  <data name="ReadingDeviceInfo" xml:space="preserve">
+    <value>읽기 장치 정보</value>
+  </data>
+  <data name="Recipe" xml:space="preserve">
+    <value>레시피</value>
+  </data>
+  <data name="RecipeAdvancedGetError" xml:space="preserve">
+    <value>카메라 {0}에서 레시피 고급 매개 변수를 가져올 수 없습니다.</value>
+  </data>
+  <data name="RecipeEnable" xml:space="preserve">
+    <value>레시피 사용</value>
+  </data>
+  <data name="RecipeMachineGetError" xml:space="preserve">
+    <value>카메라 {0}에서 레시피 머신 매개 변수를 가져올 수 없습니다.</value>
+  </data>
+  <data name="RecipeParameter" xml:space="preserve">
+    <value>레시피 매개 변수</value>
+  </data>
+  <data name="RecipeSimpleGetError" xml:space="preserve">
+    <value>카메라 {0}에서 레시피 단순 매개 변수를 가져올 수 없습니다.</value>
+  </data>
+  <data name="RecivedRecipeWithErrors" xml:space="preserve">
+    <value>오류와 함께 레시피를 받았습니다. 레시피가 무시되었습니다.</value>
+  </data>
+  <data name="RecordImagesError" xml:space="preserve">
+    <value>이미지 기록 오류</value>
+  </data>
+  <data name="Redownload" xml:space="preserve">
+    <value>다시 다운로드</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>새로고침</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>거부</value>
+  </data>
+  <data name="Rejects" xml:space="preserve">
+    <value>Rejects</value>
+  </data>
+  <data name="RejectsBuffer" xml:space="preserve">
+    <value>버퍼 거부</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ResetAll" xml:space="preserve">
+    <value>모두 초기화</value>
+  </data>
+  <data name="ResetBufferImages" xml:space="preserve">
+    <value>버퍼 이미지 초기화</value>
+  </data>
+  <data name="ResetError" xml:space="preserve">
+    <value>카메라 재설정 실패</value>
+  </data>
+  <data name="ResetTriggerEncoder" xml:space="preserve">
+    <value>트리거 인코더 재설정</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>복원</value>
+  </data>
+  <data name="RestoreVialAxisFailed" xml:space="preserve">
+    <value>바이알 축 복원 실패</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>결과</value>
+  </data>
+  <data name="ROIDefinition" xml:space="preserve">
+    <value>ROI 정의</value>
+  </data>
+  <data name="RoundNum" xml:space="preserve">
+    <value>라운드 회전</value>
+  </data>
+  <data name="RoundsNum" xml:space="preserve">
+    <value>라운드 수</value>
+  </data>
+  <data name="RunFailed" xml:space="preserve">
+    <value>실행 실패</value>
+  </data>
+  <data name="RunningMode" xml:space="preserve">
+    <value>실행 모드</value>
+  </data>
+  <data name="SampleSize" xml:space="preserve">
+    <value>샘플 크기</value>
+  </data>
+  <data name="Sampling" xml:space="preserve">
+    <value>샘플링</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="SaveBufferedImages" xml:space="preserve">
+    <value>버퍼링된 이미지 저장</value>
+  </data>
+  <data name="SaveCurrentRecipe" xml:space="preserve">
+    <value>현재 레시피 저장</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>저장됨</value>
+  </data>
+  <data name="SaveKnapp" xml:space="preserve">
+    <value>냅 저장</value>
+  </data>
+  <data name="SaveRejectedContainersImages" xml:space="preserve">
+    <value>거부된 계속 이미지 저장</value>
+  </data>
+  <data name="SaveSettings" xml:space="preserve">
+    <value>설정 저장</value>
+  </data>
+  <data name="SaveSurvey" xml:space="preserve">
+    <value>설문조사 저장</value>
+  </data>
+  <data name="SavingBufferedImages" xml:space="preserve">
+    <value>버퍼 이미지 저장하기</value>
+  </data>
+  <data name="SavingCurrentRecipe" xml:space="preserve">
+    <value>레시피 저장 중 ...</value>
+  </data>
+  <data name="SavingCurrentRecipeFailed" xml:space="preserve">
+    <value>현재 레시피 저장에 실패했습니다.</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>선택</value>
+  </data>
+  <data name="SelectFolderForSavingImages" xml:space="preserve">
+    <value>이미지를 저장할 폴더를 선택합니다.</value>
+  </data>
+  <data name="SelectFolderFromWhichToUpload" xml:space="preserve">
+    <value>업로드할 폴더를 선택합니다.</value>
+  </data>
+  <data name="SendingRecipeTo" xml:space="preserve">
+    <value>레시피 전송 대상</value>
+  </data>
+  <data name="SendParam" xml:space="preserve">
+    <value>카메라에 매개변수 보내기 ...</value>
+  </data>
+  <data name="ShowingLiveCam" xml:space="preserve">
+    <value>라이브 캠 표시 중!</value>
+  </data>
+  <data name="SoftReset" xml:space="preserve">
+    <value>소프트 리셋</value>
+  </data>
+  <data name="Spindle" xml:space="preserve">
+    <value>스핀들</value>
+  </data>
+  <data name="SpvBusyError" xml:space="preserve">
+    <value>'바쁨' 상태를 전송할 수 없음</value>
+  </data>
+  <data name="SpvErrorError" xml:space="preserve">
+    <value>'오류' 상태를 전송할 수 없음</value>
+  </data>
+  <data name="SpvReadyToRunError" xml:space="preserve">
+    <value>'준비 완료' 상태를 전송할 수 없음</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>시작</value>
+  </data>
+  <data name="StartLive" xml:space="preserve">
+    <value>라이브 시작</value>
+  </data>
+  <data name="StartOfflineAnalysis" xml:space="preserve">
+    <value>오프라인 분석 시작</value>
+  </data>
+  <data name="StartOffset" xml:space="preserve">
+    <value>오프셋 시작</value>
+  </data>
+  <data name="StartRun" xml:space="preserve">
+    <value>실행 시작</value>
+  </data>
+  <data name="Station" xml:space="preserve">
+    <value>스테이션</value>
+  </data>
+  <data name="StationEvaluation" xml:space="preserve">
+    <value>스테이션 평가</value>
+  </data>
+  <data name="StationId" xml:space="preserve">
+    <value>스테이션 ID</value>
+  </data>
+  <data name="StationRejects" xml:space="preserve">
+    <value>스테이션 리젝트</value>
+  </data>
+  <data name="StationSpindleInitialPosition" xml:space="preserve">
+    <value>스테이션 스핀들 초기 위치</value>
+  </data>
+  <data name="StationSpindleOffset" xml:space="preserve">
+    <value>스테이션 스핀들 오프셋</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>상태</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="StopLive" xml:space="preserve">
+    <value>라이브 정지</value>
+  </data>
+  <data name="StopOffAnalysis" xml:space="preserve">
+    <value>분석 중지</value>
+  </data>
+  <data name="StopOfflineAnalysis" xml:space="preserve">
+    <value>오프라인 분석 중지</value>
+  </data>
+  <data name="StopOnCondition" xml:space="preserve">
+    <value>조건에 따라 중지</value>
+  </data>
+  <data name="Strobe" xml:space="preserve">
+    <value>스트로브</value>
+  </data>
+  <data name="Strobo" xml:space="preserve">
+    <value>스트로보</value>
+  </data>
+  <data name="StroboConfFileInvalid" xml:space="preserve">
+    <value>스트로보 구성 파일이 잘못되었습니다. 스트로보 번호와 경로를 확인하십시오.</value>
+  </data>
+  <data name="StroboParameter" xml:space="preserve">
+    <value>스트로보 구성 매개변수</value>
+  </data>
+  <data name="SwVersion" xml:space="preserve">
+    <value>SW 버전</value>
+  </data>
+  <data name="TechnicalReject" xml:space="preserve">
+    <value>기술 거부</value>
+  </data>
+  <data name="TechReject" xml:space="preserve">
+    <value>Tech. Reject</value>
+  </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>제목</value>
+  </data>
+  <data name="Tool" xml:space="preserve">
+    <value>도구</value>
+  </data>
+  <data name="ToolDescription" xml:space="preserve">
+    <value>도구 설명</value>
+  </data>
+  <data name="ToolId" xml:space="preserve">
+    <value>도구 ID</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>도구</value>
+  </data>
+  <data name="ToSave" xml:space="preserve">
+    <value>저장하려면</value>
+  </data>
+  <data name="Trending" xml:space="preserve">
+    <value>트렌드</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>유형</value>
+  </data>
+  <data name="UnableReadMacConf" xml:space="preserve">
+    <value>기계 구성을 읽을 수 없습니다!</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>업로드</value>
+  </data>
+  <data name="UploadingImages" xml:space="preserve">
+    <value>이미지 업로드 중</value>
+  </data>
+  <data name="UserLevelMsg" xml:space="preserve">
+    <value>사용자 수준: {0}</value>
+  </data>
+  <data name="UserSettings" xml:space="preserve">
+    <value>사용자 설정</value>
+  </data>
+  <data name="Utilities" xml:space="preserve">
+    <value>유틸리티</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>가치</value>
+  </data>
+  <data name="VarianceValue" xml:space="preserve">
+    <value>차이</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>버전</value>
+  </data>
+  <data name="VialAxis" xml:space="preserve">
+    <value>바이알 축</value>
+  </data>
+  <data name="VialAxisExportedOk" xml:space="preserve">
+    <value>바이알 축을 성공적으로 내보냈습니다.</value>
+  </data>
+  <data name="VialAxisImportedOk" xml:space="preserve">
+    <value>바이알 축을 성공적으로 가져왔습니다.</value>
+  </data>
+  <data name="VialId" xml:space="preserve">
+    <value>바이알 ID</value>
+  </data>
+  <data name="VialOffset" xml:space="preserve">
+    <value>바이알 오프셋</value>
+  </data>
+  <data name="VialsToIgnoreNum" xml:space="preserve">
+    <value>무시할 바이알 수</value>
+  </data>
+  <data name="ViewParameters" xml:space="preserve">
+    <value>파라미터</value>
+  </data>
+  <data name="VisionSpvCannotBeExecuted" xml:space="preserve">
+    <value>Vision spv를 실행할 수 없습니다.</value>
+  </data>
+  <data name="VisionSpvIsWaitingForSystemStartup" xml:space="preserve">
+    <value>Vision spv가 시스템 시작을 기다리는 중입니다.</value>
+  </data>
+  <data name="VNCError" xml:space="preserve">
+    <value>VNC 연결 오류</value>
+  </data>
+  <data name="WaitingNodeConnection" xml:space="preserve">
+    <value>대기 중인 {0} 연결... {1}</value>
+  </data>
+  <data name="WorkingMode" xml:space="preserve">
+    <value>작업 모드</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="Zoom" xml:space="preserve">
+    <value>줌</value>
+  </data>
+</root>

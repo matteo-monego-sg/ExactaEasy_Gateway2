@@ -1,0 +1,1641 @@
+Station name;Parameter section;Parameter name;Value;Min Value;Max Value
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;Number of frames;0;100;0
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;Exposure time [us];1000;10000;1
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;Gain;0;1023;0
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;On/Off Strobo;0;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;Strobe pulse width [us];1000;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;Acquisition delay [us];0;1000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;Blue gain;250;1000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;Red gain;250;1000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;Green gain;250;1000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;Strobe out;1;1000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;Trigger input;0;1000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;A.O.I. Enable;1;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;A.O.I. X Start;0;1023;0
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;A.O.I. Y Start;0;767;0
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;A.O.I. X Width;0;1024;0
+ST0 - CAM0 - ALU SEAL INSPECTION;AcquisitionParameter;A.O.I. Y Width;0;768;0
+ST0 - CAM0 - ALU SEAL INSPECTION;FeaturesEnableParameter;M12 Inspection analysis;0;5;0
+ST0 - CAM0 - ALU SEAL INSPECTION;FeaturesEnableParameter;Result on Display Enabled;5;15;0
+ST0 - CAM0 - ALU SEAL INSPECTION;FeaturesEnableParameter;On/Off Draw Ring;1;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;FeaturesEnableParameter;$enableHead;1;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;FeaturesEnableParameter;FlipOff Analysis type;1;8;0
+ST0 - CAM0 - ALU SEAL INSPECTION;FeaturesEnableParameter;AluSeal Analysis type;4;8;0
+ST0 - CAM0 - ALU SEAL INSPECTION;FeaturesEnableParameter;Type Crimping Analysis;1;8;0
+ST0 - CAM0 - ALU SEAL INSPECTION;FeaturesEnableParameter;FlipOff detection type;1;8;0
+ST0 - CAM0 - ALU SEAL INSPECTION;FeaturesEnableParameter;Type FlipOff Analysis;0;8;0
+ST0 - CAM0 - ALU SEAL INSPECTION;FeaturesEnableParameter;Select Color conversion;3;8;0
+ST0 - CAM0 - ALU SEAL INSPECTION;FeaturesEnableParameter;$ARGBottleFlipOffPresent;1;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;FeaturesEnableParameter;On/Off Debug Info;1;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;FeaturesEnableParameter;On/Off Images saving;0;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;LowValue BinBlob;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;MinArea BinBlob;500;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;LUT High;200;255;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;LUT Low;0;255;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Rings Contrast thr;130;255;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Ring Height;30;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Ring 1 HUE;-100;255;-255
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Ring 2 HUE;150;255;-255
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Ring 3 HUE;200;255;-255
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;EdgeSum Threshold;10;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;TIP Edge Tol;40;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMin;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMax;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob Sum Blobs AreaMax;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob Sum Blobs AreaMax;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRTipControlIntegralSumMin;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;TipControl Integral SumMax;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;TipControl AngularDeviation Min;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Max Angle Deviation;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRTipControlMaxDistanceFromModelMin;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;TipControl Max Distance from Model;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Min Tip Height;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Max Tip Height;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingNumberOfRingsMin;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Number rings;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing1Min;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing1Max;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing2Min;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing2Max;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing3Min;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing3Max;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$time;17;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Box Area;5;100000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$ARGBottleFlipOffBlobMinArea;100;100000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$ARGBottleFlipOffBlobMaxArea;10000;100000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Bin Low;0;255;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Bin High;20;255;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Gray Relative;-1;255;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Sensibility;2;10000;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Box Area;50;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Min Area;100;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Max Area;50000;1000000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Bin Low;100;255;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Bin High;255;255;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Gray Relative;40;255;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Crimping Sensibility;2;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$ARGBottleWeldingSensibility;60;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Min Area;100;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Max Area;1000;1000000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Min Color;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Max Color;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Low Gray Level;-1;255;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;High Gray Level;-1;255;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Max Gray Level;-1;10000;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff manual ROI dimention;50;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Min FlipOff Width;0;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Max FlipOff Width;0;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Vial Min Height;146;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;Vial Max Height;186;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Min Width;0;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Max Width;0;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Max Height;0;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Max Height;296;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRBottleTopGrayMin;0;255;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRBottleTopGrayMax;0;255;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRBottleTopAreaMin;0;255;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRBottleTopAreaMax;0;10000;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBinBlobHighValue;50;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBinBlobInArea;1;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBinBlobIsBorderOFF;1;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBinBlobMask;1;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBinBlobOperationType;4;8;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipEdgeFillGap;5;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipEdgeMinLen;1;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipEdgeSmooth;60;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipFilterLen;15;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipFilterSigma;5;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipLutBitDepth;8;32;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipLutEndValue;255;255;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipLutStartValue;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipOrientation;1;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGTipControlFastEdge;0;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGTipControlIDraw;1;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGTipControlInArea;1;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGTipControlMaskInTollerance;10;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGToolTagType;0;10000;0
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;FlipOff Binarization type;0;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;FlipOff Grid resolution;5;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;FlipOff Grid type;0;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;AluSeal Binarization type;0;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;AluSeal Grid resolution;5;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;AluSeal Grid type;1;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;Top Binarization type;0;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMin;-1;255;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMax;-1;255;-1
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;Background selection;0;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;Camera Orientation;0;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;TIP shape dxf;TipShape_10ml.DXF;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;Learning FlipOff Analysis Data;GwMAAAAAAAAFFAAAAAAAAAUAAAAEAAAALwAAAFUAAAA=;;
+ST0 - CAM0 - ALU SEAL INSPECTION;RecipeAdvancedParameter;Learning AluSeal Analysis Data;fwcAAAAAAAAFFAAAAAAAAAUAAAAEAAAAQgAAADgAAAA=;;
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI ID;0;8;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI type;0;10;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI Start X;204;1023;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI End X;819;1023;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI Start Y;153;767;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI End Y;614;767;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI color;0;255;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Punta;;
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;$label_en;ROI Tip Shape;;
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI ID;1;100;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI type;0;10;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI Start X;20;1023;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI End X;419;1023;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI Start Y;20;767;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI End Y;119;767;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI color;0;255;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Laterale FlipOff;;
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;$label_en;ROI Lateral FlipOff;;
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI ID;2;100;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI type;0;10;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI Start X;30;1023;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI End X;379;1023;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI Start Y;30;767;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI End Y;179;767;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI color;0;255;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Ghiera;;
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;$label_en;ROI AluSeal;;
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI ID;3;100;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI type;0;10;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI Start X;10;1023;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI End X;309;1023;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI Start Y;10;767;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI End Y;59;767;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI color;0;255;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Crimpatura;;
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;$label_en;ROI Crimping;;
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI ID;4;100;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI type;0;10;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI Start X;250;1023;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI End X;0;1023;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI Start Y;510;767;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI End Y;0;767;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI color;0;255;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;$label_it;ROI Controllo FlipOff;;
+ST0 - CAM0 - ALU SEAL INSPECTION;ROIParameter;$label_en;ROI FlipOff;;
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;Number of frames;0;100;0
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;Exposure time [us];1000;10000;1
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;Gain;0;1023;0
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;On/Off Strobo;0;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;Strobe pulse width [us];1000;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;Acquisition delay [us];0;1000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;Blue gain;250;1000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;Red gain;250;1000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;Green gain;250;1000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;Strobe out;1;1000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;Trigger input;0;1000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;A.O.I. Enable;1;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;A.O.I. X Start;0;1023;0
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;A.O.I. Y Start;0;767;0
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;A.O.I. X Width;0;1024;0
+ST0 - CAM1 - ALU SEAL INSPECTION;AcquisitionParameter;A.O.I. Y Width;0;768;0
+ST0 - CAM1 - ALU SEAL INSPECTION;FeaturesEnableParameter;M12 Inspection analysis;0;5;0
+ST0 - CAM1 - ALU SEAL INSPECTION;FeaturesEnableParameter;Result on Display Enabled;5;15;0
+ST0 - CAM1 - ALU SEAL INSPECTION;FeaturesEnableParameter;On/Off Draw Ring;0;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;FeaturesEnableParameter;$enableHead;1;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;FeaturesEnableParameter;FlipOff Analysis type;1;8;0
+ST0 - CAM1 - ALU SEAL INSPECTION;FeaturesEnableParameter;AluSeal Analysis type;4;8;0
+ST0 - CAM1 - ALU SEAL INSPECTION;FeaturesEnableParameter;Type Crimping Analysis;1;8;0
+ST0 - CAM1 - ALU SEAL INSPECTION;FeaturesEnableParameter;FlipOff detection type;0;2;0
+ST0 - CAM1 - ALU SEAL INSPECTION;FeaturesEnableParameter;Type FlipOff Analysis;0;8;0
+ST0 - CAM1 - ALU SEAL INSPECTION;FeaturesEnableParameter;Select Color conversion;3;8;0
+ST0 - CAM1 - ALU SEAL INSPECTION;FeaturesEnableParameter;$ARGBottleFlipOffPresent;1;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;FeaturesEnableParameter;On/Off Debug Info;1;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;FeaturesEnableParameter;On/Off Images saving;0;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;LowValue BinBlob;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;MinArea BinBlob;500;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;LUT High;200;255;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;LUT Low;0;255;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Rings Contrast thr;0;255;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Ring Height;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Ring 1 HUE;0;255;-255
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Ring 2 HUE;0;255;-255
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Ring 3 HUE;0;255;-255
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;EdgeSum Threshold;10;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;TIP Edge Tol;10;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMin;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMax;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob Sum Blobs AreaMax;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob Sum Blobs AreaMax;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRTipControlIntegralSumMin;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;TipControl Integral SumMax;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;TipControl AngularDeviation Min;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Max Angle Deviation;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRTipControlMaxDistanceFromModelMin;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;TipControl Max Distance from Model;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Min Tip Height;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Max Tip Height;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingNumberOfRingsMin;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Number rings;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing1Min;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing1Max;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing2Min;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing2Max;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing3Min;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing3Max;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$time;20;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Box Area;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$ARGBottleFlipOffBlobMinArea;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$ARGBottleFlipOffBlobMaxArea;0;1000000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Bin Low;0;255;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Bin High;40;255;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Gray Relative;-1;255;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Sensibility;2;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Box Area;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Min Area;10;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Max Area;5000;1000000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Bin Low;0;255;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Bin High;100;255;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Gray Relative;50;255;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Crimping Sensibility;2;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$ARGBottleWeldingSensibility;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Min Area;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Max Area;0;1000000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Min Color;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Max Color;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Low Gray Level;-1;255;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;High Gray Level;-1;255;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Max Gray Level;-1;10000;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff manual ROI dimention;50;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Min FlipOff Width;0;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Max FlipOff Width;0;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Vial Min Height;0;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;Vial Max Height;0;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Min Width;0;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Max Width;0;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Max Height;0;255;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Max Height;0;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRBottleTopGrayMin;0;255;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRBottleTopGrayMax;0;255;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRBottleTopAreaMin;0;255;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRBottleTopAreaMax;0;10000;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBinBlobHighValue;50;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBinBlobInArea;1;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBinBlobIsBorderOFF;1;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBinBlobMask;1;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBinBlobOperationType;4;8;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipEdgeFillGap;5;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipEdgeMinLen;1;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipEdgeSmooth;60;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipFilterLen;15;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipFilterSigma;5;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipLutBitDepth;8;32;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipLutEndValue;255;255;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipLutStartValue;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipOrientation;1;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGTipControlFastEdge;0;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGTipControlIDraw;1;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGTipControlInArea;1;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGTipControlMaskInTollerance;10;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGToolTagType;0;10000;0
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;FlipOff Binarization type;0;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;FlipOff Grid resolution;5;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;FlipOff Grid type;0;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;AluSeal Binarization type;1;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;AluSeal Grid resolution;5;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;AluSeal Grid type;1;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;Top Binarization type;0;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMin;0;255;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMax;200;255;-1
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;Background selection;0;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;Camera Orientation;0;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;TIP shape dxf;TipShape_10ml.DXF;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;Learning FlipOff Analysis Data;GwMAAAAAAAAFFAAAAAAAAAUAAAAEAAAASQAAAEsAAAA=;;
+ST0 - CAM1 - ALU SEAL INSPECTION;RecipeAdvancedParameter;Learning AluSeal Analysis Data;bwYAAAAAAAAFFAAAAAAAAAUAAAAEAAAATgAAAGEAAAA=;;
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI ID;0;8;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI type;0;10;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI Start X;204;1023;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI End X;819;1023;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI Start Y;153;767;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI End Y;614;767;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI color;0;255;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Punta;;
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;$label_en;ROI Tip Shape;;
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI ID;1;100;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI type;0;10;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI Start X;0;1023;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI End X;399;1023;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI Start Y;0;767;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI End Y;99;767;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI color;0;255;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Laterale FlipOff;;
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;$label_en;ROI Lateral FlipOff;;
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI ID;2;100;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI type;0;10;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI Start X;0;1023;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI End X;349;1023;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI Start Y;0;767;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI End Y;149;767;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI color;0;255;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Ghiera;;
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;$label_en;ROI AluSeal;;
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI ID;3;100;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI type;0;10;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI Start X;0;1023;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI End X;299;1023;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI Start Y;0;767;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI End Y;49;767;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI color;0;255;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Crimpatura;;
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;$label_en;ROI Crimping;;
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI ID;4;100;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI type;0;10;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI Start X;0;1023;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI End X;0;1023;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI Start Y;0;767;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI End Y;0;767;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI color;0;255;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;$label_it;ROI Controllo FlipOff;;
+ST0 - CAM1 - ALU SEAL INSPECTION;ROIParameter;$label_en;ROI FlipOff;;
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;Number of frames;0;100;0
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;Exposure time [us];1000;10000;1
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;Gain;0;1023;0
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;On/Off Strobo;0;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;Strobe pulse width [us];1000;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;Acquisition delay [us];0;1000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;Blue gain;250;1000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;Red gain;250;1000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;Green gain;250;1000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;Strobe out;1;1000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;Trigger input;0;1000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;A.O.I. Enable;1;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;A.O.I. X Start;0;1023;0
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;A.O.I. Y Start;0;767;0
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;A.O.I. X Width;0;1024;0
+ST0 - CAM2 - ALU SEAL INSPECTION;AcquisitionParameter;A.O.I. Y Width;0;768;0
+ST0 - CAM2 - ALU SEAL INSPECTION;FeaturesEnableParameter;M12 Inspection analysis;0;5;0
+ST0 - CAM2 - ALU SEAL INSPECTION;FeaturesEnableParameter;Result on Display Enabled;0;15;0
+ST0 - CAM2 - ALU SEAL INSPECTION;FeaturesEnableParameter;On/Off Draw Ring;1;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;FeaturesEnableParameter;$enableHead;1;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;FeaturesEnableParameter;FlipOff Analysis type;1;8;0
+ST0 - CAM2 - ALU SEAL INSPECTION;FeaturesEnableParameter;AluSeal Analysis type;4;8;0
+ST0 - CAM2 - ALU SEAL INSPECTION;FeaturesEnableParameter;Type Crimping Analysis;1;8;0
+ST0 - CAM2 - ALU SEAL INSPECTION;FeaturesEnableParameter;FlipOff detection type;0;2;0
+ST0 - CAM2 - ALU SEAL INSPECTION;FeaturesEnableParameter;Type FlipOff Analysis;0;8;0
+ST0 - CAM2 - ALU SEAL INSPECTION;FeaturesEnableParameter;Select Color conversion;3;8;0
+ST0 - CAM2 - ALU SEAL INSPECTION;FeaturesEnableParameter;$ARGBottleFlipOffPresent;1;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;FeaturesEnableParameter;On/Off Debug Info;1;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;FeaturesEnableParameter;On/Off Images saving;0;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;LowValue BinBlob;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;MinArea BinBlob;500;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;LUT High;200;255;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;LUT Low;0;255;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Rings Contrast thr;80;255;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Ring Height;20;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Ring 1 HUE;-50;255;-255
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Ring 2 HUE;150;255;-255
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Ring 3 HUE;0;255;-255
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;EdgeSum Threshold;10;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;TIP Edge Tol;10;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMin;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMax;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob Sum Blobs AreaMax;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;BinBlob Sum Blobs AreaMax;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRTipControlIntegralSumMin;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;TipControl Integral SumMax;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;TipControl AngularDeviation Min;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Max Angle Deviation;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRTipControlMaxDistanceFromModelMin;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;TipControl Max Distance from Model;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Min Tip Height;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Max Tip Height;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingNumberOfRingsMin;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Number rings;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing1Min;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing1Max;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing2Min;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing2Max;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing3Min;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingColorRing3Max;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$time;30;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Box Area;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$ARGBottleFlipOffBlobMinArea;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$ARGBottleFlipOffBlobMaxArea;0;1000000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Bin Low;0;255;-1
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Bin High;40;255;-1
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Gray Relative;-1;255;-1
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Sensibility;2;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Box Area;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Min Area;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Max Area;0;1000000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Bin Low;-1;255;-1
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Bin High;-1;255;-1
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Gray Relative;50;255;-1
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Crimping Sensibility;2;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$ARGBottleWeldingSensibility;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Min Area;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff Max Area;0;1000000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Min Color;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Max Color;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Low Gray Level;-1;255;-1
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;High Gray Level;-1;255;-1
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Max Gray Level;-1;255;-1
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;FlipOff manual ROI dimention;50;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Min FlipOff Width;0;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Max FlipOff Width;0;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Vial Min Height;0;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;Vial Max Height;0;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Min Width;0;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Max Width;0;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Max Height;0;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;AluSeal Max Height;0;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRBottleTopGrayMin;0;255;-1
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRBottleTopGrayMax;0;255;-1
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRBottleTopAreaMin;0;10000;-1
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeSimpleParameter;$THRBottleTopAreaMax;0;10000;-1
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBinBlobHighValue;50;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBinBlobInArea;1;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBinBlobIsBorderOFF;1;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBinBlobMask;1;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBinBlobOperationType;4;8;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipEdgeFillGap;5;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipEdgeMinLen;1;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipEdgeSmooth;60;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipFilterLen;15;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipFilterSigma;5;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipLutBitDepth;8;32;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipLutEndValue;255;255;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipLutStartValue;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGSetTipOrientation;1;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGTipControlFastEdge;0;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGTipControlIDraw;1;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGTipControlInArea;1;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGTipControlMaskInTollerance;10;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGToolTagType;0;10000;0
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;FlipOff Binarization type;0;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;FlipOff Grid resolution;5;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;FlipOff Grid type;0;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;AluSeal Binarization type;1;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;AluSeal Grid resolution;5;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;AluSeal Grid type;1;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;Top Binarization type;0;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMin;-1;255;-1
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMax;-1;255;-1
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;Background selection;0;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;Camera Orientation;0;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;TIP shape dxf;TipShape_10ml.DXF;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;Learning FlipOff Analysis Data;GwMAAAAAAAAFFAAAAAAAAAUAAAAEAAAASgAAAEkAAAA=;;
+ST0 - CAM2 - ALU SEAL INSPECTION;RecipeAdvancedParameter;Learning AluSeal Analysis Data;bwYAAAAAAAAFFAAAAAAAAAUAAAAEAAAATwAAAF8AAAA=;;
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI ID;0;8;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI type;0;10;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI Start X;204;1023;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI End X;819;1023;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI Start Y;153;767;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI End Y;614;767;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI color;0;255;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Punta;;
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;$label_en;ROI Tip Shape;;
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI ID;1;100;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI type;0;10;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI Start X;0;1023;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI End X;399;1023;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI Start Y;0;767;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI End Y;99;767;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI color;0;255;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Laterale FlipOff;;
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;$label_en;ROI Lateral FlipOff;;
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI ID;2;100;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI type;0;10;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI Start X;0;1023;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI End X;349;1023;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI Start Y;0;767;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI End Y;149;767;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI color;0;255;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Ghiera;;
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;$label_en;ROI AluSeal;;
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI ID;3;100;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI type;0;10;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI Start X;0;1023;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI End X;299;1023;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI Start Y;0;767;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI End Y;49;767;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI color;0;255;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Crimpatura;;
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;$label_en;ROI Crimping;;
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI ID;4;100;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI type;0;10;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI Start X;0;1023;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI End X;0;1023;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI Start Y;0;767;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI End Y;0;767;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI color;0;255;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;$label_it;ROI Controllo FlipOff;;
+ST0 - CAM2 - ALU SEAL INSPECTION;ROIParameter;$label_en;ROI FlipOff;;
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;Number of frames;0;100;0
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;Exposure time [us];1000;10000;1
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;Gain;0;1023;0
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;On/Off Strobo;0;1;0
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;Strobe pulse width [us];1000;10000;0
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;Acquisition delay [us];0;1000;0
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;Blue gain;250;1000;0
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;Red gain;250;1000;0
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;Green gain;250;1000;0
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;Strobe out;1;1000;0
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;Trigger input;0;1000;0
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;A.O.I. Enable;1;1;0
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;A.O.I. X Start;0;1023;0
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;A.O.I. Y Start;0;767;0
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;A.O.I. X Width;0;1024;0
+ST0 - CAM3 - FLIPOFF;AcquisitionParameter;A.O.I. Y Width;0;768;0
+ST0 - CAM3 - FLIPOFF;FeaturesEnableParameter;M12 Inspection analysis;0;5;0
+ST0 - CAM3 - FLIPOFF;FeaturesEnableParameter;Result on Display Enabled;0;15;0
+ST0 - CAM3 - FLIPOFF;FeaturesEnableParameter;On/Off Draw Ring;0;1;0
+ST0 - CAM3 - FLIPOFF;FeaturesEnableParameter;$enableHead;1;1;0
+ST0 - CAM3 - FLIPOFF;FeaturesEnableParameter;FlipOff Analysis type;1;8;0
+ST0 - CAM3 - FLIPOFF;FeaturesEnableParameter;AluSeal Analysis type;4;8;0
+ST0 - CAM3 - FLIPOFF;FeaturesEnableParameter;Type Crimping Analysis;1;8;0
+ST0 - CAM3 - FLIPOFF;FeaturesEnableParameter;FlipOff detection type;1;8;0
+ST0 - CAM3 - FLIPOFF;FeaturesEnableParameter;Type FlipOff Analysis;5;8;0
+ST0 - CAM3 - FLIPOFF;FeaturesEnableParameter;Select Color conversion;0;8;0
+ST0 - CAM3 - FLIPOFF;FeaturesEnableParameter;$ARGBottleFlipOffPresent;0;1;0
+ST0 - CAM3 - FLIPOFF;FeaturesEnableParameter;On/Off Debug Info;1;1;0
+ST0 - CAM3 - FLIPOFF;FeaturesEnableParameter;On/Off Images saving;0;1;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;LowValue BinBlob;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;MinArea BinBlob;500;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;LUT High;200;255;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;LUT Low;0;255;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Rings Contrast thr;0;255;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Ring Height;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Ring 1 HUE;0;255;-255
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Ring 2 HUE;0;255;-255
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Ring 3 HUE;0;255;-255
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;EdgeSum Threshold;10;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;TIP Edge Tol;10;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;BinBlob BlobAreaMin;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;BinBlob BlobAreaMax;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;BinBlob Sum Blobs AreaMax;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;BinBlob Sum Blobs AreaMax;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$THRTipControlIntegralSumMin;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;TipControl Integral SumMax;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;TipControl AngularDeviation Min;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Max Angle Deviation;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$THRTipControlMaxDistanceFromModelMin;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;TipControl Max Distance from Model;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Min Tip Height;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Max Tip Height;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$THRCheckRingNumberOfRingsMin;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Number rings;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$THRCheckRingColorRing1Min;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$THRCheckRingColorRing1Max;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$THRCheckRingColorRing2Min;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$THRCheckRingColorRing2Max;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$THRCheckRingColorRing3Min;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$THRCheckRingColorRing3Max;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$time;25;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;FlipOff Box Area;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$ARGBottleFlipOffBlobMinArea;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$ARGBottleFlipOffBlobMaxArea;0;1000000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;FlipOff Bin Low;0;255;-1
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;FlipOff Bin High;0;255;-1
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;FlipOff Gray Relative;0;255;-1
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;FlipOff Sensibility;2;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;AluSeal Box Area;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;AluSeal Min Area;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;AluSeal Max Area;0;1000000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;AluSeal Bin Low;0;255;-1
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;AluSeal Bin High;0;255;-1
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;FlipOff Gray Relative;0;255;-1
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Crimping Sensibility;2;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$ARGBottleWeldingSensibility;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;FlipOff Min Area;100;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;FlipOff Max Area;10000;1000000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Min Color;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Max Color;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Low Gray Level;0;255;-1
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;High Gray Level;50;255;-1
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Max Gray Level;-1;255;-1
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;FlipOff manual ROI dimention;50;;
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Min FlipOff Width;0;;
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Max FlipOff Width;0;;
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Vial Min Height;0;;
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;Vial Max Height;0;;
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;AluSeal Min Width;0;;
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;AluSeal Max Width;0;;
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;AluSeal Max Height;0;;
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;AluSeal Max Height;0;;
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$THRBottleTopGrayMin;0;255;-1
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$THRBottleTopGrayMax;0;255;-1
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$THRBottleTopAreaMin;0;1000;-1
+ST0 - CAM3 - FLIPOFF;RecipeSimpleParameter;$THRBottleTopAreaMax;0;;
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGBinBlobHighValue;50;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGBinBlobInArea;1;1;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGBinBlobIsBorderOFF;1;1;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGBinBlobMask;1;1;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGBinBlobOperationType;4;8;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGSetTipEdgeFillGap;5;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGSetTipEdgeMinLen;1;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGSetTipEdgeSmooth;60;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGSetTipFilterLen;15;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGSetTipFilterSigma;5;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGSetTipLutBitDepth;8;32;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGSetTipLutEndValue;255;255;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGSetTipLutStartValue;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGSetTipOrientation;1;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGTipControlFastEdge;0;1;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGTipControlIDraw;1;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGTipControlInArea;1;1;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGTipControlMaskInTollerance;10;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGToolTagType;0;10000;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;FlipOff Binarization type;0;;
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;FlipOff Grid resolution;5;;
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;FlipOff Grid type;0;;
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;AluSeal Binarization type;0;;
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;AluSeal Grid resolution;5;;
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;AluSeal Grid type;1;;
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;Top Binarization type;1;;
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMin;-1;255;-1
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMax;-1;255;-1
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;Background selection;0;255;-1
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;Camera Orientation;0;255;0
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;TIP shape dxf;TipShape_10ml.DXF;;
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;Learning FlipOff Analysis Data;AAA=;;
+ST0 - CAM3 - FLIPOFF;RecipeAdvancedParameter;Learning AluSeal Analysis Data;AAA=;;
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI ID;0;8;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI type;0;10;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI Start X;204;1023;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI End X;819;1023;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI Start Y;153;767;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI End Y;614;767;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI color;0;255;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;$label_it;ROI Controllo Punta;;
+ST0 - CAM3 - FLIPOFF;ROIParameter;$label_en;ROI Tip Shape;;
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI ID;1;100;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI type;0;10;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI Start X;0;1023;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI End X;399;1023;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI Start Y;0;767;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI End Y;99;767;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI color;0;255;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;$label_it;ROI Controllo Laterale FlipOff;;
+ST0 - CAM3 - FLIPOFF;ROIParameter;$label_en;ROI Lateral FlipOff;;
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI ID;2;100;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI type;0;10;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI Start X;0;1023;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI End X;349;1023;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI Start Y;0;767;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI End Y;149;767;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI color;0;255;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;$label_it;ROI Controllo Ghiera;;
+ST0 - CAM3 - FLIPOFF;ROIParameter;$label_en;ROI AluSeal;;
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI ID;3;100;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI type;0;10;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI Start X;0;1023;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI End X;299;1023;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI Start Y;0;767;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI End Y;49;767;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI color;0;255;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;$label_it;ROI Controllo Crimpatura;;
+ST0 - CAM3 - FLIPOFF;ROIParameter;$label_en;ROI Crimping;;
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI ID;4;100;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI type;0;10;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI Start X;250;1023;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI End X;0;1023;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI Start Y;510;767;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI End Y;0;767;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI color;0;255;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;ROI fill color;0;1;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;Enable ROI Display;0;1;0
+ST0 - CAM3 - FLIPOFF;ROIParameter;$label_it;ROI Controllo FlipOff;;
+ST0 - CAM3 - FLIPOFF;ROIParameter;$label_en;ROI FlipOff;;
+ST1 - EVEN COSMETIC;AcquisitionParameter;Number of frames;18;25;4
+ST1 - EVEN COSMETIC;AcquisitionParameter;Exposure time [us];500;10000;1
+ST1 - EVEN COSMETIC;AcquisitionParameter;Gain;0;1023;0
+ST1 - EVEN COSMETIC;AcquisitionParameter;On/Off Strobo;1;1;0
+ST1 - EVEN COSMETIC;AcquisitionParameter;Strobe pulse width [us];96;260;10
+ST1 - EVEN COSMETIC;AcquisitionParameter;Acquisition delay [us];0;1000;0
+ST1 - EVEN COSMETIC;AcquisitionParameter;Blue gain;0;1000;0
+ST1 - EVEN COSMETIC;AcquisitionParameter;Red gain;0;1000;0
+ST1 - EVEN COSMETIC;AcquisitionParameter;Green gain;0;1000;0
+ST1 - EVEN COSMETIC;AcquisitionParameter;Strobe out;0;1000;0
+ST1 - EVEN COSMETIC;AcquisitionParameter;Trigger input;0;1000;0
+ST1 - EVEN COSMETIC;AcquisitionParameter;A.O.I. Enable;1;1;0
+ST1 - EVEN COSMETIC;AcquisitionParameter;A.O.I. X Start;0;2047;0
+ST1 - EVEN COSMETIC;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+ST1 - EVEN COSMETIC;AcquisitionParameter;A.O.I. X Width;2048;2048;16
+ST1 - EVEN COSMETIC;AcquisitionParameter;A.O.I. Y Width;2048;2048;64
+ST1 - EVEN COSMETIC;AcquisitionParameter;Vial axis filename;10.200.15.75_vial_24000.xml;;
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Analysis enable;1;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Overlay information enable;1;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Blobs Display;1;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Bubbles Display;0;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Enable saving difference images;0;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Enable save trajectory;1;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Send decimated live;0;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Enable send result image;1;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Send trajectories;0;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Enable meniscus analysis;0;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Meniscus analysis Display;1;2;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Enable sensor normalization;1;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Enable dynamic ROI;1;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Enable ROI plot on results;1;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Enable ROI bottom expansion;0;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Enable Kalman filter for tracking;0;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Enable filling analysis;0;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Enable blob masking;0;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;Enable blob masking Display;1;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;$trajectoryPrint;0;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;On/Off Bottom analysis;0;1;0
+ST1 - EVEN COSMETIC;FeaturesEnableParameter;On/Off Trajectory;0;1;0
+ST1 - EVEN COSMETIC;RecipeSimpleParameter;Sensibility;20;255;0
+ST1 - EVEN COSMETIC;RecipeSimpleParameter;ROI Bin High Threshold;243;255;0
+ST1 - EVEN COSMETIC;RecipeSimpleParameter;ROI Bin Low Threshold;80;255;0
+ST1 - EVEN COSMETIC;RecipeSimpleParameter;GAP Bottom;9;255;0
+ST1 - EVEN COSMETIC;RecipeSimpleParameter;GAP Meniscus;50;255;0
+ST1 - EVEN COSMETIC;RecipeSimpleParameter;Meniscus P.U.M. threshold;110;255;0
+ST1 - EVEN COSMETIC;RecipeSimpleParameter;Blob max area reject;500;100000;0
+ST1 - EVEN COSMETIC;RecipeSimpleParameter;Blobs min area;200;10000;0
+ST1 - EVEN COSMETIC;RecipeSimpleParameter;Blob max area reject LowThreshold;500;100000;0
+ST1 - EVEN COSMETIC;RecipeSimpleParameter;Filling level min;900;2048;0
+ST1 - EVEN COSMETIC;RecipeSimpleParameter;Filling level max;1200;2048;0
+ST1 - EVEN COSMETIC;RecipeSimpleParameter;Light Level;0;255;0
+ST1 - EVEN COSMETIC;RecipeSimpleParameter;BlobMax Consecutive Frames Num;2;255;0
+ST1 - EVEN COSMETIC;RecipeSimpleParameter;Bottom Sensibility;40;255;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;1st morphological filter;0;2;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;2nd morphological filter;0;2;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;RLE buffer size;1000000;1000000;1000000
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;ROI dynamic morph. iter;0;20;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Meniscus analysis min count;10;100;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Meniscus analysis threshold;30;255;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Blobs max number;100;1000;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Bubble max shape factor;1.5;10;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Bubble optical density min diff;200;255;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Bubble size maximum;50;1000;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Bubble size minimum;7;1000;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Tracking max acceleration;3;1000;-1
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Tracking max area ratio;3;1000;1
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Tracking max height ratio;3;1000;1
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Tracking max width ratio;3;1000;1
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Tracking max segment angle;45;90;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Tracking max traj. angle;30;180;-1
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Tracking min distance;5;1000;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Tracking frames number backward;2;3;1
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Trajectories buffer size;1000000;1000000;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Trajectory all segments max length;0;2048;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Trajectory all segments min length;0;2048;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Trajectory recurrent backward num;10;1000;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Trajectory recurrent max angle;15;180;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Trajectory recurrent max distance;20;1000;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Trajectory recurrent min count;2;1000;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Trajectory recurrent min length;3;1000;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Masking blobs high threshold;10;100;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Masking blobs low threshold;5;100;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Encoder counter first image;1;10000;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Bottom Analysis Min Frames;3;10000;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Tracking max distance;100;10000;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Trajectory max angle;70;360;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Trajectory min area;10;10000;0
+ST1 - EVEN COSMETIC;RecipeAdvancedParameter;Trajectory min segment number;3;10000;0
+ST1 - EVEN COSMETIC;ROIParameter;ROI ID;0;100;0
+ST1 - EVEN COSMETIC;ROIParameter;ROI type;0;10;0
+ST1 - EVEN COSMETIC;ROIParameter;ROI Start X;780;2048;0
+ST1 - EVEN COSMETIC;ROIParameter;ROI End X;1430;2048;0
+ST1 - EVEN COSMETIC;ROIParameter;ROI Start Y;1075;2048;0
+ST1 - EVEN COSMETIC;ROIParameter;ROI End Y;1950;2048;0
+ST1 - EVEN COSMETIC;ROIParameter;ROI color;250;255;0
+ST1 - EVEN COSMETIC;ROIParameter;ROI fill color;0;1;0
+ST1 - EVEN COSMETIC;ROIParameter;Enable ROI Display;1;1;0
+ST1 - EVEN COSMETIC;ROIParameter;$label_it;ROI Controllo Particellare;;
+ST1 - EVEN COSMETIC;ROIParameter;$label_en;ROI Particle Inspection;;
+ST1 - EVEN COSMETIC;ROIParameter;ROI ID;1;100;0
+ST1 - EVEN COSMETIC;ROIParameter;ROI type;0;10;0
+ST1 - EVEN COSMETIC;ROIParameter;ROI Start X;900;2048;0
+ST1 - EVEN COSMETIC;ROIParameter;ROI End X;1300;2048;0
+ST1 - EVEN COSMETIC;ROIParameter;ROI Start Y;1500;2048;0
+ST1 - EVEN COSMETIC;ROIParameter;ROI End Y;1700;2048;0
+ST1 - EVEN COSMETIC;ROIParameter;ROI color;255;255;0
+ST1 - EVEN COSMETIC;ROIParameter;ROI fill color;0;1;0
+ST1 - EVEN COSMETIC;ROIParameter;Enable ROI Display;0;1;0
+ST1 - EVEN COSMETIC;ROIParameter;$label_it;ROI Controllo Luce;;
+ST1 - EVEN COSMETIC;ROIParameter;$label_en;ROI Light Control;;
+ST1 - ODD COSMETIC;AcquisitionParameter;Number of frames;18;25;4
+ST1 - ODD COSMETIC;AcquisitionParameter;Exposure time [us];80;10000;1
+ST1 - ODD COSMETIC;AcquisitionParameter;Gain;0;1023;0
+ST1 - ODD COSMETIC;AcquisitionParameter;On/Off Strobo;1;1;0
+ST1 - ODD COSMETIC;AcquisitionParameter;Strobe pulse width [us];68;260;10
+ST1 - ODD COSMETIC;AcquisitionParameter;Acquisition delay [us];0;1000;0
+ST1 - ODD COSMETIC;AcquisitionParameter;Blue gain;0;1000;0
+ST1 - ODD COSMETIC;AcquisitionParameter;Red gain;0;1000;0
+ST1 - ODD COSMETIC;AcquisitionParameter;Green gain;0;1000;0
+ST1 - ODD COSMETIC;AcquisitionParameter;Strobe out;0;1000;0
+ST1 - ODD COSMETIC;AcquisitionParameter;Trigger input;0;1000;0
+ST1 - ODD COSMETIC;AcquisitionParameter;A.O.I. Enable;1;1;0
+ST1 - ODD COSMETIC;AcquisitionParameter;A.O.I. X Start;0;2047;0
+ST1 - ODD COSMETIC;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+ST1 - ODD COSMETIC;AcquisitionParameter;A.O.I. X Width;2048;2048;16
+ST1 - ODD COSMETIC;AcquisitionParameter;A.O.I. Y Width;2048;2048;64
+ST1 - ODD COSMETIC;AcquisitionParameter;Vial axis filename;10.200.12.72_vial_24000.xml;;
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Analysis enable;1;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Overlay information enable;1;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Blobs Display;1;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Bubbles Display;0;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Enable saving difference images;0;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Enable save trajectory;1;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Send decimated live;0;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Enable send result image;1;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Send trajectories;0;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Enable meniscus analysis;0;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Meniscus analysis Display;1;2;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Enable sensor normalization;1;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Enable dynamic ROI;1;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Enable ROI plot on results;1;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Enable ROI bottom expansion;0;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Enable Kalman filter for tracking;0;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Enable filling analysis;0;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Enable blob masking;1;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;Enable blob masking Display;1;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;$trajectoryPrint;0;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;On/Off Bottom analysis;0;1;0
+ST1 - ODD COSMETIC;FeaturesEnableParameter;On/Off Trajectory;1;1;0
+ST1 - ODD COSMETIC;RecipeSimpleParameter;Sensibility;15;255;0
+ST1 - ODD COSMETIC;RecipeSimpleParameter;ROI Bin High Threshold;243;255;0
+ST1 - ODD COSMETIC;RecipeSimpleParameter;ROI Bin Low Threshold;80;255;0
+ST1 - ODD COSMETIC;RecipeSimpleParameter;GAP Bottom;5;255;0
+ST1 - ODD COSMETIC;RecipeSimpleParameter;GAP Meniscus;15;255;0
+ST1 - ODD COSMETIC;RecipeSimpleParameter;Meniscus P.U.M. threshold;110;255;0
+ST1 - ODD COSMETIC;RecipeSimpleParameter;Blob max area reject;2000;100000;0
+ST1 - ODD COSMETIC;RecipeSimpleParameter;Blobs min area;15;10000;0
+ST1 - ODD COSMETIC;RecipeSimpleParameter;Blob max area reject LowThreshold;2000;100000;0
+ST1 - ODD COSMETIC;RecipeSimpleParameter;Filling level min;900;2048;0
+ST1 - ODD COSMETIC;RecipeSimpleParameter;Filling level max;1000;2048;0
+ST1 - ODD COSMETIC;RecipeSimpleParameter;Light Level;0;255;0
+ST1 - ODD COSMETIC;RecipeSimpleParameter;BlobMax Consecutive Frames Num;2;10000;0
+ST1 - ODD COSMETIC;RecipeSimpleParameter;Bottom Sensibility;40;255;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;1st morphological filter;0;2;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;2nd morphological filter;0;2;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;RLE buffer size;1000000;1000000;1000000
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;ROI dynamic morph. iter;0;20;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Meniscus analysis min count;10;100;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Meniscus analysis threshold;30;255;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Blobs max number;100;1000;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Bubble max shape factor;1.5;10;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Bubble optical density min diff;200;255;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Bubble size maximum;50;1000;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Bubble size minimum;7;1000;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Tracking max acceleration;3;1000;-1
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Tracking max area ratio;3;1000;1
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Tracking max height ratio;3;1000;1
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Tracking max width ratio;3;1000;1
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Tracking max segment angle;45;90;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Tracking max traj. angle;30;180;-1
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Tracking min distance;5;1000;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Tracking frames number backward;2;3;1
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Trajectories buffer size;1000000;1000000;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Trajectory all segments max length;0;2048;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Trajectory all segments min length;0;2048;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Trajectory recurrent backward num;10;1000;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Trajectory recurrent max angle;15;180;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Trajectory recurrent max distance;20;1000;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Trajectory recurrent min count;2;1000;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Trajectory recurrent min length;3;1000;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Masking blobs high threshold;10;100;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Masking blobs low threshold;5;100;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Encoder counter first image;365;10000;0
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Bottom Analysis Min Frames;10;;
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Tracking max distance;100;;
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Trajectory max angle;70;;
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Trajectory min area;10;;
+ST1 - ODD COSMETIC;RecipeAdvancedParameter;Trajectory min segment number;3;;
+ST1 - ODD COSMETIC;ROIParameter;ROI ID;0;100;0
+ST1 - ODD COSMETIC;ROIParameter;ROI type;0;10;0
+ST1 - ODD COSMETIC;ROIParameter;ROI Start X;550;2048;0
+ST1 - ODD COSMETIC;ROIParameter;ROI End X;1250;2048;0
+ST1 - ODD COSMETIC;ROIParameter;ROI Start Y;1100;2048;0
+ST1 - ODD COSMETIC;ROIParameter;ROI End Y;1865;2048;0
+ST1 - ODD COSMETIC;ROIParameter;ROI color;250;255;0
+ST1 - ODD COSMETIC;ROIParameter;ROI fill color;0;1;0
+ST1 - ODD COSMETIC;ROIParameter;Enable ROI Display;1;1;0
+ST1 - ODD COSMETIC;ROIParameter;$label_it;ROI Controllo Particellare;;
+ST1 - ODD COSMETIC;ROIParameter;$label_en;ROI Particle Inspection;;
+ST1 - ODD COSMETIC;ROIParameter;ROI ID;1;100;0
+ST1 - ODD COSMETIC;ROIParameter;ROI type;0;10;0
+ST1 - ODD COSMETIC;ROIParameter;ROI Start X;700;2048;0
+ST1 - ODD COSMETIC;ROIParameter;ROI End X;1100;2048;0
+ST1 - ODD COSMETIC;ROIParameter;ROI Start Y;1300;2048;0
+ST1 - ODD COSMETIC;ROIParameter;ROI End Y;1700;2048;0
+ST1 - ODD COSMETIC;ROIParameter;ROI color;255;255;0
+ST1 - ODD COSMETIC;ROIParameter;ROI fill color;0;1;0
+ST1 - ODD COSMETIC;ROIParameter;Enable ROI Display;0;1;0
+ST1 - ODD COSMETIC;ROIParameter;$label_it;ROI Controllo Luce;;
+ST1 - ODD COSMETIC;ROIParameter;$label_en;ROI Light Control;;
+ST2 - EVEN PARTICLE;AcquisitionParameter;Number of frames;18;25;4
+ST2 - EVEN PARTICLE;AcquisitionParameter;Exposure time [us];500;10000;1
+ST2 - EVEN PARTICLE;AcquisitionParameter;Gain;0;1023;0
+ST2 - EVEN PARTICLE;AcquisitionParameter;On/Off Strobo;1;1;0
+ST2 - EVEN PARTICLE;AcquisitionParameter;Strobe pulse width [us];96;260;10
+ST2 - EVEN PARTICLE;AcquisitionParameter;Acquisition delay [us];0;1000;0
+ST2 - EVEN PARTICLE;AcquisitionParameter;Blue gain;0;1000;0
+ST2 - EVEN PARTICLE;AcquisitionParameter;Red gain;0;1000;0
+ST2 - EVEN PARTICLE;AcquisitionParameter;Green gain;0;1000;0
+ST2 - EVEN PARTICLE;AcquisitionParameter;Strobe out;0;1000;0
+ST2 - EVEN PARTICLE;AcquisitionParameter;Trigger input;0;1000;0
+ST2 - EVEN PARTICLE;AcquisitionParameter;A.O.I. Enable;1;1;0
+ST2 - EVEN PARTICLE;AcquisitionParameter;A.O.I. X Start;0;2047;0
+ST2 - EVEN PARTICLE;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+ST2 - EVEN PARTICLE;AcquisitionParameter;A.O.I. X Width;2048;2048;16
+ST2 - EVEN PARTICLE;AcquisitionParameter;A.O.I. Y Width;2048;2048;64
+ST2 - EVEN PARTICLE;AcquisitionParameter;Vial axis filename;10.200.13.73_vial_24000.xml;;
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Analysis enable;1;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Overlay information enable;1;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Blobs Display;1;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Bubbles Display;0;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Enable saving difference images;0;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Enable save trajectory;1;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Send decimated live;0;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Enable send result image;1;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Send trajectories;0;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Enable meniscus analysis;0;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Meniscus analysis Display;1;2;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Enable sensor normalization;1;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Enable dynamic ROI;1;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Enable ROI plot on results;1;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Enable ROI bottom expansion;0;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Enable Kalman filter for tracking;0;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Enable filling analysis;0;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Enable blob masking;0;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;Enable blob masking Display;1;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;$trajectoryPrint;0;1;0
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;On/Off Bottom analysis;0;;
+ST2 - EVEN PARTICLE;FeaturesEnableParameter;On/Off Trajectory;0;;
+ST2 - EVEN PARTICLE;RecipeSimpleParameter;Sensibility;20;255;0
+ST2 - EVEN PARTICLE;RecipeSimpleParameter;ROI Bin High Threshold;243;255;0
+ST2 - EVEN PARTICLE;RecipeSimpleParameter;ROI Bin Low Threshold;80;255;0
+ST2 - EVEN PARTICLE;RecipeSimpleParameter;GAP Bottom;9;255;0
+ST2 - EVEN PARTICLE;RecipeSimpleParameter;GAP Meniscus;50;255;0
+ST2 - EVEN PARTICLE;RecipeSimpleParameter;Meniscus P.U.M. threshold;110;255;0
+ST2 - EVEN PARTICLE;RecipeSimpleParameter;Blob max area reject;500;100000;0
+ST2 - EVEN PARTICLE;RecipeSimpleParameter;Blobs min area;200;10000;0
+ST2 - EVEN PARTICLE;RecipeSimpleParameter;Blob max area reject LowThreshold;500;100000;0
+ST2 - EVEN PARTICLE;RecipeSimpleParameter;Filling level min;900;2048;0
+ST2 - EVEN PARTICLE;RecipeSimpleParameter;Filling level max;1200;2048;0
+ST2 - EVEN PARTICLE;RecipeSimpleParameter;Light Level;0;255;0
+ST2 - EVEN PARTICLE;RecipeSimpleParameter;BlobMax Consecutive Frames Num;2;255;0
+ST2 - EVEN PARTICLE;RecipeSimpleParameter;Bottom Sensibility;40;255;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;1st morphological filter;0;2;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;2nd morphological filter;0;2;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;RLE buffer size;1000000;1000000;1000000
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;ROI dynamic morph. iter;0;20;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Meniscus analysis min count;10;100;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Meniscus analysis threshold;30;255;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Blobs max number;100;1000;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Bubble max shape factor;1.5;10;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Bubble optical density min diff;200;255;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Bubble size maximum;50;1000;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Bubble size minimum;7;1000;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max acceleration;3;1000;-1
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max area ratio;3;1000;1
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max height ratio;3;1000;1
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max width ratio;3;1000;1
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max segment angle;45;90;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max traj. angle;30;180;-1
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking min distance;5;1000;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking frames number backward;2;3;1
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectories buffer size;1000000;1000000;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory all segments max length;0;2048;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory all segments min length;0;2048;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory recurrent backward num;10;1000;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max angle;15;180;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max distance;20;1000;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min count;2;1000;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min length;3;1000;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Masking blobs high threshold;10;100;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Masking blobs low threshold;5;100;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Encoder counter first image;1;10000;0
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Bottom Analysis Min Frames;3;;
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max distance;100;;
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory max angle;70;;
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory min area;10;;
+ST2 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory min segment number;3;;
+ST2 - EVEN PARTICLE;ROIParameter;ROI ID;0;100;0
+ST2 - EVEN PARTICLE;ROIParameter;ROI type;0;10;0
+ST2 - EVEN PARTICLE;ROIParameter;ROI Start X;780;2048;0
+ST2 - EVEN PARTICLE;ROIParameter;ROI End X;1430;2048;0
+ST2 - EVEN PARTICLE;ROIParameter;ROI Start Y;1075;2048;0
+ST2 - EVEN PARTICLE;ROIParameter;ROI End Y;1950;2048;0
+ST2 - EVEN PARTICLE;ROIParameter;ROI color;250;255;0
+ST2 - EVEN PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST2 - EVEN PARTICLE;ROIParameter;Enable ROI Display;1;1;0
+ST2 - EVEN PARTICLE;ROIParameter;$label_it;ROI Controllo Particellare;;
+ST2 - EVEN PARTICLE;ROIParameter;$label_en;ROI Particle Inspection;;
+ST2 - EVEN PARTICLE;ROIParameter;ROI ID;1;100;0
+ST2 - EVEN PARTICLE;ROIParameter;ROI type;0;10;0
+ST2 - EVEN PARTICLE;ROIParameter;ROI Start X;900;2048;0
+ST2 - EVEN PARTICLE;ROIParameter;ROI End X;1300;2048;0
+ST2 - EVEN PARTICLE;ROIParameter;ROI Start Y;1500;2048;0
+ST2 - EVEN PARTICLE;ROIParameter;ROI End Y;1700;2048;0
+ST2 - EVEN PARTICLE;ROIParameter;ROI color;255;255;0
+ST2 - EVEN PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST2 - EVEN PARTICLE;ROIParameter;Enable ROI Display;0;1;0
+ST2 - EVEN PARTICLE;ROIParameter;$label_it;ROI Controllo Luce;;
+ST2 - EVEN PARTICLE;ROIParameter;$label_en;ROI Light Control;;
+ST2 - ODD PARTICLE;AcquisitionParameter;Number of frames;18;25;4
+ST2 - ODD PARTICLE;AcquisitionParameter;Exposure time [us];80;10000;1
+ST2 - ODD PARTICLE;AcquisitionParameter;Gain;0;1023;0
+ST2 - ODD PARTICLE;AcquisitionParameter;On/Off Strobo;1;1;0
+ST2 - ODD PARTICLE;AcquisitionParameter;Strobe pulse width [us];68;260;10
+ST2 - ODD PARTICLE;AcquisitionParameter;Acquisition delay [us];0;1000;0
+ST2 - ODD PARTICLE;AcquisitionParameter;Blue gain;0;1000;0
+ST2 - ODD PARTICLE;AcquisitionParameter;Red gain;0;1000;0
+ST2 - ODD PARTICLE;AcquisitionParameter;Green gain;0;1000;0
+ST2 - ODD PARTICLE;AcquisitionParameter;Strobe out;0;1000;0
+ST2 - ODD PARTICLE;AcquisitionParameter;Trigger input;0;1000;0
+ST2 - ODD PARTICLE;AcquisitionParameter;A.O.I. Enable;1;1;0
+ST2 - ODD PARTICLE;AcquisitionParameter;A.O.I. X Start;0;2047;0
+ST2 - ODD PARTICLE;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+ST2 - ODD PARTICLE;AcquisitionParameter;A.O.I. X Width;2048;2048;16
+ST2 - ODD PARTICLE;AcquisitionParameter;A.O.I. Y Width;2048;2048;64
+ST2 - ODD PARTICLE;AcquisitionParameter;Vial axis filename;10.200.14.74_vial_24000.xml;;
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Analysis enable;1;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Overlay information enable;1;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Blobs Display;1;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Bubbles Display;0;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Enable saving difference images;0;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Enable save trajectory;1;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Send decimated live;0;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Enable send result image;1;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Send trajectories;0;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Enable meniscus analysis;0;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Meniscus analysis Display;1;2;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Enable sensor normalization;1;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Enable dynamic ROI;1;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Enable ROI plot on results;1;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Enable ROI bottom expansion;0;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Enable Kalman filter for tracking;0;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Enable filling analysis;0;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Enable blob masking;1;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;Enable blob masking Display;1;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;$trajectoryPrint;0;1;0
+ST2 - ODD PARTICLE;FeaturesEnableParameter;On/Off Bottom analysis;0;;
+ST2 - ODD PARTICLE;FeaturesEnableParameter;On/Off Trajectory;1;;
+ST2 - ODD PARTICLE;RecipeSimpleParameter;Sensibility;15;255;0
+ST2 - ODD PARTICLE;RecipeSimpleParameter;ROI Bin High Threshold;243;255;0
+ST2 - ODD PARTICLE;RecipeSimpleParameter;ROI Bin Low Threshold;80;255;0
+ST2 - ODD PARTICLE;RecipeSimpleParameter;GAP Bottom;5;255;0
+ST2 - ODD PARTICLE;RecipeSimpleParameter;GAP Meniscus;15;255;0
+ST2 - ODD PARTICLE;RecipeSimpleParameter;Meniscus P.U.M. threshold;110;255;0
+ST2 - ODD PARTICLE;RecipeSimpleParameter;Blob max area reject;2000;100000;0
+ST2 - ODD PARTICLE;RecipeSimpleParameter;Blobs min area;15;2048;0
+ST2 - ODD PARTICLE;RecipeSimpleParameter;Blob max area reject LowThreshold;2000;100000;0
+ST2 - ODD PARTICLE;RecipeSimpleParameter;Filling level min;900;2048;0
+ST2 - ODD PARTICLE;RecipeSimpleParameter;Filling level max;1000;2048;0
+ST2 - ODD PARTICLE;RecipeSimpleParameter;Light Level;0;255;0
+ST2 - ODD PARTICLE;RecipeSimpleParameter;BlobMax Consecutive Frames Num;2;10000;0
+ST2 - ODD PARTICLE;RecipeSimpleParameter;Bottom Sensibility;40;255;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;1st morphological filter;0;2;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;2nd morphological filter;0;2;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;RLE buffer size;1000000;1000000;1000000
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;ROI dynamic morph. iter;0;20;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Meniscus analysis min count;10;100;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Meniscus analysis threshold;30;255;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Blobs max number;100;1000;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Bubble max shape factor;1.5;10;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Bubble optical density min diff;200;255;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Bubble size maximum;50;1000;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Bubble size minimum;7;1000;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max acceleration;3;1000;-1
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max area ratio;3;1000;1
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max height ratio;3;1000;1
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max width ratio;3;1000;1
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max segment angle;45;90;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max traj. angle;30;180;-1
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Tracking min distance;5;1000;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Tracking frames number backward;2;3;1
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Trajectories buffer size;1000000;1000000;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory all segments max length;0;2048;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory all segments min length;0;2048;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory recurrent backward num;10;1000;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max angle;15;180;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max distance;20;1000;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min count;2;1000;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min length;3;1000;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Masking blobs high threshold;10;100;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Masking blobs low threshold;5;100;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Encoder counter first image;365;10000;0
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Bottom Analysis Min Frames;10;;
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max distance;100;;
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory max angle;70;;
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory min area;10;;
+ST2 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory min segment number;3;;
+ST2 - ODD PARTICLE;ROIParameter;ROI ID;0;100;0
+ST2 - ODD PARTICLE;ROIParameter;ROI type;0;10;0
+ST2 - ODD PARTICLE;ROIParameter;ROI Start X;550;2048;0
+ST2 - ODD PARTICLE;ROIParameter;ROI End X;1250;2048;0
+ST2 - ODD PARTICLE;ROIParameter;ROI Start Y;1100;2048;0
+ST2 - ODD PARTICLE;ROIParameter;ROI End Y;1800;2048;0
+ST2 - ODD PARTICLE;ROIParameter;ROI color;250;255;0
+ST2 - ODD PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST2 - ODD PARTICLE;ROIParameter;Enable ROI Display;1;1;0
+ST2 - ODD PARTICLE;ROIParameter;$label_it;ROI Controllo Particellare;;
+ST2 - ODD PARTICLE;ROIParameter;$label_en;ROI Particle Inspection;;
+ST2 - ODD PARTICLE;ROIParameter;ROI ID;1;100;0
+ST2 - ODD PARTICLE;ROIParameter;ROI type;0;10;0
+ST2 - ODD PARTICLE;ROIParameter;ROI Start X;700;2048;0
+ST2 - ODD PARTICLE;ROIParameter;ROI End X;1100;2048;0
+ST2 - ODD PARTICLE;ROIParameter;ROI Start Y;1300;2048;0
+ST2 - ODD PARTICLE;ROIParameter;ROI End Y;1700;2048;0
+ST2 - ODD PARTICLE;ROIParameter;ROI color;255;255;0
+ST2 - ODD PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST2 - ODD PARTICLE;ROIParameter;Enable ROI Display;0;1;0
+ST2 - ODD PARTICLE;ROIParameter;$label_it;ROI Controllo Luce;;
+ST2 - ODD PARTICLE;ROIParameter;$label_en;ROI Light Control;;
+ST3 - EVEN PARTICLE;AcquisitionParameter;Number of frames;18;25;4
+ST3 - EVEN PARTICLE;AcquisitionParameter;Exposure time [us];500;10000;1
+ST3 - EVEN PARTICLE;AcquisitionParameter;Gain;0;1023;0
+ST3 - EVEN PARTICLE;AcquisitionParameter;On/Off Strobo;1;1;0
+ST3 - EVEN PARTICLE;AcquisitionParameter;Strobe pulse width [us];96;260;10
+ST3 - EVEN PARTICLE;AcquisitionParameter;Acquisition delay [us];0;1000;0
+ST3 - EVEN PARTICLE;AcquisitionParameter;Blue gain;0;1000;0
+ST3 - EVEN PARTICLE;AcquisitionParameter;Red gain;0;1000;0
+ST3 - EVEN PARTICLE;AcquisitionParameter;Green gain;0;1000;0
+ST3 - EVEN PARTICLE;AcquisitionParameter;Strobe out;0;1000;0
+ST3 - EVEN PARTICLE;AcquisitionParameter;Trigger input;0;1000;0
+ST3 - EVEN PARTICLE;AcquisitionParameter;A.O.I. Enable;1;1;0
+ST3 - EVEN PARTICLE;AcquisitionParameter;A.O.I. X Start;0;2047;0
+ST3 - EVEN PARTICLE;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+ST3 - EVEN PARTICLE;AcquisitionParameter;A.O.I. X Width;2048;2048;16
+ST3 - EVEN PARTICLE;AcquisitionParameter;A.O.I. Y Width;2048;2048;64
+ST3 - EVEN PARTICLE;AcquisitionParameter;Vial axis filename;10.200.15.75_vial_24000.xml;;
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Analysis enable;1;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Overlay information enable;1;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Blobs Display;1;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Bubbles Display;0;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Enable saving difference images;0;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Enable save trajectory;1;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Send decimated live;0;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Enable send result image;1;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Send trajectories;0;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Enable meniscus analysis;0;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Meniscus analysis Display;1;2;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Enable sensor normalization;1;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Enable dynamic ROI;1;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Enable ROI plot on results;1;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Enable ROI bottom expansion;0;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Enable Kalman filter for tracking;0;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Enable filling analysis;0;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Enable blob masking;0;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;Enable blob masking Display;1;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;$trajectoryPrint;0;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;On/Off Bottom analysis;0;1;0
+ST3 - EVEN PARTICLE;FeaturesEnableParameter;On/Off Trajectory;0;1;0
+ST3 - EVEN PARTICLE;RecipeSimpleParameter;Sensibility;20;255;0
+ST3 - EVEN PARTICLE;RecipeSimpleParameter;ROI Bin High Threshold;243;255;0
+ST3 - EVEN PARTICLE;RecipeSimpleParameter;ROI Bin Low Threshold;80;255;0
+ST3 - EVEN PARTICLE;RecipeSimpleParameter;GAP Bottom;9;255;0
+ST3 - EVEN PARTICLE;RecipeSimpleParameter;GAP Meniscus;50;255;0
+ST3 - EVEN PARTICLE;RecipeSimpleParameter;Meniscus P.U.M. threshold;110;255;0
+ST3 - EVEN PARTICLE;RecipeSimpleParameter;Blob max area reject;500;100000;0
+ST3 - EVEN PARTICLE;RecipeSimpleParameter;Blobs min area;200;10000;0
+ST3 - EVEN PARTICLE;RecipeSimpleParameter;Blob max area reject LowThreshold;500;100000;0
+ST3 - EVEN PARTICLE;RecipeSimpleParameter;Filling level min;900;2048;0
+ST3 - EVEN PARTICLE;RecipeSimpleParameter;Filling level max;1200;2048;0
+ST3 - EVEN PARTICLE;RecipeSimpleParameter;Light Level;0;255;0
+ST3 - EVEN PARTICLE;RecipeSimpleParameter;BlobMax Consecutive Frames Num;2;255;0
+ST3 - EVEN PARTICLE;RecipeSimpleParameter;Bottom Sensibility;40;255;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;1st morphological filter;0;2;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;2nd morphological filter;0;2;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;RLE buffer size;1000000;1000000;1000000
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;ROI dynamic morph. iter;0;20;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Meniscus analysis min count;10;100;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Meniscus analysis threshold;30;255;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Blobs max number;100;1000;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Bubble max shape factor;1.5;10;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Bubble optical density min diff;200;255;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Bubble size maximum;50;1000;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Bubble size minimum;7;1000;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max acceleration;3;1000;-1
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max area ratio;3;1000;1
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max height ratio;3;1000;1
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max width ratio;3;1000;1
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max segment angle;45;90;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max traj. angle;30;180;-1
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking min distance;5;1000;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking frames number backward;2;3;1
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectories buffer size;1000000;1000000;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory all segments max length;0;2048;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory all segments min length;0;2048;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory recurrent backward num;10;1000;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max angle;15;180;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max distance;20;1000;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min count;2;1000;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min length;3;1000;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Masking blobs high threshold;10;100;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Masking blobs low threshold;5;100;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Encoder counter first image;1;10000;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Bottom Analysis Min Frames;3;10000;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max distance;100;10000;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory max angle;70;360;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory min area;10;10000;0
+ST3 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory min segment number;3;10000;0
+ST3 - EVEN PARTICLE;ROIParameter;ROI ID;0;100;0
+ST3 - EVEN PARTICLE;ROIParameter;ROI type;0;10;0
+ST3 - EVEN PARTICLE;ROIParameter;ROI Start X;780;2048;0
+ST3 - EVEN PARTICLE;ROIParameter;ROI End X;1430;2048;0
+ST3 - EVEN PARTICLE;ROIParameter;ROI Start Y;1075;2048;0
+ST3 - EVEN PARTICLE;ROIParameter;ROI End Y;1950;2048;0
+ST3 - EVEN PARTICLE;ROIParameter;ROI color;250;255;0
+ST3 - EVEN PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST3 - EVEN PARTICLE;ROIParameter;Enable ROI Display;1;1;0
+ST3 - EVEN PARTICLE;ROIParameter;$label_it;ROI Controllo Particellare;;
+ST3 - EVEN PARTICLE;ROIParameter;$label_en;ROI Particle Inspection;;
+ST3 - EVEN PARTICLE;ROIParameter;ROI ID;1;100;0
+ST3 - EVEN PARTICLE;ROIParameter;ROI type;0;10;0
+ST3 - EVEN PARTICLE;ROIParameter;ROI Start X;900;2048;0
+ST3 - EVEN PARTICLE;ROIParameter;ROI End X;1300;2048;0
+ST3 - EVEN PARTICLE;ROIParameter;ROI Start Y;1500;2048;0
+ST3 - EVEN PARTICLE;ROIParameter;ROI End Y;1700;2048;0
+ST3 - EVEN PARTICLE;ROIParameter;ROI color;255;255;0
+ST3 - EVEN PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST3 - EVEN PARTICLE;ROIParameter;Enable ROI Display;0;1;0
+ST3 - EVEN PARTICLE;ROIParameter;$label_it;ROI Controllo Luce;;
+ST3 - EVEN PARTICLE;ROIParameter;$label_en;ROI Light Control;;
+ST3 - ODD PARTICLE;AcquisitionParameter;Number of frames;18;25;4
+ST3 - ODD PARTICLE;AcquisitionParameter;Exposure time [us];92;10000;1
+ST3 - ODD PARTICLE;AcquisitionParameter;Gain;0;1023;0
+ST3 - ODD PARTICLE;AcquisitionParameter;On/Off Strobo;1;1;0
+ST3 - ODD PARTICLE;AcquisitionParameter;Strobe pulse width [us];92;260;10
+ST3 - ODD PARTICLE;AcquisitionParameter;Acquisition delay [us];0;1000;0
+ST3 - ODD PARTICLE;AcquisitionParameter;Blue gain;0;1000;0
+ST3 - ODD PARTICLE;AcquisitionParameter;Red gain;0;1000;0
+ST3 - ODD PARTICLE;AcquisitionParameter;Green gain;0;1000;0
+ST3 - ODD PARTICLE;AcquisitionParameter;Strobe out;0;1000;0
+ST3 - ODD PARTICLE;AcquisitionParameter;Trigger input;0;1000;0
+ST3 - ODD PARTICLE;AcquisitionParameter;A.O.I. Enable;1;1;0
+ST3 - ODD PARTICLE;AcquisitionParameter;A.O.I. X Start;0;2047;0
+ST3 - ODD PARTICLE;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+ST3 - ODD PARTICLE;AcquisitionParameter;A.O.I. X Width;2048;2048;16
+ST3 - ODD PARTICLE;AcquisitionParameter;A.O.I. Y Width;2048;2048;64
+ST3 - ODD PARTICLE;AcquisitionParameter;Vial axis filename;10.200.12.72_vial_24000.xml;;
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Analysis enable;1;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Overlay information enable;1;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Blobs Display;1;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Bubbles Display;0;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Enable saving difference images;0;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Enable save trajectory;1;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Send decimated live;0;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Enable send result image;1;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Send trajectories;0;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Enable meniscus analysis;0;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Meniscus analysis Display;1;2;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Enable sensor normalization;1;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Enable dynamic ROI;1;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Enable ROI plot on results;1;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Enable ROI bottom expansion;1;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Enable Kalman filter for tracking;0;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Enable filling analysis;0;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Enable blob masking;1;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;Enable blob masking Display;1;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;$trajectoryPrint;0;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;On/Off Bottom analysis;0;1;0
+ST3 - ODD PARTICLE;FeaturesEnableParameter;On/Off Trajectory;1;1;0
+ST3 - ODD PARTICLE;RecipeSimpleParameter;Sensibility;9;255;0
+ST3 - ODD PARTICLE;RecipeSimpleParameter;ROI Bin High Threshold;243;255;0
+ST3 - ODD PARTICLE;RecipeSimpleParameter;ROI Bin Low Threshold;80;255;0
+ST3 - ODD PARTICLE;RecipeSimpleParameter;GAP Bottom;5;255;0
+ST3 - ODD PARTICLE;RecipeSimpleParameter;GAP Meniscus;15;255;0
+ST3 - ODD PARTICLE;RecipeSimpleParameter;Meniscus P.U.M. threshold;110;255;0
+ST3 - ODD PARTICLE;RecipeSimpleParameter;Blob max area reject;70;100000;0
+ST3 - ODD PARTICLE;RecipeSimpleParameter;Blobs min area;15;10000;0
+ST3 - ODD PARTICLE;RecipeSimpleParameter;Blob max area reject LowThreshold;70;100000;0
+ST3 - ODD PARTICLE;RecipeSimpleParameter;Filling level min;900;2048;0
+ST3 - ODD PARTICLE;RecipeSimpleParameter;Filling level max;1000;2048;0
+ST3 - ODD PARTICLE;RecipeSimpleParameter;Light Level;0;255;0
+ST3 - ODD PARTICLE;RecipeSimpleParameter;BlobMax Consecutive Frames Num;2;10000;0
+ST3 - ODD PARTICLE;RecipeSimpleParameter;Bottom Sensibility;40;255;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;1st morphological filter;0;2;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;2nd morphological filter;0;2;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;RLE buffer size;1000000;1000000;1000000
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;ROI dynamic morph. iter;0;20;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Meniscus analysis min count;10;100;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Meniscus analysis threshold;30;255;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Blobs max number;100;1000;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Bubble max shape factor;1.5;10;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Bubble optical density min diff;200;255;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Bubble size maximum;50;1000;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Bubble size minimum;7;1000;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max acceleration;3;1000;-1
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max area ratio;3;1000;1
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max height ratio;3;1000;1
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max width ratio;3;1000;1
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max segment angle;45;90;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max traj. angle;30;180;-1
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Tracking min distance;5;1000;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Tracking frames number backward;2;3;1
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Trajectories buffer size;1000000;1000000;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory all segments max length;0;2048;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory all segments min length;0;2048;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory recurrent backward num;10;1000;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max angle;15;180;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max distance;20;1000;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min count;2;1000;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min length;3;1000;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Masking blobs high threshold;10;100;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Masking blobs low threshold;5;100;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Encoder counter first image;365;10000;0
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Bottom Analysis Min Frames;10;;
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max distance;100;;
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory max angle;70;;
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory min area;10;;
+ST3 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory min segment number;3;;
+ST3 - ODD PARTICLE;ROIParameter;ROI ID;0;100;0
+ST3 - ODD PARTICLE;ROIParameter;ROI type;0;10;0
+ST3 - ODD PARTICLE;ROIParameter;ROI Start X;600;2048;0
+ST3 - ODD PARTICLE;ROIParameter;ROI End X;1300;2048;0
+ST3 - ODD PARTICLE;ROIParameter;ROI Start Y;1100;2048;0
+ST3 - ODD PARTICLE;ROIParameter;ROI End Y;1865;2048;0
+ST3 - ODD PARTICLE;ROIParameter;ROI color;250;255;0
+ST3 - ODD PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST3 - ODD PARTICLE;ROIParameter;Enable ROI Display;1;1;0
+ST3 - ODD PARTICLE;ROIParameter;$label_it;ROI Controllo Particellare;;
+ST3 - ODD PARTICLE;ROIParameter;$label_en;ROI Particle Inspection;;
+ST3 - ODD PARTICLE;ROIParameter;ROI ID;1;100;0
+ST3 - ODD PARTICLE;ROIParameter;ROI type;0;10;0
+ST3 - ODD PARTICLE;ROIParameter;ROI Start X;800;2048;0
+ST3 - ODD PARTICLE;ROIParameter;ROI End X;1100;2048;0
+ST3 - ODD PARTICLE;ROIParameter;ROI Start Y;1300;2048;0
+ST3 - ODD PARTICLE;ROIParameter;ROI End Y;1700;2048;0
+ST3 - ODD PARTICLE;ROIParameter;ROI color;255;255;0
+ST3 - ODD PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST3 - ODD PARTICLE;ROIParameter;Enable ROI Display;0;1;0
+ST3 - ODD PARTICLE;ROIParameter;$label_it;ROI Controllo Luce;;
+ST3 - ODD PARTICLE;ROIParameter;$label_en;ROI Light Control;;
+ST4 - EVEN PARTICLE;AcquisitionParameter;Number of frames;18;25;4
+ST4 - EVEN PARTICLE;AcquisitionParameter;Exposure time [us];105;10000;1
+ST4 - EVEN PARTICLE;AcquisitionParameter;Gain;0;1023;0
+ST4 - EVEN PARTICLE;AcquisitionParameter;On/Off Strobo;1;1;0
+ST4 - EVEN PARTICLE;AcquisitionParameter;Strobe pulse width [us];105;260;10
+ST4 - EVEN PARTICLE;AcquisitionParameter;Acquisition delay [us];0;1000;0
+ST4 - EVEN PARTICLE;AcquisitionParameter;Blue gain;0;1000;0
+ST4 - EVEN PARTICLE;AcquisitionParameter;Red gain;0;1000;0
+ST4 - EVEN PARTICLE;AcquisitionParameter;Green gain;0;1000;0
+ST4 - EVEN PARTICLE;AcquisitionParameter;Strobe out;0;1000;0
+ST4 - EVEN PARTICLE;AcquisitionParameter;Trigger input;0;1000;0
+ST4 - EVEN PARTICLE;AcquisitionParameter;A.O.I. Enable;1;1;0
+ST4 - EVEN PARTICLE;AcquisitionParameter;A.O.I. X Start;0;2047;0
+ST4 - EVEN PARTICLE;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+ST4 - EVEN PARTICLE;AcquisitionParameter;A.O.I. X Width;2048;2048;16
+ST4 - EVEN PARTICLE;AcquisitionParameter;A.O.I. Y Width;2048;2048;64
+ST4 - EVEN PARTICLE;AcquisitionParameter;Vial axis filename;10.200.13.73_vial_24000.xml;;
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Analysis enable;1;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Overlay information enable;1;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Blobs Display;1;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Bubbles Display;0;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Enable saving difference images;0;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Enable save trajectory;1;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Send decimated live;0;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Enable send result image;1;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Send trajectories;0;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Enable meniscus analysis;0;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Meniscus analysis Display;1;2;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Enable sensor normalization;1;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Enable dynamic ROI;1;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Enable ROI plot on results;1;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Enable ROI bottom expansion;1;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Enable Kalman filter for tracking;0;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Enable filling analysis;0;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Enable blob masking;1;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;Enable blob masking Display;1;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;$trajectoryPrint;0;1;0
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;On/Off Bottom analysis;0;;
+ST4 - EVEN PARTICLE;FeaturesEnableParameter;On/Off Trajectory;1;;
+ST4 - EVEN PARTICLE;RecipeSimpleParameter;Sensibility;9;255;0
+ST4 - EVEN PARTICLE;RecipeSimpleParameter;ROI Bin High Threshold;243;255;0
+ST4 - EVEN PARTICLE;RecipeSimpleParameter;ROI Bin Low Threshold;80;255;0
+ST4 - EVEN PARTICLE;RecipeSimpleParameter;GAP Bottom;5;255;0
+ST4 - EVEN PARTICLE;RecipeSimpleParameter;GAP Meniscus;15;255;0
+ST4 - EVEN PARTICLE;RecipeSimpleParameter;Meniscus P.U.M. threshold;110;255;0
+ST4 - EVEN PARTICLE;RecipeSimpleParameter;Blob max area reject;2000;100000;0
+ST4 - EVEN PARTICLE;RecipeSimpleParameter;Blobs min area;15;10000;0
+ST4 - EVEN PARTICLE;RecipeSimpleParameter;Blob max area reject LowThreshold;2000;100000;0
+ST4 - EVEN PARTICLE;RecipeSimpleParameter;Filling level min;900;2048;0
+ST4 - EVEN PARTICLE;RecipeSimpleParameter;Filling level max;1000;2048;0
+ST4 - EVEN PARTICLE;RecipeSimpleParameter;Light Level;0;255;0
+ST4 - EVEN PARTICLE;RecipeSimpleParameter;BlobMax Consecutive Frames Num;2;255;0
+ST4 - EVEN PARTICLE;RecipeSimpleParameter;Bottom Sensibility;40;255;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;1st morphological filter;0;2;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;2nd morphological filter;0;2;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;RLE buffer size;1000000;1000000;1000000
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;ROI dynamic morph. iter;0;20;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Meniscus analysis min count;10;100;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Meniscus analysis threshold;30;255;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Blobs max number;100;1000;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Bubble max shape factor;1.5;10;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Bubble optical density min diff;200;255;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Bubble size maximum;50;1000;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Bubble size minimum;7;1000;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max acceleration;3;1000;-1
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max area ratio;3;1000;1
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max height ratio;3;1000;1
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max width ratio;3;1000;1
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max segment angle;45;90;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max traj. angle;30;180;-1
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking min distance;5;1000;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking frames number backward;2;3;1
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectories buffer size;1000000;1000000;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory all segments max length;0;2048;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory all segments min length;0;2048;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory recurrent backward num;10;1000;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max angle;15;180;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max distance;20;1000;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min count;2;1000;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min length;3;1000;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Masking blobs high threshold;10;100;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Masking blobs low threshold;5;100;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Encoder counter first image;365;10000;0
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Bottom Analysis Min Frames;10;;
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Tracking max distance;100;;
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory max angle;70;;
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory min area;10;;
+ST4 - EVEN PARTICLE;RecipeAdvancedParameter;Trajectory min segment number;3;;
+ST4 - EVEN PARTICLE;ROIParameter;ROI ID;0;100;0
+ST4 - EVEN PARTICLE;ROIParameter;ROI type;0;10;0
+ST4 - EVEN PARTICLE;ROIParameter;ROI Start X;800;2048;0
+ST4 - EVEN PARTICLE;ROIParameter;ROI End X;1500;2048;0
+ST4 - EVEN PARTICLE;ROIParameter;ROI Start Y;1100;2048;0
+ST4 - EVEN PARTICLE;ROIParameter;ROI End Y;1865;2048;0
+ST4 - EVEN PARTICLE;ROIParameter;ROI color;250;255;0
+ST4 - EVEN PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST4 - EVEN PARTICLE;ROIParameter;Enable ROI Display;1;1;0
+ST4 - EVEN PARTICLE;ROIParameter;$label_it;ROI Controllo Particellare;;
+ST4 - EVEN PARTICLE;ROIParameter;$label_en;ROI Particle Inspection;;
+ST4 - EVEN PARTICLE;ROIParameter;ROI ID;1;100;0
+ST4 - EVEN PARTICLE;ROIParameter;ROI type;0;10;0
+ST4 - EVEN PARTICLE;ROIParameter;ROI Start X;1000;2048;0
+ST4 - EVEN PARTICLE;ROIParameter;ROI End X;1300;2048;0
+ST4 - EVEN PARTICLE;ROIParameter;ROI Start Y;1300;2048;0
+ST4 - EVEN PARTICLE;ROIParameter;ROI End Y;1700;2048;0
+ST4 - EVEN PARTICLE;ROIParameter;ROI color;255;255;0
+ST4 - EVEN PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST4 - EVEN PARTICLE;ROIParameter;Enable ROI Display;0;1;0
+ST4 - EVEN PARTICLE;ROIParameter;$label_it;ROI Controllo Luce;;
+ST4 - EVEN PARTICLE;ROIParameter;$label_en;ROI Light Control;;
+ST4 - ODD PARTICLE;AcquisitionParameter;Number of frames;18;25;4
+ST4 - ODD PARTICLE;AcquisitionParameter;Exposure time [us];105;10000;1
+ST4 - ODD PARTICLE;AcquisitionParameter;Gain;0;1023;0
+ST4 - ODD PARTICLE;AcquisitionParameter;On/Off Strobo;1;1;0
+ST4 - ODD PARTICLE;AcquisitionParameter;Strobe pulse width [us];105;260;10
+ST4 - ODD PARTICLE;AcquisitionParameter;Acquisition delay [us];0;1000;0
+ST4 - ODD PARTICLE;AcquisitionParameter;Blue gain;0;1000;0
+ST4 - ODD PARTICLE;AcquisitionParameter;Red gain;0;1000;0
+ST4 - ODD PARTICLE;AcquisitionParameter;Green gain;0;1000;0
+ST4 - ODD PARTICLE;AcquisitionParameter;Strobe out;0;1000;0
+ST4 - ODD PARTICLE;AcquisitionParameter;Trigger input;0;1000;0
+ST4 - ODD PARTICLE;AcquisitionParameter;A.O.I. Enable;1;1;0
+ST4 - ODD PARTICLE;AcquisitionParameter;A.O.I. X Start;0;2047;0
+ST4 - ODD PARTICLE;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+ST4 - ODD PARTICLE;AcquisitionParameter;A.O.I. X Width;2048;2048;16
+ST4 - ODD PARTICLE;AcquisitionParameter;A.O.I. Y Width;2048;2048;64
+ST4 - ODD PARTICLE;AcquisitionParameter;Vial axis filename;10.200.14.74_vial_24000.xml;;
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Analysis enable;1;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Overlay information enable;1;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Blobs Display;1;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Bubbles Display;0;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Enable saving difference images;0;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Enable save trajectory;1;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Send decimated live;0;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Enable send result image;1;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Send trajectories;0;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Enable meniscus analysis;0;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Meniscus analysis Display;1;2;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Enable sensor normalization;1;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Enable dynamic ROI;1;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Enable ROI plot on results;1;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Enable ROI bottom expansion;1;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Enable Kalman filter for tracking;0;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Enable filling analysis;0;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Enable blob masking;1;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;Enable blob masking Display;1;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;$trajectoryPrint;0;1;0
+ST4 - ODD PARTICLE;FeaturesEnableParameter;On/Off Bottom analysis;0;;
+ST4 - ODD PARTICLE;FeaturesEnableParameter;On/Off Trajectory;1;;
+ST4 - ODD PARTICLE;RecipeSimpleParameter;Sensibility;9;255;0
+ST4 - ODD PARTICLE;RecipeSimpleParameter;ROI Bin High Threshold;243;255;0
+ST4 - ODD PARTICLE;RecipeSimpleParameter;ROI Bin Low Threshold;80;255;0
+ST4 - ODD PARTICLE;RecipeSimpleParameter;GAP Bottom;5;255;0
+ST4 - ODD PARTICLE;RecipeSimpleParameter;GAP Meniscus;15;255;0
+ST4 - ODD PARTICLE;RecipeSimpleParameter;Meniscus P.U.M. threshold;110;255;0
+ST4 - ODD PARTICLE;RecipeSimpleParameter;Blob max area reject;70;100000;0
+ST4 - ODD PARTICLE;RecipeSimpleParameter;Blobs min area;15;2048;0
+ST4 - ODD PARTICLE;RecipeSimpleParameter;Blob max area reject LowThreshold;70;100000;0
+ST4 - ODD PARTICLE;RecipeSimpleParameter;Filling level min;900;2048;0
+ST4 - ODD PARTICLE;RecipeSimpleParameter;Filling level max;1000;2048;0
+ST4 - ODD PARTICLE;RecipeSimpleParameter;Light Level;0;255;0
+ST4 - ODD PARTICLE;RecipeSimpleParameter;BlobMax Consecutive Frames Num;2;10000;0
+ST4 - ODD PARTICLE;RecipeSimpleParameter;Bottom Sensibility;40;255;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;1st morphological filter;0;2;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;2nd morphological filter;0;2;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;RLE buffer size;1000000;1000000;1000000
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;ROI dynamic morph. iter;0;20;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Meniscus analysis min count;10;100;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Meniscus analysis threshold;30;255;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Blobs max number;100;1000;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Bubble max shape factor;1.5;10;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Bubble optical density min diff;200;255;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Bubble size maximum;50;1000;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Bubble size minimum;7;1000;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max acceleration;3;1000;-1
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max area ratio;3;1000;1
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max height ratio;3;1000;1
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max width ratio;3;1000;1
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max segment angle;45;90;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max traj. angle;30;180;-1
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Tracking min distance;5;1000;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Tracking frames number backward;2;3;1
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Trajectories buffer size;1000000;1000000;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory all segments max length;0;2048;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory all segments min length;0;2048;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory recurrent backward num;10;1000;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max angle;15;180;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max distance;20;1000;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min count;2;1000;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min length;3;1000;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Masking blobs high threshold;10;100;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Masking blobs low threshold;5;100;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Encoder counter first image;365;10000;0
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Bottom Analysis Min Frames;10;;
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Tracking max distance;100;;
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory max angle;70;;
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory min area;10;;
+ST4 - ODD PARTICLE;RecipeAdvancedParameter;Trajectory min segment number;3;;
+ST4 - ODD PARTICLE;ROIParameter;ROI ID;0;100;0
+ST4 - ODD PARTICLE;ROIParameter;ROI type;0;10;0
+ST4 - ODD PARTICLE;ROIParameter;ROI Start X;800;2048;0
+ST4 - ODD PARTICLE;ROIParameter;ROI End X;1500;2048;0
+ST4 - ODD PARTICLE;ROIParameter;ROI Start Y;1100;2048;0
+ST4 - ODD PARTICLE;ROIParameter;ROI End Y;1865;2048;0
+ST4 - ODD PARTICLE;ROIParameter;ROI color;250;255;0
+ST4 - ODD PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST4 - ODD PARTICLE;ROIParameter;Enable ROI Display;1;1;0
+ST4 - ODD PARTICLE;ROIParameter;$label_it;ROI Controllo Particellare;;
+ST4 - ODD PARTICLE;ROIParameter;$label_en;ROI Particle Inspection;;
+ST4 - ODD PARTICLE;ROIParameter;ROI ID;1;100;0
+ST4 - ODD PARTICLE;ROIParameter;ROI type;0;10;0
+ST4 - ODD PARTICLE;ROIParameter;ROI Start X;1000;2048;0
+ST4 - ODD PARTICLE;ROIParameter;ROI End X;1300;2048;0
+ST4 - ODD PARTICLE;ROIParameter;ROI Start Y;1300;2048;0
+ST4 - ODD PARTICLE;ROIParameter;ROI End Y;1700;2048;0
+ST4 - ODD PARTICLE;ROIParameter;ROI color;255;255;0
+ST4 - ODD PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST4 - ODD PARTICLE;ROIParameter;Enable ROI Display;0;1;0
+ST4 - ODD PARTICLE;ROIParameter;$label_it;ROI Controllo Luce;;
+ST4 - ODD PARTICLE;ROIParameter;$label_en;ROI Light Control;;

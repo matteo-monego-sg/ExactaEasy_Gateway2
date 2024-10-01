@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1FFDC578-EC0D-45EF-B585-63545D434A4B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DisplayManager</RootNamespace>
+    <AssemblyName>DisplayManager</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emgu.CV, Version=2.9.0.1922, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI, Version=2.9.0.1922, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.Util, Version=2.9.0.1922, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Emgu.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="LightController, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\LightController.dll</HintPath>
+    </Reference>
+    <Reference Include="Logger">
+      <HintPath>..\lib\Logger.dll</HintPath>
+    </Reference>
+    <Reference Include="ScLibSDK_NET, Version=1.2.4.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ScLibSDK_NET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Utilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="VncSharp">
+      <HintPath>..\lib\VncSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CameraDefinition.cs" />
+    <Compile Include="Camera.cs" />
+    <Compile Include="Displays\DisplayCollection.cs" />
+    <Compile Include="Displays\ImagePositionInfo.cs" />
+    <Compile Include="Displays\ScreenGridDisplay.cs" />
+    <Compile Include="Displays\ScreenHvldDisplay.cs" />
+    <Compile Include="Displays\SingleDisplay.cs" />
+    <Compile Include="Displays\ThumbScreenDisplay.cs" />
+    <Compile Include="Graphs\GraphCollection.cs" />
+    <Compile Include="Graphs\GraphEnums.cs" />
+    <Compile Include="Graphs\Hvld2Graph.cs" />
+    <Compile Include="Graphs\LineGraph.cs" />
+    <Compile Include="Graphs\SpectrometerGraphs.cs" />
+    <Compile Include="LiveImageFilter.cs" />
+    <Compile Include="Graphs\Graph.cs" />
+    <Compile Include="DBConnection.cs" />
+    <Compile Include="Interfaces\IRecordStatus.cs" />
+    <Compile Include="UIStrings.ja.Designer.cs">
+      <DependentUpon>UIStrings.ja.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="UIStrings.es.Designer.cs">
+      <DependentUpon>UIStrings.es.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="UIStrings.ru.Designer.cs">
+      <DependentUpon>UIStrings.ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="UIStrings.de.Designer.cs">
+      <DependentUpon>UIStrings.de.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Device.cs" />
+    <Compile Include="FormVNCClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVNCClient.designer.cs">
+      <DependentUpon>FormVNCClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GardaSoft.cs" />
+    <Compile Include="FormRemoteDesktop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRemoteDesktop.designer.cs">
+      <DependentUpon>FormRemoteDesktop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionResults.cs" />
+    <Compile Include="Interfaces\IResultsGrid.cs" />
+    <Compile Include="KnappManager.cs" />
+    <Compile Include="Interfaces\IResultId.cs" />
+    <Compile Include="ResultsContainer.cs" />
+    <Compile Include="Interfaces\IAssistant.cs" />
+    <Compile Include="Interfaces\IStrobeController.cs" />
+    <Compile Include="LightController.cs" />
+    <Compile Include="LightControllerDefinition.cs" />
+    <Compile Include="Node.cs" />
+    <Compile Include="NodeDefinition.cs" />
+    <Compile Include="Smartek.cs" />
+    <Compile Include="Station.cs" />
+    <Compile Include="StationDefinition.cs" />
+    <Compile Include="StrobeControllerDefinition.cs" />
+    <Compile Include="TestStrobeController.cs" />
+    <Compile Include="Statistic.cs" />
+    <Compile Include="UIStrings.it.Designer.cs">
+      <DependentUpon>UIStrings.it.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="UIStrings.Designer.cs">
+      <DependentUpon>UIStrings.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="VisionSystemConfig.cs" />
+    <Compile Include="Displays\Display.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VisionSystemManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UIStrings.cs.resx" />
+    <EmbeddedResource Include="UIStrings.da.resx" />
+    <EmbeddedResource Include="UIStrings.fr.resx" />
+    <EmbeddedResource Include="UIStrings.hu.resx" />
+    <EmbeddedResource Include="UIStrings.ja.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.ja.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.es.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.es.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.ko.resx" />
+    <EmbeddedResource Include="UIStrings.nl.resx" />
+    <EmbeddedResource Include="UIStrings.pt.resx" />
+    <EmbeddedResource Include="UIStrings.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVNCClient.resx">
+      <DependentUpon>FormVNCClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRemoteDesktop.resx">
+      <DependentUpon>FormRemoteDesktop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.it.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.it.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.sk.resx" />
+    <EmbeddedResource Include="UIStrings.sv.resx" />
+    <EmbeddedResource Include="UIStrings.zh.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxMSTSCLib">
+      <Guid>{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MSTSCLib">
+      <Guid>{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExactaEasyCore\ExactaEasyCore.csproj">
+      <Project>{6108663e-7f47-4e1c-9764-4266ac445f9c}</Project>
+      <Name>ExactaEasyCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExEyWS\ExactaEasyEng.csproj">
+      <Project>{1ec5a2f4-2f55-4c6a-bacc-7c6b760d9edc}</Project>
+      <Name>ExactaEasyEng</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hvld\Hvld.csproj">
+      <Project>{3071EBB5-C4B4-4E01-A5A2-6556F356D41A}</Project>
+      <Name>Hvld</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\checkmark1.png" />
+    <None Include="Resources\button_fewer1.png" />
+    <Content Include="Resources\red-on-32.png" />
+    <Content Include="Resources\Restart.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(TargetPath)" "$(SolutionDir)$(SolutionName)\$(OutDir)"
+copy /Y "$(TargetDir)$(TargetName).pdb" "$(SolutionDir)$(SolutionName)\$(OutDir)"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

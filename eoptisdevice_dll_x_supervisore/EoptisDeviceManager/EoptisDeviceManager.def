@@ -1,0 +1,21 @@
+LIBRARY "EoptisDeviceManager"
+
+EXPORTS
+	connectDevice
+	disconnect
+	getInfo
+	getAllInfo
+	getParameter
+	setParameter
+	getParameters
+	setParameters
+	getStatus
+	getInputs
+	getOutputs
+	setOutputs
+	setOutputPattern
+	setWorkingMode
+	getWorkingMode
+	stopOnCondition
+	receiveData
+	freeData

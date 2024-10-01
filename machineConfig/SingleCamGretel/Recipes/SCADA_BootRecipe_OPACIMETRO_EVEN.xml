@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RecipeVersion>1</RecipeVersion>
+  <Nodes>
+    <NodeRecipe>
+      <Id>0</Id>
+      <FrameGrabbers />
+      <Stations>
+        <StationRecipe>
+          <Id>0</Id>
+          <Description>ST0 OPA EVEN</Description>
+          <Enable>true</Enable>
+          <Default>true</Default>
+          <Cameras>
+            <CameraRecipe>
+              <Id>0</Id>
+              <Enabled>true</Enabled>
+              <AcquisitionParameters>
+                <Parameter Id="PAR_LASER_GAIN" Group="BOARD" ParamId="">1</Parameter>
+				<Parameter Id="PAR_VIAL_GAIN" Group="BOARD" ParamId="">10</Parameter>
+              </AcquisitionParameters>
+              <FeaturesEnableParameters>
+				<!--<Parameter Id="FEAT_EN PARAM 001" Group="BOARD" ParamId="">1</Parameter>-->
+			  </FeaturesEnableParameters>
+              <RecipeSimpleParameters>
+			    <Parameter Id="TH_WARNING_UPPER" Group="BOARD" ParamId="">3</Parameter>
+				<Parameter Id="TH_WARNING_LOWER" Group="BOARD" ParamId="">1</Parameter>
+				<Parameter Id="TH_ERROR_UPPER" Group="BOARD" ParamId="">3</Parameter>
+				<Parameter Id="TH_ERROR_LOWER" Group="BOARD" ParamId="">1</Parameter>
+			  </RecipeSimpleParameters>
+              <RecipeAdvancedParameters>
+                <!--<Parameter Id="PROCESSING ADVANCED PARAM 001" Group="BOARD" ParamId="">83.10</Parameter>-->
+              </RecipeAdvancedParameters>
+              <ROIParameters />
+              <MachineParameters>
+			    <Parameter Id="PAR_SPINDLE_COUNT" Group="BOARD" ParamId="">40</Parameter>
+			    <Parameter Id="PAR_0_TORRETTA_OFFSET" Group="BOARD" ParamId="">16</Parameter>
+				<Parameter Id="PAR_INCREMENTO_SPINDLE_ID" Group="BOARD" ParamId="">2</Parameter>
+				<Parameter Id="PAR_FREE_RUN_TIMER" Group="BOARD" ParamId="">3000</Parameter>
+			  </MachineParameters>
+              <StroboParameters />
+              <LightSensor />
+              <Lights />
+            </CameraRecipe>
+          </Cameras>
+          <Tools>
+            <Tool>
+              <Id>0</Id>
+              <ToolParameters>
+                <Parameter Id="Active" Group="" ParamId="">1</Parameter>
+                <Parameter Id="Label" Group="" ParamId="">Opacity</Parameter>
+                <!--<Parameter Id="TypeCode" Group="" ParamId="">ToolOpc</Parameter>
+                <Parameter Id="Shape" Group="" ParamId="">1</Parameter>
+                <Parameter Id="DefectCode" Group="" ParamId="">1</Parameter>
+                <Parameter Id="Display Priority" Group="" ParamId="">0</Parameter>
+                <Parameter Id="Display Priority Output Indx" Group="" ParamId="">0</Parameter>
+                <Parameter Id="Threshold Type" Group="" ParamId="00">Dynamic</Parameter>
+                <Parameter Id="-  Kernel" Group="" ParamId="01">15 x 15</Parameter>
+                <Parameter Id="-  Threshold" Group="" ParamId="02">15</Parameter>
+                <Parameter Id="-  Statistic Gap" Group="" ParamId="03">20</Parameter>
+                <Parameter Id="Defect Type" Group="" ParamId="04">Dark</Parameter>
+                <Parameter Id="Opening Type" Group="" ParamId="05">Circle</Parameter>
+                <Parameter Id="Opening Width" Group="" ParamId="06">0.50</Parameter>
+                <Parameter Id="Opening Height" Group="" ParamId="07">0.50</Parameter>
+                <Parameter Id="Anisometry min" Group="" ParamId="08">0.00</Parameter>
+                <Parameter Id="Anisometry max" Group="" ParamId="09">3.00</Parameter>
+                <Parameter Id="Angle min" Group="" ParamId="10">-90.00</Parameter>
+                <Parameter Id="Angle max" Group="" ParamId="11">90.00</Parameter>
+                <Parameter Id="OPC" Group="" ParamId="12" />
+                <Parameter Id="-  Segment d1" Group="" ParamId="13">2.00</Parameter>
+                <Parameter Id="-  Segment d2" Group="" ParamId="14">4.00</Parameter>
+                <Parameter Id="-  Min Segment" Group="" ParamId="15">40.00</Parameter>
+                <Parameter Id="-  Shadow Distance" Group="" ParamId="16">300</Parameter>
+                <Parameter Id="-  Shadow Threshold" Group="" ParamId="17">50.00</Parameter>
+                <Parameter Id="Cut Mark Inspection" Group="" ParamId="18">No</Parameter>
+                <Parameter Id="-  Zone Distance" Group="" ParamId="19">100</Parameter>
+                <Parameter Id="-  Zone Width" Group="" ParamId="20">20</Parameter>
+                <Parameter Id="-  Zone Height" Group="" ParamId="21">60</Parameter>-->
+              </ToolParameters>
+              <Shapes />
+              <ToolOutputs>
+                <ToolOutput>
+                  <Id>0</Id>
+                  <Name>Vial raw</Name>
+                  <MeasureUnit></MeasureUnit>
+                  <IsUsed>true</IsUsed>
+                  <Type>STRING</Type>
+                  <Value></Value>
+                  <!--<Condition>
+                    <Name></Name>
+                    <Value></Value>
+                  </Condition>-->
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>1</Id>
+                  <Name>Laser raw</Name>
+                  <MeasureUnit></MeasureUnit>
+                  <IsUsed>true</IsUsed>
+                  <Type>STRING</Type>
+                  <Value></Value>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>2</Id>
+                  <Name>Pre calibration</Name>
+                  <MeasureUnit></MeasureUnit>
+                  <IsUsed>true</IsUsed>
+                  <Type>STRING</Type>
+                  <Value></Value>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>3</Id>
+                  <Name>Post calibration</Name>
+                  <MeasureUnit></MeasureUnit>
+                  <IsUsed>true</IsUsed>
+                  <Type>STRING</Type>
+                  <Value></Value>
+				  <EnableGraph>true</EnableGraph>
+                </ToolOutput>
+              </ToolOutputs>
+            </Tool>
+          </Tools>
+        </StationRecipe>
+	  </Stations>
+    </NodeRecipe>
+  </Nodes>
+</Recipe>

@@ -1,0 +1,5351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfParameterInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ParameterInfo>
+    <Id>numberOfFrames</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Number of frames</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero di frames</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Number of frames acquired by the camera for each container.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero di frames per ogni contenitore acquisiti dalla camera.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>cameraShutter</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Exposure time [us]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tempo di esposizione [us]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Exposure time of the camera shutter in microseconds.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tempo di esposizione della camera in microsecondi.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>cameraGain</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Gain</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Guadagno</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Camera gain.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Guadagno della camera.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>strobeEnable</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>On/Off Strobo</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>On/Off Strobo</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>On/Off Strobo control signal</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>On/off segnale di controllo verso lo STROBO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>strobeTime</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe pulse width [us]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tempo di accensione strobo [us]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe time of the camera shutter in microseconds.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tempo di accensione dello strobo in microsecondi.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>acquisitionDelay</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Acquisition delay [us]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Ritardo acquisizione [us]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Acquisition delay in microseconds.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Ritardo acquisizione in microsecondi.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>gainBlue</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Blue gain</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Guadagno blu</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Blue gain.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Guadagno blu.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>gainRed</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Red gain</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Guadagno rosso</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Red gain.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Guadagno rosso.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>gainGreen</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Green gain</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Guadagno verde</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Green gain.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Guadagno verde.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>strobeOut</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe pin out</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Pin di Uscita strobo</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Pin Strobe out.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Pin di Uscita strobo.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>triggerInput</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trigger input</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Ingresso trigger</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trigger input.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Ingresso trigger.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>aoiEnable</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>A.O.I. Enable</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione A.O.I.</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Area Of Interest Enable. If disabled the camera sensor is in fullframe mode.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione area di interesse. Se disabilitata il sensore della camera è in fullframe.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>aoiStartCol</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>A.O.I. X Start</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>A.O.I. X Start</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Area Of Interest X start coordinate.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Coordinata X di inizio dell'area di interesse.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>aoiStartRow</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>A.O.I. Y Start</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>A.O.I. Y Start</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Area Of Interest Y start coordinate.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Coordinata Y di inizio dell'area di interesse.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>aoiResX</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>A.O.I. X Width</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>A.O.I. Intervallo X</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Area Of Interest X width.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Intervallo X dell'area di interesse.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>aoiResY</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>A.O.I. Y Width</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>A.O.I. Intervallo Y</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Area Of Interest Y width.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Intervallo Y dell'area di interesse.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>analysisEnable</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Analysis enable</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione analisi</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Analysis enable.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione analisi.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>overlayInformation</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Overlay information enable</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione informazioni su immagine</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Overlay information enable.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione informazioni su immagine.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>printBlobs</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Blobs Display</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Display dei blobs</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Blobs Display.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Display dei blobs.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>printBubbles</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Bubbles Display</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Display Bolle</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Bubbles Display.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Display Bolle.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>saveDifferenceImages</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable saving difference images</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione salvataggio immagini differenze</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable saving of the image of differences.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione salvataggio immagini differenze.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>saveTrajectory</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable save trajectory</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione salvataggio traiettoria</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable saving trajectories information in the binary variable.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione salvataggio informazioni sulle traiettorie.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>sendDecimatedLive</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Send decimated live</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Invia live decimato</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Send decimated live.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Invia live decimato.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>sendResultImage</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable send result image</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione invio immagine risultati</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable send result image. 0 = no send, 1 = send image from system RAM, 2 = send image from FPGA RAM.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione invio immagine risultati. 0 = non inviare, 1 = invia immagine dalla RAM della camera, 2 = invia immagine dal FPGA della camera.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>sendTrajectories</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Send trajectories</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Invio traiettorie</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Send trajectories.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Invio traiettorie.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>meniscusAnalysis</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable meniscus analysis</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione analisi menisco</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable/disable analysis under the meniscus.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilita/disabilita analisi sotto il menisco.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>meniscusAnalysisPlot</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Meniscus analysis Display</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Display analisi menisco</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Meniscus analysis plot.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Visualizzazione analisi menisco.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>pgaEnable</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable sensor normalization</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione normalizzazione sensore</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable sensor normalization.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione normalizzazione sensore.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ROIDynamic</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable dynamic ROI</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione ROI dinamica</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable/disable ROI dynamic search inside rectangular analysis ROI.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione ricerca ROI dinamica dentro la ROI rettangolare.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ROIDynamicOverlay</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable ROI plot on results</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Visualizzazione ROI sui risultati</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable/disable ROI plot on results images.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Visualizzazione ROI sull'immagine dei risultati.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ROIBottomExpansion</Id>
+    <ValueType />
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable ROI bottom expansion</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione espansione della ROI sul fondo</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable/disable ROI expansion until ROI bottom.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilita/disabilita espansione della ROI sul fondo.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trackingKalmanPrediction</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable Kalman filter for tracking</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione filtro di Kalman per tracking</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable/disable Kalman filter in tracking procedure.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilita/disabilita filtro di Kalman nella procedura di tracking.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>fillingLevelEnable</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable filling analysis</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione analisi riempimento</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable/disable filling analysis.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilita/disabilita analisi riempimento.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>rleLowThreshold</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Sensibility</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Sensibilità</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Sensibility - Binary threshold for FPGA rle extraction.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Sensibilità - Soglia binaria per l'estrazione del RLE nel FPGA.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ROIDynamicHighThreshold</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI Bin High Threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia alta binarizzazione ROI dinamica</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Image binary high threshold.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia superiore immagine binarizzata.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ROIDynamicLowThreshold</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI Bin Low Threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia bassa binarizzazione ROI dinamica</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Image binary low threshold.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia inferiore immagine binarizzata.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>meniscusPUMThreshold</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Meniscus P.U.M. threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia menisco P.U.M.</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Binary threshold of vertical ruler for particles search under the meniscus. Vertical ruler stops when it finds a gray level lower than the one set as threshold.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia binaria del righello verticale per la ricerca di particelle sotto il menisco. Il righello verticale si ferma quando trova un livello di grigio inferiore alla soglia impostata.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>blobMaxAreaReject</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Blob max area reject</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massima area blob reject</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>If blob area is greater than this value the sample is rejected.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Se l'area del blob è maggiore di questo valore il campione viene scartato.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>blobMaxAreaRejectLowThreshold</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Blob max area reject LowThreshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massima area low blob reject analisi</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>If blob area is greater than this value the sample is rejected.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Se l'area del blob è maggiore di questo valore il campione viene scartato.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>blobsMinArea</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Blobs min area</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Area minima blob</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Blobs which area is lower than this value are discarded and they won't be used for tracking.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>I blob con area inferiore a questo valore vengono tralasciati dall'analisi del tracking.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trackingMaxDistance</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Tracking max distance</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massima distanza per tracking</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum distance between blobs. It actually limits the maximum particles velocity.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massima distanza tra i blob. Limita la velocità massima delle particelle</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trajectoryMaxAngle</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trajectory max angle</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Max angolo traiettoria</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum (mean) angle for a trajectory. It is used to discard trajectories with a too much accentuated vertical component.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massimo angolo (medio) per una traiettoria. E' usato per scartare le traiettorie con una componente accentuata troppo verticale.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trajectoryMinArea</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trajectory min area</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Area min traiettoria</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Minimum size of searched particles.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione minima della particella cercata.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trajectoryMinSegmentNumber</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trajectory min segment number</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero min segmenti per traiettoria</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Minimum number of segment for a trajectory to be accepted.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero minimo di segmenti per accettare una spezzata come traiettoria.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>fillingLevelMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Filling level min</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Livello di riempimento min</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Minimum filling level of the sample.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Minimo livello di riempimento del campione.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>fillingLevelMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Filling level max</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Livello di riempimento max</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum filling level of the sample.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massimo livello di riempimento del campione.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>morphologicalFilter1</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>1st morphological filter</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>1° filtro morfologico</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>First morphological filter of camera FPGA.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Primo filtro morfologico del FPGA della camera.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>morphologicalFilter2</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>2nd morphological filter</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>2° filtro morfologico</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Second morphological filter of camera FPGA.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Secondo filtro morfologico del FPGA della camera.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>rleBufferSize</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>RLE buffer size</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione buffer RLE</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>RLE buffer size.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione buffer RLE.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ROIDynamicMorphIter</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI dynamic morph. iter</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Num morf. ROI dinamica</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Number of erosions of minimum image / Number of expansions of maximum image.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero di erosioni dell'immagine dei minimi / Numero di dilatazioni dell'immagine dei massimi.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>meniscusAnalysisMinCount</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Meniscus analysis min count</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Analisi menisco min num</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Minimum number of images which must contain the particles. Sample is rejected if exceed this value.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Minimo numero di immagini che deve contenere le particelle. Il campione è espulso se eccede questo valore.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>meniscusAnalysisThreshold</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Meniscus analysis threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Sensibilità analisi menisco</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Sensitivity of meniscus analysis.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Sensibilità analisi del menisco.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>meniscusPUMOffset</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>P.U.M. pixel offset</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>P.U.M. pixel offset</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Number of pixel under the meniscus where particles search is extended.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero di pixel sotto il menisco dove la ricerca di particelle è estesa.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>blobsMaxNumber</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Blobs max number</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero massimo di blob</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>If blobs number in a single image exceeds this value sample will be rejected.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Se il numero di blob in una singola immagine eccede questo valore il campione viene scartato.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>bubbleMaxShapeFactor</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Bubble max shape factor</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massimo fattore di forma bolle</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>0 -&gt; 1: max rate between the two edges of the rectangle containing the blob.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>0 -&gt; 1: rapporto massimo tra i due lati del rettangolo contenente il blob.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>bubbleOpticalDensityMinDiff</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Bubble optical density min diff</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Diff minima densità ottica bolle</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Difference between the density of blob center and external areola.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Differenza tra la densità al centro del blob e quella esterna.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>bubbleSizeMaximum</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Bubble size maximum</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione massima bolle</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum size of a blob to be checked.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione massima del blob da controllare.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>bubbleSizeMinimum</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Bubble size minimum</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione minima bolle</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Minimum size of a blob to be checked.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione minima del blob da controllare.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trackingMaxAcceleration</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Tracking max acceleration</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massima accelerazione per tracking</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum allowed acceleration for a blob. Range: [0,Infinity]</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Accelerazione massima per l'analisi del tracking di un blob. Range: [0,Infinito]</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trackingMaxAreaRatio</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Tracking max area ratio</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Max rapporto aree per tracking</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum ratio between max and min area of two different blobs. Range: [1,Infinity]</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massimo rapporto tra area massima e minima di due blob differenti. Range: [1,Infinity]</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trackingMaxHeightRatio</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Tracking max height ratio</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Max rapporto altezze per tracking</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum ratio between max and min height of two different blobs. Range: [1,Infinity]</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massimo rapporto tra altezza massima e minima di due blob differenti. Range: [1,Infinity]</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trackingMaxWidthRatio</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Tracking max width ratio</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Max rapporto larghezze per tracking</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum ratio between max and min width of two different blobs. Range: [1,Infinity]</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massimo rapporto tra larghezza massima e minima di due blob differenti. Range: [1,Infinity]</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trackingMaxSegmentAngle</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Tracking max segment angle</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Angolo max segmento tracking</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum angle of a segment which virtually connects two blobs respect to horizontal line. Range: [0,90]</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massimo angolo della retta passante per due blob rispetto all'orizzontale. Range: [0,90]</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trackingMaxTrajectoryAngle</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Tracking max traj. angle</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Angolo max traiettoria</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Tracking max trajectory angle. Range: [0,180]</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Angolo max traiettoria. Range: [0,180]</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trackingMinDistance</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Tracking min distance</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Minima distanza per tracking</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Minimum distance between blobs. It actually limits the minimum particles velocity.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Minima distanza tra i blob. Limita la velocità minima delle particelle</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trackingNumberFramesBackward</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Tracking frames number backward</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero frame backward per tracking</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Backward frame number to which a blob can be connected. Range: [1,3]</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero di backward frame al quale un blob può essere connesso. Range: [1,3]</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trackingFrameBackwardReduction</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Tracking frame backward reduction</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tracking frame backward reduction</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Backward frame parameter reduction.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>pier: da chiedere.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trajectoriesBufferSize</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trajectories buffer size</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione buffer traiettorie</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trajectories maximum buffer size.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione massima buffer traiettorie.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trajectoryAllSegmentsMaxLength</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trajectory all segments max length</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Lunghezza max segmenti traiettoria</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>If the size of all segments is included between these boundaries, the trajectory is deleted.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Se la lunghezza dei segmenti è inclusa in questi limiti, la traiettoria è cancellata.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trajectoryAllSegmentsMinLength</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trajectory all segments min length</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Lunghezza min segmenti traiettoria</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>If the size of all segments is included between these boundaries, the trajectory is deleted.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Se la lunghezza dei segmenti è inclusa in questi limiti, la traiettoria è cancellata.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trajectoryRecurrentBackward</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trajectory recurrent backward num</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Num campioni traiettorie ricorrenti</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Number of backward samples with which the current trajectory must be compared in recurrent trajectory detection.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero dei campioni precedenti coi quali la traiettoria corrente deve essere comparata per la rilevazione di traiettorie ricorrenti.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trajectoryRecurrentMaxAngle</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trajectory recurrent max angle</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massimo angolo traiettorie ricorrenti</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum mean angle of trajectory in recurrent trajectory detection.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massimo angolo medio della traiettoria per la rilevazione di traiettorie ricorrenti.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trajectoryRecurrentMaxDistance</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trajectory recurrent max distance</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massima distanza traiettorie ricorrenti</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum distance between two blobs belonging to two different trajectories in recurrent trajectory detection.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Massima distanza tra due blob appartenenti a due traiettorie differenti per la rilevazione di traiettorie ricorrenti.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trajectoryRecurrentMinCount</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trajectory recurrent min count</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Min num traiettorie ricorrenti</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Minimum number of similar trajectories that must be found to consider the current trajectory recurrent.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero minimo di traiettorie simili che devono essere trovate per considerare la traiettoria ricorrente.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trajectoryRecurrentMinLength</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trajectory recurrent min length</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Lunghezza minima traiettorie ricorrenti</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Minimum number of blobs which position must be similar to consider the current trajectory as recurrent.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Minimo numero di blob la cui posizione deve essere simile per considerare la traiettoria ricorrente.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>isActive</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>stroboOperatingMode</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe operating mode</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Modalità operativa strobo</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe operating mode: pulsed, continuous, etc...</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Modalità operativa strobo: pulsata, continua, ecc...</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>stroboCurrent</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe current [A]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Corrente strobo [A]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe current [A].</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Corrente di strobo [A].</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>stroboPulseDelay</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe pulse delay</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Ritardo impulso strobo</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe pulse delay [ms].</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Ritardo impulso strobo [ms].</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>stroboPulseWidth</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe pulse width [ms]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Durata impulso strobo [ms]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe pulse width [ms].</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Durata impulso strobo [ms].</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>stroboRetriggerTime</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe retrigger time [ms]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tempo retrigger strobo [ms]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe retrigger time [ms]. If a trigger occurs, others triggers are ignored for this time.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tempo retrigger strobo [ms]. Se si hanno altri trigger prima che sia intercorso tale tempo verranno ignorati.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>stroboContinuousMaxCurrent</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe continuous max current [A]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Max corrente continua strobo [A]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe continuous max current [A].</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Max corrente continua strobo [A].</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>stroboPulsedMaxCurrent</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe pulsed max current [A]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Max corrente pulsata strobo [A]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Strobe pulsed max current [A].</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Max corrente pulsata strobo [A].</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>roiID</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI ID</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>ROI ID</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI ID.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>ROI ID.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>roiType</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI type</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tipo di ROI</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI type.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tipo di ROI.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>roiX1</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI Start X</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>ROI Start X</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI X1 coordinate.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Coordinata X di partenza della ROI.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>roiX2</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI End X</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>ROI End X</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>End X coordinate of the ROI.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Coordinata X di fine della ROI.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>roiY1</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI Start Y</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>ROI Start Y</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Y Start Coordinate of the ROI.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Coordinata Y di partenza della ROI</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>roiY2</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI End Y</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>ROI End Y</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Y End Coordinate of the ROI</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Coordinata Y di Fine della ROI</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>roiColor</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI color</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Colore ROI</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI color.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Colore ROI.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>roiFill</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI fill color</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Colore riempimento ROI</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>ROI fill color.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Colore riempimento ROI.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>roiPlot</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable ROI Display</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Visualizzazione ROI</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable/disable ROI plot.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Visualizzazione ROI.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>maskingBlobs</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable blob masking</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione mascheratura blob</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable/disable blob masking.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilita/disabilita mascheratura blob.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>maskingBlobsPrint</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable blob masking Display</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Visualizzazione mascheratura blob</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable/disable blob masking Display.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Visualizzazione mascheratura blob.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>maskingBlobsHighThreshold</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Masking blobs high threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia superiore mascheratura blob</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Masking high threshold. Over this value blobs are discarded.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia superiore mascheratura. Sopra questo valore i blob vengono scartati.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>maskingBlobsLowThreshold</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Masking blobs low threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia inferiore mascheratura blob</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Masking low threshold. Under this value blobs are discarded.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia inferiore mascheratura. Sotto questo valore i blob vengono scartati.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>maskingBlobsLowThreshold</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Masking blobs low threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia inferiore mascheratura blob</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Masking low threshold. Under this value blobs are discarded.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia inferiore mascheratura. Sotto questo valore i blob vengono scartati.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>minDensityReference</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Light Level</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Livello di luminosità</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Min density reference for illuminator insufficient light detection.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia minima luminosità per la rilevazione di problemi di luce insufficiente.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>encoderCounterFirstImage</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Encoder counter first image</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valore encoder prima immagine</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Encoder counter first image.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valore encoder prima immagine.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>IPAddress</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Camera IP address</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Indirizzo IP della camera</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Camera IPv4 address</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Indirizzo IPv4 della camera</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>formatNum</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Vial format number</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero del formato</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Vial format number loaded in camera</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero del formato caricato in camera</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>formatDesc</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Vial format description</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Descrizione del formato</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Vial format description loaded in camera</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Descrizione del formato caricato in camera</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>maxDensityReference</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Max density reference</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Riferimento densità massima</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Max density reference. Range: [0,255]</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Riferimento densità massima. Range: [0,255]</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>shutterTime</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Exposure time [us]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tempo di esposizione [us]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Exposure time of the camera shutter in microseconds.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tempo di esposizione della camera in microsecondi.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>pgaRawStart</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Normalization row start</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Riga inizio normalizzazione</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Normalization row start.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Riga inizio normalizzazione.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>pgaRawEnd</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Normalization row end</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Riga fine normalizzazione</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Normalization row end.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Riga fine normalizzazione.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>stroboTime</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>samplesVialAxis</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Samples number</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero di campioni</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Samples number.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero di campioni.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>findVialAxisX</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Find axis X</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Cerca asse X</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Find axis X. Range: [0,sensor width]</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Cerca asse X. Range: [0,larghezza sensore]</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>findVialAxisY</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Find axis Y</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Cerca asse Y</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Find axis Y. Range: [0,sensor height]</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Cerca asse Y. Range: [0,altezza sensore]</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>encoderTrigger</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Encoder trigger</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Encoder trigger</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Encoder trigger.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Encoder trigger.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>cameraOrientation</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Camera orientation</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Orientazione camera</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Camera orientation.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Orientazione camera.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>encoderSwapPhase</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Encoder swap phase</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Encoder swap phase</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Encoder swap phase.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Encoder swap phase.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>encoderToPixelFactor</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Encoder to pixel factor</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Encoder to pixel factor</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Encoder to pixel factor.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Encoder to pixel factor.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>flipImage</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Flip image</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Flip image</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Flip image.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Flip image.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>headOneOffset</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Head one offset</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Head one offset</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Head one offset.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Head one offset.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>headsNumber</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Heads number</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Heads number</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Heads number.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Heads number.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>IOOutDataValidDelay</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>IO out data valid delay</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>IO out data valid delay</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>IO out data valid delay.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>IO out data valid delay.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>IOOutDataValidWidth</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>IO out data valid width</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>IO out data valid width</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>IO out data valid width.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>IO out data valid width.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>triggerMode</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trigger mode</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Trigger mode</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trigger mode.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Trigger mode.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>triggerSlope</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trigger slope</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Trigger slope</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Trigger slope.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Trigger slope.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>cycleTime</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Max Cycle time</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Max tempo ciclo</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Max Cycle time available to the camera to inspect the images.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tempo massimo a disposizione della camera per l'elaborazione del treno di immagini.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>savedVialAxisFilename</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Vial axis filename</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Vial axis filename</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Vial axis filename.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Vial axis filename.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>vialFormatNum</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>vialFormatDesc</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>analysis</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>M12 Inspection analysis</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>M12 Analisi</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Type of the inspection analysis on the tip/alu seal control.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tipo di ispezione testina su Ispezione punta/ghiera.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>displayMode</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Result on Display Enabled</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Risultato abilitato a display</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Overlay result type to add to the origina image.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tipologia di risultati da sovrapporre all'immagine.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGCheckRingDrawring</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>On/Off Draw Ring</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione display analisi anelli</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>On/off Display analysis results on the original image</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione grafica analisi anelli su immagine risultato</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBinBlobLowValue</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>LowValue BinBlob</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>LowValue BinBlob</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Binarization LowValue BinBlob</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label />
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBinBlobMinAreaGlobal</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>MinArea BinBlob</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Area Minima BinBlol</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Min Area of the blob detected</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Area minima di rilevazione per i blob</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGSetTipLutEndIndex</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>LUT High</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Lut Hight Tip inspection</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>SetTipParam Lut High Value</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>SetTipParam fine scala LUT</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGSetTipLutStartIndex</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>LUT Low</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Lut Low Tip inspection</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>SetTipParam Lut Low Value</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>SetTipParam Lut Low Value</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGTipControlEdgeSumThreshold</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>EdgeSum Threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>EdgeSum Threshold</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>EdgeSum Threshold</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>EdgeSum Threshold</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGTipControlEdgeTollerance</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TIP Edge Tol</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TIP Edge Tol</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Tolerance of the tip shape compared to the model</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tolleranza deviazione punta misurata con profilo del modello</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRBinBlobMaxBlobAreaMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>BinBlob BlobAreaMin</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>BinBlob BlobAreaMin</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>BinBlob BlobAreaMin</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>BinBlob BlobAreaMin</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRBinBlobMaxBlobAreaMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>BinBlob BlobAreaMax</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>BinBlob BlobAreaMax</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>BinBlob BlobAreaMax</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>BinBlob BlobAreaMax</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRBinBlobNumberOfBlobsMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>BinBlob Max Blobs</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>BinBlob BlobAreaMax</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>BinBlob BlobAreaMax</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>BinBlob BlobAreaMax</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRBinBlobNumberOfBlobsMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>BinBlob Max Blobs</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>BinBlob Max Blobs</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Number of blobs max on BinBlob Analysis</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero massimo di blob accettati in binblob analysis</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRBinBlobSumOfBlobsAreaMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>BinBlob Sum Blobs AreaMax</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>BinBlob Max Blobs</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Number of blobs max on BinBlob Analysis</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero massimo di blob accettati in binblob analysis</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRBinBlobSumOfBlobsAreaMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>BinBlob Sum Blobs AreaMax</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>BinBlob Sum Blobs AreaMax</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>MaxArea on total of the blob</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Area massima data dalla somma delle aree dei blobs</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRTipControlIntegralSumMin</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRTipControlIntegralSumMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TipControl Integral SumMax</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TipControl Integral SumMax</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TipControl Integral SumMax</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TipControl Integral SumMax</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRTipControlMaxAngularDeviationMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TipControl AngularDeviation Min</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TipControl Deviazione Angolare Min</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TipControl Minimum angular deviation admitted for the MaxAngularDeviation result </Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Limite minimo per dezione angolare massima calcolata da TipControl</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRTipControlMaxAngularDeviationMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Max Angle Deviation</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Max Deviazione angolare</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Max Angle Deviation on TipControl</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Max Deviazione angolare nella TipControl</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRTipControlMaxDistanceFromModelMin</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRTipControlMaxDistanceFromModelMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TipControl Max Distance from Model</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TipControl Max Distance from Model</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TipControl Max Distance from Model</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TipControl Max Distance from Model</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRTipControlVialHeightMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Min Tip Height</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Altezza Minima Punta</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Minimum tip height accepted</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Altezza minima accettata della punta</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRTipControlVialHeightMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Max Tip Height</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Altezza Massima Punta</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum tip height accepted</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Altezza Massima accettata della punta</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGCheckRingContrast</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Rings Contrast thr</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia contrasto Rings</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Rings Contrast threshold</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia contrasto dei rings</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGCheckRingHeight</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Ring Height</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia altezza anelli</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Height rings threshold</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia di accezzazione altezza anelli</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGCheckRingHUE_1</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Ring 1 HUE</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Colore Hue anello 1</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Ring 1 HUE value</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Colore HUE atteso per il primo anello</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGCheckRingHUE_2</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Ring 2 HUE</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Colore Hue anello 2</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Ring 2 HUE value</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Colore HUE atteso per il secondo anello</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGCheckRingHUE_3</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Ring 3 HUE</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Colore Hue anello 3</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Ring 3 HUE value</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Colore HUE atteso per il terzo anello</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRCheckRingNumberOfRingsMin</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRCheckRingNumberOfRingsMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Number rings</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero di anelli</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Number of rings to be checked</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>numero di anelli da controllare</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRCheckRingColorRing1Min</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRCheckRingColorRing1Max</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRCheckRingColorRing2Min</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRCheckRingColorRing2Max</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRCheckRingColorRing3Min</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRCheckRingColorRing3Max</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>time</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBinBlobHighValue</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBinBlobInArea</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBinBlobIsBorderOFF</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBinBlobMask</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBinBlobOperationType</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGSetTipEdgeFillGap</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGSetTipEdgeMinLen</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGSetTipEdgeSmooth</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGSetTipFilterLen</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGSetTipFilterSigma</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGSetTipLutBitDepth</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGSetTipLutEndValue</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGSetTipLutStartValue</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGSetTipOrientation</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGTipControlFastEdge</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGTipControlIDraw</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGTipControlInArea</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGTipControlMaskInTollerance</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGToolTagType</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGSetTipModelPath</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TIP shape dxf</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Modello TIP dxf</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Tip shape model file .dxf</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>File del modello dxf della punta</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleFlipOffBinarizationBounding</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Binarization type</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff Tipo di Binarizzazione</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Binarization bounding selection type. 0 between indicated range, 1 between 0 and 255</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Selezione del tipo di binarizzazione. 0 con valori tra minimo e massimo indicati, 1 con valori tra 0 e 255</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleFlipOffGridSquareSize</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Grid resolution</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff risoluzione griglia</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Resolution of the grid analysis on the FlipOff </Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Risoluzione di analisi della griglia analisi FlipOff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleFlipOffGridType</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Grid type</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff tipo griglia</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Type of the grid analysis on the FlipOff </Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tipo griglia analisi FlipOff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleSleeveBinarizationBounding</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>AluSeal Binarization type</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tipo di Binarizzazione Ghiera</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Binarization bounding selection type. 0 between indicated range, 1 between 0 and 255</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Selezione del tipo di binarizzazione. 0 con valori tra minimo e massimo indicati, 1 con valori tra 0 e 255</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleSleeveGridSquareSize</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>AluSeal Grid resolution</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Risoluzione griglia Ghiera</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Resolution of the grid analysis on the AluSeal </Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Risoluzione di analisi della griglia analisi Ghiera</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleSleeveGridType</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>AluSeal Grid type</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tipo griglia Ghiera</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Type of the grid analysis on the AluSeal </Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tipo griglia analisi Ghiera</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleTopBinarizationBounding</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Top Binarization type</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tipo di Binarizzazione Top</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Binarization bounding selection type. 0 between indicated range, 1 between 0 and 255</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Selezione del tipo di binarizzazione. 0 con valori tra minimo e massimo indicati, 1 con valori tra 0 e 255</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleTopFinder_GrayMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Top Search Low Bin</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Top Search Low Bin</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Livello di grigio minimo appartenente all'oggetto in analisi affinchè il tool di ricerca lo rilevi</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleTopFinder_GrayMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Top Search High Bin</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Top Search High Bin</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Livello di grigio massimo appartenente all'oggetto in analisi affinchè il tool di ricerca lo rilevi</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>backgroundType</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Background selection</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Selezione tipo sfondo</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Background selection, 0=white, 1=black</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Selezione del tipo di sfondo, 0=Bianco, 1=Nero</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>orientation</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Camera Orientation</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Orientamento camera</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Camera orientation, 0 = Vertical, 1=horizontal</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Selezione del tipo di orientamento della camera, 0=Verticale, 1=Orizzontale</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleFlipOffLearning</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Learning FlipOff Analysis Data</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dati del learning flipOff Analisi</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleSleeveLearning</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Learning AluSeal Analysis Data</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dati del learning Analisi Ghiera</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trajectoryPrint</Id>
+    <ValueType />
+    <LocalizedInfo />
+    <LocalizedDescription />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ROIDynamicBottonReductcion</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>GAP Bottom</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>GAP Fondo</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>GAP applied to the bottom profile</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>GAP applicato al profilo rilevato del fondo</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ROIDynamicMeniscusReductcion</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>GAP Meniscus</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>GAP Menisco</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>GAP applied to the Meniscus profile</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>GAP applicato al profilo rilevato del menisco</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trajectoryPrint</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Traject Display</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Display traiettorie</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>On/Off Display on the result image the founded trajectory</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>On/OFF Visualizzazione nell'immagine risultato delle traiettorie rilevate</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>blobMaxAreaRejectConsecutiveFramesNumber</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>BlobMax Consecutive Frames Num</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>BlobMax numero di Frames consecutivi</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Number of consecutive frames to reject for BlobMax value</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero di immagini consecutive per lo scarto per valore di BlobMax</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>bottomAnalysisThreshold</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Bottom Sensibility</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Sensibilità fondo</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Bottom Analysis sensibility binarization value</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia di sensibilità per l'analisi del fondo</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleFlipOffBadBoxArea</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Box Area</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff Box Area </Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Minimum dimention of the area of the blob analysis on the flipOff analysis area</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Minimum dimention of the area of the blob analysis on the flipOff analysis area</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleFlipOffMinArea</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Min Area FlipOff</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Min Area FlipOff</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleFlipOffMaxArea</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Max Area FlipOff</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Max Area FlipOff</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valori di area entro cui un blob da origine ad uno scarto</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleFlipOffGrayMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Bin Low</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff Bin Low</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valori di area entro cui un blob da origine ad uno scarto</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleFlipOffGrayMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Bin High</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff Bin High</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valori di area entro cui un blob da origine ad uno scarto</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleFlipOffGrayRelative</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Gray Relative</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff soglia relativa</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valori di area entro cui un blob da origine ad uno scarto</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleFlipOffGridSensibility</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Sensibility</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff Sensibilità</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valori di area entro cui un blob da origine ad uno scarto</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleSleeveBadBoxArea</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>AluSeal Box Area</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>AluSeal Box Area</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valori di area entro cui un blob da origine ad uno scarto</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleSleeveBlobMinArea</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>AluSeal Min Area</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>AluSeal Min Area</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valori di area entro cui un blob da origine ad uno scarto</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleSleeveBlobMaxArea</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>AluSeal Max Area</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>AluSeal Max Area</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valori di area entro cui un blob da origine ad uno scarto</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleSleeveGrayMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>AluSeal Bin Low</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>AluSeal Bin Low</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Binarization Low value</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range minimo per la binarizzazione</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleSleeveGrayMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>AluSeal Bin High</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>AluSeal Bin High</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Binarization High value</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range massimo per la binarizzazione</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleSleeveGrayRelative</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Gray Relative</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff soglia relativa</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Grey level threshold for the relative binarization</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valori di soglia per la binarizzazione relativa</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleSleeveGridSensibility</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Crimping Sensibility</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Sensibilità Crimpatura</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Sensibility level for the crimping analysis</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valori di sensibilità per l'analisi della crimpatura</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleTopBlobMinArea</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Min Area</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff Min Area</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valori di area entro cui un blob da origine ad uno scarto</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleTopBlobMaxArea</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Max Area</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff Max Area</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label></Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valori di area massima del blob oltre al quale da origine ad uno scarto</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleTopColorMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Min Color</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Colore Minimo</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Accepted minimum value for the flipOff color</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valori di minimo accettabile per il colore del flipOff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleTopColorMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Max Color</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Colore Max</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Accepted Maximum value for the flipOff color</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valori di Massimo accettabile per il colore del flipOff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleTopGrayMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Low Gray Level</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Livello di grigio basso</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Low Level for the FlipOff analysis binarization</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valore inferiore di grigio per la binarizzazione analisi FlipOff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleTopGrayMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>High Gray Level</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Livello di grigio Alto</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>High Level for the FlipOff analysis binarization</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valore superiore di grigio per la binarizzazione analisi FlipOff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleTopGrayRelative</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Max Gray Level</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Max livello di grigio</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Level for the relative binarization on the FlipOff analysis </Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia per la binarizzazione relativa analisi FlipOff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleTopRay</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff manual ROI dimention</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff Raggio ROI manual</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Ray for the ROI analysis of the FlipOff</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione Raggio della ROI manuale per l'analisi del FlipOff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRBottleFlipOffWidthMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Min FlipOff Width</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Ampiezza Min FlipOff</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Minimum FlipOff Width dimension</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione larghezza minima del FlipOff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRBottleFlipOffWidthMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Max FlipOff Width</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Ampiezza Max FlipOff</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum FlipOff Width dimension</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione larghezza Massima del FlipOff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRBottleHeightMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Vial Min Height</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Altezza Min Flacone</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Minimum Vial Height dimension</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione altezza minima del flacone</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRBottleHeightMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Vial Max Height</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Altezza Max Flacone</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum Vial Height dimension</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione altezza Massima del flacone</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRBottleSleeveWidthMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>AluSeal Min Width</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Larghezza Min ghiera</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Minimum AluSeal width dimension</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione larghezza minima della ghiera</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRBottleSleeveWidthMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>AluSeal Max Width</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Larghezza Max ghiera</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum AluSeal width dimension</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione larghezza massima della ghiera</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRBottleSleeveHeightMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>AluSeal Max Height</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Altezza Min ghiera</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Minimum AluSeal Height dimension</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione altezza minima della ghiera</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THRBottleSleeveHeightMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>AluSeal Max Height</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Altezza Max ghiera</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Maximum AluSeal Height dimension</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Dimensione altezza massima della ghiera</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THR_BottleTop_GrayMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Min Value</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff Min Value</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Saturation min value for the FlipOff analysis</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valore minimo accettato per la saturazione nell'analisi del flipoff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THR_BottleTop_GrayMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Max Value</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff Max Value</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Saturation Max value for the FlipOff analysis</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valore massimo accettato per la saturazione nell'analisi del flipoff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THR_BottleTop_AreaMin</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Min Area</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff Min Area</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Min Area value detected on the FlipOff analysis</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valore minimo di area rilevata nell'analisi del flipoff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>THR_BottleTop_AreaMax</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Max Area</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>FlipOff Max Area</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Max Area value detected on the FlipOff analysis</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Valore massimo di area rilevata nell'analisi del flipoff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>bottomAnalysis</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>On/Off Bottom analysis</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>On/Off Analisi del fondo</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable/Disable bottom inspection</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione analisi del fondo</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>trackingEnable</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>On/Off Trajectory</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>On/Off Traiettorie</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable/Disable trajectory analysis</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione analisi delle traiettorie</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>enableHear</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>On/Off Camera</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>On/Off Camera</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Enable/Disable the selected camera</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Abilitazione camera selezionata</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleFlipOffInspectionType</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff Analysis type</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tipo Analisi FlipOff</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Selection of the analysis of the flipoff</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Selezione tipologia analisi flipoff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleSleeveInspectionType</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>AluSeal Analysis type</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tipo Analisi ghiera</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Selection of the analysis of the aluseal</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Selezione tipologia analisi ghiera</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleWeldingInspectionType</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Type Crimping Analysis</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tipo Analisi crimpatura</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Selection of the analysis of the crimping integrity</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Selezione analisi integrità crimpatura</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleTopDetect</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>FlipOff detection type</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tipo rilevamento FlipOff</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Selection of the detection of the FlipOff</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Selezione tipo di rilevamento presenza FlipOff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleTopInspectionType</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Type FlipOff Analysis</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tipo Analisi FlipOff</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Selection of the analysis of the FlipOff</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Selezione tipo di analisi presenza FlipOff</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGColorConversionChannel</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Select Color conversion</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Selezione canale colore</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Selection of the color conversions bank</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Selezione tipo di banco di conversione colore usare</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ARGBottleFlipOffPresence</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Flip Off presence</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Presenza FlipOff</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>On/Off FlipOff presence</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>On/Off FlipOff presence</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>debugPrint</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>On/Off Debug Info</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>On/Off Debug Info</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>On/Off Debug information on the image</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>On/Off Debug information on the image</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>logImages</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>On/Off Images saving</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>On/Off Salvataggio Img</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>On/Off Saving of the images on file. ATTENTION time consuming</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>On/Off salvataggio immagini in locate. ATTENZIONE rallenta l'analisi</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>bottomAnalysisMinCount</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Bottom Analysis Min Frames</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Analisi fondo num immagini</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Bottom Analysis minimum consecutives frame</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Minimo numero di frame consecutivi per l'analisi del fondo</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>label_it</Id>
+    <ValueType />
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>label_en</Id>
+    <ValueType />
+  </ParameterInfo>
+</ArrayOfParameterInfo>

@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8DBE65FB-4C7E-4B23-9FE3-0C23FECA3B1E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SPAMI.Util.EmguImageViewer</RootNamespace>
+    <AssemblyName>ImageViewer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emgu.CV">
+      <HintPath>..\lib\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI">
+      <HintPath>..\lib\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.Util">
+      <HintPath>..\lib\Emgu.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="GuiUtilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\GuiUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="JacksonSoft.CustomTabControl">
+      <HintPath>..\lib\JacksonSoft.CustomTabControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Logger, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Logger.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Utilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph">
+      <HintPath>..\lib\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BigHistForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BigHistForm.Designer.cs">
+      <DependentUpon>BigHistForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageInfo.cs" />
+    <Compile Include="ImageViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ImageViewer.Designer.cs">
+      <DependentUpon>ImageViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BigHistForm.resx">
+      <DependentUpon>BigHistForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageViewer.resx">
+      <DependentUpon>ImageViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-original.png" />
+    <None Include="Resources\zoom-fit-best.png" />
+    <None Include="Resources\recRGB.png" />
+    <None Include="Resources\recBlink.png" />
+    <None Include="Resources\rec.png" />
+    <None Include="Resources\next.png" />
+    <None Include="Resources\prev.png" />
+    <None Include="Resources\stop.png" />
+    <None Include="Resources\pause.png" />
+    <None Include="Resources\play.png" />
+    <None Include="Resources\document-multiple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xloadZoom.png" />
+    <None Include="Resources\folder-downloads.png" />
+    <None Include="Resources\text.png" />
+    <None Include="Resources\xload.png" />
+    <None Include="Resources\system-reboot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webcamreceive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-playback-start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-playback-pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-playback-stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-skip-backward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-skip-forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-recordGray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-record.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-recordGray1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_fewer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-table-delete-column.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert-table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert-horizontal-rule.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert-vertical-rule.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera-photo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list-add1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail-mark-junk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text-x-hex.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(TargetPath)" "$(SolutionDir)$(SolutionName)\$(OutDir)"
+copy /Y "$(TargetDir)$(TargetName).pdb" "$(SolutionDir)$(SolutionName)\$(OutDir)"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

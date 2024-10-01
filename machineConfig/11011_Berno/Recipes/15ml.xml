@@ -1,0 +1,4145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Recipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RecipeName>Ampoules15ml</RecipeName>
+  <RecipeVersion>1</RecipeVersion>
+  <Cams>
+    <Cam>
+      <Id>0</Id>
+      <Enabled>true</Enabled>
+      <AcquisitionParameters>
+        <AcquisitionParameter>
+          <Id>vialFormatNum</Id>
+          <Label>Vial format number</Label>
+          <Value>0</Value>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>vialFormatDesc</Id>
+          <Label>$vialFormatDesc</Label>
+          <Value>BERNO 10ml TRASP</Value>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>numberOfFrames</Id>
+          <Label>Number of frames</Label>
+          <Value>18</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>25</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>cameraShutter</Id>
+          <Label>Exposure time [us]</Label>
+          <Value>21</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>cameraGain</Id>
+          <Label>Gain</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1023</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>strobeEnable</Id>
+          <Label>On/Off Strobo</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>strobeTime</Id>
+          <Label>Strobe pulse width [us]</Label>
+          <Value>27</Value>
+          <MinValue>10</MinValue>
+          <MaxValue>260</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>acquisitionDelay</Id>
+          <Label>Acquisition delay [us]</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>gainBlue</Id>
+          <Label>Blue gain</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>gainRed</Id>
+          <Label>Red gain</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>gainGreen</Id>
+          <Label>Green gain</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>strobeOut</Id>
+          <Label>Strobe pin out</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>triggerInput</Id>
+          <Label>Trigger input</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>aoiEnable</Id>
+          <Label>A.O.I. Enable</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>aoiStartCol</Id>
+          <Label>A.O.I. X Start</Label>
+          <Value>576</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2047</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>aoiStartRow</Id>
+          <Label>A.O.I. Y Start</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2047</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>aoiResX</Id>
+          <Label>A.O.I. X Width</Label>
+          <Value>896</Value>
+          <MinValue>16</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>aoiResY</Id>
+          <Label>A.O.I. Y Width</Label>
+          <Value>2048</Value>
+          <MinValue>64</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>IPAddress</Id>
+          <Label>Camera IP address</Label>
+          <Value>10.200.12.82</Value>
+          <IsVisible>0</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>savedVialAxisFilename</Id>
+          <Label>Vial axis filename</Label>
+          <Value>192.168.12.22_vial_24000.xml</Value>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+      </AcquisitionParameters>
+      <FeaturesEnableParameters>
+        <FeaturesEnableParameter>
+          <Id>analysisEnable</Id>
+          <Label>Analysis enable</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>overlayInformation</Id>
+          <Label>Overlay information enable</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>printBlobs</Id>
+          <Label>Blobs Display</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>printBubbles</Id>
+          <Label>Bubbles Display</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>saveDifferenceImages</Id>
+          <Label>Enable saving difference images</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>saveTrajectory</Id>
+          <Label>Enable save trajectory</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>sendDecimatedLive</Id>
+          <Label>Send decimated live</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>sendResultImage</Id>
+          <Label>Enable send result image</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>sendTrajectories</Id>
+          <Label>Send trajectories</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>meniscusAnalysis</Id>
+          <Label>Enable meniscus analysis</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>meniscusAnalysisPlot</Id>
+          <Label>Meniscus analysis Display</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>pgaEnable</Id>
+          <Label>Enable sensor normalization</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>ROIDynamic</Id>
+          <Label>Enable dynamic ROI</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>ROIDynamicOverlay</Id>
+          <Label>Enable ROI plot on results</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>ROIBottomExpansion</Id>
+          <Label>Enable ROI bottom expansion</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>trackingKalmanPrediction</Id>
+          <Label>Enable Kalman filter for tracking</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>fillingLevelEnable</Id>
+          <Label>Enable filling analysis</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>maskingBlobs</Id>
+          <Label>Enable blob masking</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>maskingBlobsPrint</Id>
+          <Label>Enable blob masking Display</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>trajectoryPrint</Id>
+          <Label>$trajectoryPrint</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>bottomAnalysis</Id>
+          <Label>On/Off Bottom analysis</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>trackingEnable</Id>
+          <Label>On/Off Trajectory</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+      </FeaturesEnableParameters>
+      <RecipeSimpleParameters>
+        <RecipeSimpleParameter>
+          <Id>rleLowThreshold</Id>
+          <Label>Sensibility</Label>
+          <Value>9</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>ROIDynamicHighThreshold</Id>
+          <Label>ROI Bin High Threshold</Label>
+          <Value>243</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>ROIDynamicLowThreshold</Id>
+          <Label>ROI Bin Low Threshold</Label>
+          <Value>50</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>ROIDynamicBottonReductcion</Id>
+          <Label>GAP Bottom</Label>
+          <Value>18</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>ROIDynamicMeniscusReductcion</Id>
+          <Label>GAP Meniscus</Label>
+          <Value>15</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>meniscusPUMThreshold</Id>
+          <Label>Meniscus P.U.M. threshold</Label>
+          <Value>110</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>blobMaxAreaReject</Id>
+          <Label>Blob max area reject</Label>
+          <Value>100</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100000</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>blobMaxAreaRejectConsecutiveFramesNumber</Id>
+          <Label>BlobMax Consecutive Frames Num</Label>
+          <Value>2</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>blobMaxAreaRejectLowThreshold</Id>
+          <Label>Blob max area reject LowThreshold</Label>
+          <Value>60</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100000</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>blobsMinArea</Id>
+          <Label>Blobs min area</Label>
+          <Value>8</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>fillingLevelMin</Id>
+          <Label>Filling level min</Label>
+          <Value>100</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>fillingLevelMax</Id>
+          <Label>Filling level max</Label>
+          <Value>2000</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>minDensityReference</Id>
+          <Label>Light Level</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>bottomAnalysisThreshold</Id>
+          <Label>Bottom Sensibility</Label>
+          <Value>40</Value>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+      </RecipeSimpleParameters>
+      <RecipeAdvancedParameters>
+        <RecipeAdvancedParameter>
+          <Id>morphologicalFilter1</Id>
+          <Label>1st morphological filter</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>morphologicalFilter2</Id>
+          <Label>2nd morphological filter</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>rleBufferSize</Id>
+          <Label>RLE buffer size</Label>
+          <Value>1000000</Value>
+          <MinValue>1000000</MinValue>
+          <MaxValue>1000000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>ROIDynamicMorphIter</Id>
+          <Label>ROI dynamic morph. iter</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>20</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>meniscusAnalysisMinCount</Id>
+          <Label>Meniscus analysis min count</Label>
+          <Value>10</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>meniscusAnalysisThreshold</Id>
+          <Label>Meniscus analysis threshold</Label>
+          <Value>30</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>meniscusPUMOffset</Id>
+          <Label>P.U.M. pixel offset</Label>
+          <Value>50</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1024</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>blobsMaxNumber</Id>
+          <Label>Blobs max number</Label>
+          <Value>100</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>bubbleMaxShapeFactor</Id>
+          <Label>Bubble max shape factor</Label>
+          <Value>1.5</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>bubbleOpticalDensityMinDiff</Id>
+          <Label>Bubble optical density min diff</Label>
+          <Value>200</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>bubbleSizeMaximum</Id>
+          <Label>Bubble size maximum</Label>
+          <Value>50</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>bubbleSizeMinimum</Id>
+          <Label>Bubble size minimum</Label>
+          <Value>7</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxAcceleration</Id>
+          <Label>Tracking max acceleration</Label>
+          <Value>4</Value>
+          <MinValue>-1</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxAreaRatio</Id>
+          <Label>Tracking max area ratio</Label>
+          <Value>5</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxHeightRatio</Id>
+          <Label>Tracking max height ratio</Label>
+          <Value>5</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxWidthRatio</Id>
+          <Label>Tracking max width ratio</Label>
+          <Value>5</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxSegmentAngle</Id>
+          <Label>Tracking max segment angle</Label>
+          <Value>45</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>90</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxTrajectoryAngle</Id>
+          <Label>Tracking max traj. angle</Label>
+          <Value>30</Value>
+          <MinValue>-1</MinValue>
+          <MaxValue>180</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMinDistance</Id>
+          <Label>Tracking min distance</Label>
+          <Value>5</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingNumberFramesBackward</Id>
+          <Label>Tracking frames number backward</Label>
+          <Value>2</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>3</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingFrameBackwardReduction</Id>
+          <Label>Tracking frame backward reduction</Label>
+          <Value>25</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoriesBufferSize</Id>
+          <Label>Trajectories buffer size</Label>
+          <Value>1000000</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryAllSegmentsMaxLength</Id>
+          <Label>Trajectory all segments max length</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryAllSegmentsMinLength</Id>
+          <Label>Trajectory all segments min length</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryRecurrentBackward</Id>
+          <Label>Trajectory recurrent backward num</Label>
+          <Value>10</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryRecurrentMaxAngle</Id>
+          <Label>Trajectory recurrent max angle</Label>
+          <Value>15</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>180</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryRecurrentMaxDistance</Id>
+          <Label>Trajectory recurrent max distance</Label>
+          <Value>20</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryRecurrentMinCount</Id>
+          <Label>Trajectory recurrent min count</Label>
+          <Value>2</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryRecurrentMinLength</Id>
+          <Label>Trajectory recurrent min length</Label>
+          <Value>3</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>maskingBlobsHighThreshold</Id>
+          <Label>Masking blobs high threshold</Label>
+          <Value>10</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>maskingBlobsLowThreshold</Id>
+          <Label>Masking blobs low threshold</Label>
+          <Value>5</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>encoderCounterFirstImage</Id>
+          <Label>Encoder counter first image</Label>
+          <Value>340</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>bottomAnalysisMinCount</Id>
+          <Label>Bottom Analysis Min Frames</Label>
+          <Value>5</Value>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxDistance</Id>
+          <Label>Tracking max distance</Label>
+          <Value>180</Value>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryMaxAngle</Id>
+          <Label>Trajectory max angle</Label>
+          <Value>70</Value>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryMinArea</Id>
+          <Label>Trajectory min area</Label>
+          <Value>5</Value>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryMinSegmentNumber</Id>
+          <Label>Trajectory min segment number</Label>
+          <Value>2</Value>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+      </RecipeAdvancedParameters>
+      <ROIParameters>
+        <ArrayOfROIParameter>
+          <ROIParameter>
+            <Id>label_it</Id>
+            <Label>$label_it</Label>
+            <Value>ROI Controllo Particellare</Value>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>label_en</Id>
+            <Label>$label_en</Label>
+            <Value>ROI Particle Inspection</Value>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiID</Id>
+            <Label>ROI ID</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>100</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiType</Id>
+            <Label>ROI type</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>10</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiX1</Id>
+            <Label>ROI Start X</Label>
+            <Value>100</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiX2</Id>
+            <Label>ROI End X</Label>
+            <Value>820</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiY1</Id>
+            <Label>ROI Start Y</Label>
+            <Value>650</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiY2</Id>
+            <Label>ROI End Y</Label>
+            <Value>1950</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiColor</Id>
+            <Label>ROI color</Label>
+            <Value>250</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>255</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiFill</Id>
+            <Label>ROI fill color</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>1</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiPlot</Id>
+            <Label>Enable ROI Display</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>1</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+        </ArrayOfROIParameter>
+        <ArrayOfROIParameter>
+          <ROIParameter>
+            <Id>label_it</Id>
+            <Label>$label_it</Label>
+            <Value>ROI Controllo Luce</Value>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>label_en</Id>
+            <Label>$label_en</Label>
+            <Value>ROI Light Control</Value>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiID</Id>
+            <Label>ROI ID</Label>
+            <Value>1</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>100</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiType</Id>
+            <Label>ROI type</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>10</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiX1</Id>
+            <Label>ROI Start X</Label>
+            <Value>380</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiX2</Id>
+            <Label>ROI End X</Label>
+            <Value>535</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiY1</Id>
+            <Label>ROI Start Y</Label>
+            <Value>1601</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiY2</Id>
+            <Label>ROI End Y</Label>
+            <Value>1850</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiColor</Id>
+            <Label>ROI color</Label>
+            <Value>255</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>255</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiFill</Id>
+            <Label>ROI fill color</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>1</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiPlot</Id>
+            <Label>Enable ROI Display</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>1</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+        </ArrayOfROIParameter>
+      </ROIParameters>
+      <MachineParameters>
+        <MachineParameter>
+          <Id>cameraOrientation</Id>
+          <Label>Camera orientation</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>encoderSwapPhase</Id>
+          <Label>Encoder swap phase</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>encoderToPixelFactor</Id>
+          <Label>Encoder to pixel factor</Label>
+          <Value>0.64</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>flipImage</Id>
+          <Label>Flip image</Label>
+          <Value>2</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>headOneOffset</Id>
+          <Label>Head one offset</Label>
+          <Value>26</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>headsNumber</Id>
+          <Label>Heads number</Label>
+          <Value>40</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>IOOutDataValidDelay</Id>
+          <Label>IO out data valid delay</Label>
+          <Value>100</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>IOOutDataValidWidth</Id>
+          <Label>IO out data valid width</Label>
+          <Value>20000</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>triggerMode</Id>
+          <Label>Trigger mode</Label>
+          <Value>3</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>triggerSlope</Id>
+          <Label>Trigger slope</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>cycleTime</Id>
+          <Label>Max Cycle time</Label>
+          <Value>300</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+      </MachineParameters>
+      <StroboParameters />
+      <Lights>
+        <Light>
+          <Id>0</Id>
+          <StroboParameters>
+            <StroboParameter>
+              <Id>stroboOperatingMode</Id>
+              <Label>Strobe operating mode</Label>
+              <Value>Pulsed</Value>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues>
+                <string>Pulsed</string>
+                <string>Continuous</string>
+                <string>OFF</string>
+              </AdmittedValues>
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboCurrent</Id>
+              <Label>Strobe current [A]</Label>
+              <Value>2</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>20</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboPulseDelay</Id>
+              <Label>Strobe pulse delay</Label>
+              <Value>0.002</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboPulseWidth</Id>
+              <Label>Strobe pulse width [ms]</Label>
+              <Value>0.2</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboRetriggerTime</Id>
+              <Label>Strobe retrigger time [ms]</Label>
+              <Value>2</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboContinuousMaxCurrent</Id>
+              <Label>Strobe continuous max current [A]</Label>
+              <Value>0.5</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>20</MaxValue>
+              <IsVisible>5</IsVisible>
+              <IsEditable>10</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboPulsedMaxCurrent</Id>
+              <Label>Strobe pulsed max current [A]</Label>
+              <Value>4</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>20</MaxValue>
+              <IsVisible>5</IsVisible>
+              <IsEditable>10</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+          </StroboParameters>
+        </Light>
+      </Lights>
+    </Cam>
+    <Cam>
+      <Id>1</Id>
+      <Enabled>true</Enabled>
+      <AcquisitionParameters>
+        <AcquisitionParameter>
+          <Id>vialFormatNum</Id>
+          <Label>Vial format number</Label>
+          <Value>0</Value>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>vialFormatDesc</Id>
+          <Label>$vialFormatDesc</Label>
+          <Value>BERNO 10ml TRASP</Value>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>numberOfFrames</Id>
+          <Label>Number of frames</Label>
+          <Value>18</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>25</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>cameraShutter</Id>
+          <Label>Exposure time [us]</Label>
+          <Value>28</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>cameraGain</Id>
+          <Label>Gain</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1023</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>strobeEnable</Id>
+          <Label>On/Off Strobo</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>strobeTime</Id>
+          <Label>Strobe pulse width [us]</Label>
+          <Value>38</Value>
+          <MinValue>10</MinValue>
+          <MaxValue>260</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>acquisitionDelay</Id>
+          <Label>Acquisition delay [us]</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>gainBlue</Id>
+          <Label>Blue gain</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>gainRed</Id>
+          <Label>Red gain</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>gainGreen</Id>
+          <Label>Green gain</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>strobeOut</Id>
+          <Label>Strobe pin out</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>triggerInput</Id>
+          <Label>Trigger input</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>aoiEnable</Id>
+          <Label>A.O.I. Enable</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>aoiStartCol</Id>
+          <Label>A.O.I. X Start</Label>
+          <Value>576</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2047</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>aoiStartRow</Id>
+          <Label>A.O.I. Y Start</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2047</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>aoiResX</Id>
+          <Label>A.O.I. X Width</Label>
+          <Value>896</Value>
+          <MinValue>16</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>aoiResY</Id>
+          <Label>A.O.I. Y Width</Label>
+          <Value>2048</Value>
+          <MinValue>64</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>IPAddress</Id>
+          <Label>Camera IP address</Label>
+          <Value>10.200.13.73</Value>
+          <IsVisible>0</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>savedVialAxisFilename</Id>
+          <Label>Vial axis filename</Label>
+          <Value>192.168.13.23_vial_24000.xml</Value>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+      </AcquisitionParameters>
+      <FeaturesEnableParameters>
+        <FeaturesEnableParameter>
+          <Id>analysisEnable</Id>
+          <Label>Analysis enable</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>overlayInformation</Id>
+          <Label>Overlay information enable</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>printBlobs</Id>
+          <Label>Blobs Display</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>printBubbles</Id>
+          <Label>Bubbles Display</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>saveDifferenceImages</Id>
+          <Label>Enable saving difference images</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>saveTrajectory</Id>
+          <Label>Enable save trajectory</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>sendDecimatedLive</Id>
+          <Label>Send decimated live</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>sendResultImage</Id>
+          <Label>Enable send result image</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>sendTrajectories</Id>
+          <Label>Send trajectories</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>meniscusAnalysis</Id>
+          <Label>Enable meniscus analysis</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>meniscusAnalysisPlot</Id>
+          <Label>Meniscus analysis Display</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>pgaEnable</Id>
+          <Label>Enable sensor normalization</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>ROIDynamic</Id>
+          <Label>Enable dynamic ROI</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>ROIDynamicOverlay</Id>
+          <Label>Enable ROI plot on results</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>ROIBottomExpansion</Id>
+          <Label>Enable ROI bottom expansion</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>trackingKalmanPrediction</Id>
+          <Label>Enable Kalman filter for tracking</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>fillingLevelEnable</Id>
+          <Label>Enable filling analysis</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>maskingBlobs</Id>
+          <Label>Enable blob masking</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>maskingBlobsPrint</Id>
+          <Label>Enable blob masking Display</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>trajectoryPrint</Id>
+          <Label>Display trajectory</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>bottomAnalysis</Id>
+          <Label>On/Off Bottom analysis</Label>
+          <Value>0</Value>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>trackingEnable</Id>
+          <Label>On/Off Trajectory</Label>
+          <Value>1</Value>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+      </FeaturesEnableParameters>
+      <RecipeSimpleParameters>
+        <RecipeSimpleParameter>
+          <Id>rleLowThreshold</Id>
+          <Label>Sensibility</Label>
+          <Value>11</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>ROIDynamicHighThreshold</Id>
+          <Label>ROI Bin High Threshold</Label>
+          <Value>243</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>ROIDynamicLowThreshold</Id>
+          <Label>ROI Bin Low Threshold</Label>
+          <Value>60</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>ROIDynamicBottonReductcion</Id>
+          <Label>GAP Bottom</Label>
+          <Value>15</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>ROIDynamicMeniscusReductcion</Id>
+          <Label>GAP Meniscus</Label>
+          <Value>30</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>meniscusPUMThreshold</Id>
+          <Label>Meniscus P.U.M. threshold</Label>
+          <Value>110</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>blobMaxAreaReject</Id>
+          <Label>Blob max area reject</Label>
+          <Value>100</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100000</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>blobMaxAreaRejectConsecutiveFramesNumber</Id>
+          <Label>BlobMax Consecutive Frames Num</Label>
+          <Value>2</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>blobMaxAreaRejectLowThreshold</Id>
+          <Label>Blob max area reject LowThreshold</Label>
+          <Value>60</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100000</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>blobsMinArea</Id>
+          <Label>Blobs min area</Label>
+          <Value>8</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>fillingLevelMin</Id>
+          <Label>Filling level min</Label>
+          <Value>100</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>fillingLevelMax</Id>
+          <Label>Filling level max</Label>
+          <Value>2000</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>minDensityReference</Id>
+          <Label>Light Level</Label>
+          <Value>0</Value>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>bottomAnalysisThreshold</Id>
+          <Label>Bottom Sensibility</Label>
+          <Value>40</Value>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+      </RecipeSimpleParameters>
+      <RecipeAdvancedParameters>
+        <RecipeAdvancedParameter>
+          <Id>morphologicalFilter1</Id>
+          <Label>1st morphological filter</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>morphologicalFilter2</Id>
+          <Label>2nd morphological filter</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>rleBufferSize</Id>
+          <Label>RLE buffer size</Label>
+          <Value>1000000</Value>
+          <MinValue>1000000</MinValue>
+          <MaxValue>1000000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>ROIDynamicMorphIter</Id>
+          <Label>ROI dynamic morph. iter</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>20</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>meniscusAnalysisMinCount</Id>
+          <Label>Meniscus analysis min count</Label>
+          <Value>10</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>meniscusAnalysisThreshold</Id>
+          <Label>Meniscus analysis threshold</Label>
+          <Value>30</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>meniscusPUMOffset</Id>
+          <Label>P.U.M. pixel offset</Label>
+          <Value>50</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1024</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>blobsMaxNumber</Id>
+          <Label>Blobs max number</Label>
+          <Value>100</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>bubbleMaxShapeFactor</Id>
+          <Label>Bubble max shape factor</Label>
+          <Value>1.5</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>bubbleOpticalDensityMinDiff</Id>
+          <Label>Bubble optical density min diff</Label>
+          <Value>200</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>bubbleSizeMaximum</Id>
+          <Label>Bubble size maximum</Label>
+          <Value>50</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>bubbleSizeMinimum</Id>
+          <Label>Bubble size minimum</Label>
+          <Value>7</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxAcceleration</Id>
+          <Label>Tracking max acceleration</Label>
+          <Value>4</Value>
+          <MinValue>-1</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxAreaRatio</Id>
+          <Label>Tracking max area ratio</Label>
+          <Value>5</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxHeightRatio</Id>
+          <Label>Tracking max height ratio</Label>
+          <Value>5</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxWidthRatio</Id>
+          <Label>Tracking max width ratio</Label>
+          <Value>5</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxSegmentAngle</Id>
+          <Label>Tracking max segment angle</Label>
+          <Value>45</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>90</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxTrajectoryAngle</Id>
+          <Label>Tracking max traj. angle</Label>
+          <Value>30</Value>
+          <MinValue>-1</MinValue>
+          <MaxValue>180</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMinDistance</Id>
+          <Label>Tracking min distance</Label>
+          <Value>5</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingNumberFramesBackward</Id>
+          <Label>Tracking frames number backward</Label>
+          <Value>2</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>3</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingFrameBackwardReduction</Id>
+          <Label>Tracking frame backward reduction</Label>
+          <Value>25</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoriesBufferSize</Id>
+          <Label>Trajectories buffer size</Label>
+          <Value>1000000</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryAllSegmentsMaxLength</Id>
+          <Label>Trajectory all segments max length</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryAllSegmentsMinLength</Id>
+          <Label>Trajectory all segments min length</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryRecurrentBackward</Id>
+          <Label>Trajectory recurrent backward num</Label>
+          <Value>10</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryRecurrentMaxAngle</Id>
+          <Label>Trajectory recurrent max angle</Label>
+          <Value>15</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>180</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryRecurrentMaxDistance</Id>
+          <Label>Trajectory recurrent max distance</Label>
+          <Value>20</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryRecurrentMinCount</Id>
+          <Label>Trajectory recurrent min count</Label>
+          <Value>2</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryRecurrentMinLength</Id>
+          <Label>Trajectory recurrent min length</Label>
+          <Value>3</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>maskingBlobsHighThreshold</Id>
+          <Label>Masking blobs high threshold</Label>
+          <Value>10</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>maskingBlobsLowThreshold</Id>
+          <Label>Masking blobs low threshold</Label>
+          <Value>5</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>encoderCounterFirstImage</Id>
+          <Label>Encoder counter first image</Label>
+          <Value>240</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>bottomAnalysisMinCount</Id>
+          <Label>Bottom Analysis Min Frames</Label>
+          <Value>10</Value>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxDistance</Id>
+          <Label>Tracking max distance</Label>
+          <Value>200</Value>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryMaxAngle</Id>
+          <Label>Trajectory max angle</Label>
+          <Value>70</Value>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryMinArea</Id>
+          <Label>Trajectory min area</Label>
+          <Value>5</Value>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryMinSegmentNumber</Id>
+          <Label>Trajectory min segment number</Label>
+          <Value>2</Value>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+      </RecipeAdvancedParameters>
+      <ROIParameters>
+        <ArrayOfROIParameter>
+          <ROIParameter>
+            <Id>label_it</Id>
+            <Label>$label_it</Label>
+            <Value>ROI Controllo Particellare</Value>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>label_en</Id>
+            <Label>$label_en</Label>
+            <Value>ROI Particle Inspection</Value>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiID</Id>
+            <Label>ROI ID</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>100</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiType</Id>
+            <Label>ROI type</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>10</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiX1</Id>
+            <Label>ROI Start X</Label>
+            <Value>100</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiX2</Id>
+            <Label>ROI End X</Label>
+            <Value>800</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiY1</Id>
+            <Label>ROI Start Y</Label>
+            <Value>250</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiY2</Id>
+            <Label>ROI End Y</Label>
+            <Value>1980</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiColor</Id>
+            <Label>ROI color</Label>
+            <Value>250</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>255</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiFill</Id>
+            <Label>ROI fill color</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>1</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiPlot</Id>
+            <Label>Enable ROI Display</Label>
+            <Value>1</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>1</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+        </ArrayOfROIParameter>
+        <ArrayOfROIParameter>
+          <ROIParameter>
+            <Id>label_it</Id>
+            <Label>$label_it</Label>
+            <Value>ROI Controllo Luce</Value>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>label_en</Id>
+            <Label>$label_en</Label>
+            <Value>ROI Light Control</Value>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiID</Id>
+            <Label>ROI ID</Label>
+            <Value>1</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>100</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiType</Id>
+            <Label>ROI type</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>10</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiX1</Id>
+            <Label>ROI Start X</Label>
+            <Value>380</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiX2</Id>
+            <Label>ROI End X</Label>
+            <Value>535</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiY1</Id>
+            <Label>ROI Start Y</Label>
+            <Value>1601</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiY2</Id>
+            <Label>ROI End Y</Label>
+            <Value>1850</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiColor</Id>
+            <Label>ROI color</Label>
+            <Value>255</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>255</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiFill</Id>
+            <Label>ROI fill color</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>1</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiPlot</Id>
+            <Label>Enable ROI Display</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>1</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+        </ArrayOfROIParameter>
+      </ROIParameters>
+      <MachineParameters>
+        <MachineParameter>
+          <Id>cameraOrientation</Id>
+          <Label>Camera orientation</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>encoderSwapPhase</Id>
+          <Label>Encoder swap phase</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>encoderToPixelFactor</Id>
+          <Label>Encoder to pixel factor</Label>
+          <Value>0.64</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>flipImage</Id>
+          <Label>Flip image</Label>
+          <Value>2</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>headOneOffset</Id>
+          <Label>Head one offset</Label>
+          <Value>19</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>headsNumber</Id>
+          <Label>Heads number</Label>
+          <Value>40</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>IOOutDataValidDelay</Id>
+          <Label>IO out data valid delay</Label>
+          <Value>100</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>IOOutDataValidWidth</Id>
+          <Label>IO out data valid width</Label>
+          <Value>20000</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>triggerMode</Id>
+          <Label>Trigger mode</Label>
+          <Value>3</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>triggerSlope</Id>
+          <Label>Trigger slope</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>cycleTime</Id>
+          <Label>Max Cycle time</Label>
+          <Value>300</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+      </MachineParameters>
+      <StroboParameters />
+      <Lights>
+        <Light>
+          <Id>0</Id>
+          <StroboParameters>
+            <StroboParameter>
+              <Id>stroboOperatingMode</Id>
+              <Label>Strobe operating mode</Label>
+              <Value>Pulsed</Value>
+              <IsVisible>0</IsVisible>
+              <IsEditable>0</IsEditable>
+              <AdmittedValues>
+                <string>Pulsed</string>
+                <string>Continuous</string>
+                <string>OFF</string>
+              </AdmittedValues>
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboCurrent</Id>
+              <Label>Strobe current [A]</Label>
+              <Value>2</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>20</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboPulseDelay</Id>
+              <Label>Strobe pulse delay</Label>
+              <Value>0.002</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboPulseWidth</Id>
+              <Label>Strobe pulse width [ms]</Label>
+              <Value>0.2</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboRetriggerTime</Id>
+              <Label>Strobe retrigger time [ms]</Label>
+              <Value>2</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboContinuousMaxCurrent</Id>
+              <Label>Strobe continuous max current [A]</Label>
+              <Value>0.5</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>20</MaxValue>
+              <IsVisible>5</IsVisible>
+              <IsEditable>10</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboPulsedMaxCurrent</Id>
+              <Label>Strobe pulsed max current [A]</Label>
+              <Value>4</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>20</MaxValue>
+              <IsVisible>5</IsVisible>
+              <IsEditable>10</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+          </StroboParameters>
+        </Light>
+        <Light>
+          <Id>0</Id>
+          <StroboParameters>
+            <StroboParameter>
+              <Id>stroboOperatingMode</Id>
+              <Label>Strobe operating mode</Label>
+              <Value>Pulsed</Value>
+              <IsVisible>0</IsVisible>
+              <IsEditable>0</IsEditable>
+              <AdmittedValues>
+                <string>Pulsed</string>
+                <string>Continuous</string>
+                <string>OFF</string>
+              </AdmittedValues>
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboCurrent</Id>
+              <Label>Strobe current [A]</Label>
+              <Value>2</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>20</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboPulseDelay</Id>
+              <Label>Strobe pulse delay</Label>
+              <Value>0.002</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboPulseWidth</Id>
+              <Label>Strobe pulse width [ms]</Label>
+              <Value>0.2</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboRetriggerTime</Id>
+              <Label>Strobe retrigger time [ms]</Label>
+              <Value>2</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboContinuousMaxCurrent</Id>
+              <Label>Strobe continuous max current [A]</Label>
+              <Value>0.5</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>20</MaxValue>
+              <IsVisible>5</IsVisible>
+              <IsEditable>10</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboPulsedMaxCurrent</Id>
+              <Label>Strobe pulsed max current [A]</Label>
+              <Value>4</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>20</MaxValue>
+              <IsVisible>5</IsVisible>
+              <IsEditable>10</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+          </StroboParameters>
+        </Light>
+      </Lights>
+    </Cam>
+    <Cam>
+      <Id>2</Id>
+      <Enabled>true</Enabled>
+      <AcquisitionParameters>
+        <AcquisitionParameter>
+          <Id>vialFormatNum</Id>
+          <Label>Vial format number</Label>
+          <Value>0</Value>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>vialFormatDesc</Id>
+          <Label>$vialFormatDesc</Label>
+          <Value>BERNO 10ml TRASP</Value>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>numberOfFrames</Id>
+          <Label>Number of frames</Label>
+          <Value>18</Value>
+          <MinValue>4</MinValue>
+          <MaxValue>25</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>cameraShutter</Id>
+          <Label>Exposure time [us]</Label>
+          <Value>28</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>cameraGain</Id>
+          <Label>Gain</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1023</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>strobeEnable</Id>
+          <Label>On/Off Strobo</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>strobeTime</Id>
+          <Label>Strobe pulse width [us]</Label>
+          <Value>33</Value>
+          <MinValue>10</MinValue>
+          <MaxValue>260</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>acquisitionDelay</Id>
+          <Label>Acquisition delay [us]</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>gainBlue</Id>
+          <Label>Blue gain</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>gainRed</Id>
+          <Label>Red gain</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>gainGreen</Id>
+          <Label>Green gain</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>strobeOut</Id>
+          <Label>Strobe pin out</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>triggerInput</Id>
+          <Label>Trigger input</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>aoiEnable</Id>
+          <Label>A.O.I. Enable</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>aoiStartCol</Id>
+          <Label>A.O.I. X Start</Label>
+          <Value>576</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2047</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>aoiStartRow</Id>
+          <Label>A.O.I. Y Start</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2047</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>aoiResX</Id>
+          <Label>A.O.I. X Width</Label>
+          <Value>896</Value>
+          <MinValue>16</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>aoiResY</Id>
+          <Label>A.O.I. Y Width</Label>
+          <Value>2048</Value>
+          <MinValue>64</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>IPAddress</Id>
+          <Label>Camera IP address</Label>
+          <Value>10.200.14.74</Value>
+          <IsVisible>0</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+        <AcquisitionParameter>
+          <Id>savedVialAxisFilename</Id>
+          <Label>Vial axis filename</Label>
+          <Value>192.168.14.24_vial_24000.xml</Value>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </AcquisitionParameter>
+      </AcquisitionParameters>
+      <FeaturesEnableParameters>
+        <FeaturesEnableParameter>
+          <Id>analysisEnable</Id>
+          <Label>Analysis enable</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>overlayInformation</Id>
+          <Label>Overlay information enable</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>printBlobs</Id>
+          <Label>Blobs Display</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>printBubbles</Id>
+          <Label>Bubbles Display</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>saveDifferenceImages</Id>
+          <Label>Enable saving difference images</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>saveTrajectory</Id>
+          <Label>Enable save trajectory</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>sendDecimatedLive</Id>
+          <Label>Send decimated live</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>sendResultImage</Id>
+          <Label>Enable send result image</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>sendTrajectories</Id>
+          <Label>Send trajectories</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>meniscusAnalysis</Id>
+          <Label>Enable meniscus analysis</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>meniscusAnalysisPlot</Id>
+          <Label>Meniscus analysis Display</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>pgaEnable</Id>
+          <Label>Enable sensor normalization</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>ROIDynamic</Id>
+          <Label>Enable dynamic ROI</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>ROIDynamicOverlay</Id>
+          <Label>Enable ROI plot on results</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>ROIBottomExpansion</Id>
+          <Label>Enable ROI bottom expansion</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>trackingKalmanPrediction</Id>
+          <Label>Enable Kalman filter for tracking</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>fillingLevelEnable</Id>
+          <Label>Enable filling analysis</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>maskingBlobs</Id>
+          <Label>Enable blob masking</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>maskingBlobsPrint</Id>
+          <Label>Enable blob masking Display</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>trajectoryPrint</Id>
+          <Label>$trajectoryPrint</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>bottomAnalysis</Id>
+          <Label>On/Off Bottom analysis</Label>
+          <Value>0</Value>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+        <FeaturesEnableParameter>
+          <Id>trackingEnable</Id>
+          <Label>On/Off Trajectory</Label>
+          <Value>1</Value>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </FeaturesEnableParameter>
+      </FeaturesEnableParameters>
+      <RecipeSimpleParameters>
+        <RecipeSimpleParameter>
+          <Id>rleLowThreshold</Id>
+          <Label>Sensibility</Label>
+          <Value>11</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>ROIDynamicHighThreshold</Id>
+          <Label>ROI Bin High Threshold</Label>
+          <Value>243</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>ROIDynamicLowThreshold</Id>
+          <Label>ROI Bin Low Threshold</Label>
+          <Value>60</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>ROIDynamicBottonReductcion</Id>
+          <Label>GAP Bottom</Label>
+          <Value>15</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>ROIDynamicMeniscusReductcion</Id>
+          <Label>GAP Meniscus</Label>
+          <Value>30</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>meniscusPUMThreshold</Id>
+          <Label>Meniscus P.U.M. threshold</Label>
+          <Value>110</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>blobMaxAreaReject</Id>
+          <Label>Blob max area reject</Label>
+          <Value>100</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100000</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>blobMaxAreaRejectConsecutiveFramesNumber</Id>
+          <Label>BlobMax Consecutive Frames Num</Label>
+          <Value>2</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>blobMaxAreaRejectLowThreshold</Id>
+          <Label>Blob max area reject LowThreshold</Label>
+          <Value>60</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100000</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>blobsMinArea</Id>
+          <Label>Blobs min area</Label>
+          <Value>9</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>fillingLevelMin</Id>
+          <Label>Filling level min</Label>
+          <Value>200</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>fillingLevelMax</Id>
+          <Label>Filling level max</Label>
+          <Value>500</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>minDensityReference</Id>
+          <Label>Light Level</Label>
+          <Value>0</Value>
+          <IsVisible>0</IsVisible>
+          <IsEditable>0</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+        <RecipeSimpleParameter>
+          <Id>bottomAnalysisThreshold</Id>
+          <Label>Bottom Sensibility</Label>
+          <Value>40</Value>
+          <IsVisible>0</IsVisible>
+          <IsEditable>5</IsEditable>
+          <AdmittedValues />
+        </RecipeSimpleParameter>
+      </RecipeSimpleParameters>
+      <RecipeAdvancedParameters>
+        <RecipeAdvancedParameter>
+          <Id>morphologicalFilter1</Id>
+          <Label>1st morphological filter</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>morphologicalFilter2</Id>
+          <Label>2nd morphological filter</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>rleBufferSize</Id>
+          <Label>RLE buffer size</Label>
+          <Value>1000000</Value>
+          <MinValue>1000000</MinValue>
+          <MaxValue>1000000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>ROIDynamicMorphIter</Id>
+          <Label>ROI dynamic morph. iter</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>20</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>meniscusAnalysisMinCount</Id>
+          <Label>Meniscus analysis min count</Label>
+          <Value>10</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>meniscusAnalysisThreshold</Id>
+          <Label>Meniscus analysis threshold</Label>
+          <Value>30</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>meniscusPUMOffset</Id>
+          <Label>P.U.M. pixel offset</Label>
+          <Value>50</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1024</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>blobsMaxNumber</Id>
+          <Label>Blobs max number</Label>
+          <Value>100</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>bubbleMaxShapeFactor</Id>
+          <Label>Bubble max shape factor</Label>
+          <Value>1.5</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>bubbleOpticalDensityMinDiff</Id>
+          <Label>Bubble optical density min diff</Label>
+          <Value>200</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>255</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>bubbleSizeMaximum</Id>
+          <Label>Bubble size maximum</Label>
+          <Value>50</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>bubbleSizeMinimum</Id>
+          <Label>Bubble size minimum</Label>
+          <Value>7</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxAcceleration</Id>
+          <Label>Tracking max acceleration</Label>
+          <Value>4</Value>
+          <MinValue>-1</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxAreaRatio</Id>
+          <Label>Tracking max area ratio</Label>
+          <Value>5</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxHeightRatio</Id>
+          <Label>Tracking max height ratio</Label>
+          <Value>3</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxWidthRatio</Id>
+          <Label>Tracking max width ratio</Label>
+          <Value>3</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxSegmentAngle</Id>
+          <Label>Tracking max segment angle</Label>
+          <Value>45</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>90</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxTrajectoryAngle</Id>
+          <Label>Tracking max traj. angle</Label>
+          <Value>30</Value>
+          <MinValue>-1</MinValue>
+          <MaxValue>180</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMinDistance</Id>
+          <Label>Tracking min distance</Label>
+          <Value>5</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingNumberFramesBackward</Id>
+          <Label>Tracking frames number backward</Label>
+          <Value>2</Value>
+          <MinValue>1</MinValue>
+          <MaxValue>3</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingFrameBackwardReduction</Id>
+          <Label>Tracking frame backward reduction</Label>
+          <Value>25</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoriesBufferSize</Id>
+          <Label>Trajectories buffer size</Label>
+          <Value>1000000</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryAllSegmentsMaxLength</Id>
+          <Label>Trajectory all segments max length</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryAllSegmentsMinLength</Id>
+          <Label>Trajectory all segments min length</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>2048</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryRecurrentBackward</Id>
+          <Label>Trajectory recurrent backward num</Label>
+          <Value>10</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryRecurrentMaxAngle</Id>
+          <Label>Trajectory recurrent max angle</Label>
+          <Value>15</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>180</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryRecurrentMaxDistance</Id>
+          <Label>Trajectory recurrent max distance</Label>
+          <Value>20</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryRecurrentMinCount</Id>
+          <Label>Trajectory recurrent min count</Label>
+          <Value>2</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryRecurrentMinLength</Id>
+          <Label>Trajectory recurrent min length</Label>
+          <Value>3</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>1000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>maskingBlobsHighThreshold</Id>
+          <Label>Masking blobs high threshold</Label>
+          <Value>10</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>maskingBlobsLowThreshold</Id>
+          <Label>Masking blobs low threshold</Label>
+          <Value>5</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>encoderCounterFirstImage</Id>
+          <Label>Encoder counter first image</Label>
+          <Value>405</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>bottomAnalysisMinCount</Id>
+          <Label>Bottom Analysis Min Frames</Label>
+          <Value>10</Value>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trackingMaxDistance</Id>
+          <Label>Tracking max distance</Label>
+          <Value>150</Value>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryMaxAngle</Id>
+          <Label>Trajectory max angle</Label>
+          <Value>70</Value>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryMinArea</Id>
+          <Label>Trajectory min area</Label>
+          <Value>5</Value>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+        <RecipeAdvancedParameter>
+          <Id>trajectoryMinSegmentNumber</Id>
+          <Label>Trajectory min segment number</Label>
+          <Value>2</Value>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </RecipeAdvancedParameter>
+      </RecipeAdvancedParameters>
+      <ROIParameters>
+        <ArrayOfROIParameter>
+          <ROIParameter>
+            <Id>label_it</Id>
+            <Label>$label_it</Label>
+            <Value>ROI Controllo Particellare</Value>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>label_en</Id>
+            <Label>$label_en</Label>
+            <Value>ROI Particle Inspection</Value>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiID</Id>
+            <Label>ROI ID</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>100</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiType</Id>
+            <Label>ROI type</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>10</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiX1</Id>
+            <Label>ROI Start X</Label>
+            <Value>130</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiX2</Id>
+            <Label>ROI End X</Label>
+            <Value>730</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiY1</Id>
+            <Label>ROI Start Y</Label>
+            <Value>250</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiY2</Id>
+            <Label>ROI End Y</Label>
+            <Value>1980</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiColor</Id>
+            <Label>ROI color</Label>
+            <Value>250</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>255</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiFill</Id>
+            <Label>ROI fill color</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>1</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiPlot</Id>
+            <Label>Enable ROI Display</Label>
+            <Value>1</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>1</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+        </ArrayOfROIParameter>
+        <ArrayOfROIParameter>
+          <ROIParameter>
+            <Id>label_it</Id>
+            <Label>$label_it</Label>
+            <Value>ROI Controllo Luce</Value>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>label_en</Id>
+            <Label>$label_en</Label>
+            <Value>ROI Light Control</Value>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiID</Id>
+            <Label>ROI ID</Label>
+            <Value>1</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>1</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiType</Id>
+            <Label>ROI type</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>10</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiX1</Id>
+            <Label>ROI Start X</Label>
+            <Value>380</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiX2</Id>
+            <Label>ROI End X</Label>
+            <Value>535</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiY1</Id>
+            <Label>ROI Start Y</Label>
+            <Value>1600</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiY2</Id>
+            <Label>ROI End Y</Label>
+            <Value>1850</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>2048</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiColor</Id>
+            <Label>ROI color</Label>
+            <Value>255</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>255</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiFill</Id>
+            <Label>ROI fill color</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>1</MaxValue>
+            <IsVisible>12</IsVisible>
+            <IsEditable>12</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+          <ROIParameter>
+            <Id>roiPlot</Id>
+            <Label>Enable ROI Display</Label>
+            <Value>0</Value>
+            <MinValue>0</MinValue>
+            <MaxValue>1</MaxValue>
+            <IsVisible>0</IsVisible>
+            <IsEditable>5</IsEditable>
+            <AdmittedValues />
+          </ROIParameter>
+        </ArrayOfROIParameter>
+      </ROIParameters>
+      <MachineParameters>
+        <MachineParameter>
+          <Id>cameraOrientation</Id>
+          <Label>Camera orientation</Label>
+          <Value>0</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>encoderSwapPhase</Id>
+          <Label>Encoder swap phase</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>encoderToPixelFactor</Id>
+          <Label>Encoder to pixel factor</Label>
+          <Value>0.64</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>flipImage</Id>
+          <Label>Flip image</Label>
+          <Value>2</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>headOneOffset</Id>
+          <Label>Head one offset</Label>
+          <Value>12</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>headsNumber</Id>
+          <Label>Heads number</Label>
+          <Value>40</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>IOOutDataValidDelay</Id>
+          <Label>IO out data valid delay</Label>
+          <Value>100</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>IOOutDataValidWidth</Id>
+          <Label>IO out data valid width</Label>
+          <Value>20000</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>100000</MaxValue>
+          <IsVisible>12</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>triggerMode</Id>
+          <Label>Trigger mode</Label>
+          <Value>3</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>12</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>triggerSlope</Id>
+          <Label>Trigger slope</Label>
+          <Value>1</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+        <MachineParameter>
+          <Id>cycleTime</Id>
+          <Label>Max Cycle time</Label>
+          <Value>300</Value>
+          <MinValue>0</MinValue>
+          <MaxValue>10000</MaxValue>
+          <IsVisible>10</IsVisible>
+          <IsEditable>10</IsEditable>
+          <AdmittedValues />
+        </MachineParameter>
+      </MachineParameters>
+      <StroboParameters />
+      <Lights>
+        <Light>
+          <ID>0</ID>
+          <StroboParameters>
+            <StroboParameter>
+              <Id>stroboOperatingMode</Id>
+              <Label>Strobe operating mode</Label>
+              <Value>Pulsed</Value>
+              <IsVisible>0</IsVisible>
+              <IsEditable>0</IsEditable>
+              <AdmittedValues>
+                <string>Pulsed</string>
+                <string>Continuous</string>
+                <string>OFF</string>
+              </AdmittedValues>
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboCurrent</Id>
+              <Label>Strobe current [A]</Label>
+              <Value>2.1</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>20</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboPulseDelay</Id>
+              <Label>Strobe pulse delay</Label>
+              <Value>0.002</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboPulseWidth</Id>
+              <Label>Strobe pulse width [ms]</Label>
+              <Value>0.2</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboRetriggerTime</Id>
+              <Label>Strobe retrigger time [ms]</Label>
+              <Value>2</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboContinuousMaxCurrent</Id>
+              <Label>Strobe continuous max current [A]</Label>
+              <Value>0.5</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>20</MaxValue>
+              <IsVisible>5</IsVisible>
+              <IsEditable>10</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboPulsedMaxCurrent</Id>
+              <Label>Strobe pulsed max current [A]</Label>
+              <Value>4</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>20</MaxValue>
+              <IsVisible>5</IsVisible>
+              <IsEditable>10</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+          </StroboParameters>
+        </Light>
+        <Light>
+          <ID>1</ID>
+          <StroboParameters>
+            <StroboParameter>
+              <Id>stroboOperatingMode</Id>
+              <Label>Strobe operating mode</Label>
+              <Value>Pulsed</Value>
+              <IsVisible>0</IsVisible>
+              <IsEditable>0</IsEditable>
+              <AdmittedValues>
+                <string>Pulsed</string>
+                <string>Continuous</string>
+                <string>OFF</string>
+              </AdmittedValues>
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboCurrent</Id>
+              <Label>Strobe current [A]</Label>
+              <Value>2.1</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>20</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboPulseDelay</Id>
+              <Label>Strobe pulse delay</Label>
+              <Value>0.002</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboPulseWidth</Id>
+              <Label>Strobe pulse width [ms]</Label>
+              <Value>0.2</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboRetriggerTime</Id>
+              <Label>Strobe retrigger time [ms]</Label>
+              <Value>2</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IsVisible>0</IsVisible>
+              <IsEditable>5</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboContinuousMaxCurrent</Id>
+              <Label>Strobe continuous max current [A]</Label>
+              <Value>0.5</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>20</MaxValue>
+              <IsVisible>5</IsVisible>
+              <IsEditable>10</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+            <StroboParameter>
+              <Id>stroboPulsedMaxCurrent</Id>
+              <Label>Strobe pulsed max current [A]</Label>
+              <Value>4</Value>
+              <MinValue>0</MinValue>
+              <MaxValue>20</MaxValue>
+              <IsVisible>5</IsVisible>
+              <IsEditable>10</IsEditable>
+              <AdmittedValues />
+            </StroboParameter>
+          </StroboParameters>
+        </Light>
+      </Lights>
+    </Cam>
+  </Cams>
+</Recipe>

@@ -1,0 +1,88 @@
+<MachineConfiguration>
+  <Customer>SPAMI</Customer>
+  <DefaultFolder>D:\SPAMI</DefaultFolder>
+  <DebugEnabled>false</DebugEnabled>
+  <VisualizerRows>1</VisualizerRows>
+  <VisualizerCols>3</VisualizerCols>
+  <TriggerMode>1</TriggerMode>
+  <TriggerSourceManual>false</TriggerSourceManual>
+
+  <NumberOfCamera>3</NumberOfCamera>
+  <NumberOfStation>1</NumberOfStation>
+  <NumberOfSplindles>40</NumberOfSplindles>
+  <NumberOfStrobo>1</NumberOfStrobo>
+  <StroboSettings>
+	<StroboSetting>
+		<IP>10.200.0.99</IP>
+		<Path>./Gardasoft_RT820F_20.xml</Path>
+	</StroboSetting>
+  </StroboSettings>
+  <MachineType>ExactaEasy</MachineType>
+  <HMIServiceAddress>http://localhost:6543</HMIServiceAddress>
+  <SupervisorServiceAddress>http://localhost:8090/ExactaEasyUI/Supervisor</SupervisorServiceAddress>
+  <CameraProviders>
+    <DefaultCameraProviderName>TestCamera</DefaultCameraProviderName>
+    <Providers>
+      <CameraProvider>
+        <Name>TestCamera</Name>
+        <Type>TestCamera.TestCamera, TestCamera</Type>
+      </CameraProvider>
+      <CameraProvider>
+        <Name>TattileCameraM9</Name>
+        <Type>TattileCameras.TattileCameraM9, TattileCamera</Type>
+      </CameraProvider>
+	  <CameraProvider>
+        <Name>TattileCameraM12</Name>
+        <Type>TattileCameras.TattileCameraM12, TattileCamera</Type>
+      </CameraProvider>
+    </Providers>
+  </CameraProviders>
+  <CameraSettings>
+    <CameraSetting>
+      <Id>0</Id>
+	  <Head>0</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>M12</CameraType>
+	  <CameraDescription>ST0 - CASCO</CameraDescription>
+	  <CameraProviderName>TattileCameraM12</CameraProviderName>
+      <Station>0</Station>
+      <Spindle>0</Spindle>
+	  <BufferSize>10</BufferSize>
+      <IP4Address>10.200.10.70</IP4Address>
+	  <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>0</DisplayPosition>
+	  <StroboIP4Address>10.200.0.99</StroboIP4Address>
+	  <StroboChannel>0</StroboChannel>
+    </CameraSetting>
+	<CameraSetting>
+      <Id>1</Id>
+	  <Head>1</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>M12</CameraType>
+	  <CameraDescription>ST0 - CASCO</CameraDescription>
+	  <CameraProviderName>TattileCameraM12</CameraProviderName>
+      <Station>0</Station>
+      <Spindle>0</Spindle>
+	  <BufferSize>10</BufferSize>
+      <IP4Address>10.200.10.70</IP4Address>
+	  <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>0</DisplayPosition>
+    </CameraSetting>
+	<CameraSetting>
+      <Id>2</Id>
+	  <Head>2</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>M12</CameraType>
+	  <CameraDescription>ST0 - CASCO</CameraDescription>
+	  <CameraProviderName>TattileCameraM12</CameraProviderName>
+      <Station>0</Station>
+      <Spindle>0</Spindle>
+	  <BufferSize>10</BufferSize>
+      <IP4Address>10.200.10.70</IP4Address>
+	  <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>0</DisplayPosition>
+	   <StroboIP4Address>10.200.0.99</StroboIP4Address>
+	  <StroboChannel>5</StroboChannel>
+    </CameraSetting>
+  </CameraSettings>
+</MachineConfiguration>

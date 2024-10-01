@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfParameterInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ParameterInfo>
+    <Id>PAR_LASER_GAIN</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Laser gain [1-10-100]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Laser gain [1-10-100]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Laser gain [1-10-100]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_VIAL_GAIN</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Ampoule gain [1-10-100]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Ampoule gain [1-10-100]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Ampoule gain [1-10-100]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>TH_WARNING_UPPER</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>High warning threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>High warning threshold
+</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>High warning threshold
+</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>TH_WARNING_LOWER</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Low warning threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Low warning threshold
+</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Low warning threshold
+</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>TH_ERROR_UPPER</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>High error threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>High error threshold
+</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>High error threshold
+</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>TH_ERROR_LOWER</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Low error threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Low error threshold
+</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Low error threshold
+</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_SPINDLE_COUNT</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Spindle counter</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Spindle counter
+</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Spindle counter
+</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_0_TORRETTA_OFFSET</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Initial spindle offset</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Initial spindle offset
+</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Initial spindle offset
+</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_INCREMENTO_SPINDLE_ID</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Spindle step</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Spindle step
+</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Spindle step
+</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_FREE_RUN_TIMER</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Freerun timer [ms]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Freerun timer [ms]
+</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Freerun timer [ms]
+</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>FG_YOFFSET</Id>
+    <ValueType />
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label />
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label />
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label />
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label />
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label />
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label />
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_TINT_VIAL</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Exposure time [ms]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Exposure time [ms]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Exposure time [ms]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_TINT_BACKGROUND</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Exp. time w/o container [ms]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Exp. time w/o container [ms]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Exp. time w/o container [ms]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>LIGHT_CONTROL_TH</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Light control</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Light control</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Light control</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_ALL_RANGE_SUM_REJECT</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Sum rejection threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Sum rejection threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Sum rejection threshold</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_1_L</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 1 initial wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 1 initial wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 1 initial wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_1_H</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 1 final wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 1 final wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 1 final wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_1_SIGN</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 1 gain</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 1 gain</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 1 gain</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_1_TH</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 1 sum threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 1 sum threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 1 sum threshold</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_1_PEAK_REJECT_TH</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 1 peak rejection threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 1 peak rejection threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 1 peak rejection threshold</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>INITIAL_WAVELENGTH</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Initial wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Initial wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Initial wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>WAVELENGTH_INCREMENT</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Spectral resolution [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Spectral resolution [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Spectral resolution [nm]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_2_L</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 2 initial wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 2 initial wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 2 initial wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_2_H</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 2 final wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 2 final wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 2 final wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_2_SIGN</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 2 gain</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 2 gain</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 2 gain</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_2_TH</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 2 sum threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 2 sum threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 2 sum threshold</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_2_PEAK_REJECT_TH</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 2 peak rejection threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 2 peak rejection threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 2 peak rejection threshold</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_3_L</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 3 initial wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 3 initial wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 3 initial wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_3_H</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 3 final wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 3 final wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 3 final wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_3_SIGN</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 3 gain</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 3 gain</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 3 gain</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_3_TH</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 3 sum threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 3 sum threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 3 sum threshold</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_3_PEAK_REJECT_TH</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 3 peak rejection threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 3 peak rejection threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 3 peak rejection threshold</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_4_L</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 4 initial wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 4 initial wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 4 initial wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_4_H</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 4 final wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 4 final wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 4 final wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_4_SIGN</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 4 gain</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 4 gain</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 4 gain</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_4_TH</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 4 sum threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 4 sum threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 4 sum threshold</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_4_PEAK_REJECT_TH</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 4 peak rejection threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 4 peak rejection threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 4 peak rejection threshold</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_FULL_SPECTRUM_REF_NORM</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Reference spectrum </Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Reference spectrum </Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Reference spectrum </Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_FULL_SPECTRUM_MIS</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Current spectrum </Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Current spectrum </Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Current spectrum </Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_FULL_SPECTRUM_BUFFER</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Current raw spectrum </Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Current raw spectrum </Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Current raw spectrum </Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_FULL_SPECTRUM_ELAB</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Analysis spectrum</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Analysis spectrum</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Analysis spectrum</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_1_MEAN</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 1 mean</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 1 mean</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 1 mean</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_2_MEAN</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 2 mean</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 2 mean</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 2 mean</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_3_MEAN</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 3 mean</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 3 mean</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 3 mean</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_RANGE_4_MEAN</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Range 4 mean</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Range 4 mean</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Range 4 mean</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_ALL_RANGE_MEAN</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>All ranges mean</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>All ranges mean</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>All ranges mean</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>LIGHT_CONTROL</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Light control</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Light control</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Light control</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>ANALYSIS_REJECTION_CAUSE_NUMBER</Id>
+    <ValueType>string</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Rejection cause</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Rejection cause</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Rejection cause</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>FINAL_WAVELENGTH</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Final wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Final wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Final wavelength [nm]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>LOCKIN_SAMPLES_PER_PERIOD</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Samples per period</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Samples per period</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Samples per period</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>LOCKIN_VIAL_AMPLITUDE_RAW</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Vial turbidity raw</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Vial turbidity raw</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Vial turbidity raw</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>LOCKIN_LASER_AMPLITUDE_RAW</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Laser turbidity raw</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Laser turbidity raw</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Laser turbidity raw</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>LOCKIN_AMPLITUDE_FACTOR_COMPENSATED</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Turbidity raw</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Turbidity raw</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Turbidity raw</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>LOCKIN_AMPLITUDE_POST_CALIBRATION</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Turbidity</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Turbidity</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Turbidity</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+</ArrayOfParameterInfo>

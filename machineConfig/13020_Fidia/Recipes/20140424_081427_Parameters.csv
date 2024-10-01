@@ -1,0 +1,1187 @@
+Station name;Parameter section;Parameter name;Value;Min Value;Max Value
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Numero di frames;0;100;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Tempo di esposizione [us];1000;10000;1
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Guadagno;0;1023;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;On/Off Strobo;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Tempo di accensione strobo [us];1000;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Ritardo acquisizione [us];0;1000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Guadagno blu;250;1000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Guadagno rosso;250;1000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Guadagno verde;250;1000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Pin di Uscita strobo;1;1000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Ingresso trigger;0;1000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Abilitazione A.O.I.;1;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;A.O.I. X Start;576;1023;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;A.O.I. Y Start;0;767;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;A.O.I. Intervallo X;896;1024;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;A.O.I. Intervallo Y;2048;2048;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;M12 Analisi;3;5;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Risultato abilitato a display;5;17;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Abilitazione display analisi anelli;1;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Abilita testina M12;1;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Tipo Analisi FlipOff;1;5;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Tipo Analisi ghiera;2;4;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Tipo Analisi crimpatura;1;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Tipo rilevamento FlipOff;1;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Tipo Analisi FlipOff;0;4;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Selezione canale colore;3;12;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Abilita presenza flipOff;1;2;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;On/Off Debug Info;1;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;On/Off Salvataggio Img;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;LowValue BinBlob;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Area Minima BinBlol;500;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Lut Hight Tip inspection;200;255;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Lut Low Tip inspection;0;255;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Soglia contrasto Rings;130;255;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Soglia altezza anelli;30;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Hue anello 1;-100;255;-255
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Hue anello 2;150;255;-255
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Hue anello 3;200;255;-255
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;EdgeSum Threshold;10;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;TIP Edge Tol;40;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMin;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMax;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMax;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob Sum Blobs AreaMax;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;$THRTipControlIntegralSumMin;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;TipControl Integral SumMax;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;TipControl Deviazione Angolare Min;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Max Deviazione angolare;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;$THRTipControlMaxDistanceFromModelMin;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;TipControl Max Distance from Model;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Minima Punta;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Massima Punta;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingNumberOfRingsMin;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Numero di anelli;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 1 Min;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 1 Max;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 2 Min;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 2 Max;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 3 Min;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 3 Max;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Tempo di elaborazione;18;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Box Area ;5;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff area minima Blob;10;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff area massima Blob;4500;100000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Bin Low;0;255;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Bin High;50;255;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff soglia relativa;-1;255;-1
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Sensibilità;2;1000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;AluSeal Box Area;50;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;AluSeal Min Area;50;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;AluSeal Max Area;6000;100000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;AluSeal Bin Low;0;255;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;AluSeal Bin High;255;255;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff soglia relativa;70;255;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Sensibilità Crimpatura;2;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Crimpatura sensibilità;100;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Min Area;100;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Max Area;1000;100000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Minimo;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Max;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Livello di grigio basso;-1;255;-1
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Livello di grigio Alto;-1;255;-1
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Max livello di grigio;-1;10000;-1
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Raggio ROI manual;25;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Ampiezza Min FlipOff;196;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Ampiezza Max FlipOff;236;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Min Flacone;232;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Max Flacone;272;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Larghezza Min ghiera;186;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Larghezza Max ghiera;226;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Min ghiera;104;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Max ghiera;144;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Minimo grigio analisi dall'alto;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Massimo grigio analisi dall'alto;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Dall'alto area minima Blob;0;100000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Dall'alto area massima Blob;0;100000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;HighValue BinBlob;50;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;ROI attiva nella BinBlob;1;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita IsBorderOFF BinBlob;1;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita Mascheratura BinBlob;1;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tipo di BinBlobAnalisi;4;8;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Valore collegamento Edge;5;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Minima Lunghezza Edge;1;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Smooth per l'edge finder;60;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Lunghezza filtro gaussiamo;15;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Sigma filtro gaussiamo;5;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Profondità bit LUT;8;32;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Valore finale LUT (Bianco);255;255;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Valore Iniziale LUT (Nero);0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Orientazione fiala (0 - vert, 1 -oriz);1;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita FastEdge;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Dimensione grafica (0 nessuna);1;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita ROI;1;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tolleranza maschera;10;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tipo Tool;0;10000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;FlipOff Tipo di Binarizzazione;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;FlipOff risoluzione griglia;5;1000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;FlipOff tipo griglia;0;1000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tipo di Binarizzazione Ghiera;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Risoluzione griglia Ghiera;2;1000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tipo griglia Ghiera;1;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tipo di Binarizzazione Top;0;1000;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMin;-1;255;-1
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMax;-1;255;-1
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Selezione tipo sfondo;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Orientamento camera;1;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Modello TIP dxf;Head_0.DXF;;
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Dati del learning flipOff Analisi;fwAAAAAAAAAFFAAAAAAAAAUAAAAEAAAANQAAABkAAAA=;;
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Dati del learning Analisi Ghiera;MwUAAAAAAAAFFAAAAAAAAAIAAAACAAAAmgAAAD4AAAA=;;
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI ID;0;100;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start X;187;1023;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End X;396;1023;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start Y;62;767;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End Y;319;767;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Punta;;
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_en;ROI Tip Shape;;
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI ID;1;100;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start X;10;1023;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End X;159;1023;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start Y;10;767;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End Y;39;767;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Laterale FlipOff;;
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_en;ROI Lateral FlipOff;;
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI ID;2;100;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start X;15;1023;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End X;164;1023;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start Y;15;767;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End Y;54;767;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Ghiera;;
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_en;ROI AluSeal;;
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI ID;3;100;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start X;2;1023;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End X;151;1023;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start Y;2;767;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End Y;26;767;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Crimpatura;;
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_en;ROI Crimping;;
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI ID;4;100;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start X;250;1023;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End X;0;1023;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start Y;510;767;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End Y;0;767;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_it;ROI Controllo FlipOff;;
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_en;ROI FlipOff;;
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_it;ROI Controllo FlipOff;;
+ST0 - CAM0 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_en;ROI FlipOff;;
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;Numero di frames;0;100;0
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;Tempo di esposizione [us];1000;10000;1
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;Guadagno;0;1023;0
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;On/Off Strobo;0;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;Tempo di accensione strobo [us];1000;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;Ritardo acquisizione [us];0;1000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;Guadagno blu;250;1000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;Guadagno rosso;250;1000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;Guadagno verde;250;1000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;Pin di Uscita strobo;2;1000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;Ingresso trigger;0;1000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;Abilitazione A.O.I.;1;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;A.O.I. X Start;576;1023;0
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;A.O.I. Y Start;0;767;0
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;A.O.I. Intervallo X;896;1024;0
+ST0 - CAM1 - FLIPOFF INSPECTION;AcquisitionParameter;A.O.I. Intervallo Y;2048;2048;0
+ST0 - CAM1 - FLIPOFF INSPECTION;FeaturesEnableParameter;M12 Analisi;4;5;0
+ST0 - CAM1 - FLIPOFF INSPECTION;FeaturesEnableParameter;Risultato abilitato a display;5;17;0
+ST0 - CAM1 - FLIPOFF INSPECTION;FeaturesEnableParameter;Abilitazione display analisi anelli;0;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;FeaturesEnableParameter;Abilita testina M12;1;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;FeaturesEnableParameter;Tipo Analisi FlipOff;1;4;0
+ST0 - CAM1 - FLIPOFF INSPECTION;FeaturesEnableParameter;Tipo Analisi ghiera;4;4;0
+ST0 - CAM1 - FLIPOFF INSPECTION;FeaturesEnableParameter;Tipo Analisi crimpatura;1;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;FeaturesEnableParameter;Tipo rilevamento FlipOff;1;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;FeaturesEnableParameter;Tipo Analisi FlipOff;1;4;0
+ST0 - CAM1 - FLIPOFF INSPECTION;FeaturesEnableParameter;Selezione canale colore;2;12;0
+ST0 - CAM1 - FLIPOFF INSPECTION;FeaturesEnableParameter;Abilita presenza flipOff;1;2;0
+ST0 - CAM1 - FLIPOFF INSPECTION;FeaturesEnableParameter;On/Off Debug Info;1;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;FeaturesEnableParameter;On/Off Salvataggio Img;0;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;LowValue BinBlob;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Area Minima BinBlol;500;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Lut Hight Tip inspection;200;255;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Lut Low Tip inspection;0;255;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Soglia contrasto Rings;0;255;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Soglia altezza anelli;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Colore Hue anello 1;0;255;-255
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Colore Hue anello 2;0;255;-255
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Colore Hue anello 3;0;255;-255
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;EdgeSum Threshold;10;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;TIP Edge Tol;10;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMin;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMax;1;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMax;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;BinBlob Sum Blobs AreaMax;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;$THRTipControlIntegralSumMin;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;TipControl Integral SumMax;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;TipControl Deviazione Angolare Min;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Max Deviazione angolare;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;$THRTipControlMaxDistanceFromModelMin;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;TipControl Max Distance from Model;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Altezza Minima Punta;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Altezza Massima Punta;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;$THRCheckRingNumberOfRingsMin;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Numero di anelli;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Colore Anello 1 Min;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Colore Anello 1 Max;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Colore Anello 2 Min;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Colore Anello 2 Max;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Colore Anello 3 Min;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Colore Anello 3 Max;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Tempo di elaborazione;15;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;FlipOff Box Area ;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;FlipOff area minima Blob;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;FlipOff area massima Blob;0;100000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;FlipOff Bin Low;0;255;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;FlipOff Bin High;40;255;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;FlipOff soglia relativa;-1;255;-1
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;FlipOff Sensibilità;2;1000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;AluSeal Box Area;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;AluSeal Min Area;10;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;AluSeal Max Area;5000;100000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;AluSeal Bin Low;0;255;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;AluSeal Bin High;100;255;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;FlipOff soglia relativa;50;255;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Sensibilità Crimpatura;2;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Crimpatura sensibilità;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;FlipOff Min Area;100;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;FlipOff Max Area;53066;100000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Colore Minimo;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Colore Max;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Livello di grigio basso;0;255;-1
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Livello di grigio Alto;241;255;-1
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Max livello di grigio;-1;10000;-1
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;FlipOff Raggio ROI manual;120;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Ampiezza Min FlipOff;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Ampiezza Max FlipOff;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Altezza Min Flacone;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Altezza Max Flacone;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Larghezza Min ghiera;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Larghezza Max ghiera;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Altezza Min ghiera;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Altezza Max ghiera;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Minimo grigio analisi dall'alto;12;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Massimo grigio analisi dall'alto;32;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Dall'alto area minima Blob;32786;100000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeSimpleParameter;Dall'alto area massima Blob;40072;100000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;HighValue BinBlob;50;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;ROI attiva nella BinBlob;1;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita IsBorderOFF BinBlob;1;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita Mascheratura BinBlob;1;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Tipo di BinBlobAnalisi;4;8;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Valore collegamento Edge;5;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Minima Lunghezza Edge;1;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Smooth per l'edge finder;60;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Lunghezza filtro gaussiamo;15;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Sigma filtro gaussiamo;5;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Profondità bit LUT;8;32;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Valore finale LUT (Bianco);255;255;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Valore Iniziale LUT (Nero);0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Orientazione fiala (0 - vert, 1 -oriz);1;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita FastEdge;0;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Dimensione grafica (0 nessuna);1;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita ROI;1;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Tolleranza maschera;10;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Tipo Tool;0;10000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;FlipOff Tipo di Binarizzazione;0;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;FlipOff risoluzione griglia;5;1000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;FlipOff tipo griglia;0;1000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Tipo di Binarizzazione Ghiera;1;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Risoluzione griglia Ghiera;2;1000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Tipo griglia Ghiera;1;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Tipo di Binarizzazione Top;0;1000;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMin;0;255;-1
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMax;25;255;-1
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Selezione tipo sfondo;0;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Orientamento camera;0;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Modello TIP dxf;Head_1.DXF;;
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Dati del learning flipOff Analisi;GwMAAAAAAAAFFAAAAAAAAAUAAAAEAAAASQAAAEsAAAA=;;
+ST0 - CAM1 - FLIPOFF INSPECTION;RecipeAdvancedParameter;Dati del learning Analisi Ghiera;bwYAAAAAAAAFFAAAAAAAAAUAAAAEAAAATgAAAGEAAAA=;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI ID;0;100;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI Start X;101;1023;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI End X;359;1023;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI Start Y;16;767;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI End Y;312;767;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;$label_it;ROI Controllo Punta;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;$label_en;ROI Tip Inspection;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI ID;1;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Tipo di ROI;0;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI Start X;0;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI End X;199;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI Start Y;0;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI End Y;49;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Colore ROI;0;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Colore riempimento ROI;0;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Visualizzazione ROI;0;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;$label_it;ROI Controllo Punta;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;$label_en;ROI Tip Inspection;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI ID;2;100;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI Start X;0;1023;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI End X;174;1023;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI Start Y;0;767;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI End Y;74;767;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI ID;3;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Tipo di ROI;0;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI Start X;0;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI End X;149;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI Start Y;0;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI End Y;24;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Colore ROI;0;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Colore riempimento ROI;0;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Visualizzazione ROI;0;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;$label_it;ROI Controllo Laterale FlipOff;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;$label_en;ROI FlipOff lateral;;
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI ID;4;100;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI Start X;0;1023;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI End X;0;1023;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI Start Y;0;767;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;ROI End Y;0;767;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM1 - FLIPOFF INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Numero di frames;0;100;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Tempo di esposizione [us];1000;10000;1
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Guadagno;0;1023;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;On/Off Strobo;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Tempo di accensione strobo [us];1000;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Ritardo acquisizione [us];0;1000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Guadagno blu;250;1000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Guadagno rosso;250;1000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Guadagno verde;250;1000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Pin di Uscita strobo;1;1000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Ingresso trigger;0;1000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Abilitazione A.O.I.;1;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;A.O.I. X Start;576;1023;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;A.O.I. Y Start;0;767;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;A.O.I. Intervallo X;896;1024;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;A.O.I. Intervallo Y;2048;2048;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;M12 Analisi;3;5;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Risultato abilitato a display;0;17;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Abilitazione display analisi anelli;1;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Abilita testina M12;1;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Tipo Analisi FlipOff;1;4;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Tipo Analisi ghiera;2;4;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Tipo Analisi crimpatura;1;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Tipo rilevamento FlipOff;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Tipo Analisi FlipOff;0;4;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Selezione canale colore;3;12;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Abilita presenza flipOff;1;2;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;On/Off Debug Info;1;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;On/Off Salvataggio Img;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;LowValue BinBlob;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Area Minima BinBlol;500;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Lut Hight Tip inspection;200;255;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Lut Low Tip inspection;0;255;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Soglia contrasto Rings;80;255;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Soglia altezza anelli;20;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Hue anello 1;-50;255;-255
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Hue anello 2;150;255;-255
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Hue anello 3;0;255;-255
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;EdgeSum Threshold;10;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;TIP Edge Tol;10;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMin;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMax;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMax;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob Sum Blobs AreaMax;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;$THRTipControlIntegralSumMin;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;TipControl Integral SumMax;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;TipControl Deviazione Angolare Min;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Max Deviazione angolare;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;$THRTipControlMaxDistanceFromModelMin;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;TipControl Max Distance from Model;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Minima Punta;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Massima Punta;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingNumberOfRingsMin;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Numero di anelli;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 1 Min;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 1 Max;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 2 Min;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 2 Max;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 3 Min;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 3 Max;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Tempo di elaborazione;16;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Box Area ;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff area minima Blob;10;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff area massima Blob;3750;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Bin Low;12;255;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Bin High;60;255;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff soglia relativa;-1;255;-1
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Sensibilità;2;1000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;AluSeal Box Area;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;AluSeal Min Area;50;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;AluSeal Max Area;4500;100000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;AluSeal Bin Low;0;255;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;AluSeal Bin High;255;255;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff soglia relativa;70;255;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Sensibilità Crimpatura;2;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Crimpatura sensibilità;100;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Min Area;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Max Area;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Minimo;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Max;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Livello di grigio basso;-1;255;-1
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Livello di grigio Alto;-1;255;-1
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Max livello di grigio;-1;10000;-1
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Raggio ROI manual;25;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Ampiezza Min FlipOff;192;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Ampiezza Max FlipOff;232;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Min Flacone;225;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Max Flacone;265;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Larghezza Min ghiera;181;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Larghezza Max ghiera;221;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Min ghiera;102;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Max ghiera;142;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Minimo grigio analisi dall'alto;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Massimo grigio analisi dall'alto;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Dall'alto area minima Blob;0;100000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Dall'alto area massima Blob;0;;
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;HighValue BinBlob;50;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;ROI attiva nella BinBlob;1;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita IsBorderOFF BinBlob;1;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita Mascheratura BinBlob;1;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tipo di BinBlobAnalisi;4;8;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Valore collegamento Edge;5;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Minima Lunghezza Edge;1;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Smooth per l'edge finder;60;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Lunghezza filtro gaussiamo;15;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Sigma filtro gaussiamo;5;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Profondità bit LUT;8;32;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Valore finale LUT (Bianco);255;255;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Valore Iniziale LUT (Nero);0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Orientazione fiala (0 - vert, 1 -oriz);1;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita FastEdge;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Dimensione grafica (0 nessuna);1;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita ROI;1;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tolleranza maschera;10;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tipo Tool;0;10000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;FlipOff Tipo di Binarizzazione;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;FlipOff risoluzione griglia;5;1000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;FlipOff tipo griglia;0;1000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tipo di Binarizzazione Ghiera;1;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Risoluzione griglia Ghiera;2;1000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tipo griglia Ghiera;1;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tipo di Binarizzazione Top;0;1000;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMin;-1;255;-1
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMax;-1;255;-1
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Selezione tipo sfondo;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Orientamento camera;1;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Modello TIP dxf;Head_2.DXF;;
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Dati del learning flipOff Analisi;YwAAAAAAAAAFFAAAAAAAAAUAAAAEAAAANQAAABUAAAA=;;
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Dati del learning Analisi Ghiera;xwMAAAAAAAAFFAAAAAAAAAIAAAACAAAAmQAAADMAAAA=;;
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI ID;0;100;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start X;194;1023;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End X;395;1023;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start Y;40;767;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End Y;304;767;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Punta;;
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_en;ROI Tip Inspection;;
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI ID;1;100;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start X;15;1023;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End X;164;1023;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start Y;15;767;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End Y;39;767;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Laterale FlipOff;;
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_en;ROI FlipOff lateral;;
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI ID;2;100;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start X;20;1023;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End X;169;1023;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start Y;20;767;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End Y;49;767;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Ghiera;;
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_en;ROI AluSeal;;
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI ID;3;100;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start X;10;1023;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End X;159;1023;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start Y;10;767;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End Y;34;767;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Crimpatura;;
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_en;ROI Crimping;;
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI ID;4;100;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start X;0;1023;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End X;0;1023;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start Y;0;767;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End Y;0;767;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_it;ROI Controllo FlipOff;;
+ST0 - CAM2 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_en;ROI FlipOff;;
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Numero di frames;0;100;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Tempo di esposizione [us];1000;10000;1
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Guadagno;0;1023;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;On/Off Strobo;0;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Tempo di accensione strobo [us];1000;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Ritardo acquisizione [us];0;1000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Guadagno blu;250;1000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Guadagno rosso;250;1000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Guadagno verde;250;1000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Pin di Uscita strobo;1;1000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Ingresso trigger;0;1000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;Abilitazione A.O.I.;1;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;A.O.I. X Start;576;1023;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;A.O.I. Y Start;0;767;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;A.O.I. Intervallo X;896;1024;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;AcquisitionParameter;A.O.I. Intervallo Y;2048;2048;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;M12 Analisi;3;5;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Risultato abilitato a display;0;17;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Abilitazione display analisi anelli;0;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Abilita testina M12;1;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Tipo Analisi FlipOff;1;4;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Tipo Analisi ghiera;2;4;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Tipo Analisi crimpatura;1;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Tipo rilevamento FlipOff;1;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Tipo Analisi FlipOff;5;5;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Selezione canale colore;1;12;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;Abilita presenza flipOff;1;2;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;On/Off Debug Info;1;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;FeaturesEnableParameter;On/Off Salvataggio Img;0;;
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;LowValue BinBlob;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Area Minima BinBlol;500;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Lut Hight Tip inspection;200;255;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Lut Low Tip inspection;0;255;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Soglia contrasto Rings;0;255;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Soglia altezza anelli;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Hue anello 1;0;255;-255
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Hue anello 2;0;255;-255
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Hue anello 3;0;255;-255
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;EdgeSum Threshold;10;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;TIP Edge Tol;10;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMin;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMax;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob BlobAreaMax;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob Max Blobs;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;BinBlob Sum Blobs AreaMax;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;$THRTipControlIntegralSumMin;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;TipControl Integral SumMax;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;TipControl Deviazione Angolare Min;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Max Deviazione angolare;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;$THRTipControlMaxDistanceFromModelMin;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;TipControl Max Distance from Model;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Minima Punta;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Massima Punta;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;$THRCheckRingNumberOfRingsMin;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Numero di anelli;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 1 Min;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 1 Max;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 2 Min;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 2 Max;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 3 Min;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Anello 3 Max;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Tempo di elaborazione;19;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Box Area ;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff area minima Blob;10;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff area massima Blob;4500;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Bin Low;7;255;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Bin High;62;255;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff soglia relativa;0;255;-1
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Sensibilità;2;1000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;AluSeal Box Area;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;AluSeal Min Area;50;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;AluSeal Max Area;6000;100000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;AluSeal Bin Low;0;255;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;AluSeal Bin High;255;255;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff soglia relativa;70;255;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Sensibilità Crimpatura;2;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Crimpatura sensibilità;100;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Min Area;100;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Max Area;10000;100000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Minimo;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Colore Max;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Livello di grigio basso;0;255;-1
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Livello di grigio Alto;50;255;-1
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Max livello di grigio;-1;10000;-1
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;FlipOff Raggio ROI manual;25;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Ampiezza Min FlipOff;222;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Ampiezza Max FlipOff;262;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Min Flacone;202;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Max Flacone;242;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Larghezza Min ghiera;209;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Larghezza Max ghiera;249;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Min ghiera;112;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Altezza Max ghiera;152;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Minimo grigio analisi dall'alto;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Massimo grigio analisi dall'alto;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Dall'alto area minima Blob;0;100000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeSimpleParameter;Dall'alto area massima Blob;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;HighValue BinBlob;50;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;ROI attiva nella BinBlob;1;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita IsBorderOFF BinBlob;1;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita Mascheratura BinBlob;1;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tipo di BinBlobAnalisi;4;8;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Valore collegamento Edge;5;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Minima Lunghezza Edge;1;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Smooth per l'edge finder;60;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Lunghezza filtro gaussiamo;15;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Sigma filtro gaussiamo;5;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Profondità bit LUT;8;32;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Valore finale LUT (Bianco);255;255;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Valore Iniziale LUT (Nero);0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Orientazione fiala (0 - vert, 1 -oriz);1;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita FastEdge;0;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Dimensione grafica (0 nessuna);1;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Abilita/Disabilita ROI;1;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tolleranza maschera;10;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tipo Tool;0;10000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;FlipOff Tipo di Binarizzazione;0;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;FlipOff risoluzione griglia;5;1000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;FlipOff tipo griglia;0;1000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tipo di Binarizzazione Ghiera;0;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Risoluzione griglia Ghiera;2;1000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tipo griglia Ghiera;1;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Tipo di Binarizzazione Top;1;1000;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMin;-1;255;-1
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;$ARGBottleTopFinderGrayMax;-1;255;-1
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Selezione tipo sfondo;0;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Orientamento camera;1;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Modello TIP dxf;;;
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Dati del learning flipOff Analisi;fwAAAAAAAAAFFAAAAAAAAAUAAAAEAAAAMAAAABwAAAA=;;
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;RecipeAdvancedParameter;Dati del learning Analisi Ghiera;MwUAAAAAAAAFFAAAAAAAAAIAAAACAAAAkAAAAEYAAAA=;;
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI ID;0;100;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start X;167;1023;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End X;373;1023;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start Y;74;767;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End Y;346;767;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Punta;;
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_en;ROI Tip Inspection;;
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI ID;1;100;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start X;15;1023;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End X;164;1023;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start Y;15;767;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End Y;44;767;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Laterale FlipOff;;
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_en;ROI Lateral FlipOff;;
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI ID;2;100;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start X;20;1023;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End X;169;1023;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start Y;20;767;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End Y;59;767;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_it;ROI Controllo Ghiera;;
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;$label_en;ROI Crimping;;
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI ID;3;100;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start X;5;1023;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End X;154;1023;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start Y;5;767;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End Y;29;767;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI ID;4;100;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Tipo di ROI;0;10;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start X;250;1023;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End X;0;1023;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI Start Y;510;767;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;ROI End Y;0;767;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore ROI;0;255;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Colore riempimento ROI;0;1;0
+ST0 - CAM3 - TIP/ALUSEAL INSPECTION;ROIParameter;Visualizzazione ROI;0;1;0
+ST1 - COSMETIC;AcquisitionParameter;Numero di frames;18;25;4
+ST1 - COSMETIC;AcquisitionParameter;Tempo di esposizione [us];25;10000;1
+ST1 - COSMETIC;AcquisitionParameter;Guadagno;0;1023;0
+ST1 - COSMETIC;AcquisitionParameter;On/Off Strobo;1;1;0
+ST1 - COSMETIC;AcquisitionParameter;Tempo di accensione strobo [us];38;260;10
+ST1 - COSMETIC;AcquisitionParameter;Ritardo acquisizione [us];0;1000;0
+ST1 - COSMETIC;AcquisitionParameter;Guadagno blu;0;1000;0
+ST1 - COSMETIC;AcquisitionParameter;Guadagno rosso;0;1000;0
+ST1 - COSMETIC;AcquisitionParameter;Guadagno verde;0;1000;0
+ST1 - COSMETIC;AcquisitionParameter;Pin di Uscita strobo;0;1000;0
+ST1 - COSMETIC;AcquisitionParameter;Ingresso trigger;0;1000;0
+ST1 - COSMETIC;AcquisitionParameter;Abilitazione A.O.I.;1;1;0
+ST1 - COSMETIC;AcquisitionParameter;A.O.I. X Start;576;2047;0
+ST1 - COSMETIC;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+ST1 - COSMETIC;AcquisitionParameter;A.O.I. Intervallo X;896;2048;16
+ST1 - COSMETIC;AcquisitionParameter;A.O.I. Intervallo Y;2048;2048;64
+ST1 - COSMETIC;AcquisitionParameter;Vial axis filename;10.200.15.75_vial_24000.xml;;
+ST1 - COSMETIC;FeaturesEnableParameter;Abilitazione analisi;1;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Abilitazione informazioni su immagine;1;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Display dei blobs;1;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Display Bolle;1;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Abilitazione salvataggio immagini differenze;0;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Abilitazione salvataggio traiettoria;0;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Invia live decimato;0;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Abilitazione invio immagine risultati;1;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Invio traiettorie;0;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Abilitazione analisi menisco;1;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Display analisi menisco;1;2;0
+ST1 - COSMETIC;FeaturesEnableParameter;Abilitazione normalizzazione sensore;1;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Abilitazione ROI dinamica;1;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Visualizzazione ROI sui risultati;1;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Abilitazione espansione della ROI sul fondo;1;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Abilitazione filtro di Kalman per tracking;0;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Abilitazione analisi riempimento;0;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Abilitazione mascheratura blob;0;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Visualizzazione mascheratura blob;0;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;Visualizzazione Traiettorie;0;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;On/Off Analisi del fondo;1;1;0
+ST1 - COSMETIC;FeaturesEnableParameter;On/Off Traiettorie;0;1;0
+ST1 - COSMETIC;RecipeSimpleParameter;Sensibilità;10;255;0
+ST1 - COSMETIC;RecipeSimpleParameter;Soglia alta binarizzazione ROI dinamica;243;255;0
+ST1 - COSMETIC;RecipeSimpleParameter;Soglia bassa binarizzazione ROI dinamica;80;255;0
+ST1 - COSMETIC;RecipeSimpleParameter;GAP Fondo;10;255;0
+ST1 - COSMETIC;RecipeSimpleParameter;GAP Menisco;15;255;0
+ST1 - COSMETIC;RecipeSimpleParameter;Soglia menisco P.U.M.;110;255;0
+ST1 - COSMETIC;RecipeSimpleParameter;Massima area blob reject;1000;100000;0
+ST1 - COSMETIC;RecipeSimpleParameter;Area minima blob;400;10000;0
+ST1 - COSMETIC;RecipeSimpleParameter;Massima area low blob reject analisi;1000;100000;0
+ST1 - COSMETIC;RecipeSimpleParameter;Livello di riempimento min;100;2048;0
+ST1 - COSMETIC;RecipeSimpleParameter;Livello di riempimento max;2000;2048;0
+ST1 - COSMETIC;RecipeSimpleParameter;Livello di luminosità;0;255;0
+ST1 - COSMETIC;RecipeSimpleParameter;BlobMax numero di Frames consecutivi;2;255;0
+ST1 - COSMETIC;RecipeSimpleParameter;Sensibilità fondo;40;255;0
+ST1 - COSMETIC;RecipeAdvancedParameter;1° filtro morfologico;0;2;0
+ST1 - COSMETIC;RecipeAdvancedParameter;2° filtro morfologico;0;2;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Dimensione buffer RLE;1000000;1000000;1000000
+ST1 - COSMETIC;RecipeAdvancedParameter;Num morf. ROI dinamica;0;20;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Analisi menisco min num;5;100;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Sensibilità analisi menisco;20;255;0
+ST1 - COSMETIC;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Numero massimo di blob;100;1000;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Massimo fattore di forma bolle;1.5;10;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Diff minima densità ottica bolle;200;255;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Dimensione massima bolle;50;1000;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Dimensione minima bolle;7;1000;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Massima accelerazione per tracking;3;1000;-1
+ST1 - COSMETIC;RecipeAdvancedParameter;Max rapporto aree per tracking;3;1000;1
+ST1 - COSMETIC;RecipeAdvancedParameter;Max rapporto altezze per tracking;3;1000;1
+ST1 - COSMETIC;RecipeAdvancedParameter;Max rapporto larghezze per tracking;3;1000;1
+ST1 - COSMETIC;RecipeAdvancedParameter;Angolo max segmento tracking;45;90;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Angolo max traiettoria;30;180;-1
+ST1 - COSMETIC;RecipeAdvancedParameter;Minima distanza per tracking;5;1000;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Numero frame backward per tracking;2;3;1
+ST1 - COSMETIC;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Dimensione buffer traiettorie;1000000;1000000;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Lunghezza max segmenti traiettoria;0;2048;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Lunghezza min segmenti traiettoria;0;2048;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Num campioni traiettorie ricorrenti;10;1000;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Massimo angolo traiettorie ricorrenti;15;180;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Massima distanza traiettorie ricorrenti;20;1000;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Min num traiettorie ricorrenti;2;1000;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Lunghezza minima traiettorie ricorrenti;3;1000;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Soglia superiore mascheratura blob;10;100;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Soglia inferiore mascheratura blob;5;100;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Valore encoder prima immagine;320;10000;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Analisi fondo num immagini;5;10000;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Massima distanza per tracking;100;10000;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Max angolo traiettoria;70;360;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Area min traiettoria;5;10000;0
+ST1 - COSMETIC;RecipeAdvancedParameter;Numero min segmenti per traiettoria;3;10000;0
+ST1 - COSMETIC;ROIParameter;ROI ID;0;100;0
+ST1 - COSMETIC;ROIParameter;Tipo di ROI;0;10;0
+ST1 - COSMETIC;ROIParameter;ROI Start X;280;2048;0
+ST1 - COSMETIC;ROIParameter;ROI End X;600;2048;0
+ST1 - COSMETIC;ROIParameter;ROI Start Y;1300;2048;0
+ST1 - COSMETIC;ROIParameter;ROI End Y;1950;2048;0
+ST1 - COSMETIC;ROIParameter;Colore ROI;250;255;0
+ST1 - COSMETIC;ROIParameter;Colore riempimento ROI;0;1;0
+ST1 - COSMETIC;ROIParameter;Visualizzazione ROI;1;1;0
+ST1 - COSMETIC;ROIParameter;$label_it;ROI Controllo Particellare;;
+ST1 - COSMETIC;ROIParameter;$label_en;ROI Particle Inspection;;
+ST1 - COSMETIC;ROIParameter;ROI ID;1;100;0
+ST1 - COSMETIC;ROIParameter;Tipo di ROI;0;10;0
+ST1 - COSMETIC;ROIParameter;ROI Start X;400;2048;0
+ST1 - COSMETIC;ROIParameter;ROI End X;550;2048;0
+ST1 - COSMETIC;ROIParameter;ROI Start Y;1100;2048;0
+ST1 - COSMETIC;ROIParameter;ROI End Y;1300;2048;0
+ST1 - COSMETIC;ROIParameter;Colore ROI;255;255;0
+ST1 - COSMETIC;ROIParameter;Colore riempimento ROI;0;1;0
+ST1 - COSMETIC;ROIParameter;Visualizzazione ROI;1;1;0
+ST1 - COSMETIC;ROIParameter;$label_it;ROI Controllo Luce;;
+ST1 - COSMETIC;ROIParameter;$label_en;ROI Light Control;;
+ST2 - PARTICLE;AcquisitionParameter;Numero di frames;18;25;4
+ST2 - PARTICLE;AcquisitionParameter;Tempo di esposizione [us];27;10000;1
+ST2 - PARTICLE;AcquisitionParameter;Guadagno;0;1023;0
+ST2 - PARTICLE;AcquisitionParameter;On/Off Strobo;1;1;0
+ST2 - PARTICLE;AcquisitionParameter;Tempo di accensione strobo [us];30;260;10
+ST2 - PARTICLE;AcquisitionParameter;Ritardo acquisizione [us];0;1000;0
+ST2 - PARTICLE;AcquisitionParameter;Guadagno blu;0;1000;0
+ST2 - PARTICLE;AcquisitionParameter;Guadagno rosso;0;1000;0
+ST2 - PARTICLE;AcquisitionParameter;Guadagno verde;0;1000;0
+ST2 - PARTICLE;AcquisitionParameter;Pin di Uscita strobo;0;1000;0
+ST2 - PARTICLE;AcquisitionParameter;Ingresso trigger;0;1000;0
+ST2 - PARTICLE;AcquisitionParameter;Abilitazione A.O.I.;1;1;0
+ST2 - PARTICLE;AcquisitionParameter;A.O.I. X Start;576;2047;0
+ST2 - PARTICLE;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+ST2 - PARTICLE;AcquisitionParameter;A.O.I. Intervallo X;896;2048;16
+ST2 - PARTICLE;AcquisitionParameter;A.O.I. Intervallo Y;2048;2048;64
+ST2 - PARTICLE;AcquisitionParameter;Vial axis filename;10.200.12.72_vial_24000.xml;;
+ST2 - PARTICLE;FeaturesEnableParameter;Abilitazione analisi;1;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Abilitazione informazioni su immagine;1;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Display dei blobs;1;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Display Bolle;0;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Abilitazione salvataggio immagini differenze;0;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Abilitazione salvataggio traiettoria;0;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Invia live decimato;0;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Abilitazione invio immagine risultati;1;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Invio traiettorie;0;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Abilitazione analisi menisco;1;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Display analisi menisco;1;2;0
+ST2 - PARTICLE;FeaturesEnableParameter;Abilitazione normalizzazione sensore;1;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Abilitazione ROI dinamica;1;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Visualizzazione ROI sui risultati;1;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Abilitazione espansione della ROI sul fondo;1;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Abilitazione filtro di Kalman per tracking;0;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Abilitazione analisi riempimento;0;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Abilitazione mascheratura blob;1;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Visualizzazione mascheratura blob;1;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;Visualizzazione Traiettorie;0;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;On/Off Analisi del fondo;1;1;0
+ST2 - PARTICLE;FeaturesEnableParameter;On/Off Traiettorie;0;1;0
+ST2 - PARTICLE;RecipeSimpleParameter;Sensibilità;2;255;0
+ST2 - PARTICLE;RecipeSimpleParameter;Soglia alta binarizzazione ROI dinamica;243;255;0
+ST2 - PARTICLE;RecipeSimpleParameter;Soglia bassa binarizzazione ROI dinamica;80;255;0
+ST2 - PARTICLE;RecipeSimpleParameter;GAP Fondo;10;255;0
+ST2 - PARTICLE;RecipeSimpleParameter;GAP Menisco;15;255;0
+ST2 - PARTICLE;RecipeSimpleParameter;Soglia menisco P.U.M.;110;255;0
+ST2 - PARTICLE;RecipeSimpleParameter;Massima area blob reject;1000;100000;0
+ST2 - PARTICLE;RecipeSimpleParameter;Area minima blob;9;10000;0
+ST2 - PARTICLE;RecipeSimpleParameter;Massima area low blob reject analisi;1000;100000;0
+ST2 - PARTICLE;RecipeSimpleParameter;Livello di riempimento min;100;2048;0
+ST2 - PARTICLE;RecipeSimpleParameter;Livello di riempimento max;2000;2048;0
+ST2 - PARTICLE;RecipeSimpleParameter;Livello di luminosità;0;255;0
+ST2 - PARTICLE;RecipeSimpleParameter;BlobMax numero di Frames consecutivi;1;10000;0
+ST2 - PARTICLE;RecipeSimpleParameter;Sensibilità fondo;40;255;0
+ST2 - PARTICLE;RecipeAdvancedParameter;1° filtro morfologico;0;2;0
+ST2 - PARTICLE;RecipeAdvancedParameter;2° filtro morfologico;0;2;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Dimensione buffer RLE;1000000;1000000;1000000
+ST2 - PARTICLE;RecipeAdvancedParameter;Num morf. ROI dinamica;0;20;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Analisi menisco min num;5;100;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Sensibilità analisi menisco;25;255;0
+ST2 - PARTICLE;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Numero massimo di blob;100;1000;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Massimo fattore di forma bolle;1.5;10;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Diff minima densità ottica bolle;200;255;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Dimensione massima bolle;50;1000;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Dimensione minima bolle;7;1000;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Massima accelerazione per tracking;3;1000;-1
+ST2 - PARTICLE;RecipeAdvancedParameter;Max rapporto aree per tracking;3;1000;1
+ST2 - PARTICLE;RecipeAdvancedParameter;Max rapporto altezze per tracking;3;1000;1
+ST2 - PARTICLE;RecipeAdvancedParameter;Max rapporto larghezze per tracking;3;1000;1
+ST2 - PARTICLE;RecipeAdvancedParameter;Angolo max segmento tracking;45;90;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Angolo max traiettoria;30;180;-1
+ST2 - PARTICLE;RecipeAdvancedParameter;Minima distanza per tracking;5;1000;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Numero frame backward per tracking;2;3;1
+ST2 - PARTICLE;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Dimensione buffer traiettorie;1000000;1000000;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Lunghezza max segmenti traiettoria;0;2048;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Lunghezza min segmenti traiettoria;0;2048;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Num campioni traiettorie ricorrenti;10;1000;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Massimo angolo traiettorie ricorrenti;15;180;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Massima distanza traiettorie ricorrenti;20;1000;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Min num traiettorie ricorrenti;2;1000;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Lunghezza minima traiettorie ricorrenti;3;1000;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Soglia superiore mascheratura blob;10;100;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Soglia inferiore mascheratura blob;5;100;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Valore encoder prima immagine;320;10000;0
+ST2 - PARTICLE;RecipeAdvancedParameter;Analisi fondo num immagini;5;;
+ST2 - PARTICLE;RecipeAdvancedParameter;Massima distanza per tracking;100;;
+ST2 - PARTICLE;RecipeAdvancedParameter;Max angolo traiettoria;70;;
+ST2 - PARTICLE;RecipeAdvancedParameter;Area min traiettoria;5;;
+ST2 - PARTICLE;RecipeAdvancedParameter;Numero min segmenti per traiettoria;3;;
+ST2 - PARTICLE;ROIParameter;ROI ID;0;100;0
+ST2 - PARTICLE;ROIParameter;Tipo di ROI;0;10;0
+ST2 - PARTICLE;ROIParameter;ROI Start X;250;2048;0
+ST2 - PARTICLE;ROIParameter;ROI End X;630;2048;0
+ST2 - PARTICLE;ROIParameter;ROI Start Y;1200;2048;0
+ST2 - PARTICLE;ROIParameter;ROI End Y;1950;2048;0
+ST2 - PARTICLE;ROIParameter;Colore ROI;250;255;0
+ST2 - PARTICLE;ROIParameter;Colore riempimento ROI;0;1;0
+ST2 - PARTICLE;ROIParameter;Visualizzazione ROI;1;1;0
+ST2 - PARTICLE;ROIParameter;$label_it;ROI Controllo Particellare;;
+ST2 - PARTICLE;ROIParameter;$label_en;ROI Particle Inspection;;
+ST2 - PARTICLE;ROIParameter;ROI ID;1;100;0
+ST2 - PARTICLE;ROIParameter;Tipo di ROI;0;10;0
+ST2 - PARTICLE;ROIParameter;ROI Start X;400;2048;0
+ST2 - PARTICLE;ROIParameter;ROI End X;550;2048;0
+ST2 - PARTICLE;ROIParameter;ROI Start Y;1100;2048;0
+ST2 - PARTICLE;ROIParameter;ROI End Y;1300;2048;0
+ST2 - PARTICLE;ROIParameter;Colore ROI;255;255;0
+ST2 - PARTICLE;ROIParameter;Colore riempimento ROI;0;1;0
+ST2 - PARTICLE;ROIParameter;Visualizzazione ROI;1;1;0
+ST2 - PARTICLE;ROIParameter;$label_it;ROI Controllo Luce;;
+ST2 - PARTICLE;ROIParameter;$label_en;ROI Light Control;;
+ST3 - PARTICLE;AcquisitionParameter;Numero di frames;18;25;4
+ST3 - PARTICLE;AcquisitionParameter;Tempo di esposizione [us];35;10000;1
+ST3 - PARTICLE;AcquisitionParameter;Guadagno;0;1023;0
+ST3 - PARTICLE;AcquisitionParameter;On/Off Strobo;1;1;0
+ST3 - PARTICLE;AcquisitionParameter;Tempo di accensione strobo [us];41;260;10
+ST3 - PARTICLE;AcquisitionParameter;Ritardo acquisizione [us];0;1000;0
+ST3 - PARTICLE;AcquisitionParameter;Guadagno blu;0;1000;0
+ST3 - PARTICLE;AcquisitionParameter;Guadagno rosso;0;1000;0
+ST3 - PARTICLE;AcquisitionParameter;Guadagno verde;0;1000;0
+ST3 - PARTICLE;AcquisitionParameter;Pin di Uscita strobo;0;1000;0
+ST3 - PARTICLE;AcquisitionParameter;Ingresso trigger;0;1000;0
+ST3 - PARTICLE;AcquisitionParameter;Abilitazione A.O.I.;1;1;0
+ST3 - PARTICLE;AcquisitionParameter;A.O.I. X Start;576;2047;0
+ST3 - PARTICLE;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+ST3 - PARTICLE;AcquisitionParameter;A.O.I. Intervallo X;896;2048;16
+ST3 - PARTICLE;AcquisitionParameter;A.O.I. Intervallo Y;2048;2048;64
+ST3 - PARTICLE;AcquisitionParameter;Vial axis filename;10.200.13.73_vial_24000.xml;;
+ST3 - PARTICLE;FeaturesEnableParameter;Abilitazione analisi;1;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Abilitazione informazioni su immagine;1;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Display dei blobs;1;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Display Bolle;0;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Abilitazione salvataggio immagini differenze;0;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Abilitazione salvataggio traiettoria;0;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Invia live decimato;0;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Abilitazione invio immagine risultati;1;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Invio traiettorie;0;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Abilitazione analisi menisco;1;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Display analisi menisco;1;2;0
+ST3 - PARTICLE;FeaturesEnableParameter;Abilitazione normalizzazione sensore;1;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Abilitazione ROI dinamica;1;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Visualizzazione ROI sui risultati;1;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Abilitazione espansione della ROI sul fondo;1;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Abilitazione filtro di Kalman per tracking;0;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Abilitazione analisi riempimento;0;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Abilitazione mascheratura blob;1;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Visualizzazione mascheratura blob;1;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;Visualizzazione Traiettorie;0;1;0
+ST3 - PARTICLE;FeaturesEnableParameter;On/Off Analisi del fondo;0;;
+ST3 - PARTICLE;FeaturesEnableParameter;On/Off Traiettorie;0;;
+ST3 - PARTICLE;RecipeSimpleParameter;Sensibilità;20;255;0
+ST3 - PARTICLE;RecipeSimpleParameter;Soglia alta binarizzazione ROI dinamica;243;255;0
+ST3 - PARTICLE;RecipeSimpleParameter;Soglia bassa binarizzazione ROI dinamica;80;255;0
+ST3 - PARTICLE;RecipeSimpleParameter;GAP Fondo;10;255;0
+ST3 - PARTICLE;RecipeSimpleParameter;GAP Menisco;30;255;0
+ST3 - PARTICLE;RecipeSimpleParameter;Soglia menisco P.U.M.;110;255;0
+ST3 - PARTICLE;RecipeSimpleParameter;Massima area blob reject;200;100000;0
+ST3 - PARTICLE;RecipeSimpleParameter;Area minima blob;10;10000;0
+ST3 - PARTICLE;RecipeSimpleParameter;Massima area low blob reject analisi;100;100000;0
+ST3 - PARTICLE;RecipeSimpleParameter;Livello di riempimento min;500;2048;0
+ST3 - PARTICLE;RecipeSimpleParameter;Livello di riempimento max;1500;2048;0
+ST3 - PARTICLE;RecipeSimpleParameter;Livello di luminosità;0;255;0
+ST3 - PARTICLE;RecipeSimpleParameter;BlobMax numero di Frames consecutivi;1;255;0
+ST3 - PARTICLE;RecipeSimpleParameter;Sensibilità fondo;50;255;0
+ST3 - PARTICLE;RecipeAdvancedParameter;1° filtro morfologico;0;2;0
+ST3 - PARTICLE;RecipeAdvancedParameter;2° filtro morfologico;0;2;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Dimensione buffer RLE;1000000;1000000;1000000
+ST3 - PARTICLE;RecipeAdvancedParameter;Num morf. ROI dinamica;0;20;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Analisi menisco min num;10;100;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Sensibilità analisi menisco;30;255;0
+ST3 - PARTICLE;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Numero massimo di blob;100;1000;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Massimo fattore di forma bolle;1.5;10;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Diff minima densità ottica bolle;100;255;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Dimensione massima bolle;50;1000;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Dimensione minima bolle;7;1000;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Massima accelerazione per tracking;3;1000;-1
+ST3 - PARTICLE;RecipeAdvancedParameter;Max rapporto aree per tracking;3;1000;1
+ST3 - PARTICLE;RecipeAdvancedParameter;Max rapporto altezze per tracking;3;1000;1
+ST3 - PARTICLE;RecipeAdvancedParameter;Max rapporto larghezze per tracking;3;1000;1
+ST3 - PARTICLE;RecipeAdvancedParameter;Angolo max segmento tracking;45;90;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Angolo max traiettoria;30;180;-1
+ST3 - PARTICLE;RecipeAdvancedParameter;Minima distanza per tracking;5;1000;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Numero frame backward per tracking;2;3;1
+ST3 - PARTICLE;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Dimensione buffer traiettorie;1000000;1000000;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Lunghezza max segmenti traiettoria;0;2048;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Lunghezza min segmenti traiettoria;0;2048;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Num campioni traiettorie ricorrenti;10;1000;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Massimo angolo traiettorie ricorrenti;15;180;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Massima distanza traiettorie ricorrenti;20;1000;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Min num traiettorie ricorrenti;2;1000;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Lunghezza minima traiettorie ricorrenti;3;1000;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Soglia superiore mascheratura blob;10;100;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Soglia inferiore mascheratura blob;5;100;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Valore encoder prima immagine;535;10000;0
+ST3 - PARTICLE;RecipeAdvancedParameter;Analisi fondo num immagini;10;;
+ST3 - PARTICLE;RecipeAdvancedParameter;Massima distanza per tracking;100;;
+ST3 - PARTICLE;RecipeAdvancedParameter;Max angolo traiettoria;70;;
+ST3 - PARTICLE;RecipeAdvancedParameter;Area min traiettoria;5;;
+ST3 - PARTICLE;RecipeAdvancedParameter;Numero min segmenti per traiettoria;3;;
+ST3 - PARTICLE;ROIParameter;ROI ID;0;100;0
+ST3 - PARTICLE;ROIParameter;Tipo di ROI;0;10;0
+ST3 - PARTICLE;ROIParameter;ROI Start X;300;2048;0
+ST3 - PARTICLE;ROIParameter;ROI End X;580;2048;0
+ST3 - PARTICLE;ROIParameter;ROI Start Y;1300;2048;0
+ST3 - PARTICLE;ROIParameter;ROI End Y;1950;2048;0
+ST3 - PARTICLE;ROIParameter;Colore ROI;250;255;0
+ST3 - PARTICLE;ROIParameter;Colore riempimento ROI;0;1;0
+ST3 - PARTICLE;ROIParameter;Visualizzazione ROI;1;1;0
+ST3 - PARTICLE;ROIParameter;$label_it;ROI Controllo Particellare;;
+ST3 - PARTICLE;ROIParameter;$label_en;ROI Particle Inspection;;
+ST3 - PARTICLE;ROIParameter;ROI ID;1;100;0
+ST3 - PARTICLE;ROIParameter;Tipo di ROI;0;10;0
+ST3 - PARTICLE;ROIParameter;ROI Start X;360;2048;0
+ST3 - PARTICLE;ROIParameter;ROI End X;530;2048;0
+ST3 - PARTICLE;ROIParameter;ROI Start Y;1100;2048;0
+ST3 - PARTICLE;ROIParameter;ROI End Y;1300;2048;0
+ST3 - PARTICLE;ROIParameter;Colore ROI;255;255;0
+ST3 - PARTICLE;ROIParameter;Colore riempimento ROI;0;1;0
+ST3 - PARTICLE;ROIParameter;Visualizzazione ROI;1;1;0
+ST3 - PARTICLE;ROIParameter;$label_it;ROI Controllo Luce;;
+ST3 - PARTICLE;ROIParameter;$label_en;ROI Light Control;;
+ST4 - PARTICLE;AcquisitionParameter;Numero di frames;18;25;4
+ST4 - PARTICLE;AcquisitionParameter;Tempo di esposizione [us];35;10000;1
+ST4 - PARTICLE;AcquisitionParameter;Guadagno;0;1023;0
+ST4 - PARTICLE;AcquisitionParameter;On/Off Strobo;1;1;0
+ST4 - PARTICLE;AcquisitionParameter;Tempo di accensione strobo [us];27;260;10
+ST4 - PARTICLE;AcquisitionParameter;Ritardo acquisizione [us];0;1000;0
+ST4 - PARTICLE;AcquisitionParameter;Guadagno blu;0;1000;0
+ST4 - PARTICLE;AcquisitionParameter;Guadagno rosso;0;1000;0
+ST4 - PARTICLE;AcquisitionParameter;Guadagno verde;0;1000;0
+ST4 - PARTICLE;AcquisitionParameter;Pin di Uscita strobo;0;1000;0
+ST4 - PARTICLE;AcquisitionParameter;Ingresso trigger;0;1000;0
+ST4 - PARTICLE;AcquisitionParameter;Abilitazione A.O.I.;1;1;0
+ST4 - PARTICLE;AcquisitionParameter;A.O.I. X Start;576;2047;0
+ST4 - PARTICLE;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+ST4 - PARTICLE;AcquisitionParameter;A.O.I. Intervallo X;896;2048;16
+ST4 - PARTICLE;AcquisitionParameter;A.O.I. Intervallo Y;2048;2048;64
+ST4 - PARTICLE;AcquisitionParameter;Vial axis filename;10.200.14.74_vial_24000.xml;;
+ST4 - PARTICLE;FeaturesEnableParameter;Abilitazione analisi;1;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Abilitazione informazioni su immagine;1;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Display dei blobs;1;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Display Bolle;0;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Abilitazione salvataggio immagini differenze;0;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Abilitazione salvataggio traiettoria;0;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Invia live decimato;0;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Abilitazione invio immagine risultati;1;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Invio traiettorie;0;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Abilitazione analisi menisco;1;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Display analisi menisco;1;2;0
+ST4 - PARTICLE;FeaturesEnableParameter;Abilitazione normalizzazione sensore;1;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Abilitazione ROI dinamica;1;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Visualizzazione ROI sui risultati;1;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Abilitazione espansione della ROI sul fondo;1;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Abilitazione filtro di Kalman per tracking;0;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Abilitazione analisi riempimento;0;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Abilitazione mascheratura blob;1;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Visualizzazione mascheratura blob;1;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;Visualizzazione Traiettorie;0;1;0
+ST4 - PARTICLE;FeaturesEnableParameter;On/Off Analisi del fondo;0;;
+ST4 - PARTICLE;FeaturesEnableParameter;On/Off Traiettorie;0;;
+ST4 - PARTICLE;RecipeSimpleParameter;Sensibilità;20;255;0
+ST4 - PARTICLE;RecipeSimpleParameter;Soglia alta binarizzazione ROI dinamica;243;255;0
+ST4 - PARTICLE;RecipeSimpleParameter;Soglia bassa binarizzazione ROI dinamica;80;255;0
+ST4 - PARTICLE;RecipeSimpleParameter;GAP Fondo;10;255;0
+ST4 - PARTICLE;RecipeSimpleParameter;GAP Menisco;30;255;0
+ST4 - PARTICLE;RecipeSimpleParameter;Soglia menisco P.U.M.;110;255;0
+ST4 - PARTICLE;RecipeSimpleParameter;Massima area blob reject;200;100000;0
+ST4 - PARTICLE;RecipeSimpleParameter;Area minima blob;10;2048;0
+ST4 - PARTICLE;RecipeSimpleParameter;Massima area low blob reject analisi;100;100000;0
+ST4 - PARTICLE;RecipeSimpleParameter;Livello di riempimento min;900;2048;0
+ST4 - PARTICLE;RecipeSimpleParameter;Livello di riempimento max;1100;2048;0
+ST4 - PARTICLE;RecipeSimpleParameter;Livello di luminosità;0;255;0
+ST4 - PARTICLE;RecipeSimpleParameter;BlobMax numero di Frames consecutivi;1;10000;0
+ST4 - PARTICLE;RecipeSimpleParameter;Sensibilità fondo;50;255;0
+ST4 - PARTICLE;RecipeAdvancedParameter;1° filtro morfologico;0;2;0
+ST4 - PARTICLE;RecipeAdvancedParameter;2° filtro morfologico;0;2;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Dimensione buffer RLE;1000000;1000000;1000000
+ST4 - PARTICLE;RecipeAdvancedParameter;Num morf. ROI dinamica;0;20;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Analisi menisco min num;10;100;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Sensibilità analisi menisco;30;255;0
+ST4 - PARTICLE;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Numero massimo di blob;100;1000;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Massimo fattore di forma bolle;1.5;10;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Diff minima densità ottica bolle;200;255;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Dimensione massima bolle;50;1000;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Dimensione minima bolle;7;1000;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Massima accelerazione per tracking;3;1000;-1
+ST4 - PARTICLE;RecipeAdvancedParameter;Max rapporto aree per tracking;3;1000;1
+ST4 - PARTICLE;RecipeAdvancedParameter;Max rapporto altezze per tracking;3;1000;1
+ST4 - PARTICLE;RecipeAdvancedParameter;Max rapporto larghezze per tracking;3;1000;1
+ST4 - PARTICLE;RecipeAdvancedParameter;Angolo max segmento tracking;45;90;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Angolo max traiettoria;30;180;-1
+ST4 - PARTICLE;RecipeAdvancedParameter;Minima distanza per tracking;5;1000;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Numero frame backward per tracking;2;3;1
+ST4 - PARTICLE;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Dimensione buffer traiettorie;1000000;1000000;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Lunghezza max segmenti traiettoria;0;2048;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Lunghezza min segmenti traiettoria;0;2048;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Num campioni traiettorie ricorrenti;10;1000;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Massimo angolo traiettorie ricorrenti;15;180;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Massima distanza traiettorie ricorrenti;20;1000;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Min num traiettorie ricorrenti;2;1000;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Lunghezza minima traiettorie ricorrenti;3;1000;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Soglia superiore mascheratura blob;10;100;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Soglia inferiore mascheratura blob;5;100;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Valore encoder prima immagine;480;10000;0
+ST4 - PARTICLE;RecipeAdvancedParameter;Analisi fondo num immagini;10;;
+ST4 - PARTICLE;RecipeAdvancedParameter;Massima distanza per tracking;100;;
+ST4 - PARTICLE;RecipeAdvancedParameter;Max angolo traiettoria;70;;
+ST4 - PARTICLE;RecipeAdvancedParameter;Area min traiettoria;5;;
+ST4 - PARTICLE;RecipeAdvancedParameter;Numero min segmenti per traiettoria;3;;
+ST4 - PARTICLE;ROIParameter;ROI ID;0;100;0
+ST4 - PARTICLE;ROIParameter;Tipo di ROI;0;10;0
+ST4 - PARTICLE;ROIParameter;ROI Start X;300;2048;0
+ST4 - PARTICLE;ROIParameter;ROI End X;580;2048;0
+ST4 - PARTICLE;ROIParameter;ROI Start Y;1300;2048;0
+ST4 - PARTICLE;ROIParameter;ROI End Y;1950;2048;0
+ST4 - PARTICLE;ROIParameter;Colore ROI;250;255;0
+ST4 - PARTICLE;ROIParameter;Colore riempimento ROI;0;1;0
+ST4 - PARTICLE;ROIParameter;Visualizzazione ROI;1;1;0
+ST4 - PARTICLE;ROIParameter;$label_it;ROI Controllo Particellare;;
+ST4 - PARTICLE;ROIParameter;$label_en;ROI Particle Inspection;;
+ST4 - PARTICLE;ROIParameter;ROI ID;1;100;0
+ST4 - PARTICLE;ROIParameter;Tipo di ROI;0;10;0
+ST4 - PARTICLE;ROIParameter;ROI Start X;360;2048;0
+ST4 - PARTICLE;ROIParameter;ROI End X;530;2048;0
+ST4 - PARTICLE;ROIParameter;ROI Start Y;1100;2048;0
+ST4 - PARTICLE;ROIParameter;ROI End Y;1300;2048;0
+ST4 - PARTICLE;ROIParameter;Colore ROI;255;255;0
+ST4 - PARTICLE;ROIParameter;Colore riempimento ROI;0;1;0
+ST4 - PARTICLE;ROIParameter;Visualizzazione ROI;1;1;0
+ST4 - PARTICLE;ROIParameter;$label_it;ROI Controllo Luce;;
+ST4 - PARTICLE;ROIParameter;$label_en;ROI Light Control;;

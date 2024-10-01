@@ -1,0 +1,924 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcquisitionGetError" xml:space="preserve">
+    <value>Impossível obter parâmetros aquisição da câmara {0}</value>
+  </data>
+  <data name="AcquisitionParameter" xml:space="preserve">
+    <value>Parâmetro Aquisição</value>
+  </data>
+  <data name="ActualValue" xml:space="preserve">
+    <value>Valor efetivo</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="AdvancedRecipeParameter" xml:space="preserve">
+    <value>Parâmetro receita avançada</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>Qualquer</value>
+  </data>
+  <data name="Assistants" xml:space="preserve">
+    <value>Assistentes</value>
+  </data>
+  <data name="AtLeastOneCameraInError" xml:space="preserve">
+    <value>Pelo menos uma câmara habilitada em erro</value>
+  </data>
+  <data name="AuditFailed" xml:space="preserve">
+    <value>Não houve auditoria</value>
+  </data>
+  <data name="Average" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="Backup" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="BackupCamParamsFailed" xml:space="preserve">
+    <value>Falha backup parâmetros câmara</value>
+  </data>
+  <data name="BackupRestore" xml:space="preserve">
+    <value>Backup / Restaurar</value>
+  </data>
+  <data name="BackupVialAxisFailed" xml:space="preserve">
+    <value>Falha backup eixo frasco câmara</value>
+  </data>
+  <data name="Bad" xml:space="preserve">
+    <value>Ruim</value>
+  </data>
+  <data name="BatchID" xml:space="preserve">
+    <value>ID do lote</value>
+  </data>
+  <data name="BtnApply" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="BtnConfig" xml:space="preserve">
+    <value>Config</value>
+  </data>
+  <data name="BtnEdit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="BtnLiveStart" xml:space="preserve">
+    <value>Ativar direta ROI</value>
+  </data>
+  <data name="BtnLiveStartFF" xml:space="preserve">
+    <value>Ativar direta FullFrame</value>
+  </data>
+  <data name="BtnLiveStop" xml:space="preserve">
+    <value>Parar direta ROI</value>
+  </data>
+  <data name="BtnLiveStopFF" xml:space="preserve">
+    <value>Parar direta FullFrame</value>
+  </data>
+  <data name="BtnSave" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="BtnUndo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="BypassHMIsendRecipe" xml:space="preserve">
+    <value>Não aplicar receita HMI</value>
+  </data>
+  <data name="calibrationTurbidimeter" xml:space="preserve">
+    <value>Limiares</value>
+  </data>
+  <data name="Cal_Dark" xml:space="preserve">
+    <value>Escuro</value>
+  </data>
+  <data name="Cal_Good" xml:space="preserve">
+    <value>Bom</value>
+  </data>
+  <data name="Cal_Light" xml:space="preserve">
+    <value>Luz</value>
+  </data>
+  <data name="Cal_NumSamples" xml:space="preserve">
+    <value>N° de Elementos por tipo</value>
+  </data>
+  <data name="Cal_Start" xml:space="preserve">
+    <value>Iniciar Aquisição</value>
+  </data>
+  <data name="Cal_Stop" xml:space="preserve">
+    <value>Parar Aquisição</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Câmara</value>
+  </data>
+  <data name="CameraError" xml:space="preserve">
+    <value>Erro câmara</value>
+  </data>
+  <data name="CameraList" xml:space="preserve">
+    <value>Lista câmara</value>
+  </data>
+  <data name="CameraNotFound" xml:space="preserve">
+    <value>Câmara n.: {0} ip: {1} não encontrada na configuração</value>
+  </data>
+  <data name="CameraNotFound2" xml:space="preserve">
+    <value>Câmara não encontrada</value>
+  </data>
+  <data name="CameraNotReady" xml:space="preserve">
+    <value>Câmara não pronta</value>
+  </data>
+  <data name="CameraParamsBackupOk" xml:space="preserve">
+    <value>Efetuado backup parâmetros câmara</value>
+  </data>
+  <data name="CameraRecipeNotFound" xml:space="preserve">
+    <value>Receita câmara não encontrada</value>
+  </data>
+  <data name="CameraResetting" xml:space="preserve">
+    <value>Câmara reinicializando... Aguardar por favor</value>
+  </data>
+  <data name="Cameras" xml:space="preserve">
+    <value>Câmaras</value>
+  </data>
+  <data name="CameraStatus" xml:space="preserve">
+    <value>Estado câmara</value>
+  </data>
+  <data name="CameraStatusNotAvailable" xml:space="preserve">
+    <value>Estado câmara não disponível</value>
+  </data>
+  <data name="CantBindToCamera" xml:space="preserve">
+    <value>Impossível enganchar na câmara</value>
+  </data>
+  <data name="CantChangeLanguageWhileMachineIsRunning" xml:space="preserve">
+    <value>Impossível mudar idioma durante o funcionamento da máquina</value>
+  </data>
+  <data name="CantFindGlobalConfig" xml:space="preserve">
+    <value>Impossível encontrar file configuração global "globalConfig.xml"</value>
+  </data>
+  <data name="CantSaveRecipe" xml:space="preserve">
+    <value>Impossível salvar a receita</value>
+  </data>
+  <data name="CantSaveRecipeWhileMachineRunning" xml:space="preserve">
+    <value>Impossível salvar a receita durante o funcionamento da máquina</value>
+  </data>
+  <data name="CheckVialAxis" xml:space="preserve">
+    <value>Verificar eixo frasco</value>
+  </data>
+  <data name="Condition" xml:space="preserve">
+    <value>Condição</value>
+  </data>
+  <data name="Config" xml:space="preserve">
+    <value>Config</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Atual</value>
+  </data>
+  <data name="CustomerEvaluation" xml:space="preserve">
+    <value>Avaliação Consumidor</value>
+  </data>
+  <data name="DateTime" xml:space="preserve">
+    <value>Data Hora</value>
+  </data>
+  <data name="Device" xml:space="preserve">
+    <value>Dispositivo</value>
+  </data>
+  <data name="DeviceRecipeWrong" xml:space="preserve">
+    <value>Receita dispositivo incorreta ou ausente</value>
+  </data>
+  <data name="Devices" xml:space="preserve">
+    <value>Dispositivos</value>
+  </data>
+  <data name="DevicesParameters" xml:space="preserve">
+    <value>Parâmetros dispositivos</value>
+  </data>
+  <data name="DigitalTwinNoCSV" xml:space="preserve">
+    <value>CSV não está presente</value>
+  </data>
+  <data name="Digitizer" xml:space="preserve">
+    <value>Digitalizador</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Desativar</value>
+  </data>
+  <data name="DownloadImages" xml:space="preserve">
+    <value>Descarregar imagens</value>
+  </data>
+  <data name="DownloadingImages" xml:space="preserve">
+    <value>Descarregando imagens</value>
+  </data>
+  <data name="DownLoadParam" xml:space="preserve">
+    <value>Descarregando imagens das câmaras ....</value>
+  </data>
+  <data name="Dump" xml:space="preserve">
+    <value>Dump</value>
+  </data>
+  <data name="ElaborationGetError" xml:space="preserve">
+    <value>Impossível ler parâmetros receita câmara {0}</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Ativar</value>
+  </data>
+  <data name="EnableKnapp" xml:space="preserve">
+    <value>Habilitar Knapp</value>
+  </data>
+  <data name="ErrorReport" xml:space="preserve">
+    <value>Ocorreu um erro durante elaboração do relatório</value>
+  </data>
+  <data name="ErrorSendingParameters" xml:space="preserve">
+    <value>Erro durante envio dos parâmetros</value>
+  </data>
+  <data name="ErrorStartingKnapp" xml:space="preserve">
+    <value>Erro durante início do knapp</value>
+  </data>
+  <data name="ErrorStoppingKnapp" xml:space="preserve">
+    <value>Erro durante paragem do knapp</value>
+  </data>
+  <data name="ErrorUploadingParameters" xml:space="preserve">
+    <value>Erro durante carregamento dos parâmetros</value>
+  </data>
+  <data name="EvaluationScale" xml:space="preserve">
+    <value>Escala de avaliação</value>
+  </data>
+  <data name="Every" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Saída</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="ExportCameraParams" xml:space="preserve">
+    <value>Exportar parâmetros câmara</value>
+  </data>
+  <data name="ExportPDF" xml:space="preserve">
+    <value>Exportar PDF</value>
+  </data>
+  <data name="ExportPDFInProgress" xml:space="preserve">
+    <value>Exportação de PDF em curso, aguarde</value>
+  </data>
+  <data name="ExportVialAxis" xml:space="preserve">
+    <value>Exportar eixo frasco</value>
+  </data>
+  <data name="FatalError" xml:space="preserve">
+    <value>Erro fatal! Verificar a configuração e reinicializar</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Características</value>
+  </data>
+  <data name="FeaturesGetError" xml:space="preserve">
+    <value>Impossível obter Características da câmara {0}</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="Frames" xml:space="preserve">
+    <value>Frames</value>
+  </data>
+  <data name="Frequency" xml:space="preserve">
+    <value>Frequência</value>
+  </data>
+  <data name="FWver" xml:space="preserve">
+    <value>FW ver.</value>
+  </data>
+  <data name="GetParametersFailed" xml:space="preserve">
+    <value>Falha Parâmetros Get</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Bom</value>
+  </data>
+  <data name="GretelPCs" xml:space="preserve">
+    <value>Gretel PCs</value>
+  </data>
+  <data name="HardReset" xml:space="preserve">
+    <value>Reset Hard</value>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>Head</value>
+  </data>
+  <data name="HMIEnable" xml:space="preserve">
+    <value>Habilitação HMI</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Pagina inicial</value>
+  </data>
+  <data name="IdTool" xml:space="preserve">
+    <value>Id Ferramenta</value>
+  </data>
+  <data name="ImageSaved" xml:space="preserve">
+    <value>Imagem salvada</value>
+  </data>
+  <data name="ImagesDownloaded" xml:space="preserve">
+    <value>Imagens descarregadas corretamente</value>
+  </data>
+  <data name="ImagesDownloads" xml:space="preserve">
+    <value>Downloads imagens</value>
+  </data>
+  <data name="ImagesDumpSettings" xml:space="preserve">
+    <value>Programação dump imagens</value>
+  </data>
+  <data name="ImagesNotDownloaded" xml:space="preserve">
+    <value>Falha durante descarregamento imagens</value>
+  </data>
+  <data name="ImagesNotUploaded" xml:space="preserve">
+    <value>Falha durante carregamento imagens</value>
+  </data>
+  <data name="ImagesUpload" xml:space="preserve">
+    <value>Carregamento imagens</value>
+  </data>
+  <data name="ImagesUploads" xml:space="preserve">
+    <value>Carregamentos imagens</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>Incremento</value>
+  </data>
+  <data name="Inspection" xml:space="preserve">
+    <value>Inspeção</value>
+  </data>
+  <data name="InspectionSettings" xml:space="preserve">
+    <value>Programação inspeção</value>
+  </data>
+  <data name="InvalidLightCtrl" xml:space="preserve">
+    <value>Controlador luzes inválido</value>
+  </data>
+  <data name="Knapp" xml:space="preserve">
+    <value>Knapp</value>
+  </data>
+  <data name="KnappIdle" xml:space="preserve">
+    <value>Knapp idle</value>
+  </data>
+  <data name="KnappRunning" xml:space="preserve">
+    <value>Knapp em execução</value>
+  </data>
+  <data name="KnappSettingsError" xml:space="preserve">
+    <value>Knapp erro programação</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Último</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Nível</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="LiveMode" xml:space="preserve">
+    <value>Modo direta ROI</value>
+  </data>
+  <data name="LiveModeFF" xml:space="preserve">
+    <value>Modo direta fullframe</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Carregar</value>
+  </data>
+  <data name="LoadRecipeAndApply" xml:space="preserve">
+    <value>Carregar receita e aplicar</value>
+  </data>
+  <data name="LoadRecipeWithoutApply" xml:space="preserve">
+    <value>Carregar receita sem aplicar</value>
+  </data>
+  <data name="Logic" xml:space="preserve">
+    <value>Lógica</value>
+  </data>
+  <data name="Logs" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="MachineEvaluation" xml:space="preserve">
+    <value>Avaliação máquina</value>
+  </data>
+  <data name="MachineParameter" xml:space="preserve">
+    <value>Parâmetro máquina</value>
+  </data>
+  <data name="MaxValue" xml:space="preserve">
+    <value>Valor máx</value>
+  </data>
+  <data name="Measure" xml:space="preserve">
+    <value>Medida</value>
+  </data>
+  <data name="MinValue" xml:space="preserve">
+    <value>Valor mín</value>
+  </data>
+  <data name="Missing" xml:space="preserve">
+    <value>Faltante</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Modo</value>
+  </data>
+  <data name="ModuleName" xml:space="preserve">
+    <value>Nome módulo</value>
+  </data>
+  <data name="MoreSettings" xml:space="preserve">
+    <value>MAIS DEFINIÇÕES</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NetworkNodes" xml:space="preserve">
+    <value>Nós de rede</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="NoActiveRecipe" xml:space="preserve">
+    <value>Nenhuma receita ativa</value>
+  </data>
+  <data name="NoCameraAvailable" xml:space="preserve">
+    <value>Nenhuma câmara disponível!</value>
+  </data>
+  <data name="NoDefaultPrinter" xml:space="preserve">
+    <value>Error: cannot find the default printer.</value>
+  </data>
+  <data name="NodeId" xml:space="preserve">
+    <value>Id Nó</value>
+  </data>
+  <data name="Nodes" xml:space="preserve">
+    <value>Dispositivos</value>
+  </data>
+  <data name="NoEditingAvailable" xml:space="preserve">
+    <value>Impossível editar o parâmetro neste momento!</value>
+  </data>
+  <data name="NoReadyToRunAvailable" xml:space="preserve">
+    <value>Impossível abandonar a edição do parâmetro neste momento!</value>
+  </data>
+  <data name="NoRecipeAvailable" xml:space="preserve">
+    <value>Nenhuma receita disponível!</value>
+  </data>
+  <data name="Normalization" xml:space="preserve">
+    <value>Normalização</value>
+  </data>
+  <data name="NSample" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="OfflineAnalysis" xml:space="preserve">
+    <value>Análise offline</value>
+  </data>
+  <data name="OnPattern" xml:space="preserve">
+    <value>Sobre o padrão</value>
+  </data>
+  <data name="OnReject" xml:space="preserve">
+    <value>Sobre a rejeição</value>
+  </data>
+  <data name="Parameter" xml:space="preserve">
+    <value>Parâmetro</value>
+  </data>
+  <data name="PixelInfo" xml:space="preserve">
+    <value>Info pixel</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Favor aguardar</value>
+  </data>
+  <data name="PleaseWaitWindowsService" xml:space="preserve">
+    <value>Favor aguardar windows service</value>
+  </data>
+  <data name="Prev" xml:space="preserve">
+    <value>Prev</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Informe</value>
+  </data>
+  <data name="Printing" xml:space="preserve">
+    <value>Printing...</value>
+  </data>
+  <data name="PrintKnapp" xml:space="preserve">
+    <value>Imprimir Knapp</value>
+  </data>
+  <data name="PUM" xml:space="preserve">
+    <value>P.U.M.</value>
+  </data>
+  <data name="Range" xml:space="preserve">
+    <value>Gama</value>
+  </data>
+  <data name="ReadingDeviceInfo" xml:space="preserve">
+    <value>Lendo info dispositivo</value>
+  </data>
+  <data name="Recipe" xml:space="preserve">
+    <value>Receita</value>
+  </data>
+  <data name="RecipeAdvancedGetError" xml:space="preserve">
+    <value>Impossível obter parâmetros avançados de receita da câmara {0}</value>
+  </data>
+  <data name="RecipeEnable" xml:space="preserve">
+    <value>Habilitação Receita</value>
+  </data>
+  <data name="RecipeMachineGetError" xml:space="preserve">
+    <value>Impossível obter parâmetros máquina de receita da câmara {0}</value>
+  </data>
+  <data name="RecipeParameter" xml:space="preserve">
+    <value>Parâmetros receita</value>
+  </data>
+  <data name="RecipeSimpleGetError" xml:space="preserve">
+    <value>Impossível obter parâmetros simples de receita da câmara {0}</value>
+  </data>
+  <data name="RecivedRecipeWithErrors" xml:space="preserve">
+    <value>Receita recebida com erros. A receita foi ignorada.</value>
+  </data>
+  <data name="RecordImagesError" xml:space="preserve">
+    <value>Erro imagens registo</value>
+  </data>
+  <data name="Redownload" xml:space="preserve">
+    <value>Baixar novamente</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Rejeito</value>
+  </data>
+  <data name="Rejects" xml:space="preserve">
+    <value>Rejeitos</value>
+  </data>
+  <data name="RejectsBuffer" xml:space="preserve">
+    <value>Buffer rejeitos</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ResetAll" xml:space="preserve">
+    <value>Reset todos</value>
+  </data>
+  <data name="ResetBufferImages" xml:space="preserve">
+    <value>Reset imagens buffer</value>
+  </data>
+  <data name="ResetError" xml:space="preserve">
+    <value>Falha reset câmara</value>
+  </data>
+  <data name="ResetTriggerEncoder" xml:space="preserve">
+    <value>Reset encoder gatilho</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Restaurar</value>
+  </data>
+  <data name="RestoreVialAxisFailed" xml:space="preserve">
+    <value>Falha restabelecimento eixo frasco</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Resultados</value>
+  </data>
+  <data name="ROIDefinition" xml:space="preserve">
+    <value>Definição ROI</value>
+  </data>
+  <data name="RoundNum" xml:space="preserve">
+    <value>Operação completa</value>
+  </data>
+  <data name="RoundsNum" xml:space="preserve">
+    <value>Núm. giros</value>
+  </data>
+  <data name="RunFailed" xml:space="preserve">
+    <value>Falha execução</value>
+  </data>
+  <data name="RunningMode" xml:space="preserve">
+    <value>Modalidade de funcionamento</value>
+  </data>
+  <data name="SampleSize" xml:space="preserve">
+    <value>Dimensão Amostra</value>
+  </data>
+  <data name="Sampling" xml:space="preserve">
+    <value>Amostragem</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="SaveBufferedImages" xml:space="preserve">
+    <value>Salvar imagens memorizadas no buffer</value>
+  </data>
+  <data name="SaveCurrentRecipe" xml:space="preserve">
+    <value>Salvar receita atual</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Salvo</value>
+  </data>
+  <data name="SaveKnapp" xml:space="preserve">
+    <value>Salvar Knapp</value>
+  </data>
+  <data name="SaveRejectedContainersImages" xml:space="preserve">
+    <value>Salvar imagens cont. rejeitadas</value>
+  </data>
+  <data name="SaveSettings" xml:space="preserve">
+    <value>Salvar parâmetros</value>
+  </data>
+  <data name="SaveSurvey" xml:space="preserve">
+    <value>Salvar pesquisa</value>
+  </data>
+  <data name="SavingBufferedImages" xml:space="preserve">
+    <value>Salvando imagens memorizadas no buffer</value>
+  </data>
+  <data name="SavingCurrentRecipe" xml:space="preserve">
+    <value>Salvando receita ...</value>
+  </data>
+  <data name="SavingCurrentRecipeFailed" xml:space="preserve">
+    <value>Falha ao salvar a receita atual</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Selecionar</value>
+  </data>
+  <data name="SelectFolderForSavingImages" xml:space="preserve">
+    <value>Selecione um ficheiro para salvar imagens</value>
+  </data>
+  <data name="SelectFolderFromWhichToUpload" xml:space="preserve">
+    <value>Selecione um ficheiro do qual carregar</value>
+  </data>
+  <data name="SendingRecipeTo" xml:space="preserve">
+    <value>Enviando receita a</value>
+  </data>
+  <data name="SendParam" xml:space="preserve">
+    <value>Enviando parâmetros às câmaras ...</value>
+  </data>
+  <data name="ShowingLiveCam" xml:space="preserve">
+    <value>Mostrando câmara em direta!</value>
+  </data>
+  <data name="SoftReset" xml:space="preserve">
+    <value>Soft reset</value>
+  </data>
+  <data name="Spindle" xml:space="preserve">
+    <value>Fuso</value>
+  </data>
+  <data name="SpvBusyError" xml:space="preserve">
+    <value>Impossível enviar estado 'Busy'</value>
+  </data>
+  <data name="SpvErrorError" xml:space="preserve">
+    <value>Impossível enviar estado 'Erro'</value>
+  </data>
+  <data name="SpvReadyToRunError" xml:space="preserve">
+    <value>Impossível enviar estado 'ReadytoRun'</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="StartLive" xml:space="preserve">
+    <value>Iniciar direta</value>
+  </data>
+  <data name="StartOfflineAnalysis" xml:space="preserve">
+    <value>Iniciar análise offline</value>
+  </data>
+  <data name="StartOffset" xml:space="preserve">
+    <value>Iniciar offset</value>
+  </data>
+  <data name="StartRun" xml:space="preserve">
+    <value>Iniciar funcionamento</value>
+  </data>
+  <data name="Station" xml:space="preserve">
+    <value>Estação</value>
+  </data>
+  <data name="StationEvaluation" xml:space="preserve">
+    <value>Avaliação estação</value>
+  </data>
+  <data name="StationId" xml:space="preserve">
+    <value>Id Estação</value>
+  </data>
+  <data name="StationRejects" xml:space="preserve">
+    <value>Rejeitos estação</value>
+  </data>
+  <data name="StationSpindleInitialPosition" xml:space="preserve">
+    <value>Posição inicial fuso estação</value>
+  </data>
+  <data name="StationSpindleOffset" xml:space="preserve">
+    <value>Offset fuso estação</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="StopLive" xml:space="preserve">
+    <value>Parar direta</value>
+  </data>
+  <data name="StopOffAnalysis" xml:space="preserve">
+    <value>Parar análise off.</value>
+  </data>
+  <data name="StopOfflineAnalysis" xml:space="preserve">
+    <value>Parar análise offline</value>
+  </data>
+  <data name="StopOnCondition" xml:space="preserve">
+    <value>Parar em condição</value>
+  </data>
+  <data name="Strobe" xml:space="preserve">
+    <value>Strobe</value>
+  </data>
+  <data name="Strobo" xml:space="preserve">
+    <value>Strobo</value>
+  </data>
+  <data name="StroboConfFileInvalid" xml:space="preserve">
+    <value>File de configuração Strobo não válido. Verifique número de Strobo e seus percursos.</value>
+  </data>
+  <data name="StroboParameter" xml:space="preserve">
+    <value>Parâmetro configuração Strobo</value>
+  </data>
+  <data name="SwVersion" xml:space="preserve">
+    <value>Versão SW</value>
+  </data>
+  <data name="TechnicalReject" xml:space="preserve">
+    <value>Rejeito Técnico</value>
+  </data>
+  <data name="TechReject" xml:space="preserve">
+    <value>Técnica. Rejeitar</value>
+  </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>Temporização</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="Tool" xml:space="preserve">
+    <value>Ferramenta</value>
+  </data>
+  <data name="ToolDescription" xml:space="preserve">
+    <value>Descrição ferramenta</value>
+  </data>
+  <data name="ToolId" xml:space="preserve">
+    <value>Id Ferramenta</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Ferramentas</value>
+  </data>
+  <data name="ToSave" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="Trending" xml:space="preserve">
+    <value>Tendências</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="UnableReadMacConf" xml:space="preserve">
+    <value>Impossível ler a configuração da máquina!</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Carregar</value>
+  </data>
+  <data name="UploadingImages" xml:space="preserve">
+    <value>Carregando imagens</value>
+  </data>
+  <data name="UserLevelMsg" xml:space="preserve">
+    <value>Nível utilizador: {0}</value>
+  </data>
+  <data name="UserSettings" xml:space="preserve">
+    <value>Programações utilizador</value>
+  </data>
+  <data name="Utilities" xml:space="preserve">
+    <value>Utilities</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="VarianceValue" xml:space="preserve">
+    <value>Variância</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Versão</value>
+  </data>
+  <data name="VialAxis" xml:space="preserve">
+    <value>Eixo frasco</value>
+  </data>
+  <data name="VialAxisExportedOk" xml:space="preserve">
+    <value>Eixo frasco exportado corretamente</value>
+  </data>
+  <data name="VialAxisImportedOk" xml:space="preserve">
+    <value>Eixo frasco importado corretamente</value>
+  </data>
+  <data name="VialId" xml:space="preserve">
+    <value>Id Frasco</value>
+  </data>
+  <data name="VialOffset" xml:space="preserve">
+    <value>Offset frasco</value>
+  </data>
+  <data name="VialsToIgnoreNum" xml:space="preserve">
+    <value>Núm. frascos a ignorar</value>
+  </data>
+  <data name="ViewParameters" xml:space="preserve">
+    <value>Parâmetros</value>
+  </data>
+  <data name="VisionSpvCannotBeExecuted" xml:space="preserve">
+    <value>Impossível executar visualização spv</value>
+  </data>
+  <data name="VisionSpvIsWaitingForSystemStartup" xml:space="preserve">
+    <value>Visualização spv aguardando startup do sistema</value>
+  </data>
+  <data name="VNCError" xml:space="preserve">
+    <value>Erro conexão VNC</value>
+  </data>
+  <data name="WaitingNodeConnection" xml:space="preserve">
+    <value>Aguardando {0} conexão... {1}</value>
+  </data>
+  <data name="WorkingMode" xml:space="preserve">
+    <value>Modo de trabalho</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+</root>

@@ -1,0 +1,111 @@
+<MachineConfiguration>
+  <Customer>SPAMI</Customer>
+  <DefaultFolder>D:\SPAMI</DefaultFolder>
+  <DebugEnabled>false</DebugEnabled>
+
+  <TriggerMode>1</TriggerMode>
+  <TriggerSourceManual>false</TriggerSourceManual>
+
+  <NumberOfCamera>5</NumberOfCamera>
+  <NumberOfStation>5</NumberOfStation>
+  <NumberOfSplindles>40</NumberOfSplindles>
+  <NumberOfStrobo>1</NumberOfStrobo>
+  <StroboSettings>
+	<StroboSetting>
+		<IP>10.200.0.99</IP>
+		<Path>./Gardasoft_RT820F_20.xml</Path>
+	</StroboSetting>
+  </StroboSettings>
+  <MachineType>ExactaEasy</MachineType>
+  <HMIServiceAddress>http://localhost:6543</HMIServiceAddress>
+  <SupervisorServiceAddress>http://localhost:8090/ExactaEasyUI/Supervisor</SupervisorServiceAddress>
+  <CameraProviders>
+    <DefaultCameraProviderName>TestCamera</DefaultCameraProviderName>
+    <Providers>
+      <CameraProvider>
+        <Name>TestCamera</Name>
+        <Type>TestCamera.TestCamera, TestCamera</Type>
+      </CameraProvider>
+      <CameraProvider>
+        <Name>TattileCameraM9</Name>
+        <Type>TattileCameras.TattileCameraM9, TattileCamera</Type>
+      </CameraProvider>
+	  <CameraProvider>
+        <Name>TattileCameraM12</Name>
+        <Type>TattileCameras.TattileCameraM12, TattileCamera</Type>
+      </CameraProvider>
+    </Providers>
+  </CameraProviders>
+  <CameraSettings>
+    <CameraSetting>
+      <Id>0</Id>
+      <BufferSize>10</BufferSize>
+      <CameraType>Test offline</CameraType>
+      <CameraDescription>STXXX - TEST OFFLINE 0</CameraDescription>
+      <CameraProviderName>TestCamera</CameraProviderName>
+      <Spindle>0</Spindle>
+      <BufferSize>10</BufferSize>
+      <IP4Address>10.200.11.71</IP4Address>
+      <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>2</DisplayPosition>
+      <StroboIP4Address>10.200.0.99</StroboIP4Address>
+      <StroboChannel>1</StroboChannel>
+    </CameraSetting>
+    <CameraSetting>
+      <Id>1</Id>
+      <BufferSize>10</BufferSize>
+      <CameraType>Test offline</CameraType>
+      <CameraDescription>STXXX - TEST OFFLINE 1</CameraDescription>
+      <CameraProviderName>TestCamera</CameraProviderName>
+      <Spindle>0</Spindle>
+      <BufferSize>10</BufferSize>
+      <IP4Address>10.200.11.71</IP4Address>
+      <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>1</DisplayPosition>
+      <StroboIP4Address>10.200.0.99</StroboIP4Address>
+      <StroboChannel>1</StroboChannel>
+    </CameraSetting>
+    <CameraSetting>
+      <Id>2</Id>
+      <BufferSize>10</BufferSize>
+      <CameraType>Test offline</CameraType>
+      <CameraDescription>STXXX - TEST OFFLINE 2</CameraDescription>
+      <CameraProviderName>TestCamera</CameraProviderName>
+      <Spindle>0</Spindle>
+      <BufferSize>10</BufferSize>
+      <IP4Address>10.200.11.71</IP4Address>
+      <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>0</DisplayPosition>
+      <StroboIP4Address>10.200.0.99</StroboIP4Address> 
+      <StroboChannel>1</StroboChannel>
+    </CameraSetting>
+    <CameraSetting>
+      <Id>3</Id>
+      <BufferSize>10</BufferSize>
+      <CameraType>Test offline</CameraType>
+      <CameraDescription>STXXX - TEST OFFLINE 3</CameraDescription>
+      <CameraProviderName>TestCamera</CameraProviderName>
+      <Spindle>0</Spindle>
+      <BufferSize>10</BufferSize>
+      <IP4Address>10.200.11.71</IP4Address>
+      <PageNumberPosition>1</PageNumberPosition>
+      <DisplayPosition>1</DisplayPosition>
+      <StroboIP4Address>10.200.0.99</StroboIP4Address>
+      <StroboChannel>1</StroboChannel>
+    </CameraSetting>
+    <CameraSetting>
+      <Id>4</Id>
+      <BufferSize>10</BufferSize>
+      <CameraType>Test offline</CameraType>
+      <CameraDescription>STXXX - TEST OFFLINE 4</CameraDescription>
+      <CameraProviderName>TestCamera</CameraProviderName>
+      <Spindle>0</Spindle>
+      <BufferSize>10</BufferSize>
+      <IP4Address>10.200.11.71</IP4Address>
+      <PageNumberPosition>1</PageNumberPosition>
+      <DisplayPosition>0</DisplayPosition>
+      <StroboIP4Address>10.200.0.99</StroboIP4Address>
+      <StroboChannel>1</StroboChannel>
+    </CameraSetting>
+  </CameraSettings>
+</MachineConfiguration>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SolutionData" targetNamespace="http://tempuri.org/SolutionData.xsd" xmlns:mstns="http://tempuri.org/SolutionData.xsd" xmlns="http://tempuri.org/SolutionData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SolutionData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="SolutionData" msprop:Generator_UserDSName="SolutionData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="solution" msprop:Generator_TableClassName="solutionDataTable" msprop:Generator_TableVarName="tablesolution" msprop:Generator_RowChangedName="solutionRowChanged" msprop:Generator_TablePropName="solution" msprop:Generator_RowDeletingName="solutionRowDeleting" msprop:Generator_RowChangingName="solutionRowChanging" msprop:Generator_RowEvHandlerName="solutionRowChangeEventHandler" msprop:Generator_RowDeletedName="solutionRowDeleted" msprop:Generator_RowClassName="solutionRow" msprop:Generator_UserTableName="solution" msprop:Generator_RowEvArgName="solutionRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecipeName" msprop:Generator_ColumnVarNameInTable="columnRecipeName" msprop:Generator_ColumnPropNameInRow="RecipeName" msprop:Generator_ColumnPropNameInTable="RecipeNameColumn" msprop:Generator_UserColumnName="RecipeName" type="xs:string" minOccurs="0" />
+              <xs:element name="RecipeVersion" msprop:Generator_ColumnVarNameInTable="columnRecipeVersion" msprop:Generator_ColumnPropNameInRow="RecipeVersion" msprop:Generator_ColumnPropNameInTable="RecipeVersionColumn" msprop:Generator_UserColumnName="RecipeVersion" type="xs:string" minOccurs="0" />
+              <xs:element name="NodeId" msprop:Generator_ColumnVarNameInTable="columnNodeId" msprop:Generator_ColumnPropNameInRow="NodeId" msprop:Generator_ColumnPropNameInTable="NodeIdColumn" msprop:Generator_UserColumnName="NodeId" type="xs:string" minOccurs="0" />
+              <xs:element name="NodeDescription" msprop:Generator_ColumnVarNameInTable="columnNodeDescription" msprop:Generator_ColumnPropNameInRow="NodeDescription" msprop:Generator_ColumnPropNameInTable="NodeDescriptionColumn" msprop:Generator_UserColumnName="NodeDescription" type="xs:string" minOccurs="0" />
+              <xs:element name="StationId" msprop:Generator_ColumnVarNameInTable="columnStationId" msprop:Generator_ColumnPropNameInRow="StationId" msprop:Generator_ColumnPropNameInTable="StationIdColumn" msprop:Generator_UserColumnName="StationId" type="xs:string" minOccurs="0" />
+              <xs:element name="StationDescription" msprop:Generator_ColumnVarNameInTable="columnStationDescription" msprop:Generator_ColumnPropNameInRow="StationDescription" msprop:Generator_ColumnPropNameInTable="StationDescriptionColumn" msprop:Generator_UserColumnName="StationDescription" type="xs:string" minOccurs="0" />
+              <xs:element name="CameraId" msprop:Generator_ColumnVarNameInTable="columnCameraId" msprop:Generator_ColumnPropNameInRow="CameraId" msprop:Generator_ColumnPropNameInTable="CameraIdColumn" msprop:Generator_UserColumnName="CameraId" type="xs:string" minOccurs="0" />
+              <xs:element name="CameraParameterId" msprop:Generator_ColumnVarNameInTable="columnCameraParameterId" msprop:Generator_ColumnPropNameInRow="CameraParameterId" msprop:Generator_ColumnPropNameInTable="CameraParameterIdColumn" msprop:Generator_UserColumnName="CameraParameterId" type="xs:string" minOccurs="0" />
+              <xs:element name="CameraParameterValue" msprop:Generator_ColumnVarNameInTable="columnCameraParameterValue" msprop:Generator_ColumnPropNameInRow="CameraParameterValue" msprop:Generator_ColumnPropNameInTable="CameraParameterValueColumn" msprop:Generator_UserColumnName="CameraParameterValue" type="xs:string" minOccurs="0" />
+              <xs:element name="CameraParameterType" msprop:Generator_ColumnVarNameInTable="columnCameraParameterType" msprop:Generator_ColumnPropNameInRow="CameraParameterType" msprop:Generator_ColumnPropNameInTable="CameraParameterTypeColumn" msprop:Generator_UserColumnName="CameraParameterType" type="xs:string" minOccurs="0" />
+              <xs:element name="BoardId" msprop:Generator_ColumnVarNameInTable="columnBoardId" msprop:Generator_ColumnPropNameInRow="BoardId" msprop:Generator_ColumnPropNameInTable="BoardIdColumn" msprop:Generator_UserColumnName="BoardId" type="xs:string" minOccurs="0" />
+              <xs:element name="FileName" msprop:Generator_ColumnVarNameInTable="columnFileName" msprop:Generator_ColumnPropNameInRow="FileName" msprop:Generator_ColumnPropNameInTable="FileNameColumn" msprop:Generator_UserColumnName="FileName" type="xs:string" minOccurs="0" />
+              <xs:element name="LightRecipeId" msprop:Generator_ColumnVarNameInTable="columnLightRecipeId" msprop:Generator_ColumnPropNameInRow="LightRecipeId" msprop:Generator_ColumnPropNameInTable="LightRecipeIdColumn" msprop:Generator_UserColumnName="LightRecipeId" type="xs:string" minOccurs="0" />
+              <xs:element name="LightParamId" msprop:Generator_ColumnVarNameInTable="columnLightParamId" msprop:Generator_ColumnPropNameInRow="LightParamId" msprop:Generator_ColumnPropNameInTable="LightParamIdColumn" msprop:Generator_UserColumnName="LightParamId" type="xs:string" minOccurs="0" />
+              <xs:element name="LightParamVal" msprop:Generator_ColumnVarNameInTable="columnLightParamVal" msprop:Generator_ColumnPropNameInRow="LightParamVal" msprop:Generator_ColumnPropNameInTable="LightParamValColumn" msprop:Generator_UserColumnName="LightParamVal" type="xs:string" minOccurs="0" />
+              <xs:element name="ToolId" msprop:Generator_ColumnVarNameInTable="columnToolId" msprop:Generator_ColumnPropNameInRow="ToolId" msprop:Generator_ColumnPropNameInTable="ToolIdColumn" msprop:Generator_UserColumnName="ToolId" type="xs:string" minOccurs="0" />
+              <xs:element name="ToolParamId" msprop:Generator_ColumnVarNameInTable="columnToolParamId" msprop:Generator_ColumnPropNameInRow="ToolParamId" msprop:Generator_ColumnPropNameInTable="ToolParamIdColumn" msprop:Generator_UserColumnName="ToolParamId" type="xs:string" minOccurs="0" />
+              <xs:element name="ToolParamVal" msprop:Generator_ColumnVarNameInTable="columnToolParamVal" msprop:Generator_ColumnPropNameInRow="ToolParamVal" msprop:Generator_ColumnPropNameInTable="ToolParamValColumn" msprop:Generator_UserColumnName="ToolParamVal" type="xs:string" minOccurs="0" />
+              <xs:element name="ShapeId" msprop:Generator_ColumnVarNameInTable="columnShapeId" msprop:Generator_ColumnPropNameInRow="ShapeId" msprop:Generator_ColumnPropNameInTable="ShapeIdColumn" msprop:Generator_UserColumnName="ShapeId" type="xs:string" minOccurs="0" />
+              <xs:element name="ShapeParamId" msprop:Generator_ColumnVarNameInTable="columnShapeParamId" msprop:Generator_ColumnPropNameInRow="ShapeParamId" msprop:Generator_ColumnPropNameInTable="ShapeParamIdColumn" msprop:Generator_UserColumnName="ShapeParamId" type="xs:string" minOccurs="0" />
+              <xs:element name="ShapeParamVal" msprop:Generator_ColumnVarNameInTable="columnShapeParamVal" msprop:Generator_ColumnPropNameInRow="ShapeParamVal" msprop:Generator_ColumnPropNameInTable="ShapeParamValColumn" msprop:Generator_UserColumnName="ShapeParamVal" type="xs:string" minOccurs="0" />
+              <xs:element name="ToolOutId" msprop:Generator_ColumnVarNameInTable="columnToolOutId" msprop:Generator_ColumnPropNameInRow="ToolOutId" msprop:Generator_ColumnPropNameInTable="ToolOutIdColumn" msprop:Generator_UserColumnName="ToolOutId" type="xs:string" minOccurs="0" />
+              <xs:element name="ToolOutUsed" msprop:Generator_ColumnVarNameInTable="columnToolOutUsed" msprop:Generator_ColumnPropNameInRow="ToolOutUsed" msprop:Generator_ColumnPropNameInTable="ToolOutUsedColumn" msprop:Generator_UserColumnName="ToolOutUsed" type="xs:string" minOccurs="0" />
+              <xs:element name="ToolOutVal" msprop:Generator_ColumnVarNameInTable="columnToolOutVal" msprop:Generator_ColumnPropNameInRow="ToolOutVal" msprop:Generator_ColumnPropNameInTable="ToolOutValColumn" msprop:Generator_UserColumnName="ToolOutVal" type="xs:string" minOccurs="0" />
+              <xs:element name="ToolOutShow" msprop:Generator_ColumnVarNameInTable="columnToolOutShow" msprop:Generator_ColumnPropNameInRow="ToolOutShow" msprop:Generator_ColumnPropNameInTable="ToolOutShowColumn" msprop:Generator_UserColumnName="ToolOutShow" type="xs:string" minOccurs="0" />
+              <xs:element name="ToolParamSceneJson" msprop:Generator_ColumnVarNameInTable="columnToolParamSceneJson" msprop:Generator_ColumnPropNameInRow="ToolParamSceneJson" msprop:Generator_ColumnPropNameInTable="ToolParamSceneJsonColumn" msprop:Generator_UserColumnName="ToolParamSceneJson" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

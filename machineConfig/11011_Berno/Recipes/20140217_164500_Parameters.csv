@@ -1,0 +1,340 @@
+Station name;Parameter section;Parameter name;Value;Min Value;Max Value
+ST 2 - PARTICLE;AcquisitionParameter;Vial format number;0;;
+ST 2 - PARTICLE;AcquisitionParameter;$vialFormatDesc;BERNO 2ml TRASP;;
+ST 2 - PARTICLE;AcquisitionParameter;Number of frames;18;25;4
+ST 2 - PARTICLE;AcquisitionParameter;Exposure time [us];45;10000;1
+ST 2 - PARTICLE;AcquisitionParameter;Gain;0;1023;0
+ST 2 - PARTICLE;AcquisitionParameter;$strobeEnable;1;1;0
+ST 2 - PARTICLE;AcquisitionParameter;Strobe pulse width [us];27;260;10
+ST 2 - PARTICLE;AcquisitionParameter;Acquisition delay [us];0;1000;0
+ST 2 - PARTICLE;AcquisitionParameter;Blue gain;0;1000;0
+ST 2 - PARTICLE;AcquisitionParameter;Red gain;0;1000;0
+ST 2 - PARTICLE;AcquisitionParameter;Green gain;0;1000;0
+ST 2 - PARTICLE;AcquisitionParameter;Strobe out;0;1000;0
+ST 2 - PARTICLE;AcquisitionParameter;Trigger input;0;1000;0
+ST 2 - PARTICLE;AcquisitionParameter;A.O.I. Enable;1;1;0
+ST 2 - PARTICLE;AcquisitionParameter;A.O.I. X Start;576;2047;0
+ST 2 - PARTICLE;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+ST 2 - PARTICLE;AcquisitionParameter;A.O.I. X Width;896;2048;16
+ST 2 - PARTICLE;AcquisitionParameter;A.O.I. Y Width;2048;2048;64
+ST 2 - PARTICLE;AcquisitionParameter;Camera IP address;192.168.12.22;;
+ST 2 - PARTICLE;AcquisitionParameter;Vial axis filename;192.168.12.22_vial_24000.xml;;
+ST 2 - PARTICLE;FeaturesEnableParameter;Analysis enable;1;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Overlay information enable;1;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Blobs print enable;1;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Bubbles print enable;0;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Enable saving difference images;0;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Enable save trajectory;0;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Send decimated live;0;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Enable send result image;1;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Send trajectories;0;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Enable meniscus analysis;0;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Meniscus analysis plot;1;2;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Enable sensor normalization;1;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Enable dynamic ROI;1;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Enable ROI plot on results;1;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Enable ROI bottom expansion;0;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Enable Kalman filter for tracking;0;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Enable filling analysis;1;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Enable blob masking;1;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;Enable blob masking print;1;1;0
+ST 2 - PARTICLE;FeaturesEnableParameter;$trajectoryPrint;0;1;0
+ST 2 - PARTICLE;RecipeSimpleParameter;RLE low threshold;10;255;0
+ST 2 - PARTICLE;RecipeSimpleParameter;ROI dynamic high threshold;243;255;0
+ST 2 - PARTICLE;RecipeSimpleParameter;ROI dynamic low threshold;80;255;0
+ST 2 - PARTICLE;RecipeSimpleParameter;$ROIDynamicBottonReductcion;0;255;0
+ST 2 - PARTICLE;RecipeSimpleParameter;$ROIDynamicMeniscusReductcion;15;255;0
+ST 2 - PARTICLE;RecipeSimpleParameter;Meniscus P.U.M. threshold;110;255;0
+ST 2 - PARTICLE;RecipeSimpleParameter;Blob max area reject;300;100000;0
+ST 2 - PARTICLE;RecipeSimpleParameter;Blobs min area;15;10000;0
+ST 2 - PARTICLE;RecipeSimpleParameter;$blobMaxAreaRejectLowThreshold;300;100000;0
+ST 2 - PARTICLE;RecipeSimpleParameter;Tracking max distance;100;2048;0
+ST 2 - PARTICLE;RecipeSimpleParameter;Trajectory max angle;70;90;0
+ST 2 - PARTICLE;RecipeSimpleParameter;Trajectory min area;10;10000;0
+ST 2 - PARTICLE;RecipeSimpleParameter;Trajectory min segment number;3;10000;0
+ST 2 - PARTICLE;RecipeSimpleParameter;Filling level min;100;2048;0
+ST 2 - PARTICLE;RecipeSimpleParameter;Filling level max;2000;2048;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;1st morphological filter;0;2;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;2nd morphological filter;0;2;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;RLE buffer size;1000000;1000000;1000000
+ST 2 - PARTICLE;RecipeAdvancedParameter;ROI dynamic morph. iter;0;20;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Meniscus analysis min count;10;100;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Meniscus analysis threshold;30;255;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Blobs max number;100;1000;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Bubble max shape factor;1.5;10;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Bubble optical density min diff;200;255;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Bubble size maximum;50;1000;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Bubble size minimum;7;1000;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Tracking max acceleration;3;1000;-1
+ST 2 - PARTICLE;RecipeAdvancedParameter;Tracking max area ratio;3;1000;1
+ST 2 - PARTICLE;RecipeAdvancedParameter;Tracking max height ratio;3;1000;1
+ST 2 - PARTICLE;RecipeAdvancedParameter;Tracking max width ratio;3;1000;1
+ST 2 - PARTICLE;RecipeAdvancedParameter;Tracking max segment angle;45;90;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Tracking max traj. angle;30;180;-1
+ST 2 - PARTICLE;RecipeAdvancedParameter;Tracking min distance;5;1000;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Tracking frames number backward;2;3;1
+ST 2 - PARTICLE;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Trajectories buffer size;1000000;1000000;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Trajectory all segments max length;0;2048;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Trajectory all segments min length;0;2048;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Trajectory recurrent backward num;10;1000;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max angle;15;180;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max distance;20;1000;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min count;2;1000;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min length;3;1000;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Masking blobs high threshold;10;100;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Masking blobs low threshold;5;100;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Min density reference;0;255;0
+ST 2 - PARTICLE;RecipeAdvancedParameter;Encoder counter first image;340;10000;0
+ST 2 - PARTICLE;StroboParameter;Strobe operating mode;Pulsed;;
+ST 2 - PARTICLE;StroboParameter;Strobe current [A];3.801;20;0
+ST 2 - PARTICLE;StroboParameter;Strobe pulse delay;0.002;1000;0
+ST 2 - PARTICLE;StroboParameter;Strobe pulse width [ms];0.2;1000;0
+ST 2 - PARTICLE;StroboParameter;Strobe retrigger time [ms];2;1000;0
+ST 2 - PARTICLE;StroboParameter;Strobe continuous max current [A];0.5;20;0
+ST 2 - PARTICLE;StroboParameter;Strobe pulsed max current [A];4;20;0
+ST 2 - PARTICLE;ROIParameter;ROI ID;0;1;0
+ST 2 - PARTICLE;ROIParameter;ROI type;0;10;0
+ST 2 - PARTICLE;ROIParameter;ROI X 1;300;2048;0
+ST 2 - PARTICLE;ROIParameter;ROI X 2;600;2048;0
+ST 2 - PARTICLE;ROIParameter;ROI Y 1;900;2048;0
+ST 2 - PARTICLE;ROIParameter;ROI Y 2;1970;2048;0
+ST 2 - PARTICLE;ROIParameter;ROI color;250;255;0
+ST 2 - PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST 2 - PARTICLE;ROIParameter;Enable ROI plot;1;1;0
+ST 2 - PARTICLE;ROIParameter;ROI ID;1;1;0
+ST 2 - PARTICLE;ROIParameter;ROI type;0;10;0
+ST 2 - PARTICLE;ROIParameter;ROI X 1;380;2048;0
+ST 2 - PARTICLE;ROIParameter;ROI X 2;535;2048;0
+ST 2 - PARTICLE;ROIParameter;ROI Y 1;1601;2048;0
+ST 2 - PARTICLE;ROIParameter;ROI Y 2;1850;2048;0
+ST 2 - PARTICLE;ROIParameter;ROI color;255;255;0
+ST 2 - PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST 2 - PARTICLE;ROIParameter;Enable ROI plot;0;1;0
+ST 3 - PARTICLE;AcquisitionParameter;Vial format number;0;7;0
+ST 3 - PARTICLE;AcquisitionParameter;$vialFormatDesc;BERNO 2ml TRASP;;
+ST 3 - PARTICLE;AcquisitionParameter;Number of frames;18;25;4
+ST 3 - PARTICLE;AcquisitionParameter;Exposure time [us];38;10000;1
+ST 3 - PARTICLE;AcquisitionParameter;Gain;0;1023;0
+ST 3 - PARTICLE;AcquisitionParameter;$strobeEnable;1;1;0
+ST 3 - PARTICLE;AcquisitionParameter;Strobe pulse width [us];38;260;10
+ST 3 - PARTICLE;AcquisitionParameter;Acquisition delay [us];0;1000;0
+ST 3 - PARTICLE;AcquisitionParameter;Blue gain;0;1000;0
+ST 3 - PARTICLE;AcquisitionParameter;Red gain;0;1000;0
+ST 3 - PARTICLE;AcquisitionParameter;Green gain;0;1000;0
+ST 3 - PARTICLE;AcquisitionParameter;Strobe out;0;1000;0
+ST 3 - PARTICLE;AcquisitionParameter;Trigger input;0;1000;0
+ST 3 - PARTICLE;AcquisitionParameter;A.O.I. Enable;1;1;0
+ST 3 - PARTICLE;AcquisitionParameter;A.O.I. X Start;576;2047;0
+ST 3 - PARTICLE;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+ST 3 - PARTICLE;AcquisitionParameter;A.O.I. X Width;896;2048;16
+ST 3 - PARTICLE;AcquisitionParameter;A.O.I. Y Width;2048;2048;64
+ST 3 - PARTICLE;AcquisitionParameter;Camera IP address;192.168.13.23;;
+ST 3 - PARTICLE;AcquisitionParameter;Vial axis filename;192.168.12.22_vial_24000.xml;;
+ST 3 - PARTICLE;FeaturesEnableParameter;Analysis enable;1;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Overlay information enable;1;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Blobs print enable;1;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Bubbles print enable;0;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Enable saving difference images;0;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Enable save trajectory;0;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Send decimated live;0;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Enable send result image;1;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Send trajectories;0;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Enable meniscus analysis;0;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Meniscus analysis plot;1;2;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Enable sensor normalization;1;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Enable dynamic ROI;1;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Enable ROI plot on results;1;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Enable ROI bottom expansion;0;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Enable Kalman filter for tracking;0;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Enable filling analysis;1;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Enable blob masking;1;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;Enable blob masking print;1;1;0
+ST 3 - PARTICLE;FeaturesEnableParameter;$trajectoryPrint;0;1;0
+ST 3 - PARTICLE;RecipeSimpleParameter;RLE low threshold;10;255;0
+ST 3 - PARTICLE;RecipeSimpleParameter;ROI dynamic high threshold;243;255;0
+ST 3 - PARTICLE;RecipeSimpleParameter;ROI dynamic low threshold;80;255;0
+ST 3 - PARTICLE;RecipeSimpleParameter;$ROIDynamicBottonReductcion;0;255;0
+ST 3 - PARTICLE;RecipeSimpleParameter;$ROIDynamicMeniscusReductcion;15;255;0
+ST 3 - PARTICLE;RecipeSimpleParameter;Meniscus P.U.M. threshold;110;255;0
+ST 3 - PARTICLE;RecipeSimpleParameter;Blob max area reject;300;100000;0
+ST 3 - PARTICLE;RecipeSimpleParameter;Blobs min area;15;10000;0
+ST 3 - PARTICLE;RecipeSimpleParameter;$blobMaxAreaRejectLowThreshold;300;100000;0
+ST 3 - PARTICLE;RecipeSimpleParameter;Tracking max distance;100;2048;0
+ST 3 - PARTICLE;RecipeSimpleParameter;Trajectory max angle;70;90;0
+ST 3 - PARTICLE;RecipeSimpleParameter;Trajectory min area;10;10000;0
+ST 3 - PARTICLE;RecipeSimpleParameter;Trajectory min segment number;3;10000;0
+ST 3 - PARTICLE;RecipeSimpleParameter;Filling level min;100;2048;0
+ST 3 - PARTICLE;RecipeSimpleParameter;Filling level max;2000;2048;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;1st morphological filter;0;2;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;2nd morphological filter;0;2;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;RLE buffer size;1000000;1000000;1000000
+ST 3 - PARTICLE;RecipeAdvancedParameter;ROI dynamic morph. iter;0;20;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Meniscus analysis min count;10;100;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Meniscus analysis threshold;30;255;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Blobs max number;100;1000;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Bubble max shape factor;1.5;10;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Bubble optical density min diff;200;255;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Bubble size maximum;50;1000;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Bubble size minimum;7;1000;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Tracking max acceleration;3;1000;-1
+ST 3 - PARTICLE;RecipeAdvancedParameter;Tracking max area ratio;3;1000;1
+ST 3 - PARTICLE;RecipeAdvancedParameter;Tracking max height ratio;3;1000;1
+ST 3 - PARTICLE;RecipeAdvancedParameter;Tracking max width ratio;3;1000;1
+ST 3 - PARTICLE;RecipeAdvancedParameter;Tracking max segment angle;45;90;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Tracking max traj. angle;30;180;-1
+ST 3 - PARTICLE;RecipeAdvancedParameter;Tracking min distance;5;1000;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Tracking frames number backward;2;3;1
+ST 3 - PARTICLE;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Trajectories buffer size;1000000;1000000;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Trajectory all segments max length;0;2048;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Trajectory all segments min length;0;2048;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Trajectory recurrent backward num;10;1000;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max angle;15;180;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max distance;20;1000;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min count;2;1000;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min length;3;1000;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Masking blobs high threshold;10;100;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Masking blobs low threshold;5;100;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Min density reference;0;255;0
+ST 3 - PARTICLE;RecipeAdvancedParameter;Encoder counter first image;250;10000;0
+ST 3 - PARTICLE;StroboParameter;Strobe operating mode;Pulsed;;
+ST 3 - PARTICLE;StroboParameter;Strobe current [A];3.801;20;0
+ST 3 - PARTICLE;StroboParameter;Strobe pulse delay;0.002;1000;0
+ST 3 - PARTICLE;StroboParameter;Strobe pulse width [ms];0.2;1000;0
+ST 3 - PARTICLE;StroboParameter;Strobe retrigger time [ms];2;1000;0
+ST 3 - PARTICLE;StroboParameter;Strobe continuous max current [A];0.5;20;0
+ST 3 - PARTICLE;StroboParameter;Strobe pulsed max current [A];4;20;0
+ST 3 - PARTICLE;ROIParameter;ROI ID;0;1;0
+ST 3 - PARTICLE;ROIParameter;ROI type;0;10;0
+ST 3 - PARTICLE;ROIParameter;ROI X 1;275;2048;0
+ST 3 - PARTICLE;ROIParameter;ROI X 2;610;2048;0
+ST 3 - PARTICLE;ROIParameter;ROI Y 1;900;2048;0
+ST 3 - PARTICLE;ROIParameter;ROI Y 2;1970;2048;0
+ST 3 - PARTICLE;ROIParameter;ROI color;250;255;0
+ST 3 - PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST 3 - PARTICLE;ROIParameter;Enable ROI plot;1;1;0
+ST 3 - PARTICLE;ROIParameter;ROI ID;1;1;0
+ST 3 - PARTICLE;ROIParameter;ROI type;0;10;0
+ST 3 - PARTICLE;ROIParameter;ROI X 1;420;2048;0
+ST 3 - PARTICLE;ROIParameter;ROI X 2;600;2048;0
+ST 3 - PARTICLE;ROIParameter;ROI Y 1;1601;2048;0
+ST 3 - PARTICLE;ROIParameter;ROI Y 2;1850;2048;0
+ST 3 - PARTICLE;ROIParameter;ROI color;255;255;0
+ST 3 - PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST 3 - PARTICLE;ROIParameter;Enable ROI plot;0;1;0
+ST 4 - PARTICLE;AcquisitionParameter;Vial format number;0;;
+ST 4 - PARTICLE;AcquisitionParameter;$vialFormatDesc;BERNO 2ml TRASP;;
+ST 4 - PARTICLE;AcquisitionParameter;Number of frames;18;25;4
+ST 4 - PARTICLE;AcquisitionParameter;Exposure time [us];45;10000;1
+ST 4 - PARTICLE;AcquisitionParameter;Gain;0;1023;0
+ST 4 - PARTICLE;AcquisitionParameter;$strobeEnable;1;1;0
+ST 4 - PARTICLE;AcquisitionParameter;Strobe pulse width [us];33;260;10
+ST 4 - PARTICLE;AcquisitionParameter;Acquisition delay [us];0;1000;0
+ST 4 - PARTICLE;AcquisitionParameter;Blue gain;0;1000;0
+ST 4 - PARTICLE;AcquisitionParameter;Red gain;0;1000;0
+ST 4 - PARTICLE;AcquisitionParameter;Green gain;0;1000;0
+ST 4 - PARTICLE;AcquisitionParameter;Strobe out;0;1000;0
+ST 4 - PARTICLE;AcquisitionParameter;Trigger input;0;1000;0
+ST 4 - PARTICLE;AcquisitionParameter;A.O.I. Enable;1;1;0
+ST 4 - PARTICLE;AcquisitionParameter;A.O.I. X Start;576;2047;0
+ST 4 - PARTICLE;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+ST 4 - PARTICLE;AcquisitionParameter;A.O.I. X Width;896;2048;16
+ST 4 - PARTICLE;AcquisitionParameter;A.O.I. Y Width;2048;2048;64
+ST 4 - PARTICLE;AcquisitionParameter;Camera IP address;192.168.14.24;;
+ST 4 - PARTICLE;AcquisitionParameter;Vial axis filename;192.168.12.22_vial_24000.xml;;
+ST 4 - PARTICLE;FeaturesEnableParameter;Analysis enable;1;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Overlay information enable;1;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Blobs print enable;1;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Bubbles print enable;0;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Enable saving difference images;0;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Enable save trajectory;0;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Send decimated live;0;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Enable send result image;1;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Send trajectories;0;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Enable meniscus analysis;0;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Meniscus analysis plot;1;2;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Enable sensor normalization;1;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Enable dynamic ROI;1;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Enable ROI plot on results;1;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Enable ROI bottom expansion;0;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Enable Kalman filter for tracking;0;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Enable filling analysis;1;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Enable blob masking;1;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;Enable blob masking print;1;1;0
+ST 4 - PARTICLE;FeaturesEnableParameter;$trajectoryPrint;0;1;0
+ST 4 - PARTICLE;RecipeSimpleParameter;RLE low threshold;10;255;0
+ST 4 - PARTICLE;RecipeSimpleParameter;ROI dynamic high threshold;243;255;0
+ST 4 - PARTICLE;RecipeSimpleParameter;ROI dynamic low threshold;80;255;0
+ST 4 - PARTICLE;RecipeSimpleParameter;$ROIDynamicBottonReductcion;0;255;0
+ST 4 - PARTICLE;RecipeSimpleParameter;$ROIDynamicMeniscusReductcion;20;255;0
+ST 4 - PARTICLE;RecipeSimpleParameter;Meniscus P.U.M. threshold;110;255;0
+ST 4 - PARTICLE;RecipeSimpleParameter;Blob max area reject;300;100000;0
+ST 4 - PARTICLE;RecipeSimpleParameter;Blobs min area;10;10000;0
+ST 4 - PARTICLE;RecipeSimpleParameter;$blobMaxAreaRejectLowThreshold;300;100000;0
+ST 4 - PARTICLE;RecipeSimpleParameter;Tracking max distance;100;2048;0
+ST 4 - PARTICLE;RecipeSimpleParameter;Trajectory max angle;70;90;0
+ST 4 - PARTICLE;RecipeSimpleParameter;Trajectory min area;10;10000;0
+ST 4 - PARTICLE;RecipeSimpleParameter;Trajectory min segment number;3;10000;0
+ST 4 - PARTICLE;RecipeSimpleParameter;Filling level min;500;2048;0
+ST 4 - PARTICLE;RecipeSimpleParameter;Filling level max;1500;2048;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;1st morphological filter;0;2;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;2nd morphological filter;0;2;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;RLE buffer size;1000000;1000000;1000000
+ST 4 - PARTICLE;RecipeAdvancedParameter;ROI dynamic morph. iter;0;20;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Meniscus analysis min count;10;100;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Meniscus analysis threshold;30;255;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Blobs max number;100;1000;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Bubble max shape factor;1.5;10;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Bubble optical density min diff;200;255;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Bubble size maximum;50;1000;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Bubble size minimum;7;1000;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Tracking max acceleration;3;1000;-1
+ST 4 - PARTICLE;RecipeAdvancedParameter;Tracking max area ratio;3;1000;1
+ST 4 - PARTICLE;RecipeAdvancedParameter;Tracking max height ratio;3;1000;1
+ST 4 - PARTICLE;RecipeAdvancedParameter;Tracking max width ratio;3;1000;1
+ST 4 - PARTICLE;RecipeAdvancedParameter;Tracking max segment angle;45;90;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Tracking max traj. angle;30;180;-1
+ST 4 - PARTICLE;RecipeAdvancedParameter;Tracking min distance;5;1000;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Tracking frames number backward;2;3;1
+ST 4 - PARTICLE;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Trajectories buffer size;1000000;1000000;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Trajectory all segments max length;0;2048;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Trajectory all segments min length;0;2048;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Trajectory recurrent backward num;10;1000;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max angle;15;180;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Trajectory recurrent max distance;20;1000;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min count;2;1000;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Trajectory recurrent min length;3;1000;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Masking blobs high threshold;10;100;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Masking blobs low threshold;5;100;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Min density reference;0;255;0
+ST 4 - PARTICLE;RecipeAdvancedParameter;Encoder counter first image;380;10000;0
+ST 4 - PARTICLE;StroboParameter;Strobe operating mode;Pulsed;;
+ST 4 - PARTICLE;StroboParameter;Strobe current [A];3.801;20;0
+ST 4 - PARTICLE;StroboParameter;Strobe pulse delay;0.002;1000;0
+ST 4 - PARTICLE;StroboParameter;Strobe pulse width [ms];0.2;1000;0
+ST 4 - PARTICLE;StroboParameter;Strobe retrigger time [ms];2;1000;0
+ST 4 - PARTICLE;StroboParameter;Strobe continuous max current [A];0.5;20;0
+ST 4 - PARTICLE;StroboParameter;Strobe pulsed max current [A];4;20;0
+ST 4 - PARTICLE;ROIParameter;ROI ID;0;1;0
+ST 4 - PARTICLE;ROIParameter;ROI type;0;10;0
+ST 4 - PARTICLE;ROIParameter;ROI X 1;280;2048;0
+ST 4 - PARTICLE;ROIParameter;ROI X 2;600;2048;0
+ST 4 - PARTICLE;ROIParameter;ROI Y 1;880;2048;0
+ST 4 - PARTICLE;ROIParameter;ROI Y 2;1970;2048;0
+ST 4 - PARTICLE;ROIParameter;ROI color;250;255;0
+ST 4 - PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST 4 - PARTICLE;ROIParameter;Enable ROI plot;1;1;0
+ST 4 - PARTICLE;ROIParameter;ROI ID;1;1;0
+ST 4 - PARTICLE;ROIParameter;ROI type;0;10;0
+ST 4 - PARTICLE;ROIParameter;ROI X 1;360;2048;0
+ST 4 - PARTICLE;ROIParameter;ROI X 2;530;2048;0
+ST 4 - PARTICLE;ROIParameter;ROI Y 1;1200;2048;0
+ST 4 - PARTICLE;ROIParameter;ROI Y 2;1800;2048;0
+ST 4 - PARTICLE;ROIParameter;ROI color;255;255;0
+ST 4 - PARTICLE;ROIParameter;ROI fill color;0;1;0
+ST 4 - PARTICLE;ROIParameter;Enable ROI plot;0;1;0

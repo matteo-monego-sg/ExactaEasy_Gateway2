@@ -1,0 +1,826 @@
+<?xml version="1.0"?>
+<map>
+	<class type="Frame Grabbers Setup" id="102">
+		<attribute name="Board_0_isActive" value="0"/>
+		<attribute name="Board_0_cfgFile" value=""/>
+		<attribute name="Board_1_isActive" value="1"/>
+		<attribute name="Board_1_cfgFile" value="ParticleAlternate3.mcf"/>
+		<attribute name="Board_2_isActive" value="0"/>
+		<attribute name="Board_2_cfgFile" value=""/>
+		<attribute name="Board_3_isActive" value="0"/>
+		<attribute name="Board_3_cfgFile" value=""/>
+	</class>
+	<class type="InspectionSetup" id="101">
+		<attribute name="Inspection_0_isActive" value="1"/>
+		<attribute name="Inspection_0_label" value="Particle"/>
+		<attribute name="Inspection_1_isActive" value="0"/>
+		<attribute name="Inspection_1_label" value="Particle"/>
+		<attribute name="Inspection_2_isActive" value="0"/>
+		<attribute name="Inspection_2_label" value="Baga"/>
+		<attribute name="Inspection_3_isActive" value="0"/>
+		<attribute name="Inspection_3_label" value="Collo"/>
+		<attribute name="Inspection_4_isActive" value="0"/>
+		<attribute name="Inspection_4_label" value="Bocca DF"/>
+		<attribute name="Inspection_5_isActive" value="0"/>
+		<attribute name="Inspection_5_label" value="Fondo"/>
+		<attribute name="Inspection_6_isActive" value="0"/>
+		<attribute name="Inspection_6_label" value="Bocca BF A"/>
+		<attribute name="Inspection_7_isActive" value="0"/>
+		<attribute name="Inspection_7_label" value="Bocca BF B"/>
+		<attribute name="Inspection_8_isActive" value="0"/>
+		<attribute name="Inspection_8_label" value=""/>
+		<attribute name="Inspection_9_isActive" value="0"/>
+		<attribute name="Inspection_9_label" value=""/>
+		<attribute name="Inspection_10_isActive" value="0"/>
+		<attribute name="Inspection_10_label" value=""/>
+		<attribute name="Inspection_11_isActive" value="0"/>
+		<attribute name="Inspection_11_label" value=""/>
+		<attribute name="Inspection_12_isActive" value="0"/>
+		<attribute name="Inspection_12_label" value=""/>
+		<attribute name="Inspection_13_isActive" value="0"/>
+		<attribute name="Inspection_13_label" value=""/>
+		<attribute name="Inspection_14_isActive" value="0"/>
+		<attribute name="Inspection_14_label" value=""/>
+		<attribute name="Inspection_15_isActive" value="0"/>
+		<attribute name="Inspection_15_label" value=""/>
+	</class>
+	<class type="Inspection Particle" id="0">
+	<class type="CAM" id="0">
+		<attribute name="Active" value="1"/>
+		<attribute name="Name" value="Basler Ace CL"/>
+		<attribute name="TypeCode" value="Cam_Ace_CL"/>
+		<attribute name="Width" value="2048"/>
+		<attribute name="Height" value="350"/>
+		<attribute name="Frames Number" value="120"/>
+		<attribute name="W Scale[um/px]" value="24.82"/>
+		<attribute name="H Scale[um/px]" value="24.82"/>
+		<attribute name="CameraTap" value="1"/>
+		<attribute name="Par_00_name" value="Line Selector"/>
+		<attribute name="Par_00_value" value="Line1"/>
+		<attribute name="Par_01_name" value="Line Mode"/>
+		<attribute name="Par_01_value" value="Output"/>
+		<attribute name="Par_02_name" value="Line Source"/>
+		<attribute name="Par_02_value" value="ExposureActive"/>
+		<attribute name="Par_03_name" value="Line Inverter"/>
+		<attribute name="Par_03_value" value="1"/>
+		<attribute name="Par_04_name" value="OffSet X"/>
+		<attribute name="Par_04_value" value="0"/>
+		<attribute name="Par_05_name" value="OffSet Y"/>
+		<attribute name="Par_05_value" value="849"/>
+		<attribute name="Par_06_name" value="Exposure"/>
+		<attribute name="Par_06_value" value="100.00"/>
+	</class>
+	<class type="GRABBER" id="0">
+		<attribute name="Par_00_name" value="Board ID"/>
+		<attribute name="Par_00_value" value="1"/>
+		<attribute name="Par_01_name" value="Port ID"/>
+		<attribute name="Par_01_value" value="0"/>
+		<attribute name="Par_02_name" value="Use FPGA Processing"/>
+		<attribute name="Par_02_value" value="0"/>
+		<attribute name="Par_03_name" value="Processing Dma ID"/>
+		<attribute name="Par_03_value" value="0"/>
+	</class>
+	<class type="DIGITIZER" id="0">
+		<attribute name="Dma Frames Number" value="240"/>
+		<attribute name="Par_00_name" value="Device1_Process0_BIN_ORDER_Number"/>
+		<attribute name="Par_00_value" value="1"/>
+		<attribute name="Par_01_name" value="Device1_Process0_BF_THR_Value"/>
+		<attribute name="Par_01_value" value="5"/>
+		<attribute name="Par_02_name" value="Device1_Process0_DF_THR_Value"/>
+		<attribute name="Par_02_value" value="5"/>
+		<attribute name="Par_03_name" value=""/>
+		<attribute name="Par_03_value" value="0"/>
+		<attribute name="Par_04_name" value=""/>
+		<attribute name="Par_04_value" value="0"/>
+		<attribute name="Par_05_name" value=""/>
+		<attribute name="Par_05_value" value="0"/>
+		<attribute name="Par_06_name" value=""/>
+		<attribute name="Par_06_value" value="0"/>
+		<attribute name="Par_07_name" value=""/>
+		<attribute name="Par_07_value" value="0"/>
+	</class>
+	<class type="NEURALNETWORK" id="0">
+		<attribute name="Par_00_name" value="Active"/>
+		<attribute name="Par_00_value" value="0"/>
+	</class>
+	<class type="LIGHT SENSOR" id="0">
+		<attribute name="Is Active" value="0"/>
+		<attribute name="Light Threshold" value="75"/>
+	<class type="SHAPE" id="0">
+		<attribute name="Top" value="105"/>
+		<attribute name="Left" value="1246"/>
+		<attribute name="Bottom" value="219"/>
+		<attribute name="Right" value="1298"/>
+		<attribute name="Side Top Active" value="0"/>
+		<attribute name="Side Top Direction" value="External"/>
+		<attribute name="Side Top SubRegions" value="0"/>
+		<attribute name="Side Top Hysteresis" value="0"/>
+		<attribute name="Side Top Threshold" value="0"/>
+		<attribute name="Side Top Transition" value="White->Black"/>
+		<attribute name="Side Top Margin" value="0"/>
+		<attribute name="Side Top Shift" value="0"/>
+		<attribute name="Side Left Active" value="0"/>
+		<attribute name="Side Left Direction" value="External"/>
+		<attribute name="Side Left SubRegions" value="0"/>
+		<attribute name="Side Left Hysteresis" value="0"/>
+		<attribute name="Side Left Threshold" value="0"/>
+		<attribute name="Side Left Transition" value="White->Black"/>
+		<attribute name="Side Left Margin" value="0"/>
+		<attribute name="Side Left Shift" value="0"/>
+		<attribute name="Side Bottom Active" value="0"/>
+		<attribute name="Side Bottom Direction" value="External"/>
+		<attribute name="Side Bottom SubRegions" value="0"/>
+		<attribute name="Side Bottom Hysteresis" value="0"/>
+		<attribute name="Side Bottom Threshold" value="0"/>
+		<attribute name="Side Bottom Transition" value="White->Black"/>
+		<attribute name="Side Bottom Margin" value="0"/>
+		<attribute name="Side Bottom Shift" value="0"/>
+		<attribute name="Side Right Active" value="0"/>
+		<attribute name="Side Right Direction" value="External"/>
+		<attribute name="Side Right SubRegions" value="0"/>
+		<attribute name="Side Right Hysteresis" value="0"/>
+		<attribute name="Side Right Threshold" value="0"/>
+		<attribute name="Side Right Transition" value="White->Black"/>
+		<attribute name="Side Right Margin" value="0"/>
+		<attribute name="Side Right Shift" value="0"/>
+		<attribute name="Growing Active" value="0"/>
+		<attribute name="Growing Tolerance" value="1"/>
+		<attribute name="Growing Min size" value="10"/>
+		<attribute name="Growing Fill Up" value="10"/>
+		<attribute name="Growing Closing" value="0.50"/>
+		<attribute name="Aux Rect Top" value="0"/>
+		<attribute name="Aux Rect Left" value="0"/>
+		<attribute name="Aux Rect Bottom" value="0"/>
+		<attribute name="Aux Rect Right" value="0"/>
+	</class>
+	</class>
+	<class type="STROBO" id="0">
+		<attribute name="Active" value="1"/>
+		<attribute name="Name" value="GardaSoft PP820"/>
+		<attribute name="TypeCode" value="Strobo_GS_PP820"/>
+		<attribute name="Par_00_name" value="IP_Address"/>
+		<attribute name="Par_00_value" value="192.168.8.79"/>
+		<attribute name="Par_01_name" value="Channel"/>
+		<attribute name="Par_01_value" value="0"/>
+		<attribute name="Par_02_name" value="Mode"/>
+		<attribute name="Par_02_value" value="Pulsed"/>
+		<attribute name="Par_03_name" value="Current [A]"/>
+		<attribute name="Par_03_value" value="1.00"/>
+		<attribute name="Par_04_name" value="Pulse Delay [usec]"/>
+		<attribute name="Par_04_value" value="0"/>
+		<attribute name="Par_05_name" value="Pulse Width [usec]"/>
+		<attribute name="Par_05_value" value="100"/>
+		<attribute name="Par_06_name" value="Retrigger Delay [usec]"/>
+		<attribute name="Par_06_value" value="1500"/>
+	</class>
+	<class type="STROBO" id="1">
+		<attribute name="Active" value="1"/>
+		<attribute name="Name" value="Strobo: 1"/>
+		<attribute name="TypeCode" value=""/>
+		<attribute name="Par_00_name" value="IP_Address"/>
+		<attribute name="Par_00_value" value="192.168.8.79"/>
+		<attribute name="Par_01_name" value="Channel"/>
+		<attribute name="Par_01_value" value="1"/>
+		<attribute name="Par_02_name" value="Mode"/>
+		<attribute name="Par_02_value" value="Pulsed"/>
+		<attribute name="Par_03_name" value="Current [A]"/>
+		<attribute name="Par_03_value" value="2.00"/>
+		<attribute name="Par_04_name" value="Pulse Delay [usec]"/>
+		<attribute name="Par_04_value" value="950"/>
+		<attribute name="Par_05_name" value="Pulse Width [usec]"/>
+		<attribute name="Par_05_value" value="300"/>
+		<attribute name="Par_06_name" value="Retrigger Delay [usec]"/>
+		<attribute name="Par_06_value" value="1500"/>
+	</class>
+	<class type="TOOL" id="0">
+		<attribute name="Active" value="1"/>
+		<attribute name="Label" value="Particle BF"/>
+		<attribute name="TypeCode" value="ToolParticle"/>
+		<attribute name="Shape" value="0"/>
+		<attribute name="DefectCode" value="1"/>
+		<attribute name="Display Priority" value="1"/>
+		<attribute name="Display Priority Output Indx" value="0"/>
+		<attribute name="Par_00_name" value="Analysis Type"/>
+		<attribute name="Par_00_value" value="Bright Field"/>
+		<attribute name="Par_01_name" value="-  Simple Threshold"/>
+		<attribute name="Par_01_value" value="40"/>
+		<attribute name="Par_02_name" value="-  Simple Opening"/>
+		<attribute name="Par_02_value" value="2"/>
+		<attribute name="Par_03_name" value="-  Dynamic Opening"/>
+		<attribute name="Par_03_value" value="2"/>
+		<attribute name="Par_04_name" value="Trajectories"/>
+		<attribute name="Par_04_value" value=""/>
+		<attribute name="Par_05_name" value="-  Diameter [mm]"/>
+		<attribute name="Par_05_value" value="10.75"/>
+		<attribute name="Par_06_name" value="-  Speed [rpm]"/>
+		<attribute name="Par_06_value" value="1000.00"/>
+		<attribute name="Par_07_name" value="-  Frame Rate"/>
+		<attribute name="Par_07_value" value="500.00"/>
+		<attribute name="Par_08_name" value="-  Scale [um/px]"/>
+		<attribute name="Par_08_value" value="30.00"/>
+		<attribute name="Par_09_name" value="-  Rotation Axis"/>
+		<attribute name="Par_09_value" value="175.00"/>
+		<attribute name="Par_10_name" value="-  Min blobs count"/>
+		<attribute name="Par_10_value" value="3"/>
+		<attribute name="Par_11_name" value="-  Min length"/>
+		<attribute name="Par_11_value" value="30.00"/>
+		<attribute name="Par_12_name" value="-  Min X variance"/>
+		<attribute name="Par_12_value" value="10.00"/>
+		<attribute name="Par_13_name" value="-  Min Y variance"/>
+		<attribute name="Par_13_value" value="20.00"/>
+		<attribute name="Par_14_name" value="N.O.S."/>
+		<attribute name="Par_14_value" value="None"/>
+		<attribute name="Par_15_name" value="-  Dynamic Threshold"/>
+		<attribute name="Par_15_value" value="5.00"/>
+		<attribute name="ToolOutput_00_name" value="Area"/>
+		<attribute name="ToolOutput_00_MeasureUnit" value="[mm²]"/>
+		<attribute name="ToolOutput_00_IsUsed" value="1"/>
+		<attribute name="ToolOutput_00_Type" value="2"/>
+		<attribute name="ToolOutput_00_value" value="0.00"/>
+		<attribute name="ToolOutput_01_name" value="Total Area"/>
+		<attribute name="ToolOutput_01_MeasureUnit" value="[mm²]"/>
+		<attribute name="ToolOutput_01_IsUsed" value="0"/>
+		<attribute name="ToolOutput_01_Type" value="2"/>
+		<attribute name="ToolOutput_01_value" value="0.00"/>
+		<attribute name="ToolOutput_CNT" value="2"/>
+	<class type="SHAPE" id="0">
+		<attribute name="Top" value="78"/>
+		<attribute name="Left" value="880"/>
+		<attribute name="Bottom" value="306"/>
+		<attribute name="Right" value="1672"/>
+		<attribute name="Side Top Active" value="0"/>
+		<attribute name="Side Top Direction" value="External"/>
+		<attribute name="Side Top SubRegions" value="0"/>
+		<attribute name="Side Top Hysteresis" value="0"/>
+		<attribute name="Side Top Threshold" value="0"/>
+		<attribute name="Side Top Transition" value="White->Black"/>
+		<attribute name="Side Top Margin" value="0"/>
+		<attribute name="Side Top Shift" value="0"/>
+		<attribute name="Side Left Active" value="0"/>
+		<attribute name="Side Left Direction" value="External"/>
+		<attribute name="Side Left SubRegions" value="10"/>
+		<attribute name="Side Left Hysteresis" value="10"/>
+		<attribute name="Side Left Threshold" value="20"/>
+		<attribute name="Side Left Transition" value="White->Black"/>
+		<attribute name="Side Left Margin" value="0"/>
+		<attribute name="Side Left Shift" value="0"/>
+		<attribute name="Side Bottom Active" value="0"/>
+		<attribute name="Side Bottom Direction" value="External"/>
+		<attribute name="Side Bottom SubRegions" value="0"/>
+		<attribute name="Side Bottom Hysteresis" value="0"/>
+		<attribute name="Side Bottom Threshold" value="0"/>
+		<attribute name="Side Bottom Transition" value="White->Black"/>
+		<attribute name="Side Bottom Margin" value="0"/>
+		<attribute name="Side Bottom Shift" value="0"/>
+		<attribute name="Side Right Active" value="0"/>
+		<attribute name="Side Right Direction" value="External"/>
+		<attribute name="Side Right SubRegions" value="20"/>
+		<attribute name="Side Right Hysteresis" value="10"/>
+		<attribute name="Side Right Threshold" value="10"/>
+		<attribute name="Side Right Transition" value="White->Black"/>
+		<attribute name="Side Right Margin" value="0"/>
+		<attribute name="Side Right Shift" value="0"/>
+		<attribute name="Growing Active" value="0"/>
+		<attribute name="Growing Tolerance" value="1"/>
+		<attribute name="Growing Min size" value="10"/>
+		<attribute name="Growing Fill Up" value="10"/>
+		<attribute name="Growing Closing" value="0.50"/>
+		<attribute name="Aux Rect Top" value="0"/>
+		<attribute name="Aux Rect Left" value="0"/>
+		<attribute name="Aux Rect Bottom" value="0"/>
+		<attribute name="Aux Rect Right" value="0"/>
+	</class>
+	</class>
+	<class type="TOOL" id="1">
+		<attribute name="Active" value="1"/>
+		<attribute name="Label" value="Particle DF"/>
+		<attribute name="TypeCode" value="ToolParticle"/>
+		<attribute name="Shape" value="0"/>
+		<attribute name="DefectCode" value="1"/>
+		<attribute name="Display Priority" value="1"/>
+		<attribute name="Display Priority Output Indx" value="0"/>
+		<attribute name="Par_00_name" value="Analysis Type"/>
+		<attribute name="Par_00_value" value="Dark Field"/>
+		<attribute name="Par_01_name" value="-  Simple Threshold"/>
+		<attribute name="Par_01_value" value="12"/>
+		<attribute name="Par_02_name" value="-  Simple Opening"/>
+		<attribute name="Par_02_value" value="2"/>
+		<attribute name="Par_03_name" value="-  Dynamic Opening"/>
+		<attribute name="Par_03_value" value="2"/>
+		<attribute name="Par_04_name" value="Trajectories"/>
+		<attribute name="Par_04_value" value=""/>
+		<attribute name="Par_05_name" value="-  Diameter [mm]"/>
+		<attribute name="Par_05_value" value="10.75"/>
+		<attribute name="Par_06_name" value="-  Speed [rpm]"/>
+		<attribute name="Par_06_value" value="1000.00"/>
+		<attribute name="Par_07_name" value="-  Frame Rate"/>
+		<attribute name="Par_07_value" value="500.00"/>
+		<attribute name="Par_08_name" value="-  Scale [um/px]"/>
+		<attribute name="Par_08_value" value="30.00"/>
+		<attribute name="Par_09_name" value="-  Rotation Axis"/>
+		<attribute name="Par_09_value" value="175.00"/>
+		<attribute name="Par_10_name" value="-  Min blobs count"/>
+		<attribute name="Par_10_value" value="3"/>
+		<attribute name="Par_11_name" value="-  Min length"/>
+		<attribute name="Par_11_value" value="30.00"/>
+		<attribute name="Par_12_name" value="-  Min X variance"/>
+		<attribute name="Par_12_value" value="10.00"/>
+		<attribute name="Par_13_name" value="-  Min Y variance"/>
+		<attribute name="Par_13_value" value="20.00"/>
+		<attribute name="Par_14_name" value="N.O.S."/>
+		<attribute name="Par_14_value" value="None"/>
+		<attribute name="Par_15_name" value="-  Dynamic Threshold"/>
+		<attribute name="Par_15_value" value="5.00"/>
+		<attribute name="ToolOutput_00_name" value="Area"/>
+		<attribute name="ToolOutput_00_MeasureUnit" value="[mm²]"/>
+		<attribute name="ToolOutput_00_IsUsed" value="1"/>
+		<attribute name="ToolOutput_00_Type" value="2"/>
+		<attribute name="ToolOutput_00_value" value="0.00"/>
+		<attribute name="ToolOutput_01_name" value="Total Area"/>
+		<attribute name="ToolOutput_01_MeasureUnit" value="[mm²]"/>
+		<attribute name="ToolOutput_01_IsUsed" value="0"/>
+		<attribute name="ToolOutput_01_Type" value="2"/>
+		<attribute name="ToolOutput_01_value" value="0.00"/>
+		<attribute name="ToolOutput_CNT" value="2"/>
+	<class type="SHAPE" id="0">
+		<attribute name="Top" value="82"/>
+		<attribute name="Left" value="880"/>
+		<attribute name="Bottom" value="308"/>
+		<attribute name="Right" value="1663"/>
+		<attribute name="Side Top Active" value="0"/>
+		<attribute name="Side Top Direction" value="External"/>
+		<attribute name="Side Top SubRegions" value="0"/>
+		<attribute name="Side Top Hysteresis" value="0"/>
+		<attribute name="Side Top Threshold" value="0"/>
+		<attribute name="Side Top Transition" value="White->Black"/>
+		<attribute name="Side Top Margin" value="0"/>
+		<attribute name="Side Top Shift" value="0"/>
+		<attribute name="Side Left Active" value="0"/>
+		<attribute name="Side Left Direction" value="External"/>
+		<attribute name="Side Left SubRegions" value="30"/>
+		<attribute name="Side Left Hysteresis" value="25"/>
+		<attribute name="Side Left Threshold" value="15"/>
+		<attribute name="Side Left Transition" value="Black->White"/>
+		<attribute name="Side Left Margin" value="25"/>
+		<attribute name="Side Left Shift" value="0"/>
+		<attribute name="Side Bottom Active" value="0"/>
+		<attribute name="Side Bottom Direction" value="External"/>
+		<attribute name="Side Bottom SubRegions" value="0"/>
+		<attribute name="Side Bottom Hysteresis" value="0"/>
+		<attribute name="Side Bottom Threshold" value="0"/>
+		<attribute name="Side Bottom Transition" value="White->Black"/>
+		<attribute name="Side Bottom Margin" value="0"/>
+		<attribute name="Side Bottom Shift" value="0"/>
+		<attribute name="Side Right Active" value="0"/>
+		<attribute name="Side Right Direction" value="External"/>
+		<attribute name="Side Right SubRegions" value="20"/>
+		<attribute name="Side Right Hysteresis" value="10"/>
+		<attribute name="Side Right Threshold" value="10"/>
+		<attribute name="Side Right Transition" value="White->Black"/>
+		<attribute name="Side Right Margin" value="0"/>
+		<attribute name="Side Right Shift" value="0"/>
+		<attribute name="Growing Active" value="0"/>
+		<attribute name="Growing Tolerance" value="1"/>
+		<attribute name="Growing Min size" value="10"/>
+		<attribute name="Growing Fill Up" value="10"/>
+		<attribute name="Growing Closing" value="0.50"/>
+		<attribute name="Aux Rect Top" value="0"/>
+		<attribute name="Aux Rect Left" value="0"/>
+		<attribute name="Aux Rect Bottom" value="0"/>
+		<attribute name="Aux Rect Right" value="0"/>
+	</class>
+	</class>
+	<class type="TOOL" id="2">
+		<attribute name="Active" value="0"/>
+		<attribute name="Label" value="Heavy"/>
+		<attribute name="TypeCode" value="ToolGeneric"/>
+		<attribute name="Shape" value="0"/>
+		<attribute name="DefectCode" value="1"/>
+		<attribute name="Display Priority" value="1"/>
+		<attribute name="Display Priority Output Indx" value="2"/>
+		<attribute name="Par_00_name" value="Threshold Type"/>
+		<attribute name="Par_00_value" value="Simple"/>
+		<attribute name="Par_01_name" value="-  Kernel"/>
+		<attribute name="Par_01_value" value="7 x 7"/>
+		<attribute name="Par_02_name" value="-  Threshold"/>
+		<attribute name="Par_02_value" value="40"/>
+		<attribute name="Par_03_name" value="-  Statistic Gap"/>
+		<attribute name="Par_03_value" value="20"/>
+		<attribute name="Par_04_name" value="Defect type"/>
+		<attribute name="Par_04_value" value="Dark"/>
+		<attribute name="Par_05_name" value="Opening Type"/>
+		<attribute name="Par_05_value" value="Circle"/>
+		<attribute name="Par_06_name" value="Opening Width"/>
+		<attribute name="Par_06_value" value="0.50"/>
+		<attribute name="Par_07_name" value="Opening Height"/>
+		<attribute name="Par_07_value" value="0.50"/>
+		<attribute name="Par_08_name" value="Anisometry min"/>
+		<attribute name="Par_08_value" value="0.00"/>
+		<attribute name="Par_09_name" value="Anisometry max"/>
+		<attribute name="Par_09_value" value="3.00"/>
+		<attribute name="Par_10_name" value="Angle min"/>
+		<attribute name="Par_10_value" value="-90.00"/>
+		<attribute name="Par_11_name" value="Angle max"/>
+		<attribute name="Par_11_value" value="90.00"/>
+		<attribute name="Par_12_name" value="Detach From Border"/>
+		<attribute name="Par_12_value" value="None"/>
+		<attribute name="Par_13_name" value="-  Detach Opening"/>
+		<attribute name="Par_13_value" value="30.00"/>
+		<attribute name="Par_14_name" value="Use Contrast"/>
+		<attribute name="Par_14_value" value="No"/>
+		<attribute name="Par_15_name" value="-  Contrast"/>
+		<attribute name="Par_15_value" value="0.25"/>
+		<attribute name="Par_16_name" value="-  Background"/>
+		<attribute name="Par_16_value" value="50.00"/>
+		<attribute name="Par_17_name" value="Connect Defects"/>
+		<attribute name="Par_17_value" value="None"/>
+		<attribute name="Par_18_name" value="-  Distance"/>
+		<attribute name="Par_18_value" value="10.00"/>
+		<attribute name="Par_19_name" value="-  Angle"/>
+		<attribute name="Par_19_value" value="20.00"/>
+		<attribute name="ToolOutput_00_name" value="Width"/>
+		<attribute name="ToolOutput_00_MeasureUnit" value="[mm]"/>
+		<attribute name="ToolOutput_00_IsUsed" value="1"/>
+		<attribute name="ToolOutput_00_Type" value="2"/>
+		<attribute name="ToolOutput_00_value" value="1.00"/>
+		<attribute name="ToolOutput_01_name" value="Height"/>
+		<attribute name="ToolOutput_01_MeasureUnit" value="[mm]"/>
+		<attribute name="ToolOutput_01_IsUsed" value="1"/>
+		<attribute name="ToolOutput_01_Type" value="2"/>
+		<attribute name="ToolOutput_01_value" value="1.00"/>
+		<attribute name="ToolOutput_02_name" value="Area"/>
+		<attribute name="ToolOutput_02_MeasureUnit" value="[mm²]"/>
+		<attribute name="ToolOutput_02_IsUsed" value="0"/>
+		<attribute name="ToolOutput_02_Type" value="2"/>
+		<attribute name="ToolOutput_02_value" value="0.00"/>
+		<attribute name="ToolOutput_03_name" value="Total Area"/>
+		<attribute name="ToolOutput_03_MeasureUnit" value="[mm²]"/>
+		<attribute name="ToolOutput_03_IsUsed" value="0"/>
+		<attribute name="ToolOutput_03_Type" value="2"/>
+		<attribute name="ToolOutput_03_value" value="0.00"/>
+		<attribute name="ToolOutput_CNT" value="4"/>
+		<attribute name="ToolOutput_Condition_00_name" value="Width + Height"/>
+		<attribute name="ToolOutput_Condition_00_value" value="0"/>
+		<attribute name="ToolOutput_Condition_01_name" value="Width + Height + Area"/>
+		<attribute name="ToolOutput_Condition_01_value" value="0"/>
+	<class type="SHAPE" id="0">
+		<attribute name="Top" value="106"/>
+		<attribute name="Left" value="1645"/>
+		<attribute name="Bottom" value="268"/>
+		<attribute name="Right" value="1755"/>
+		<attribute name="Side Top Active" value="0"/>
+		<attribute name="Side Top Direction" value="External"/>
+		<attribute name="Side Top SubRegions" value="0"/>
+		<attribute name="Side Top Hysteresis" value="0"/>
+		<attribute name="Side Top Threshold" value="0"/>
+		<attribute name="Side Top Transition" value="White->Black"/>
+		<attribute name="Side Top Margin" value="0"/>
+		<attribute name="Side Top Shift" value="0"/>
+		<attribute name="Side Left Active" value="0"/>
+		<attribute name="Side Left Direction" value="External"/>
+		<attribute name="Side Left SubRegions" value="0"/>
+		<attribute name="Side Left Hysteresis" value="0"/>
+		<attribute name="Side Left Threshold" value="0"/>
+		<attribute name="Side Left Transition" value="White->Black"/>
+		<attribute name="Side Left Margin" value="0"/>
+		<attribute name="Side Left Shift" value="0"/>
+		<attribute name="Side Bottom Active" value="0"/>
+		<attribute name="Side Bottom Direction" value="External"/>
+		<attribute name="Side Bottom SubRegions" value="0"/>
+		<attribute name="Side Bottom Hysteresis" value="0"/>
+		<attribute name="Side Bottom Threshold" value="0"/>
+		<attribute name="Side Bottom Transition" value="White->Black"/>
+		<attribute name="Side Bottom Margin" value="0"/>
+		<attribute name="Side Bottom Shift" value="0"/>
+		<attribute name="Side Right Active" value="0"/>
+		<attribute name="Side Right Direction" value="External"/>
+		<attribute name="Side Right SubRegions" value="0"/>
+		<attribute name="Side Right Hysteresis" value="0"/>
+		<attribute name="Side Right Threshold" value="0"/>
+		<attribute name="Side Right Transition" value="White->Black"/>
+		<attribute name="Side Right Margin" value="0"/>
+		<attribute name="Side Right Shift" value="0"/>
+		<attribute name="Growing Active" value="0"/>
+		<attribute name="Growing Tolerance" value="1"/>
+		<attribute name="Growing Min size" value="10"/>
+		<attribute name="Growing Fill Up" value="10"/>
+		<attribute name="Growing Closing" value="0.50"/>
+		<attribute name="Aux Rect Top" value="0"/>
+		<attribute name="Aux Rect Left" value="0"/>
+		<attribute name="Aux Rect Bottom" value="0"/>
+		<attribute name="Aux Rect Right" value="0"/>
+	</class>
+	</class>
+	<class type="TOOL" id="3">
+		<attribute name="Active" value="0"/>
+		<attribute name="Label" value="Level"/>
+		<attribute name="TypeCode" value="ToolLevel"/>
+		<attribute name="Shape" value="0"/>
+		<attribute name="DefectCode" value="1"/>
+		<attribute name="Display Priority" value="4"/>
+		<attribute name="Display Priority Output Indx" value="0"/>
+		<attribute name="Par_00_name" value="First Frame"/>
+		<attribute name="Par_00_value" value="0"/>
+		<attribute name="Par_01_name" value="Second Frame"/>
+		<attribute name="Par_01_value" value="59"/>
+		<attribute name="Par_02_name" value="Threshold"/>
+		<attribute name="Par_02_value" value="40.00"/>
+		<attribute name="Par_03_name" value="Opening"/>
+		<attribute name="Par_03_value" value="0.50"/>
+		<attribute name="Par_04_name" value="Level measure"/>
+		<attribute name="Par_04_value" value=""/>
+		<attribute name="Par_05_name" value="-  Diameter [mm]"/>
+		<attribute name="Par_05_value" value="10.75"/>
+		<attribute name="Par_06_name" value="-  Height Offset [mm]"/>
+		<attribute name="Par_06_value" value="-3.00"/>
+		<attribute name="Par_07_name" value="-  Tip Orientation"/>
+		<attribute name="Par_07_value" value="Left"/>
+		<attribute name="ToolOutput_00_name" value="Level Min"/>
+		<attribute name="ToolOutput_00_MeasureUnit" value="[ml]"/>
+		<attribute name="ToolOutput_00_IsUsed" value="1"/>
+		<attribute name="ToolOutput_00_Type" value="2"/>
+		<attribute name="ToolOutput_00_value" value="1.90"/>
+		<attribute name="ToolOutput_01_name" value="Level Max"/>
+		<attribute name="ToolOutput_01_MeasureUnit" value="[ml]"/>
+		<attribute name="ToolOutput_01_IsUsed" value="1"/>
+		<attribute name="ToolOutput_01_Type" value="2"/>
+		<attribute name="ToolOutput_01_value" value="2.30"/>
+		<attribute name="ToolOutput_CNT" value="2"/>
+	<class type="SHAPE" id="0">
+		<attribute name="Top" value="86"/>
+		<attribute name="Left" value="752"/>
+		<attribute name="Bottom" value="258"/>
+		<attribute name="Right" value="1152"/>
+		<attribute name="Side Top Active" value="0"/>
+		<attribute name="Side Top Direction" value="External"/>
+		<attribute name="Side Top SubRegions" value="0"/>
+		<attribute name="Side Top Hysteresis" value="0"/>
+		<attribute name="Side Top Threshold" value="0"/>
+		<attribute name="Side Top Transition" value="White->Black"/>
+		<attribute name="Side Top Margin" value="0"/>
+		<attribute name="Side Top Shift" value="0"/>
+		<attribute name="Side Left Active" value="0"/>
+		<attribute name="Side Left Direction" value="External"/>
+		<attribute name="Side Left SubRegions" value="0"/>
+		<attribute name="Side Left Hysteresis" value="0"/>
+		<attribute name="Side Left Threshold" value="0"/>
+		<attribute name="Side Left Transition" value="White->Black"/>
+		<attribute name="Side Left Margin" value="0"/>
+		<attribute name="Side Left Shift" value="0"/>
+		<attribute name="Side Bottom Active" value="0"/>
+		<attribute name="Side Bottom Direction" value="External"/>
+		<attribute name="Side Bottom SubRegions" value="0"/>
+		<attribute name="Side Bottom Hysteresis" value="0"/>
+		<attribute name="Side Bottom Threshold" value="0"/>
+		<attribute name="Side Bottom Transition" value="White->Black"/>
+		<attribute name="Side Bottom Margin" value="0"/>
+		<attribute name="Side Bottom Shift" value="0"/>
+		<attribute name="Side Right Active" value="0"/>
+		<attribute name="Side Right Direction" value="External"/>
+		<attribute name="Side Right SubRegions" value="0"/>
+		<attribute name="Side Right Hysteresis" value="0"/>
+		<attribute name="Side Right Threshold" value="0"/>
+		<attribute name="Side Right Transition" value="White->Black"/>
+		<attribute name="Side Right Margin" value="0"/>
+		<attribute name="Side Right Shift" value="0"/>
+		<attribute name="Growing Active" value="0"/>
+		<attribute name="Growing Tolerance" value="1"/>
+		<attribute name="Growing Min size" value="10"/>
+		<attribute name="Growing Fill Up" value="10"/>
+		<attribute name="Growing Closing" value="0.50"/>
+		<attribute name="Aux Rect Top" value="0"/>
+		<attribute name="Aux Rect Left" value="0"/>
+		<attribute name="Aux Rect Bottom" value="0"/>
+		<attribute name="Aux Rect Right" value="0"/>
+	</class>
+	</class>
+	<class type="TOOL" id="4">
+		<attribute name="Active" value="0"/>
+		<attribute name="Label" value="Tool 05"/>
+		<attribute name="TypeCode" value="ToolNull"/>
+		<attribute name="Shape" value="0"/>
+		<attribute name="DefectCode" value="1"/>
+		<attribute name="Display Priority" value="0"/>
+		<attribute name="Display Priority Output Indx" value="0"/>
+		<attribute name="ToolOutput_CNT" value="0"/>
+	<class type="SHAPE" id="0">
+		<attribute name="Top" value="16"/>
+		<attribute name="Left" value="16"/>
+		<attribute name="Bottom" value="128"/>
+		<attribute name="Right" value="128"/>
+		<attribute name="Side Top Active" value="0"/>
+		<attribute name="Side Top Direction" value="External"/>
+		<attribute name="Side Top SubRegions" value="0"/>
+		<attribute name="Side Top Hysteresis" value="0"/>
+		<attribute name="Side Top Threshold" value="0"/>
+		<attribute name="Side Top Transition" value="White->Black"/>
+		<attribute name="Side Top Margin" value="0"/>
+		<attribute name="Side Top Shift" value="0"/>
+		<attribute name="Side Left Active" value="0"/>
+		<attribute name="Side Left Direction" value="External"/>
+		<attribute name="Side Left SubRegions" value="0"/>
+		<attribute name="Side Left Hysteresis" value="0"/>
+		<attribute name="Side Left Threshold" value="0"/>
+		<attribute name="Side Left Transition" value="White->Black"/>
+		<attribute name="Side Left Margin" value="0"/>
+		<attribute name="Side Left Shift" value="0"/>
+		<attribute name="Side Bottom Active" value="0"/>
+		<attribute name="Side Bottom Direction" value="External"/>
+		<attribute name="Side Bottom SubRegions" value="0"/>
+		<attribute name="Side Bottom Hysteresis" value="0"/>
+		<attribute name="Side Bottom Threshold" value="0"/>
+		<attribute name="Side Bottom Transition" value="White->Black"/>
+		<attribute name="Side Bottom Margin" value="0"/>
+		<attribute name="Side Bottom Shift" value="0"/>
+		<attribute name="Side Right Active" value="0"/>
+		<attribute name="Side Right Direction" value="External"/>
+		<attribute name="Side Right SubRegions" value="0"/>
+		<attribute name="Side Right Hysteresis" value="0"/>
+		<attribute name="Side Right Threshold" value="0"/>
+		<attribute name="Side Right Transition" value="White->Black"/>
+		<attribute name="Side Right Margin" value="0"/>
+		<attribute name="Side Right Shift" value="0"/>
+		<attribute name="Growing Active" value="0"/>
+		<attribute name="Growing Tolerance" value="1"/>
+		<attribute name="Growing Min size" value="10"/>
+		<attribute name="Growing Fill Up" value="10"/>
+		<attribute name="Growing Closing" value="0.50"/>
+		<attribute name="Aux Rect Top" value="0"/>
+		<attribute name="Aux Rect Left" value="0"/>
+		<attribute name="Aux Rect Bottom" value="0"/>
+		<attribute name="Aux Rect Right" value="0"/>
+	</class>
+	</class>
+	<class type="TOOL" id="5">
+		<attribute name="Active" value="0"/>
+		<attribute name="Label" value="Tool 06"/>
+		<attribute name="TypeCode" value="ToolNull"/>
+		<attribute name="Shape" value="0"/>
+		<attribute name="DefectCode" value="1"/>
+		<attribute name="Display Priority" value="0"/>
+		<attribute name="Display Priority Output Indx" value="0"/>
+		<attribute name="ToolOutput_CNT" value="0"/>
+	<class type="SHAPE" id="0">
+		<attribute name="Top" value="16"/>
+		<attribute name="Left" value="16"/>
+		<attribute name="Bottom" value="128"/>
+		<attribute name="Right" value="128"/>
+		<attribute name="Side Top Active" value="0"/>
+		<attribute name="Side Top Direction" value="External"/>
+		<attribute name="Side Top SubRegions" value="0"/>
+		<attribute name="Side Top Hysteresis" value="0"/>
+		<attribute name="Side Top Threshold" value="0"/>
+		<attribute name="Side Top Transition" value="White->Black"/>
+		<attribute name="Side Top Margin" value="0"/>
+		<attribute name="Side Top Shift" value="0"/>
+		<attribute name="Side Left Active" value="0"/>
+		<attribute name="Side Left Direction" value="External"/>
+		<attribute name="Side Left SubRegions" value="0"/>
+		<attribute name="Side Left Hysteresis" value="0"/>
+		<attribute name="Side Left Threshold" value="0"/>
+		<attribute name="Side Left Transition" value="White->Black"/>
+		<attribute name="Side Left Margin" value="0"/>
+		<attribute name="Side Left Shift" value="0"/>
+		<attribute name="Side Bottom Active" value="0"/>
+		<attribute name="Side Bottom Direction" value="External"/>
+		<attribute name="Side Bottom SubRegions" value="0"/>
+		<attribute name="Side Bottom Hysteresis" value="0"/>
+		<attribute name="Side Bottom Threshold" value="0"/>
+		<attribute name="Side Bottom Transition" value="White->Black"/>
+		<attribute name="Side Bottom Margin" value="0"/>
+		<attribute name="Side Bottom Shift" value="0"/>
+		<attribute name="Side Right Active" value="0"/>
+		<attribute name="Side Right Direction" value="External"/>
+		<attribute name="Side Right SubRegions" value="0"/>
+		<attribute name="Side Right Hysteresis" value="0"/>
+		<attribute name="Side Right Threshold" value="0"/>
+		<attribute name="Side Right Transition" value="White->Black"/>
+		<attribute name="Side Right Margin" value="0"/>
+		<attribute name="Side Right Shift" value="0"/>
+		<attribute name="Growing Active" value="0"/>
+		<attribute name="Growing Tolerance" value="1"/>
+		<attribute name="Growing Min size" value="10"/>
+		<attribute name="Growing Fill Up" value="10"/>
+		<attribute name="Growing Closing" value="0.50"/>
+		<attribute name="Aux Rect Top" value="0"/>
+		<attribute name="Aux Rect Left" value="0"/>
+		<attribute name="Aux Rect Bottom" value="0"/>
+		<attribute name="Aux Rect Right" value="0"/>
+	</class>
+	</class>
+	<class type="TOOL" id="6">
+		<attribute name="Active" value="0"/>
+		<attribute name="Label" value="Tool 07"/>
+		<attribute name="TypeCode" value="ToolNull"/>
+		<attribute name="Shape" value="0"/>
+		<attribute name="DefectCode" value="1"/>
+		<attribute name="Display Priority" value="0"/>
+		<attribute name="Display Priority Output Indx" value="0"/>
+		<attribute name="ToolOutput_CNT" value="0"/>
+	<class type="SHAPE" id="0">
+		<attribute name="Top" value="16"/>
+		<attribute name="Left" value="16"/>
+		<attribute name="Bottom" value="128"/>
+		<attribute name="Right" value="128"/>
+		<attribute name="Side Top Active" value="0"/>
+		<attribute name="Side Top Direction" value="External"/>
+		<attribute name="Side Top SubRegions" value="0"/>
+		<attribute name="Side Top Hysteresis" value="0"/>
+		<attribute name="Side Top Threshold" value="0"/>
+		<attribute name="Side Top Transition" value="White->Black"/>
+		<attribute name="Side Top Margin" value="0"/>
+		<attribute name="Side Top Shift" value="0"/>
+		<attribute name="Side Left Active" value="0"/>
+		<attribute name="Side Left Direction" value="External"/>
+		<attribute name="Side Left SubRegions" value="0"/>
+		<attribute name="Side Left Hysteresis" value="0"/>
+		<attribute name="Side Left Threshold" value="0"/>
+		<attribute name="Side Left Transition" value="White->Black"/>
+		<attribute name="Side Left Margin" value="0"/>
+		<attribute name="Side Left Shift" value="0"/>
+		<attribute name="Side Bottom Active" value="0"/>
+		<attribute name="Side Bottom Direction" value="External"/>
+		<attribute name="Side Bottom SubRegions" value="0"/>
+		<attribute name="Side Bottom Hysteresis" value="0"/>
+		<attribute name="Side Bottom Threshold" value="0"/>
+		<attribute name="Side Bottom Transition" value="White->Black"/>
+		<attribute name="Side Bottom Margin" value="0"/>
+		<attribute name="Side Bottom Shift" value="0"/>
+		<attribute name="Side Right Active" value="0"/>
+		<attribute name="Side Right Direction" value="External"/>
+		<attribute name="Side Right SubRegions" value="0"/>
+		<attribute name="Side Right Hysteresis" value="0"/>
+		<attribute name="Side Right Threshold" value="0"/>
+		<attribute name="Side Right Transition" value="White->Black"/>
+		<attribute name="Side Right Margin" value="0"/>
+		<attribute name="Side Right Shift" value="0"/>
+		<attribute name="Growing Active" value="0"/>
+		<attribute name="Growing Tolerance" value="1"/>
+		<attribute name="Growing Min size" value="10"/>
+		<attribute name="Growing Fill Up" value="10"/>
+		<attribute name="Growing Closing" value="0.50"/>
+		<attribute name="Aux Rect Top" value="0"/>
+		<attribute name="Aux Rect Left" value="0"/>
+		<attribute name="Aux Rect Bottom" value="0"/>
+		<attribute name="Aux Rect Right" value="0"/>
+	</class>
+	</class>
+	<class type="TOOL" id="7">
+		<attribute name="Active" value="0"/>
+		<attribute name="Label" value="Tool 08"/>
+		<attribute name="TypeCode" value="ToolNull"/>
+		<attribute name="Shape" value="0"/>
+		<attribute name="DefectCode" value="1"/>
+		<attribute name="Display Priority" value="0"/>
+		<attribute name="Display Priority Output Indx" value="0"/>
+		<attribute name="ToolOutput_CNT" value="0"/>
+	<class type="SHAPE" id="0">
+		<attribute name="Top" value="16"/>
+		<attribute name="Left" value="16"/>
+		<attribute name="Bottom" value="128"/>
+		<attribute name="Right" value="128"/>
+		<attribute name="Side Top Active" value="0"/>
+		<attribute name="Side Top Direction" value="External"/>
+		<attribute name="Side Top SubRegions" value="0"/>
+		<attribute name="Side Top Hysteresis" value="0"/>
+		<attribute name="Side Top Threshold" value="0"/>
+		<attribute name="Side Top Transition" value="White->Black"/>
+		<attribute name="Side Top Margin" value="0"/>
+		<attribute name="Side Top Shift" value="0"/>
+		<attribute name="Side Left Active" value="0"/>
+		<attribute name="Side Left Direction" value="External"/>
+		<attribute name="Side Left SubRegions" value="0"/>
+		<attribute name="Side Left Hysteresis" value="0"/>
+		<attribute name="Side Left Threshold" value="0"/>
+		<attribute name="Side Left Transition" value="White->Black"/>
+		<attribute name="Side Left Margin" value="0"/>
+		<attribute name="Side Left Shift" value="0"/>
+		<attribute name="Side Bottom Active" value="0"/>
+		<attribute name="Side Bottom Direction" value="External"/>
+		<attribute name="Side Bottom SubRegions" value="0"/>
+		<attribute name="Side Bottom Hysteresis" value="0"/>
+		<attribute name="Side Bottom Threshold" value="0"/>
+		<attribute name="Side Bottom Transition" value="White->Black"/>
+		<attribute name="Side Bottom Margin" value="0"/>
+		<attribute name="Side Bottom Shift" value="0"/>
+		<attribute name="Side Right Active" value="0"/>
+		<attribute name="Side Right Direction" value="External"/>
+		<attribute name="Side Right SubRegions" value="0"/>
+		<attribute name="Side Right Hysteresis" value="0"/>
+		<attribute name="Side Right Threshold" value="0"/>
+		<attribute name="Side Right Transition" value="White->Black"/>
+		<attribute name="Side Right Margin" value="0"/>
+		<attribute name="Side Right Shift" value="0"/>
+		<attribute name="Growing Active" value="0"/>
+		<attribute name="Growing Tolerance" value="1"/>
+		<attribute name="Growing Min size" value="10"/>
+		<attribute name="Growing Fill Up" value="10"/>
+		<attribute name="Growing Closing" value="0.50"/>
+		<attribute name="Aux Rect Top" value="0"/>
+		<attribute name="Aux Rect Left" value="0"/>
+		<attribute name="Aux Rect Bottom" value="0"/>
+		<attribute name="Aux Rect Right" value="0"/>
+	</class>
+	</class>
+	</class>
+</map>

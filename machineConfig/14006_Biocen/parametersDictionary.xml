@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfParameterInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ParameterInfo>
+    <Id>PAR_LASER_GAIN</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Laser gain [1-10-100]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Guadagno laser [1-10-100]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Ganancia de láser [1-10-100]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_VIAL_GAIN</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Ampoule gain [1-10-100]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Guadagno fiala [1-10-100]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Ganancia de ampolla [1-10-100]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>TH_WARNING_UPPER</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>High warning threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia superiore di avvertimento</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Umbral alto de alerta</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>TH_WARNING_LOWER</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Low warning threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia inferiore di avvertimento</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Umbral baja de advertencia</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>TH_ERROR_UPPER</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>High error threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia superiore di errore</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Umbral alto de error</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>TH_ERROR_LOWER</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Low error threshold</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Soglia inferiore di errore</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Umbral baja de error</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_SPINDLE_COUNT</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Spindle counter</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Numero di mandrini</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Contador de husillo</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_0_TORRETTA_OFFSET</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Initial spindle offset</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Offset mandrino iniziale</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Desplazamiento husillo inicial</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_INCREMENTO_SPINDLE_ID</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Spindle step</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Passo mandrini</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Paso del husillo</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.
+</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+  <ParameterInfo>
+    <Id>PAR_FREE_RUN_TIMER</Id>
+    <ValueType>decimal</ValueType>
+    <LocalizedInfo>
+      <ParameterInfoLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>Freerun timer [ms]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>Tempo freerun [ms]</Label>
+      </ParameterInfoLocalized>
+      <ParameterInfoLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>Temporizador freerun [ms]</Label>
+      </ParameterInfoLocalized>
+    </LocalizedInfo>
+    <LocalizedDescription>
+      <ParameterDescriptionLocalized>
+        <CultureCode>en</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>it</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+      <ParameterDescriptionLocalized>
+        <CultureCode>es</CultureCode>
+        <Label>TODO.</Label>
+      </ParameterDescriptionLocalized>
+    </LocalizedDescription>
+  </ParameterInfo>
+</ArrayOfParameterInfo>

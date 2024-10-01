@@ -1,0 +1,279 @@
+<MachineConfiguration>
+   <BypassHMIsendRecipe>false</BypassHMIsendRecipe>
+ 
+  <Customer>SPAMI</Customer>
+  <DefaultFolder>D:\SPAMI</DefaultFolder>
+  <DebugEnabled>true</DebugEnabled>
+  <UseConsole>true</UseConsole>
+  <ConsoleLevel>3</ConsoleLevel>
+  <UseExternalImageViewer>false</UseExternalImageViewer>
+  <TriggerMode>1</TriggerMode>
+  <TriggerSourceManual>false</TriggerSourceManual>
+  <FirstStationIndex>0</FirstStationIndex>
+  
+  <VisualizerRows>1</VisualizerRows>
+  <VisualizerCols>4</VisualizerCols>
+
+  <PingCheck>false</PingCheck>
+  
+  <NumberOfCamera>8</NumberOfCamera>
+  <NumberOfStation>8</NumberOfStation>
+  <NumberOfSpindles>40</NumberOfSpindles>
+  
+  <NumberOfStrobo>1</NumberOfStrobo>
+  <StrobeSettings>
+	<StrobeSetting>
+		<Id>0</Id>
+		<IP>192.168.1.105</IP>
+		<Path>./Gardasoft_RT820F_20.xml</Path>
+		<StrobeProviderName>TGARDASOFT</StrobeProviderName>
+	</StrobeSetting>
+  </StrobeSettings>
+  <MachineType>ExactaEasy</MachineType>
+  <HMIServiceAddress>net.tcp://localhost:8095/ExactaEasyUI/HMI</HMIServiceAddress>
+  <SupervisorServiceAddress>net.tcp://localhost:8090/ExactaEasyUI/Supervisor</SupervisorServiceAddress>
+<KnappSettings>
+	<KnappFolder>D:\SOURCE\ExactaEasy\ExactaEasy_Menarini\machineConfig\SingleCamGretel\Knapp</KnappFolder>
+    <SurveyBase>10</SurveyBase>
+	<VialOffset>0</VialOffset>
+    <OfflineKnapp>true</OfflineKnapp>
+    <MachineOffset>-4</MachineOffset>
+    <SpindleIncrement>2</SpindleIncrement>
+	<RatioHighThreshold>70</RatioHighThreshold>
+	<RoundsNum>10</RoundsNum>
+	<VialsToIgnoreAtStartup>40</VialsToIgnoreAtStartup>
+	<MarkBrokenVials>true</MarkBrokenVials>
+    <KnappStationsSettings>
+      <KnappStationSettings>
+        <IdStation>0</IdStation>
+		<EnableKnapp>true</EnableKnapp>
+        <StationSpindleInitialPosition>40</StationSpindleInitialPosition>
+      </KnappStationSettings>
+	  <KnappStationSettings>
+        <IdStation>1</IdStation>
+		<EnableKnapp>true</EnableKnapp>
+        <StationSpindleInitialPosition>39</StationSpindleInitialPosition>
+      </KnappStationSettings>
+	  <KnappStationSettings>
+        <IdStation>2</IdStation>
+		<EnableKnapp>false</EnableKnapp>
+        <StationSpindleInitialPosition>4</StationSpindleInitialPosition>
+      </KnappStationSettings>
+    </KnappStationsSettings>
+  </KnappSettings>  
+<CameraProviders>
+    <DefaultCameraProviderName>TestCamera</DefaultCameraProviderName>
+    <Providers>
+      <CameraProvider>
+        <Name>TestCamera</Name>
+        <Type>TestCamera.TestCamera, TestCamera</Type>
+      </CameraProvider>
+      <CameraProvider>
+        <Name>TattileCameraM9</Name>
+        <Type>TattileCameras.TattileCameraM9, TattileCamera</Type>
+		<ExternalDependencies>
+		  <string>TagFilterLib60.dll</string>
+		</ExternalDependencies>
+      </CameraProvider>
+	  <CameraProvider>
+        <Name>TattileCameraM12</Name>
+        <Type>TattileCameras.TattileCameraM12, TattileCamera</Type>
+		<ExternalDependencies>
+		  <string>TagFilterLib60.dll</string>
+		</ExternalDependencies>
+      </CameraProvider>
+    </Providers>
+  </CameraProviders>
+  <CameraSettings>
+    <CameraSetting>
+      <Id>0</Id>
+	  <BufferSize>10</BufferSize>
+      <CameraType>M9</CameraType>
+	  <CameraDescription>ST 0 - PARTICLE</CameraDescription>
+	  <CameraProviderName>TattileCameraM9</CameraProviderName>
+      <Station>0</Station>
+	  <Node>0</Node>
+      <Spindle>0</Spindle>
+      <BufferSize>10</BufferSize>
+      <IP4Address>10.200.11.71</IP4Address>
+      <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>0</DisplayPosition>  
+ 	  <LightControllers>
+       <LightControllerSettings>
+	    <Id>0</Id>
+        <Description>Back light</Description>
+	    <StrobeId>0</StrobeId>
+        <StrobeChannel>0</StrobeChannel>
+       </LightControllerSettings>
+      </LightControllers>	  
+    </CameraSetting>
+    <CameraSetting>
+      <Id>1</Id>
+	  <BufferSize>10</BufferSize>
+      <CameraType>M9</CameraType>
+	  <CameraDescription>ST 1 - PARTICLE</CameraDescription>
+	  <CameraProviderName>TestCamera</CameraProviderName>
+      <Station>0</Station>
+	  <Node>1</Node>
+      <Spindle>0</Spindle>
+ 	  <BufferSize>10</BufferSize>
+      <IP4Address>10.200.13.73</IP4Address>
+ 	  <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>1</DisplayPosition>
+	  <Rotation>90</Rotation>
+	  <Visualizer>Gretel</Visualizer>
+ 	  <LightControllers>
+       <LightControllerSettings>
+	    <Id>0</Id>
+        <Description>Back light</Description>
+	    <StrobeId>0</StrobeId>
+        <StrobeChannel>1</StrobeChannel>
+       </LightControllerSettings>
+      </LightControllers>
+    </CameraSetting>
+    <CameraSetting>
+      <Id>2</Id>
+	  <BufferSize>10</BufferSize>
+      <CameraType>M9</CameraType>
+	  <CameraDescription>ST 2 - PARTICLE</CameraDescription>
+	  <CameraProviderName>TestCamera</CameraProviderName>
+      <Station>0</Station>
+	  <Node>2</Node>
+      <Spindle>0</Spindle>
+      <BufferSize>10</BufferSize>
+      <IP4Address>10.200.14.74</IP4Address>
+      <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>2</DisplayPosition>
+	  <Rotation>90</Rotation>
+	  <Visualizer>Gretel</Visualizer>
+ 	  <LightControllers>
+       <LightControllerSettings>
+	    <Id>0</Id>
+        <Description>Back light</Description>
+	    <StrobeId>0</StrobeId>
+        <StrobeChannel>2</StrobeChannel>
+       </LightControllerSettings>
+      </LightControllers>
+    </CameraSetting>
+	<CameraSetting>
+      <Id>3</Id>
+	  <BufferSize>10</BufferSize>
+      <CameraType>M9</CameraType>
+	  <CameraDescription>ST 3 - PARTICLE</CameraDescription>
+	  <CameraProviderName>TestCamera</CameraProviderName>
+      <Station>0</Station>
+	  <Node>3</Node>
+      <Spindle>0</Spindle>
+      <BufferSize>10</BufferSize>
+      <IP4Address>10.200.14.74</IP4Address>
+      <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>3</DisplayPosition>
+	  <Rotation>90</Rotation>
+	  <Visualizer>Gretel</Visualizer>
+ 	  <LightControllers>
+       <LightControllerSettings>
+	    <Id>0</Id>
+        <Description>Back light</Description>
+	    <StrobeId>0</StrobeId>
+        <StrobeChannel>2</StrobeChannel>
+       </LightControllerSettings>
+      </LightControllers>
+    </CameraSetting>
+	<CameraSetting>
+      <Id>4</Id>
+	  <BufferSize>10</BufferSize>
+      <CameraType>M9</CameraType>
+	  <CameraDescription>ST 4 - PARTICLE</CameraDescription>
+	  <CameraProviderName>TestCamera</CameraProviderName>
+      <Station>0</Station>
+	  <Node>4</Node>
+      <Spindle>0</Spindle>
+      <BufferSize>10</BufferSize>
+      <IP4Address>10.200.12.72</IP4Address>
+      <PageNumberPosition>1</PageNumberPosition>
+      <DisplayPosition>0</DisplayPosition> 
+	  <Rotation>90</Rotation>
+	  <Visualizer>Gretel</Visualizer>	  
+ 	  <LightControllers>
+       <LightControllerSettings>
+	    <Id>0</Id>
+        <Description>Back light</Description>
+	    <StrobeId>0</StrobeId>
+        <StrobeChannel>0</StrobeChannel>
+       </LightControllerSettings>
+      </LightControllers>	  
+    </CameraSetting>
+    <CameraSetting>
+      <Id>5</Id>
+	  <BufferSize>10</BufferSize>
+      <CameraType>M9</CameraType>
+	  <CameraDescription>ST 5 - PARTICLE</CameraDescription>
+	  <CameraProviderName>TestCamera</CameraProviderName>
+      <Station>0</Station>
+	  <Node>5</Node>
+      <Spindle>0</Spindle>
+ 	  <BufferSize>10</BufferSize>
+      <IP4Address>10.200.13.73</IP4Address>
+ 	  <PageNumberPosition>1</PageNumberPosition>
+      <DisplayPosition>1</DisplayPosition>
+	  <Rotation>90</Rotation>
+	  <Visualizer>Gretel</Visualizer>
+ 	  <LightControllers>
+       <LightControllerSettings>
+	    <Id>0</Id>
+        <Description>Back light</Description>
+	    <StrobeId>0</StrobeId>
+        <StrobeChannel>1</StrobeChannel>
+       </LightControllerSettings>
+      </LightControllers>
+    </CameraSetting>
+    <CameraSetting>
+      <Id>6</Id>
+	  <BufferSize>10</BufferSize>
+      <CameraType>M9</CameraType>
+	  <CameraDescription>ST 6 - PARTICLE</CameraDescription>
+	  <CameraProviderName>TestCamera</CameraProviderName>
+      <Station>0</Station>
+	  <Node>6</Node>
+      <Spindle>0</Spindle>
+      <BufferSize>10</BufferSize>
+      <IP4Address>10.200.14.74</IP4Address>
+      <PageNumberPosition>1</PageNumberPosition>
+      <DisplayPosition>2</DisplayPosition>
+	  <Rotation>90</Rotation>
+	  <Visualizer>Gretel</Visualizer>
+ 	  <LightControllers>
+       <LightControllerSettings>
+	    <Id>0</Id>
+        <Description>Back light</Description>
+	    <StrobeId>0</StrobeId>
+        <StrobeChannel>2</StrobeChannel>
+       </LightControllerSettings>
+      </LightControllers>
+    </CameraSetting>
+	<CameraSetting>
+      <Id>7</Id>
+	  <BufferSize>10</BufferSize>
+      <CameraType>M9</CameraType>
+	  <CameraDescription>ST 7 - PARTICLE</CameraDescription>
+	  <CameraProviderName>TestCamera</CameraProviderName>
+      <Station>0</Station>
+	  <Node>7</Node>
+      <Spindle>0</Spindle>
+      <BufferSize>10</BufferSize>
+      <IP4Address>10.200.14.74</IP4Address>
+      <PageNumberPosition>1</PageNumberPosition>
+      <DisplayPosition>3</DisplayPosition>
+	  <Rotation>90</Rotation>
+	  <Visualizer>Gretel</Visualizer>
+ 	  <LightControllers>
+       <LightControllerSettings>
+	    <Id>0</Id>
+        <Description>Back light</Description>
+	    <StrobeId>0</StrobeId>
+        <StrobeChannel>2</StrobeChannel>
+       </LightControllerSettings>
+      </LightControllers>
+    </CameraSetting>
+  </CameraSettings>
+</MachineConfiguration>

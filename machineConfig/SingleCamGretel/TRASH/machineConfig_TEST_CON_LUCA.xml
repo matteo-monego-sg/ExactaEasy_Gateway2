@@ -1,0 +1,310 @@
+<MachineConfiguration>
+  <Customer>SPAMI</Customer>
+  <DefaultFolder>D:\SPAMI</DefaultFolder>
+  <DebugEnabled>true</DebugEnabled>
+  <UseConsole>true</UseConsole>
+  <ConsoleLevel>3</ConsoleLevel>
+  <TriggerMode>1</TriggerMode>
+  <TriggerSourceManual>false</TriggerSourceManual>
+  <PingCheck>false</PingCheck>
+  <DumpResults>true</DumpResults>
+  <NumberOfCamera>8</NumberOfCamera>
+  <NumberOfStation>8</NumberOfStation>
+  <NumberOfSplindles>40</NumberOfSplindles>
+  <MachineType>ExactaPlus</MachineType>
+  <VisualizerRows>1</VisualizerRows>
+  <VisualizerCols>3</VisualizerCols>
+  <HMIServiceAddress>http://localhost:6543</HMIServiceAddress>
+  <SupervisorServiceAddress>http://localhost:8090/ExactaEasyUI/Supervisor</SupervisorServiceAddress>
+  <SupervisorAddressVsModules>localhost</SupervisorAddressVsModules>
+  <KnappSettings>
+	<KnappFolder>D:\SOURCE\ExactaEasy\ExactaEasy_Menarini\machineConfig\SingleCamGretel\Knapp</KnappFolder>
+    <SurveyBase>10</SurveyBase>
+	<VialOffset>40</VialOffset>
+    <OfflineKnapp>true</OfflineKnapp>
+    <StartSpindle>1</StartSpindle>
+    <OfflineSpindleIncrement>2</OfflineSpindleIncrement>
+	<Inspections4vialNum>2</Inspections4vialNum>
+	<RatioHighThreshold>70</RatioHighThreshold>
+	<MarkBrokenVials>true</MarkBrokenVials>
+    <KnappStationsSettings>
+      <KnappStationSettings>
+        <IdStation>0</IdStation>
+		<EnableKnapp>true</EnableKnapp>
+        <StationSpindleOffset>0</StationSpindleOffset>
+      </KnappStationSettings>
+	  <KnappStationSettings>
+        <IdStation>1</IdStation>
+		<EnableKnapp>false</EnableKnapp>
+        <StationSpindleOffset>1</StationSpindleOffset>
+      </KnappStationSettings>
+	  <KnappStationSettings>
+        <IdStation>2</IdStation>
+		<EnableKnapp>false</EnableKnapp>
+        <StationSpindleOffset>10</StationSpindleOffset>
+      </KnappStationSettings>
+	  <KnappStationSettings>
+        <IdStation>3</IdStation>
+		<EnableKnapp>false</EnableKnapp>
+        <StationSpindleOffset>15</StationSpindleOffset>
+      </KnappStationSettings>
+    </KnappStationsSettings>
+  </KnappSettings>
+  <CameraProviders>
+    <DefaultCameraProviderName>TestCamera</DefaultCameraProviderName>
+    <Providers>
+      <CameraProvider>
+        <Name>TestCamera</Name>
+        <Type>TestCamera.TestCamera, TestCamera</Type>
+      </CameraProvider>
+      <CameraProvider>
+        <Name>GretelCameraBase</Name>
+        <Type>GretelClients.GretelCameraBase, GretelClient</Type>
+      </CameraProvider>
+    </Providers>
+  </CameraProviders>
+  <StationProviders>
+    <DefaultNodeProviderName>TestCamera</DefaultNodeProviderName>
+    <Providers>
+      <StationProvider>
+        <Name>TestCamera</Name>
+        <Type>TestCamera.TestCamera, TestCamera</Type>
+      </StationProvider>
+      <StationProvider>
+        <Name>GretelStationBase</Name>
+        <Type>GretelClients.GretelStationBase, GretelClient</Type>
+      </StationProvider>
+    </Providers>
+  </StationProviders>
+  <NodeProviders>
+    <DefaultNodeProviderName>TestCamera</DefaultNodeProviderName>
+    <Providers>
+      <NodeProvider>
+        <Name>TestCamera</Name>
+        <Type>TestCamera.TestCamera, TestCamera</Type>
+      </NodeProvider>
+      <NodeProvider>
+        <Name>GretelNodeBase</Name>
+        <Type>GretelClients.GretelNodeBase, GretelClient</Type>
+      </NodeProvider>
+    </Providers>
+  </NodeProviders>
+  <NodeSettings>
+	<NodeDefinitions>
+		<NodeDefinition>
+		  <Id>0</Id>
+		  <NodeProviderName>GretelNodeBase</NodeProviderName>
+		  <NodeDescription>Node - Gretel 1</NodeDescription>
+		  <ServerIP4Address>192.168.8.2</ServerIP4Address>
+		  <IP4Address>192.168.8.1</IP4Address>
+		  <Port>27015</Port>
+		  <User>gretel2</User>
+		  <Key>gretel2</Key>
+		</NodeDefinition>
+		<!--<NodeDefinition>
+		  <Id>1</Id>
+		  <NodeProviderName>GretelNodeBase</NodeProviderName>
+		  <NodeDescription>Node - Other</NodeDescription>
+		  <ServerIP4Address>192.168.1.75</ServerIP4Address>
+		  <IP4Address>192.168.1.75</IP4Address>
+		  <Port>27017</Port>
+		  <User>Luke</User>
+		  <Key>spami</Key>
+		</NodeDefinition>-->
+	</NodeDefinitions>
+  </NodeSettings>
+  <StationSettings>
+    <StationDefinition>
+	  <Id>0</Id>
+	  <StationProviderName>GretelStationBase</StationProviderName>
+	  <StationDescription>ST 0 - Gretel 1</StationDescription>
+	  <Node>0</Node>
+	</StationDefinition>
+	<StationDefinition>
+	  <Id>1</Id>
+	  <StationProviderName>GretelStationBase</StationProviderName>
+	  <StationDescription>ST 1 - Gretel 1</StationDescription>
+	  <Node>0</Node>
+	</StationDefinition>
+	<StationDefinition>
+	  <Id>2</Id>
+	  <StationProviderName>GretelStationBase</StationProviderName>
+	  <StationDescription>ST 2 - Gretel 1</StationDescription>
+	  <Node>0</Node>
+	</StationDefinition>
+	<StationDefinition>
+	  <Id>3</Id>
+	  <StationProviderName>GretelStationBase</StationProviderName>
+	  <StationDescription>ST 3 - Gretel 1</StationDescription>
+	  <Node>0</Node>
+	</StationDefinition>
+	<StationDefinition>
+	  <Id>4</Id>
+	  <StationProviderName>GretelStationBase</StationProviderName>
+	  <StationDescription>ST 4 - Gretel 1</StationDescription>
+	  <Node>0</Node>
+	</StationDefinition>
+	<StationDefinition>
+	  <Id>5</Id>
+	  <StationProviderName>GretelStationBase</StationProviderName>
+	  <StationDescription>ST 5 - Gretel 1</StationDescription>
+	  <Node>0</Node>
+	</StationDefinition>
+	<StationDefinition>
+	  <Id>6</Id>
+	  <StationProviderName>GretelStationBase</StationProviderName>
+	  <StationDescription>ST 6 - Gretel 1</StationDescription>
+	  <Node>0</Node>
+	</StationDefinition>
+	<StationDefinition>
+	  <Id>7</Id>
+	  <StationProviderName>GretelStationBase</StationProviderName>
+	  <StationDescription>ST 7 - Gretel 1</StationDescription>
+	  <Node>0</Node>
+	</StationDefinition>
+	<!-- <StationDefinition>
+	  <Id>4</Id>
+	  <StationProviderName>GretelStationBase</StationProviderName>
+	  <StationDescription>ST 0 - OTHER</StationDescription>
+	  <Node>1</Node>
+	</StationDefinition>
+	<StationDefinition>
+	  <Id>5</Id>
+	  <StationProviderName>GretelStationBase</StationProviderName>
+	  <StationDescription>ST 1 - OTHER</StationDescription>
+	  <Node>1</Node>
+	</StationDefinition> -->
+  </StationSettings>
+  <CameraSettings>
+    <CameraSetting>
+      <Id>0</Id>
+	  <Station>0</Station>
+	  <Head>0</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+	  <CameraDescription>CAM 0 - Gretel 1</CameraDescription>
+	  <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Spindle>0</Spindle>
+	  <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>0</DisplayPosition>
+	  <Visualizer>Gretel</Visualizer>
+    </CameraSetting>
+	<CameraSetting>
+      <Id>1</Id>
+	  <Station>1</Station>
+	  <Head>1</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+	  <CameraDescription>CAM 1 - Gretel 1</CameraDescription>
+	  <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Spindle>0</Spindle>
+	  <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>1</DisplayPosition>
+	  <Visualizer>Gretel</Visualizer>
+    </CameraSetting>
+	<CameraSetting>
+      <Id>2</Id>
+	  <Station>2</Station>
+	  <Head>2</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+	  <CameraDescription>CAM 2 - Gretel 1</CameraDescription>
+	  <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Spindle>0</Spindle>
+	  <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>2</DisplayPosition>
+	  <Visualizer>Gretel</Visualizer>
+    </CameraSetting>
+	<CameraSetting>
+      <Id>3</Id>
+	  <Station>3</Station>
+	  <Head>3</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+	  <CameraDescription>CAM 3 - Gretel 1</CameraDescription>
+	  <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Spindle>0</Spindle>
+	  <PageNumberPosition>1</PageNumberPosition>
+      <DisplayPosition>0</DisplayPosition>
+	  <Visualizer>Gretel</Visualizer>
+    </CameraSetting>
+	<CameraSetting>
+      <Id>4</Id>
+	  <Station>4</Station>
+	  <Head>4</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+	  <CameraDescription>CAM 4 - Gretel 1</CameraDescription>
+	  <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Spindle>0</Spindle>
+	  <PageNumberPosition>1</PageNumberPosition>
+      <DisplayPosition>1</DisplayPosition>
+	  <Visualizer>Gretel</Visualizer>
+    </CameraSetting>
+	<CameraSetting>
+      <Id>5</Id>
+	  <Station>5</Station>
+	  <Head>5</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+	  <CameraDescription>CAM 5 - Gretel 1</CameraDescription>
+	  <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Spindle>0</Spindle>
+	  <PageNumberPosition>1</PageNumberPosition>
+      <DisplayPosition>2</DisplayPosition>
+	  <Visualizer>Gretel</Visualizer>
+    </CameraSetting>
+	<CameraSetting>
+      <Id>6</Id>
+	  <Station>6</Station>
+	  <Head>6</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+	  <CameraDescription>CAM 6 - Gretel 1</CameraDescription>
+	  <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Spindle>0</Spindle>
+	  <PageNumberPosition>2</PageNumberPosition>
+      <DisplayPosition>0</DisplayPosition>
+	  <Visualizer>Gretel</Visualizer>
+    </CameraSetting>
+	<CameraSetting>
+      <Id>7</Id>
+	  <Station>7</Station>
+	  <Head>7</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+	  <CameraDescription>CAM 7 - Gretel 1</CameraDescription>
+	  <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Spindle>0</Spindle>
+	  <PageNumberPosition>2</PageNumberPosition>
+      <DisplayPosition>1</DisplayPosition>
+	  <Visualizer>Gretel</Visualizer>
+    </CameraSetting>
+	<!-- <CameraSetting>
+      <Id>4</Id>
+	  <Station>3</Station>
+	  <Head>0</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+	  <CameraDescription>CAM 0 - Other</CameraDescription>
+	  <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Spindle>0</Spindle>
+	  <PageNumberPosition>2</PageNumberPosition>
+      <DisplayPosition>0</DisplayPosition>
+	  <Visualizer>Gretel</Visualizer>
+    </CameraSetting>
+	<CameraSetting>
+      <Id>5</Id>
+	  <Station>4</Station>
+	  <Head>1</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+	  <CameraDescription>CAM 1 - Other</CameraDescription>
+	  <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Spindle>0</Spindle>
+	  <PageNumberPosition>2</PageNumberPosition>
+      <DisplayPosition>1</DisplayPosition>
+	  <Visualizer>Gretel</Visualizer>
+    </CameraSetting> -->
+  </CameraSettings>
+</MachineConfiguration>

@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcquisitionGetError" xml:space="preserve">
+    <value>Nelze získat parametry snímání z kamery {0}</value>
+  </data>
+  <data name="AcquisitionParameter" xml:space="preserve">
+    <value>Parametr snímání</value>
+  </data>
+  <data name="ActualValue" xml:space="preserve">
+    <value>Aktuální hodnota</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>přidat</value>
+  </data>
+  <data name="AdvancedRecipeParameter" xml:space="preserve">
+    <value>Parametr pokročilého receptu</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Všechny</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>Jakýkoliv</value>
+  </data>
+  <data name="Assistants" xml:space="preserve">
+    <value>Asistenti</value>
+  </data>
+  <data name="AtLeastOneCameraInError" xml:space="preserve">
+    <value>Minimálně jedna povolená kamera ve stavu chyby</value>
+  </data>
+  <data name="AuditFailed" xml:space="preserve">
+    <value>Audit selhal</value>
+  </data>
+  <data name="Backup" xml:space="preserve">
+    <value>Zálohovat</value>
+  </data>
+  <data name="BackupCamParamsFailed" xml:space="preserve">
+    <value>Zálohování parametrů kamery selhalo</value>
+  </data>
+  <data name="BackupRestore" xml:space="preserve">
+    <value>Zálohovat/Obnovit</value>
+  </data>
+  <data name="BackupVialAxisFailed" xml:space="preserve">
+    <value>Zálohování osy kamery lahvičky selhalo</value>
+  </data>
+  <data name="Bad" xml:space="preserve">
+    <value>Chybný</value>
+  </data>
+  <data name="BatchID" xml:space="preserve">
+    <value>ID šarže</value>
+  </data>
+  <data name="BtnApply" xml:space="preserve">
+    <value>Použít</value>
+  </data>
+  <data name="BtnConfig" xml:space="preserve">
+    <value>Konfig.</value>
+  </data>
+  <data name="BtnEdit" xml:space="preserve">
+    <value>Upravit</value>
+  </data>
+  <data name="BtnLiveStart" xml:space="preserve">
+    <value>ROI spustit živě</value>
+  </data>
+  <data name="BtnLiveStartFF" xml:space="preserve">
+    <value>Plnou velikost spustit živě</value>
+  </data>
+  <data name="BtnLiveStop" xml:space="preserve">
+    <value>Zastavit živě ROI</value>
+  </data>
+  <data name="BtnLiveStopFF" xml:space="preserve">
+    <value>Plnou velikost zastavit živě</value>
+  </data>
+  <data name="BtnSave" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="BtnUndo" xml:space="preserve">
+    <value>Vrátit zpět</value>
+  </data>
+  <data name="BypassHMIsendRecipe" xml:space="preserve">
+    <value>Neuplatnit recept HMI</value>
+  </data>
+  <data name="calibrationTurbidimeter" xml:space="preserve">
+    <value>Prahové hodnoty</value>
+  </data>
+  <data name="Cal_Dark" xml:space="preserve">
+    <value>Tmavá</value>
+  </data>
+  <data name="Cal_Good" xml:space="preserve">
+    <value>Správný</value>
+  </data>
+  <data name="Cal_Light" xml:space="preserve">
+    <value>Světlá</value>
+  </data>
+  <data name="Cal_NumSamples" xml:space="preserve">
+    <value>Počet prvků podle typu</value>
+  </data>
+  <data name="Cal_Start" xml:space="preserve">
+    <value>Spustit snímání</value>
+  </data>
+  <data name="Cal_Stop" xml:space="preserve">
+    <value>Zastavit snímání</value>
+  </data>
+  <data name="Camera" xml:space="preserve">
+    <value>Kamera</value>
+  </data>
+  <data name="CameraError" xml:space="preserve">
+    <value>Chyba kamery</value>
+  </data>
+  <data name="CameraList" xml:space="preserve">
+    <value>Seznam kamery</value>
+  </data>
+  <data name="CameraNotFound" xml:space="preserve">
+    <value>Č. kamery: {0} ip: {1} v nastavení konfigurace nenalezena</value>
+  </data>
+  <data name="CameraNotFound2" xml:space="preserve">
+    <value>Kamera nenalezena</value>
+  </data>
+  <data name="CameraNotReady" xml:space="preserve">
+    <value>Kamera není připravena</value>
+  </data>
+  <data name="CameraParamsBackupOk" xml:space="preserve">
+    <value>Parametry kamery byly úspěšně zálohovány</value>
+  </data>
+  <data name="CameraRecipeNotFound" xml:space="preserve">
+    <value>Recept kamery se nenašel</value>
+  </data>
+  <data name="CameraResetting" xml:space="preserve">
+    <value>Kamera se restartuje... Čekejte prosím</value>
+  </data>
+  <data name="Cameras" xml:space="preserve">
+    <value>Kamery</value>
+  </data>
+  <data name="CameraStatus" xml:space="preserve">
+    <value>Stav kamery</value>
+  </data>
+  <data name="CameraStatusNotAvailable" xml:space="preserve">
+    <value>Stav kamery není k dispozici</value>
+  </data>
+  <data name="CantBindToCamera" xml:space="preserve">
+    <value>Kameru nelze vázat</value>
+  </data>
+  <data name="CantChangeLanguageWhileMachineIsRunning" xml:space="preserve">
+    <value>Neměňte jazyk, dokud je stroj v chodu</value>
+  </data>
+  <data name="CantFindGlobalConfig" xml:space="preserve">
+    <value>Nelze najít soubor globální konfigurace „globalConfig.xml“</value>
+  </data>
+  <data name="CantSaveRecipe" xml:space="preserve">
+    <value>Recept nelze uložit</value>
+  </data>
+  <data name="CantSaveRecipeWhileMachineRunning" xml:space="preserve">
+    <value>Recept nelze uložit, dokud je stroj v chodu</value>
+  </data>
+  <data name="CheckVialAxis" xml:space="preserve">
+    <value>Zkontrolovat osu lahvičky</value>
+  </data>
+  <data name="Condition" xml:space="preserve">
+    <value>Podmínka</value>
+  </data>
+  <data name="Config" xml:space="preserve">
+    <value>Konfig.</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Aktuální</value>
+  </data>
+  <data name="CustomerEvaluation" xml:space="preserve">
+    <value>Hodnocení zákazníka</value>
+  </data>
+  <data name="DateTime" xml:space="preserve">
+    <value>Datum Čas</value>
+  </data>
+  <data name="Device" xml:space="preserve">
+    <value>Zařízení</value>
+  </data>
+  <data name="DeviceRecipeWrong" xml:space="preserve">
+    <value>Recept zařízení chybný nebo chybí</value>
+  </data>
+  <data name="Devices" xml:space="preserve">
+    <value>Zařízení</value>
+  </data>
+  <data name="DevicesParameters" xml:space="preserve">
+    <value>Parametry zařízení</value>
+  </data>
+  <data name="DigitalTwinNoCSV" xml:space="preserve">
+    <value>CSV není k dispozici</value>
+  </data>
+  <data name="Digitizer" xml:space="preserve">
+    <value>Digitizér</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Zakázat</value>
+  </data>
+  <data name="DownloadImages" xml:space="preserve">
+    <value>Stáhnout obrázky</value>
+  </data>
+  <data name="DownloadingImages" xml:space="preserve">
+    <value>Stahování obrázků</value>
+  </data>
+  <data name="DownLoadParam" xml:space="preserve">
+    <value>Stahování obrázků kamery....</value>
+  </data>
+  <data name="Dump" xml:space="preserve">
+    <value>Vyhodit</value>
+  </data>
+  <data name="ElaborationGetError" xml:space="preserve">
+    <value>Parametry receptu kamery {0} nelze přečíst</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Povolit</value>
+  </data>
+  <data name="EnableKnapp" xml:space="preserve">
+    <value>Povolit Knapp</value>
+  </data>
+  <data name="ErrorReport" xml:space="preserve">
+    <value>Během generování zprávy se vyskytla chyba</value>
+  </data>
+  <data name="ErrorSendingParameters" xml:space="preserve">
+    <value>Chyba odesílání parametrů</value>
+  </data>
+  <data name="ErrorStartingKnapp" xml:space="preserve">
+    <value>Chyba spuštění knapp</value>
+  </data>
+  <data name="ErrorStoppingKnapp" xml:space="preserve">
+    <value>Chyba zastavení knapp</value>
+  </data>
+  <data name="ErrorUploadingParameters" xml:space="preserve">
+    <value>Chyba nahrávání parametrů</value>
+  </data>
+  <data name="EvaluationScale" xml:space="preserve">
+    <value>Škála hodnocení</value>
+  </data>
+  <data name="Every" xml:space="preserve">
+    <value>Každý</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Ukončit</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exportovat</value>
+  </data>
+  <data name="ExportCameraParams" xml:space="preserve">
+    <value>Exportovat parametry kamery</value>
+  </data>
+  <data name="ExportPDF" xml:space="preserve">
+    <value>Export PDF</value>
+  </data>
+  <data name="ExportPDFInProgress" xml:space="preserve">
+    <value>Probíhá export do PDF, vyčkejte prosím</value>
+  </data>
+  <data name="ExportVialAxis" xml:space="preserve">
+    <value>Osa exportování lahvičky</value>
+  </data>
+  <data name="FatalError" xml:space="preserve">
+    <value>Fatální chyba! Zkontrolovat konfiguraci a restartovat</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Funkce</value>
+  </data>
+  <data name="FeaturesGetError" xml:space="preserve">
+    <value>Nelze získat funkce z kamery {0}</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtr</value>
+  </data>
+  <data name="Frames" xml:space="preserve">
+    <value>Rámy</value>
+  </data>
+  <data name="Frequency" xml:space="preserve">
+    <value>Frekvence</value>
+  </data>
+  <data name="FWver" xml:space="preserve">
+    <value>Ver. FW</value>
+  </data>
+  <data name="GetParametersFailed" xml:space="preserve">
+    <value>Získávání parametrů selhalo</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Správný</value>
+  </data>
+  <data name="GretelPCs" xml:space="preserve">
+    <value>Počítače Gretel</value>
+  </data>
+  <data name="HardReset" xml:space="preserve">
+    <value>Tvrdý reset</value>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>Hlava</value>
+  </data>
+  <data name="HMIEnable" xml:space="preserve">
+    <value>Povolit HMI</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="IdTool" xml:space="preserve">
+    <value>ID nástroje</value>
+  </data>
+  <data name="ImageSaved" xml:space="preserve">
+    <value>Obrázek uložen</value>
+  </data>
+  <data name="ImagesDownloaded" xml:space="preserve">
+    <value>Obrázky úspěšně staženy</value>
+  </data>
+  <data name="ImagesDownloads" xml:space="preserve">
+    <value>Stažené obrázky</value>
+  </data>
+  <data name="ImagesDumpSettings" xml:space="preserve">
+    <value>Nastavení vyhození obrázků</value>
+  </data>
+  <data name="ImagesNotDownloaded" xml:space="preserve">
+    <value>Stahování obrázků selhalo</value>
+  </data>
+  <data name="ImagesNotUploaded" xml:space="preserve">
+    <value>Nahrávání obrázků selhalo</value>
+  </data>
+  <data name="ImagesUpload" xml:space="preserve">
+    <value>Nahrát obrázky</value>
+  </data>
+  <data name="ImagesUploads" xml:space="preserve">
+    <value>Nahrávání obrázků</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>Zvýšení</value>
+  </data>
+  <data name="Inspection" xml:space="preserve">
+    <value>Inspekce</value>
+  </data>
+  <data name="InspectionSettings" xml:space="preserve">
+    <value>Nastavení inspekce</value>
+  </data>
+  <data name="InvalidLightCtrl" xml:space="preserve">
+    <value>Neplatný ovladač světla</value>
+  </data>
+  <data name="Knapp" xml:space="preserve">
+    <value>Knapp</value>
+  </data>
+  <data name="KnappIdle" xml:space="preserve">
+    <value>Volnoběh Knapp</value>
+  </data>
+  <data name="KnappRunning" xml:space="preserve">
+    <value>Chod Knapp</value>
+  </data>
+  <data name="KnappSettingsError" xml:space="preserve">
+    <value>Chyba nastavení Knapp</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Poslední</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Úroveň</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="LiveMode" xml:space="preserve">
+    <value>Živý režim ROI</value>
+  </data>
+  <data name="LiveModeFF" xml:space="preserve">
+    <value>Živý režim plné velikosti</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Nahrát</value>
+  </data>
+  <data name="LoadRecipeAndApply" xml:space="preserve">
+    <value>Nahrát a uplatnit recept</value>
+  </data>
+  <data name="LoadRecipeWithoutApply" xml:space="preserve">
+    <value>Nahrát recept bez uplatnění</value>
+  </data>
+  <data name="Logic" xml:space="preserve">
+    <value>Logika</value>
+  </data>
+  <data name="Logs" xml:space="preserve">
+    <value>Protokoly</value>
+  </data>
+  <data name="MachineEvaluation" xml:space="preserve">
+    <value>Hodnocení stroje</value>
+  </data>
+  <data name="MachineParameter" xml:space="preserve">
+    <value>Parametr stroje</value>
+  </data>
+  <data name="MaxValue" xml:space="preserve">
+    <value>Max. hodnota</value>
+  </data>
+  <data name="Measure" xml:space="preserve">
+    <value>Opatření</value>
+  </data>
+  <data name="MinValue" xml:space="preserve">
+    <value>Min. hodnota</value>
+  </data>
+  <data name="Missing" xml:space="preserve">
+    <value>Chybí</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Režim</value>
+  </data>
+  <data name="ModuleName" xml:space="preserve">
+    <value>Název modulu</value>
+  </data>
+  <data name="MoreSettings" xml:space="preserve">
+    <value>DALŠÍ NASTAVENÍ</value>
+  </data>
+  <data name="NetworkNodes" xml:space="preserve">
+    <value>Síťové uzly</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="NoActiveRecipe" xml:space="preserve">
+    <value>Žádný aktivní recept</value>
+  </data>
+  <data name="NoCameraAvailable" xml:space="preserve">
+    <value>K dispozici není žádná kamera!</value>
+  </data>
+  <data name="NoDefaultPrinter" xml:space="preserve">
+    <value>Chyba: nelze najít výchozí tiskárnu.</value>
+  </data>
+  <data name="NodeId" xml:space="preserve">
+    <value>ID uzlu</value>
+  </data>
+  <data name="Nodes" xml:space="preserve">
+    <value>Zařízení</value>
+  </data>
+  <data name="NoEditingAvailable" xml:space="preserve">
+    <value>Úprava parametru není v tuto chvíli povolena!</value>
+  </data>
+  <data name="NoReadyToRunAvailable" xml:space="preserve">
+    <value>Ukončit oznámení úpravy parametru nejsou v tuto chvíli povoleny!</value>
+  </data>
+  <data name="NoRecipeAvailable" xml:space="preserve">
+    <value>K dispozici není žádný recept!</value>
+  </data>
+  <data name="Normalization" xml:space="preserve">
+    <value>Normalizace</value>
+  </data>
+  <data name="OfflineAnalysis" xml:space="preserve">
+    <value>Offline analýza</value>
+  </data>
+  <data name="OnPattern" xml:space="preserve">
+    <value>O vzoru</value>
+  </data>
+  <data name="OnReject" xml:space="preserve">
+    <value>O odmítnutí</value>
+  </data>
+  <data name="Parameter" xml:space="preserve">
+    <value>Parametr</value>
+  </data>
+  <data name="PixelInfo" xml:space="preserve">
+    <value>Informace o pixelu</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Čekejte prosím</value>
+  </data>
+  <data name="PleaseWaitWindowsService" xml:space="preserve">
+    <value>Vyčkejte prosím na servis windows</value>
+  </data>
+  <data name="Prev" xml:space="preserve">
+    <value>Předch.</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Zpráva</value>
+  </data>
+  <data name="Printing" xml:space="preserve">
+    <value>Tisk...</value>
+  </data>
+  <data name="PrintKnapp" xml:space="preserve">
+    <value>Vytisknout Knapp</value>
+  </data>
+  <data name="PUM" xml:space="preserve">
+    <value>P.U.M.</value>
+  </data>
+  <data name="Range" xml:space="preserve">
+    <value>Rozsah</value>
+  </data>
+  <data name="ReadingDeviceInfo" xml:space="preserve">
+    <value>Informace o čtecím zařízení</value>
+  </data>
+  <data name="Recipe" xml:space="preserve">
+    <value>Recept</value>
+  </data>
+  <data name="RecipeAdvancedGetError" xml:space="preserve">
+    <value>Nelze získat pokročilé parametry receptu z kamery {0}</value>
+  </data>
+  <data name="RecipeEnable" xml:space="preserve">
+    <value>Povolit recept</value>
+  </data>
+  <data name="RecipeMachineGetError" xml:space="preserve">
+    <value>Nelze získat parametry stroje receptu z kamery {0}</value>
+  </data>
+  <data name="RecipeParameter" xml:space="preserve">
+    <value>Parametry receptu</value>
+  </data>
+  <data name="RecipeSimpleGetError" xml:space="preserve">
+    <value>Nelze získat jednoduché parametry receptu z kamery {0}</value>
+  </data>
+  <data name="RecivedRecipeWithErrors" xml:space="preserve">
+    <value>Recept přijatý s chybami. Recept byl ignorován.</value>
+  </data>
+  <data name="RecordImagesError" xml:space="preserve">
+    <value>Chyba záznamu obrázku</value>
+  </data>
+  <data name="Redownload" xml:space="preserve">
+    <value>Re-Download</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Vyřadit</value>
+  </data>
+  <data name="Rejects" xml:space="preserve">
+    <value>Vyřazení</value>
+  </data>
+  <data name="RejectsBuffer" xml:space="preserve">
+    <value>Vyrovnávací paměť vyřazení</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Zprávy</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Resetovat</value>
+  </data>
+  <data name="ResetAll" xml:space="preserve">
+    <value>Resetovat vše</value>
+  </data>
+  <data name="ResetBufferImages" xml:space="preserve">
+    <value>Resetovat obrázky ve vyrovnávací paměti</value>
+  </data>
+  <data name="ResetError" xml:space="preserve">
+    <value>Reset kamery selhal</value>
+  </data>
+  <data name="ResetTriggerEncoder" xml:space="preserve">
+    <value>Resetovat kodér spouštěče</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Obnovit</value>
+  </data>
+  <data name="RestoreVialAxisFailed" xml:space="preserve">
+    <value>Obnovení osy lahvičky selhalo</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Výsledky</value>
+  </data>
+  <data name="ROIDefinition" xml:space="preserve">
+    <value>Definice ROI</value>
+  </data>
+  <data name="RoundNum" xml:space="preserve">
+    <value>Kruhová otočka</value>
+  </data>
+  <data name="RoundsNum" xml:space="preserve">
+    <value>Počet otoček</value>
+  </data>
+  <data name="RunFailed" xml:space="preserve">
+    <value>Chod selhal</value>
+  </data>
+  <data name="RunningMode" xml:space="preserve">
+    <value>Režim chodu</value>
+  </data>
+  <data name="SampleSize" xml:space="preserve">
+    <value>Velikost vzorku</value>
+  </data>
+  <data name="Sampling" xml:space="preserve">
+    <value>Odběr vzorků</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="SaveBufferedImages" xml:space="preserve">
+    <value>Uložení obrázků ve vyrovnávací paměti</value>
+  </data>
+  <data name="SaveCurrentRecipe" xml:space="preserve">
+    <value>Uložit aktuální recept</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Uloženo</value>
+  </data>
+  <data name="SaveKnapp" xml:space="preserve">
+    <value>Uložit Knapp</value>
+  </data>
+  <data name="SaveRejectedContainersImages" xml:space="preserve">
+    <value>Uložit obrázky po sobě jdoucích vyřazených</value>
+  </data>
+  <data name="SaveSettings" xml:space="preserve">
+    <value>Uložit nastavení</value>
+  </data>
+  <data name="SaveSurvey" xml:space="preserve">
+    <value>Uložit průzkum</value>
+  </data>
+  <data name="SavingBufferedImages" xml:space="preserve">
+    <value>Ukládání obrázků ve vyrovnávací paměti</value>
+  </data>
+  <data name="SavingCurrentRecipe" xml:space="preserve">
+    <value>Ukládání receptu...</value>
+  </data>
+  <data name="SavingCurrentRecipeFailed" xml:space="preserve">
+    <value>Ukládání aktuálního receptu selhalo</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Vybrat</value>
+  </data>
+  <data name="SelectFolderForSavingImages" xml:space="preserve">
+    <value>Vyberte složku pro ukládání obrázků</value>
+  </data>
+  <data name="SelectFolderFromWhichToUpload" xml:space="preserve">
+    <value>Vyberte složku, z níž bude probíhat nahrávání</value>
+  </data>
+  <data name="SendingRecipeTo" xml:space="preserve">
+    <value>Odesílání receptu na</value>
+  </data>
+  <data name="SendParam" xml:space="preserve">
+    <value>Zasílání parametrů do kamer...</value>
+  </data>
+  <data name="ShowingLiveCam" xml:space="preserve">
+    <value>Zobrazit život kamery!</value>
+  </data>
+  <data name="SoftReset" xml:space="preserve">
+    <value>Měkký reset</value>
+  </data>
+  <data name="Spindle" xml:space="preserve">
+    <value>Vřeteno</value>
+  </data>
+  <data name="SpvBusyError" xml:space="preserve">
+    <value>Nelze odeslat stav „Zaneprázdněný“</value>
+  </data>
+  <data name="SpvErrorError" xml:space="preserve">
+    <value>Nelze odeslat stav „Chyba“</value>
+  </data>
+  <data name="SpvReadyToRunError" xml:space="preserve">
+    <value>Nelze odeslat stav „Připraven k chodu“</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Spustit</value>
+  </data>
+  <data name="StartLive" xml:space="preserve">
+    <value>Spustit živě</value>
+  </data>
+  <data name="StartOfflineAnalysis" xml:space="preserve">
+    <value>Spustit offline analýzu</value>
+  </data>
+  <data name="StartOffset" xml:space="preserve">
+    <value>Spustit vyvážení</value>
+  </data>
+  <data name="StartRun" xml:space="preserve">
+    <value>Spustit chod</value>
+  </data>
+  <data name="Station" xml:space="preserve">
+    <value>Stanice</value>
+  </data>
+  <data name="StationEvaluation" xml:space="preserve">
+    <value>Hodnocení stanice</value>
+  </data>
+  <data name="StationId" xml:space="preserve">
+    <value>ID stanice</value>
+  </data>
+  <data name="StationRejects" xml:space="preserve">
+    <value>Vyřazení stanice</value>
+  </data>
+  <data name="StationSpindleInitialPosition" xml:space="preserve">
+    <value>Počáteční polohy stanice vřetene</value>
+  </data>
+  <data name="StationSpindleOffset" xml:space="preserve">
+    <value>Vyvážení stanice vřetene</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Stav</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Zastavit</value>
+  </data>
+  <data name="StopLive" xml:space="preserve">
+    <value>Zastavit živě</value>
+  </data>
+  <data name="StopOffAnalysis" xml:space="preserve">
+    <value>Zastavit off. analýzu</value>
+  </data>
+  <data name="StopOfflineAnalysis" xml:space="preserve">
+    <value>Zastavit offline analýzu</value>
+  </data>
+  <data name="StopOnCondition" xml:space="preserve">
+    <value>Zastavit za podmínky</value>
+  </data>
+  <data name="Strobe" xml:space="preserve">
+    <value>Stroboskop</value>
+  </data>
+  <data name="Strobo" xml:space="preserve">
+    <value>Strobo</value>
+  </data>
+  <data name="StroboConfFileInvalid" xml:space="preserve">
+    <value>Neplatný soubor konfigurace stroboskopu. Zkontrolujte číslo stroboskopu a cesty.</value>
+  </data>
+  <data name="StroboParameter" xml:space="preserve">
+    <value>Parametr konfigurace stroboskopu</value>
+  </data>
+  <data name="SwVersion" xml:space="preserve">
+    <value>Verze SW</value>
+  </data>
+  <data name="TechnicalReject" xml:space="preserve">
+    <value>Technické vyřazení</value>
+  </data>
+  <data name="TechReject" xml:space="preserve">
+    <value>Tech. Odmítnout</value>
+  </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>Časový limit</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Nadpis</value>
+  </data>
+  <data name="Tool" xml:space="preserve">
+    <value>Nástroj</value>
+  </data>
+  <data name="ToolDescription" xml:space="preserve">
+    <value>Popis nástroje</value>
+  </data>
+  <data name="ToolId" xml:space="preserve">
+    <value>ID nástroje</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Nástroje</value>
+  </data>
+  <data name="ToSave" xml:space="preserve">
+    <value>K uložení</value>
+  </data>
+  <data name="Trending" xml:space="preserve">
+    <value>Trendy</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="UnableReadMacConf" xml:space="preserve">
+    <value>Nelze přečíst konfiguraci stroje!</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Načíst</value>
+  </data>
+  <data name="UploadingImages" xml:space="preserve">
+    <value>Nahrávání obrázků</value>
+  </data>
+  <data name="UserLevelMsg" xml:space="preserve">
+    <value>Úroveň uživatele: {0}</value>
+  </data>
+  <data name="UserSettings" xml:space="preserve">
+    <value>Nastavení uživatele</value>
+  </data>
+  <data name="Utilities" xml:space="preserve">
+    <value>Funkce</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Hodnota</value>
+  </data>
+  <data name="VarianceValue" xml:space="preserve">
+    <value>Odchylka</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Verze</value>
+  </data>
+  <data name="VialAxis" xml:space="preserve">
+    <value>Osa lahvičky</value>
+  </data>
+  <data name="VialAxisExportedOk" xml:space="preserve">
+    <value>Osa lahvičky úspěšně exportována</value>
+  </data>
+  <data name="VialAxisImportedOk" xml:space="preserve">
+    <value>Osa lahvičky úspěšně importována</value>
+  </data>
+  <data name="VialId" xml:space="preserve">
+    <value>ID lahvičky</value>
+  </data>
+  <data name="VialOffset" xml:space="preserve">
+    <value>Vyvážení lahvičky</value>
+  </data>
+  <data name="VialsToIgnoreNum" xml:space="preserve">
+    <value>Lahvičky pro ignoraci čísla</value>
+  </data>
+  <data name="ViewParameters" xml:space="preserve">
+    <value>Parametry</value>
+  </data>
+  <data name="VisionSpvCannotBeExecuted" xml:space="preserve">
+    <value>Spv zobrazení nelze realizovat</value>
+  </data>
+  <data name="VisionSpvIsWaitingForSystemStartup" xml:space="preserve">
+    <value>Spv zobrazení čeká na spuštění systému</value>
+  </data>
+  <data name="VNCError" xml:space="preserve">
+    <value>Chyba spojení VNC</value>
+  </data>
+  <data name="WaitingNodeConnection" xml:space="preserve">
+    <value>Čekání na připojení {0}... {1}</value>
+  </data>
+  <data name="WorkingMode" xml:space="preserve">
+    <value>Pracovní režim</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="Zoom" xml:space="preserve">
+    <value>Přiblížení</value>
+  </data>
+</root>

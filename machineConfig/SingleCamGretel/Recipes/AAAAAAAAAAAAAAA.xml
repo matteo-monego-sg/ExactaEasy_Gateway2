@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RecipeName>Test</RecipeName>
+  <RecipeVersion>1</RecipeVersion>
+  <Nodes>
+    <NodeRecipe>
+      <Id>0</Id>
+      <Description>Device parameters</Description>
+      <FrameGrabbers />
+      <Stations>
+        <StationRecipe>
+          <Id>0</Id>
+          <Enable>false</Enable>
+          <Default>false</Default>
+          <Cameras>
+            <CameraRecipe>
+              <Id>0</Id>
+              <Enabled>false</Enabled>
+              <AcquisitionParameters>
+                <Parameter Id="PAR_TINT_VIAL" Label="Exposure time [ms]" IsEditable="0">15</Parameter>
+                <Parameter Id="PAR_TINT_BACKGROUND" Label="Exp. time w/o container [ms]" IsEditable="0">15</Parameter>
+                <Parameter Id="INITIAL_WAVELENGTH" Label="Initial wavelength [nm]" IsEditable="0">400</Parameter>
+                <Parameter Id="WAVELENGTH_INCREMENT" Label="Spectral resolution [nm]" IsEditable="0">1</Parameter>
+                <Parameter Id="FINAL_WAVELENGTH" Label="Final wavelength [nm]" IsEditable="0">800</Parameter>
+              </AcquisitionParameters>
+              <FeaturesEnableParameters />
+              <RecipeSimpleParameters>
+                <Parameter Id="LIGHT_CONTROL_TH" IsEditable="0">5000</Parameter>
+                <Parameter Id="PAR_ALL_RANGE_SUM_REJECT" IsEditable="0">3000</Parameter>
+                <Parameter Id="PAR_RANGE_1_L" IsEditable="0">500</Parameter>
+                <Parameter Id="PAR_RANGE_1_H" IsEditable="0">510</Parameter>
+                <Parameter Id="PAR_RANGE_1_SIGN" IsEditable="0">1</Parameter>
+                <Parameter Id="PAR_RANGE_1_TH" IsEditable="0">250</Parameter>
+                <Parameter Id="PAR_RANGE_1_PEAK_REJECT_TH" IsEditable="0">1000</Parameter>
+                <Parameter Id="PAR_RANGE_2_L" IsEditable="0">700</Parameter>
+                <Parameter Id="PAR_RANGE_2_H" IsEditable="0">710</Parameter>
+                <Parameter Id="PAR_RANGE_2_SIGN" IsEditable="0">1</Parameter>
+                <Parameter Id="PAR_RANGE_2_TH" IsEditable="0">250</Parameter>
+                <Parameter Id="PAR_RANGE_2_PEAK_REJECT_TH" IsEditable="0">1000</Parameter>
+                <Parameter Id="PAR_RANGE_3_L" IsEditable="0">0</Parameter>
+                <Parameter Id="PAR_RANGE_3_H" IsEditable="0">0</Parameter>
+                <Parameter Id="PAR_RANGE_3_SIGN" IsEditable="0">1</Parameter>
+                <Parameter Id="PAR_RANGE_3_TH" IsEditable="0">65000</Parameter>
+                <Parameter Id="PAR_RANGE_3_PEAK_REJECT_TH" IsEditable="0">65000</Parameter>
+                <Parameter Id="PAR_RANGE_4_L" IsEditable="0">0</Parameter>
+                <Parameter Id="PAR_RANGE_4_H" IsEditable="0">0</Parameter>
+                <Parameter Id="PAR_RANGE_4_SIGN" IsEditable="0">1</Parameter>
+                <Parameter Id="PAR_RANGE_4_TH" IsEditable="0">65000</Parameter>
+                <Parameter Id="PAR_RANGE_4_PEAK_REJECT_TH" IsEditable="0">65000</Parameter>
+                <Parameter Id="PAR_FULL_SPECTRUM_REF_NORM" IsEditable="0">0;38181;1;38181;2;39043;3;39904;4;43923;5;41913;6;43062;7;41626;8;40765;9;40478;10;40765;11;41913;12;42775;13;45645;14;46220;15;42200;16;40478;17;38755;18;40478;19;39330;20;40765;21;39043;22;44784;23;43636;24;42775;25;40765;26;43062;27;44784;28;49090;29;49952;30;46220;31;43062;32;43062;33;45071;34;45933;35;41913;36;47655;37;47942;38;44210;39;44497;40;44210;41;45071;42;49377;43;49952;44;51100;45;49090;46;48803;47;42200;48;47655;49;47368;50;47942;51;49952;52;49665;53;45933;54;43923;55;45645;56;47368;57;48803;58;49377;59;46794;60;48516;61;46220;62;45645;63;48229;64;46507;65;49665;66;47368;67;51100;68;50813;69;49090;70;45645;71;43923;72;45645;73;45071;74;45358;75;45071;76;45358;77;45358;78;46507;79;47655;80;44497;81;43349;82;48803;83;43636;84;47368;85;46507;86;45933;87;45933;88;44784;89;45645;90;46794;91;46794;92;47081;93;46220;94;46794;95;47081;96;45645;97;46220;98;49090;99;49665;100;48516;101;51100;102;49665;103;48229;104;50239;105;49665;106;50813;107;47942;108;51674;109;50239;110;51674;111;50239;112;48516;113;49952;114;48803;115;49952;116;51387;117;51100;118;51674;119;49952;120;50239;121;48803;122;47081;123;52248;124;51387;125;52822;126;53971;127;55693;128;54258;129;55693;130;56267;131;55119;132;51674;133;54258;134;52822;135;53684;136;52535;137;51100;138;52535;139;52822;140;53971;141;54832;142;57129;143;56267;144;55980;145;52535;146;55119;147;57129;148;55406;149;56555;150;53110;151;52248;152;53397;153;54258;154;56267;155;55406;156;57703;157;58851;158;56267;159;58277;160;52535;161;54832;162;56267;163;60000;164;59138;165;57990;166;54545;167;55980;168;55406;169;52535;170;52535;171;56842;172;55980;173;57416;174;56267;175;53684;176;53684;177;55693;178;53971;179;53971;180;57129;181;53971;182;57703;183;53971;184;54545;185;54258;186;56555;187;56267;188;52822;189;55406;190;54258;191;57129;192;55406;193;52535;194;52535;195;54832;196;54545;197;53397;198;53971;199;54258;200;52822;201;56842;202;57129;203;56267;204;53684;205;55406;206;51387;207;53397;208;55980;209;57129;210;53397;211;52535;212;50239;213;55693;214;52535;215;55980;216;56842;217;50526;218;50813;219;51674;220;50526;221;49665;222;51100;223;49090;224;50526;225;49377;226;52248;227;51961;228;51961;229;49377;230;49377;231;52248;232;51674;233;53397;234;51387;235;54258;236;52535;237;45933;238;47655;239;49952;240;50239;241;51387;242;49377;243;49665;244;49952;245;50813;246;50526;247;50526;248;49952;249;47655;250;50239;251;47081;252;47942;253;49665;254;48229;255;48803;256;47942;257;51100;258;49665;259;43636;260;46794;261;45071;262;46794;263;47942;264;49090;265;47655;266;47081;267;46507;268;48803;269;46507;270;47655;271;48229;272;46794;273;49377;274;47655;275;48229;276;50239;277;46220;278;49090;279;45645;280;48516;281;45645;282;45933;283;46507;284;47368;285;47655;286;45933;287;49090;288;48229;289;50813;290;45358;291;47081;292;46507;293;47081;294;45645;295;45933;296;46507;297;45933;298;46794;299;45645;300;43923;301;45071;302;45645;303;45358;304;46220;305;47368;306;44497;307;46507;308;44210;309;44784;310;46220;311;48803;312;50526;313;49090;314;46507;315;47655;316;43923;317;45071;318;49377;319;45358;320;44210;321;43636;322;45071;323;45071;324;46794;325;42488;326;46507;327;47942;328;45645;329;45933;330;47655;331;46507;332;46507;333;44497;334;42200;335;43062;336;42200;337;45645;338;44784;339;47655;340;47081;341;45071;342;43636;343;43349;344;44497;345;44210;346;44497;347;43923;348;41913;349;43062;350;45933;351;44210;352;46220;353;47081;354;47655;355;47368;356;46507;357;47081;358;49090;359;48229;360;45358;361;45358;362;46507;363;42775;364;43636;365;45933;366;47081;367;44784;368;45645;369;48229;370;45933;371;45645;372;47368;373;47655;374;44784;375;45933;376;46794;377;43923;378;45358;379;46220;380;47368;381;45358;382;46794;383;42488;384;43349;385;43349;386;44784;387;49665;388;45933;389;44497;390;43923;391;46220;392;47655;393;48803;394;47655;395;48229;396;45358;397;45358;398;45358;399;47081;</Parameter>
+              </RecipeSimpleParameters>
+              <RecipeAdvancedParameters />
+              <ROIParameters />
+              <MachineParameters>
+                <Parameter Id="PAR_SPINDLE_COUNT" IsEditable="0">36</Parameter>
+                <Parameter Id="PAR_0_TORRETTA_OFFSET" IsEditable="0">11</Parameter>
+                <Parameter Id="PAR_INCREMENTO_SPINDLE_ID" IsEditable="0">1</Parameter>
+              </MachineParameters>
+              <StroboParameters />
+              <LightSensor>
+                <LightSensorParameters />
+                <Shapes />
+              </LightSensor>
+              <Lights />
+            </CameraRecipe>
+          </Cameras>
+          <Tools>
+            <Tool>
+              <Id>0</Id>
+              <Label>EoptisSpectrometer</Label>
+              <ToolParameters>
+                <Parameter Id="Label" IsEditable="0">EoptisSpectrometer</Parameter>
+                <Parameter Id="Active" IsEditable="0">1</Parameter>
+              </ToolParameters>
+              <Shapes />
+              <ToolOutputs>
+                <ToolOutput>
+                  <Id>0</Id>
+                  <Name>PAR_FULL_SPECTRUM_MIS</Name>
+                  <IsUsed>true</IsUsed>
+                  <IsEditable>0</IsEditable>
+                  <Type>STRING</Type>
+                  <EnableGraph>true</EnableGraph>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>1</Id>
+                  <Name>PAR_FULL_SPECTRUM_BUFFER</Name>
+                  <IsUsed>true</IsUsed>
+                  <IsEditable>0</IsEditable>
+                  <Type>STRING</Type>
+                  <EnableGraph>true</EnableGraph>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>2</Id>
+                  <Name>PAR_FULL_SPECTRUM_ELAB</Name>
+                  <IsUsed>true</IsUsed>
+                  <IsEditable>0</IsEditable>
+                  <Type>STRING</Type>
+                  <EnableGraph>true</EnableGraph>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>3</Id>
+                  <Name>PAR_RANGE_1_MEAN</Name>
+                  <IsUsed>true</IsUsed>
+                  <IsEditable>0</IsEditable>
+                  <Type>STRING</Type>
+                  <EnableGraph>false</EnableGraph>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>4</Id>
+                  <Name>PAR_RANGE_2_MEAN</Name>
+                  <IsUsed>true</IsUsed>
+                  <IsEditable>0</IsEditable>
+                  <Type>STRING</Type>
+                  <EnableGraph>false</EnableGraph>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>5</Id>
+                  <Name>PAR_RANGE_3_MEAN</Name>
+                  <IsUsed>true</IsUsed>
+                  <IsEditable>0</IsEditable>
+                  <Type>STRING</Type>
+                  <EnableGraph>false</EnableGraph>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>6</Id>
+                  <Name>PAR_RANGE_4_MEAN</Name>
+                  <IsUsed>true</IsUsed>
+                  <IsEditable>0</IsEditable>
+                  <Type>STRING</Type>
+                  <EnableGraph>false</EnableGraph>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>7</Id>
+                  <Name>PAR_ALL_RANGE_MEAN</Name>
+                  <IsUsed>true</IsUsed>
+                  <IsEditable>0</IsEditable>
+                  <Type>STRING</Type>
+                  <EnableGraph>false</EnableGraph>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>8</Id>
+                  <Name>LIGHT_CONTROL</Name>
+                  <IsUsed>true</IsUsed>
+                  <IsEditable>0</IsEditable>
+                  <Type>STRING</Type>
+                  <EnableGraph>false</EnableGraph>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>9</Id>
+                  <Name>ANALYSIS_REJECTION_CAUSE_NUMBER</Name>
+                  <IsUsed>true</IsUsed>
+                  <IsEditable>0</IsEditable>
+                  <Type>STRING</Type>
+                  <EnableGraph>false</EnableGraph>
+                </ToolOutput>
+              </ToolOutputs>
+              <ToolOutputsConditions />
+            </Tool>
+          </Tools>
+        </StationRecipe>
+      </Stations>
+      <RawRecipe />
+    </NodeRecipe>
+  </Nodes>
+</Recipe>

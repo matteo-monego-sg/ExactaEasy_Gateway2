@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RecipeVersion>1</RecipeVersion>
+  <Nodes>
+    <NodeRecipe>
+      <Id>0</Id>
+      <FrameGrabbers />
+      <Stations>
+        <StationRecipe>
+          <Id>0</Id>
+          <Description>ST0 OPA EVEN</Description>
+          <Enable>true</Enable>
+          <Default>true</Default>
+          <Cameras>
+            <CameraRecipe>
+              <Id>0</Id>
+              <Enabled>true</Enabled>
+              <AcquisitionParameters>
+                <Parameter Id="PAR_LASER_GAIN" Group="BOARD" ParamId="">1<AdmittedValues /></Parameter>
+                <Parameter Id="PAR_VIAL_GAIN" Group="BOARD" ParamId="">10<AdmittedValues /></Parameter>
+              </AcquisitionParameters>
+              <FeaturesEnableParameters />
+              <RecipeSimpleParameters>
+                <Parameter Id="TH_WARNING_UPPER" Group="BOARD" ParamId="">8<AdmittedValues /></Parameter>
+                <Parameter Id="TH_WARNING_LOWER" Group="BOARD" ParamId="">0.2<AdmittedValues /></Parameter>
+                <Parameter Id="TH_ERROR_UPPER" Group="BOARD" ParamId="">8<AdmittedValues /></Parameter>
+                <Parameter Id="TH_ERROR_LOWER" Group="BOARD" ParamId="">0.2<AdmittedValues /></Parameter>
+              </RecipeSimpleParameters>
+              <RecipeAdvancedParameters />
+              <ROIParameters />
+              <MachineParameters>
+                <Parameter Id="PAR_SPINDLE_COUNT" Group="BOARD" ParamId="">40<AdmittedValues /></Parameter>
+                <Parameter Id="PAR_0_TORRETTA_OFFSET" Group="BOARD" ParamId="">16<AdmittedValues /></Parameter>
+                <Parameter Id="PAR_INCREMENTO_SPINDLE_ID" Group="BOARD" ParamId="">2<AdmittedValues /></Parameter>
+                <Parameter Id="PAR_FREE_RUN_TIMER" Group="BOARD" ParamId="">3000<AdmittedValues /></Parameter>
+              </MachineParameters>
+              <StroboParameters />
+              <LightSensor>
+                <LightSensorParameters />
+                <Shapes />
+              </LightSensor>
+              <Lights />
+            </CameraRecipe>
+          </Cameras>
+          <Tools>
+            <Tool>
+              <Id>0</Id>
+              <ToolParameters>
+                <Parameter Id="Active" Group="" ParamId="">1<AdmittedValues /></Parameter>
+                <Parameter Id="Label" Group="" ParamId="">Opacity<AdmittedValues /></Parameter>
+              </ToolParameters>
+              <Shapes />
+              <ToolOutputs>
+                <ToolOutput>
+                  <Id>0</Id>
+                  <Name>Vial raw</Name>
+                  <MeasureUnit />
+                  <IsUsed>true</IsUsed>
+                  <Type>STRING</Type>
+                  <Value />
+                  <EnableGraph>false</EnableGraph>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>1</Id>
+                  <Name>Laser raw</Name>
+                  <MeasureUnit />
+                  <IsUsed>true</IsUsed>
+                  <Type>STRING</Type>
+                  <Value />
+                  <EnableGraph>false</EnableGraph>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>2</Id>
+                  <Name>Pre calibration</Name>
+                  <MeasureUnit />
+                  <IsUsed>true</IsUsed>
+                  <Type>STRING</Type>
+                  <Value />
+                  <EnableGraph>false</EnableGraph>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>3</Id>
+                  <Name>Post calibration</Name>
+                  <MeasureUnit />
+                  <IsUsed>true</IsUsed>
+                  <Type>STRING</Type>
+                  <Value />
+                  <EnableGraph>true</EnableGraph>
+                </ToolOutput>
+              </ToolOutputs>
+            </Tool>
+          </Tools>
+        </StationRecipe>
+      </Stations>
+    </NodeRecipe>
+    <NodeRecipe>
+      <Id>1</Id>
+      <FrameGrabbers />
+      <Stations>
+        <StationRecipe>
+          <Id>0</Id>
+          <Description>ST1 OPA ODD</Description>
+          <Enable>true</Enable>
+          <Default>true</Default>
+          <Cameras>
+            <CameraRecipe>
+              <Id>0</Id>
+              <Enabled>true</Enabled>
+              <AcquisitionParameters>
+                <Parameter Id="PAR_LASER_GAIN" Group="BOARD" ParamId="">1<AdmittedValues /></Parameter>
+                <Parameter Id="PAR_VIAL_GAIN" Group="BOARD" ParamId="">10<AdmittedValues /></Parameter>
+              </AcquisitionParameters>
+              <FeaturesEnableParameters />
+              <RecipeSimpleParameters>
+                <Parameter Id="TH_WARNING_UPPER" Group="BOARD" ParamId="">8<AdmittedValues /></Parameter>
+                <Parameter Id="TH_WARNING_LOWER" Group="BOARD" ParamId="">0.2<AdmittedValues /></Parameter>
+                <Parameter Id="TH_ERROR_UPPER" Group="BOARD" ParamId="">8<AdmittedValues /></Parameter>
+                <Parameter Id="TH_ERROR_LOWER" Group="BOARD" ParamId="">0.2<AdmittedValues /></Parameter>
+              </RecipeSimpleParameters>
+              <RecipeAdvancedParameters />
+              <ROIParameters />
+              <MachineParameters>
+                <Parameter Id="PAR_SPINDLE_COUNT" Group="BOARD" ParamId="">40<AdmittedValues /></Parameter>
+                <Parameter Id="PAR_0_TORRETTA_OFFSET" Group="BOARD" ParamId="">15<AdmittedValues /></Parameter>
+                <Parameter Id="PAR_INCREMENTO_SPINDLE_ID" Group="BOARD" ParamId="">2<AdmittedValues /></Parameter>
+                <Parameter Id="PAR_FREE_RUN_TIMER" Group="BOARD" ParamId="">3000<AdmittedValues /></Parameter>
+              </MachineParameters>
+              <StroboParameters />
+              <LightSensor>
+                <LightSensorParameters />
+                <Shapes />
+              </LightSensor>
+              <Lights />
+            </CameraRecipe>
+          </Cameras>
+          <Tools>
+            <Tool>
+              <Id>0</Id>
+              <ToolParameters>
+                <Parameter Id="Active" Group="" ParamId="">1<AdmittedValues /></Parameter>
+                <Parameter Id="Label" Group="" ParamId="">Opacity<AdmittedValues /></Parameter>
+              </ToolParameters>
+              <Shapes />
+              <ToolOutputs>
+                <ToolOutput>
+                  <Id>0</Id>
+                  <Name>Vial raw</Name>
+                  <MeasureUnit />
+                  <IsUsed>true</IsUsed>
+                  <Type>STRING</Type>
+                  <Value />
+                  <EnableGraph>false</EnableGraph>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>1</Id>
+                  <Name>Laser raw</Name>
+                  <MeasureUnit />
+                  <IsUsed>true</IsUsed>
+                  <Type>STRING</Type>
+                  <Value />
+                  <EnableGraph>false</EnableGraph>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>2</Id>
+                  <Name>Pre calibration</Name>
+                  <MeasureUnit />
+                  <IsUsed>true</IsUsed>
+                  <Type>STRING</Type>
+                  <Value />
+                  <EnableGraph>false</EnableGraph>
+                </ToolOutput>
+                <ToolOutput>
+                  <Id>3</Id>
+                  <Name>Post calibration</Name>
+                  <MeasureUnit />
+                  <IsUsed>true</IsUsed>
+                  <Type>STRING</Type>
+                  <Value />
+                  <EnableGraph>true</EnableGraph>
+                </ToolOutput>
+              </ToolOutputs>
+            </Tool>
+          </Tools>
+        </StationRecipe>
+      </Stations>
+    </NodeRecipe>
+  </Nodes>
+</Recipe>

@@ -1,0 +1,109 @@
+Station name;Parameter section;Parameter name;Value;Min Value;Max Value
+STXXX - TEST;AcquisitionParameter;Numero di frames;18;25;4
+STXXX - TEST;AcquisitionParameter;Tempo di esposizione [us];22;10000;1
+STXXX - TEST;AcquisitionParameter;Guadagno;0;1023;0
+STXXX - TEST;AcquisitionParameter;$strobeEnable;1;1;0
+STXXX - TEST;AcquisitionParameter;Tempo di accensione strobo [us];22;260;10
+STXXX - TEST;AcquisitionParameter;Ritardo acquisizione [us];0;1000;0
+STXXX - TEST;AcquisitionParameter;Guadagno blu;0;1000;0
+STXXX - TEST;AcquisitionParameter;Guadagno rosso;0;1000;0
+STXXX - TEST;AcquisitionParameter;Guadagno verde;0;1000;0
+STXXX - TEST;AcquisitionParameter;Uscita strobo;0;1000;0
+STXXX - TEST;AcquisitionParameter;Ingresso trigger;0;1000;0
+STXXX - TEST;AcquisitionParameter;Abilitazione A.O.I.;1;1;0
+STXXX - TEST;AcquisitionParameter;A.O.I. X Start;576;2047;0
+STXXX - TEST;AcquisitionParameter;A.O.I. Y Start;0;2047;0
+STXXX - TEST;AcquisitionParameter;A.O.I. Intervallo X;896;2048;16
+STXXX - TEST;AcquisitionParameter;A.O.I. Intervallo Y;2048;2048;64
+STXXX - TEST;AcquisitionParameter;Vial axis filename;192.168.14.24_vial_24000.xml;;
+STXXX - TEST;FeaturesEnableParameter;Abilitazione analisi;1;1;0
+STXXX - TEST;FeaturesEnableParameter;Abilitazione informazioni su immagine;1;1;0
+STXXX - TEST;FeaturesEnableParameter;Abilitazione visualizzazione blob;1;1;0
+STXXX - TEST;FeaturesEnableParameter;Abilitazione visualizzazione bolle;0;1;0
+STXXX - TEST;FeaturesEnableParameter;Abilitazione salvataggio immagini differenze;0;1;0
+STXXX - TEST;FeaturesEnableParameter;Abilitazione salvataggio traiettoria;0;1;0
+STXXX - TEST;FeaturesEnableParameter;Invia live decimato;0;1;0
+STXXX - TEST;FeaturesEnableParameter;Abilitazione invio immagine risultati;1;1;0
+STXXX - TEST;FeaturesEnableParameter;Invio traiettorie;0;1;0
+STXXX - TEST;FeaturesEnableParameter;Abilitazione analisi menisco;0;1;0
+STXXX - TEST;FeaturesEnableParameter;Visualizzazione analisi menisco;1;2;0
+STXXX - TEST;FeaturesEnableParameter;Abilitazione normalizzazione sensore;1;1;0
+STXXX - TEST;FeaturesEnableParameter;Abilitazione ROI dinamica;1;1;0
+STXXX - TEST;FeaturesEnableParameter;Visualizzazione ROI sui risultati;1;1;0
+STXXX - TEST;FeaturesEnableParameter;Abilitazione espansione della ROI sul fondo;0;1;0
+STXXX - TEST;FeaturesEnableParameter;Abilitazione filtro di Kalman per tracking;0;1;0
+STXXX - TEST;FeaturesEnableParameter;Abilitazione analisi riempimento;0;1;0
+STXXX - TEST;FeaturesEnableParameter;Abilitazione mascheratura blob;1;1;0
+STXXX - TEST;FeaturesEnableParameter;Visualizzazione mascheratura blob;1;1;0
+STXXX - TEST;FeaturesEnableParameter;$trajectoryPrint;0;1;0
+STXXX - TEST;FeaturesEnableParameter;$bottomAnalysis;0;;
+STXXX - TEST;FeaturesEnableParameter;$trackingEnable;1;;
+STXXX - TEST;RecipeSimpleParameter;Soglia inferiore RLE;10;255;0
+STXXX - TEST;RecipeSimpleParameter;Soglia alta ROI dinamica;243;255;0
+STXXX - TEST;RecipeSimpleParameter;Soglia bassa ROI dinamica;80;255;0
+STXXX - TEST;RecipeSimpleParameter;$ROIDynamicBottonReductcion;15;;
+STXXX - TEST;RecipeSimpleParameter;$ROIDynamicMeniscusReductcion;15;;
+STXXX - TEST;RecipeSimpleParameter;Soglia menisco P.U.M.;110;255;0
+STXXX - TEST;RecipeSimpleParameter;Massima area blob reject;100;10000;0
+STXXX - TEST;RecipeSimpleParameter;Area minima blob;15;10000;0
+STXXX - TEST;RecipeSimpleParameter;$blobMaxAreaRejectLowThreshold;100;;
+STXXX - TEST;RecipeSimpleParameter;Livello di riempimento min;750;2048;0
+STXXX - TEST;RecipeSimpleParameter;Livello di riempimento max;1100;2048;0
+STXXX - TEST;RecipeSimpleParameter;Soglia minima luminosità;0;;
+STXXX - TEST;RecipeSimpleParameter;$blobMaxAreaRejectConsecutiveFramesNumber;2;;
+STXXX - TEST;RecipeSimpleParameter;$bottomAnalysisThreshold;40;;
+STXXX - TEST;RecipeAdvancedParameter;1° filtro morfologico;0;2;0
+STXXX - TEST;RecipeAdvancedParameter;2° filtro morfologico;0;2;0
+STXXX - TEST;RecipeAdvancedParameter;Dimensione buffer RLE;1000000;1000000;1000000
+STXXX - TEST;RecipeAdvancedParameter;Num morf. ROI dinamica;0;20;0
+STXXX - TEST;RecipeAdvancedParameter;Analisi menisco min num;10;100;0
+STXXX - TEST;RecipeAdvancedParameter;Sensibilità analisi menisco;30;255;0
+STXXX - TEST;RecipeAdvancedParameter;P.U.M. pixel offset;50;1024;0
+STXXX - TEST;RecipeAdvancedParameter;Numero massimo di blob;100;1000;0
+STXXX - TEST;RecipeAdvancedParameter;Massimo fattore di forma bolle;1.5;10;0
+STXXX - TEST;RecipeAdvancedParameter;Diff minima densità ottica bolle;200;255;0
+STXXX - TEST;RecipeAdvancedParameter;Dimensione massima bolle;50;1000;0
+STXXX - TEST;RecipeAdvancedParameter;Dimensione minima bolle;7;1000;0
+STXXX - TEST;RecipeAdvancedParameter;Massima accelerazione per tracking;3;1000;-1
+STXXX - TEST;RecipeAdvancedParameter;Max rapporto aree per tracking;3;1000;1
+STXXX - TEST;RecipeAdvancedParameter;Max rapporto altezze per tracking;3;1000;1
+STXXX - TEST;RecipeAdvancedParameter;Max rapporto larghezze per tracking;3;1000;1
+STXXX - TEST;RecipeAdvancedParameter;Angolo max segmento tracking;45;90;0
+STXXX - TEST;RecipeAdvancedParameter;Angolo max traiettoria;30;180;-1
+STXXX - TEST;RecipeAdvancedParameter;Minima distanza per tracking;5;1000;0
+STXXX - TEST;RecipeAdvancedParameter;Numero frame backward per tracking;2;3;1
+STXXX - TEST;RecipeAdvancedParameter;Tracking frame backward reduction;25;1000;0
+STXXX - TEST;RecipeAdvancedParameter;Dimensione buffer traiettorie;1000000;1000000;0
+STXXX - TEST;RecipeAdvancedParameter;Lunghezza max segmenti traiettoria;0;2048;0
+STXXX - TEST;RecipeAdvancedParameter;Lunghezza min segmenti traiettoria;0;2048;0
+STXXX - TEST;RecipeAdvancedParameter;Num campioni traiettorie ricorrenti;10;1000;0
+STXXX - TEST;RecipeAdvancedParameter;Massimo angolo traiettorie ricorrenti;15;180;0
+STXXX - TEST;RecipeAdvancedParameter;Massima distanza traiettorie ricorrenti;20;1000;0
+STXXX - TEST;RecipeAdvancedParameter;Min num traiettorie ricorrenti;2;1000;0
+STXXX - TEST;RecipeAdvancedParameter;Lunghezza minima traiettorie ricorrenti;3;1000;0
+STXXX - TEST;RecipeAdvancedParameter;Soglia superiore mascheratura blob;10;100;0
+STXXX - TEST;RecipeAdvancedParameter;Soglia inferiore mascheratura blob;5;100;0
+STXXX - TEST;RecipeAdvancedParameter;Valore encoder prima immagine;440;10000;0
+STXXX - TEST;RecipeAdvancedParameter;$bottomAnalysisMinCount;10;;
+STXXX - TEST;RecipeAdvancedParameter;Massima distanza per tracking;100;;
+STXXX - TEST;RecipeAdvancedParameter;Max angolo traiettoria;70;;
+STXXX - TEST;RecipeAdvancedParameter;Area min traiettoria;10;;
+STXXX - TEST;RecipeAdvancedParameter;Numero min segmenti per traiettoria;3;;
+STXXX - TEST;ROIParameter;ROI ID;0;1;0
+STXXX - TEST;ROIParameter;Tipo di ROI;0;10;0
+STXXX - TEST;ROIParameter;ROI X 1;285;2048;0
+STXXX - TEST;ROIParameter;ROI X 2;620;2048;0
+STXXX - TEST;ROIParameter;ROI Y 1;750;2048;0
+STXXX - TEST;ROIParameter;ROI Y 2;1800;2048;0
+STXXX - TEST;ROIParameter;Colore ROI;250;255;0
+STXXX - TEST;ROIParameter;Colore riempimento ROI;0;1;0
+STXXX - TEST;ROIParameter;Visualizzazione ROI;1;1;0
+STXXX - TEST;ROIParameter;ROI ID;1;1;0
+STXXX - TEST;ROIParameter;Tipo di ROI;0;10;0
+STXXX - TEST;ROIParameter;ROI X 1;360;2048;0
+STXXX - TEST;ROIParameter;ROI X 2;520;2048;0
+STXXX - TEST;ROIParameter;ROI Y 1;1300;2048;0
+STXXX - TEST;ROIParameter;ROI Y 2;1600;2048;0
+STXXX - TEST;ROIParameter;Colore ROI;255;255;0
+STXXX - TEST;ROIParameter;Colore riempimento ROI;0;1;0
+STXXX - TEST;ROIParameter;Visualizzazione ROI;0;1;0

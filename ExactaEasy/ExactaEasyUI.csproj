@@ -1,0 +1,1095 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props" Condition="Exists('..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{19087D84-53FB-4FF8-93DC-EC11CFCA5955}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExactaEasy</RootNamespace>
+    <AssemblyName>ExactaEasy</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Supervisore - Dark - Bck.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emgu.CV, Version=2.9.0.1922, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI, Version=2.9.0.1922, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.Util, Version=2.9.0.1922, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Emgu.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="GuiUtilities">
+      <HintPath>..\lib\GuiUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageViewer, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ImageViewer.dll</HintPath>
+    </Reference>
+    <Reference Include="LightController, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\LightController.dll</HintPath>
+    </Reference>
+    <Reference Include="Logger">
+      <HintPath>..\lib\Logger.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=8.0.0.1, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.8.0.1\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=8.0.0.1, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.8.0.1\lib\net462\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.160.1000.6\lib\net462\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="MRG.Controls.UI">
+      <HintPath>..\lib\MRG.Controls.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Multilanguage">
+      <HintPath>..\lib\Multilanguage.dll</HintPath>
+    </Reference>
+    <Reference Include="NativeMethods, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\NativeMethods.dll</HintPath>
+    </Reference>
+    <Reference Include="NumericTextBox">
+      <HintPath>..\lib\NumericTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="OnScreenKeyboard, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\OnScreenKeyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="Pipelines.Sockets.Unofficial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=42ea0a778e13fbe2, processorArchitecture=MSIL">
+      <HintPath>..\packages\Pipelines.Sockets.Unofficial.2.2.8\lib\net472\Pipelines.Sockets.Unofficial.dll</HintPath>
+    </Reference>
+    <Reference Include="StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46, processorArchitecture=MSIL">
+      <HintPath>..\packages\StackExchange.Redis.2.7.33\lib\net472\StackExchange.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.PerformanceCounter, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.PerformanceCounter.8.0.0\lib\net462\System.Diagnostics.PerformanceCounter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.8.0.0\lib\net462\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Threading.Channels, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Channels.8.0.0\lib\net462\System.Threading.Channels.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Utilities">
+      <HintPath>..\lib\Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="XML_Parser, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\XML_Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph">
+      <HintPath>..\lib\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CameraConfigUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CamResetMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CamResetMenu.Designer.cs">
+      <DependentUpon>CamResetMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CamViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CamViewer.Designer.cs">
+      <DependentUpon>CamViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DebugPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DebugPage.designer.cs">
+      <DependentUpon>DebugPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DumpUI2Cnt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DumpUI2Cnt.Designer.cs">
+      <DependentUpon>DumpUI2Cnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DumpUI2MoreSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DumpUI2MoreSet.Designer.cs">
+      <DependentUpon>DumpUI2MoreSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HvldViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HvldViewer.designer.cs">
+      <DependentUpon>HvldViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CamViewerGretel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CamViewerGretel.designer.cs">
+      <DependentUpon>CamViewerGretel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CameraConfigUI.Designer.cs">
+      <DependentUpon>CameraConfigUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CameraViewerController.cs" />
+    <Compile Include="LiveImageFilterPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LiveImageFilterPage.designer.cs">
+      <DependentUpon>LiveImageFilterPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\UIInvoker.cs" />
+    <Compile Include="Model\Model.cs">
+      <DependentUpon>Model.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Model.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Print.cs" />
+    <Compile Include="NoScrollPagedGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NoScrollPagedGrid.Designer.cs">
+      <DependentUpon>NoScrollPagedGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadSaveMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoadSaveMenu.Designer.cs">
+      <DependentUpon>LoadSaveMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Redis\RedisComm.cs" />
+    <Compile Include="ResourcesArtic.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourcesArtic.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SaveMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SaveMenu.Designer.cs">
+      <DependentUpon>SaveMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trending.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Trending.Designer.cs">
+      <DependentUpon>Trending.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIStrings.cs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UIStrings.cs.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIStrings.da.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UIStrings.da.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIStrings.fr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UIStrings.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIStrings.hu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UIStrings.hu.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIStrings.nl.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UIStrings.nl.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIStrings.pt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UIStrings.pt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIStrings.sk.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UIStrings.sk.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIStrings.sv.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UIStrings.sv.resx</DependentUpon>
+    </Compile>
+    <Compile Include="VialAxisMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VialAxisMenu.Designer.cs">
+      <DependentUpon>VialAxisMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YesNoPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="YesNoPanel.Designer.cs">
+      <DependentUpon>YesNoPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpectrometerViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SpectrometerViewer.Designer.cs">
+      <DependentUpon>SpectrometerViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataViewer.Designer.cs">
+      <DependentUpon>DataViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadImagesMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DownloadImagesMenu.Designer.cs">
+      <DependentUpon>DownloadImagesMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWait.designer.cs">
+      <DependentUpon>frmWait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClosing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClosing.designer.cs">
+      <DependentUpon>frmClosing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecordStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RecordStatus.Designer.cs">
+      <DependentUpon>RecordStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIStrings.de.Designer.cs">
+      <DependentUpon>UIStrings.de.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="UIStrings.es.Designer.cs">
+      <DependentUpon>UIStrings.es.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DumpUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DumpUI.Designer.cs">
+      <DependentUpon>DumpUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtHeader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExtHeader.Designer.cs">
+      <DependentUpon>ExtHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\ParameterDataBinder.cs" />
+    <Compile Include="ExtPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExtPictureBox.Designer.cs">
+      <DependentUpon>ExtPictureBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtStatusStrip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExtStatusStrip.Designer.cs">
+      <DependentUpon>ExtStatusStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBase.Designer.cs">
+      <DependentUpon>frmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\IDataBinder.cs" />
+    <Compile Include="PagedGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PagedGrid.Designer.cs">
+      <DependentUpon>PagedGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportViewer.Designer.cs">
+      <DependentUpon>ReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResultsGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ResultsGrid.Designer.cs">
+      <DependentUpon>ResultsGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StopOnCond.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StopOnCond.Designer.cs">
+      <DependentUpon>StopOnCond.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIStrings.it.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UIStrings.it.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIStrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UIStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIStrings.ja.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UIStrings.ja.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIStrings.ru.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UIStrings.ru.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIStrings.zh.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UIStrings.zh.resx</DependentUpon>
+    </Compile>
+    <Compile Include="VertMenuBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VertMenuBar.Designer.cs">
+      <DependentUpon>VertMenuBar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CameraConfigUI.resx">
+      <DependentUpon>CameraConfigUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CamResetMenu.resx">
+      <DependentUpon>CamResetMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CamViewer.resx">
+      <DependentUpon>CamViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebugPage.resx">
+      <DependentUpon>DebugPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DumpUI2Cnt.resx">
+      <DependentUpon>DumpUI2Cnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DumpUI2MoreSet.resx">
+      <DependentUpon>DumpUI2MoreSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HvldViewer.resx">
+      <DependentUpon>HvldViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CamViewerGretel.resx">
+      <DependentUpon>CamViewerGretel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LiveImageFilterPage.resx">
+      <DependentUpon>LiveImageFilterPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\Recipe.rdlc" />
+    <EmbeddedResource Include="NoScrollPagedGrid.resx">
+      <DependentUpon>NoScrollPagedGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadSaveMenu.resx">
+      <DependentUpon>LoadSaveMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourcesArtic.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourcesArtic.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveMenu.resx">
+      <DependentUpon>SaveMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trending.resx">
+      <DependentUpon>Trending.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.cs.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.cs.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.da.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.da.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.hu.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.hu.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.ko.resx" />
+    <EmbeddedResource Include="UIStrings.nl.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.nl.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.pt.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.pt.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.sk.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.sk.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.sv.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.sv.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VialAxisMenu.resx">
+      <DependentUpon>VialAxisMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YesNoPanel.resx">
+      <DependentUpon>YesNoPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpectrometerViewer.resx">
+      <DependentUpon>SpectrometerViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataViewer.resx">
+      <DependentUpon>DataViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DownloadImagesMenu.resx">
+      <DependentUpon>DownloadImagesMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWait.resx">
+      <DependentUpon>frmWait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClosing.resx">
+      <DependentUpon>frmClosing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordStatus.resx">
+      <DependentUpon>RecordStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.de.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.es.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.es.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DumpUI.resx">
+      <DependentUpon>DumpUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtHeader.resx">
+      <DependentUpon>ExtHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBase.resx">
+      <DependentUpon>frmBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtPictureBox.resx">
+      <DependentUpon>ExtPictureBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtStatusStrip.resx">
+      <DependentUpon>ExtStatusStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagedGrid.resx">
+      <DependentUpon>PagedGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViewer.resx">
+      <DependentUpon>ReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultsGrid.resx">
+      <DependentUpon>ResultsGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StopOnCond.resx">
+      <DependentUpon>StopOnCond.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.ja.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.ja.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>UIStrings1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.it.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.it.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.ru.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIStrings.zh.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UIStrings.zh.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VertMenuBar.resx">
+      <DependentUpon>VertMenuBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Model\Model.xsc">
+      <DependentUpon>Model.xsd</DependentUpon>
+    </None>
+    <None Include="Model\Model.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Model.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Model\Model.xss">
+      <DependentUpon>Model.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferences-system.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-photo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go-previous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go-next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blink-white.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera-photo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\server-database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\server-database1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera-web.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera-photo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferences-system-windows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-off-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera-photo-big.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\games-hint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialog-warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\run-build.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\run-build-configure.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-playback-start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-playback-stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-on-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-on-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-off-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\amber-on-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applications-utilities.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Separator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Separator1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applications-system.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indexborder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indexborder1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application-exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialog-error ruotato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialog-error ruotato1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music-amarok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\previewer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\run-build-prune.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applications-engineering.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferences-desktop-personal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view-fullscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teamviewer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail-folder-sent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_fewer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nepomuk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.png" />
+    <None Include="Resources\document-print-preview.png" />
+    <None Include="Resources\edit-select-all.png" />
+    <None Include="Resources\system-run.png" />
+    <None Include="Resources\webcamreceive.png" />
+    <None Include="Resources\printer1.png" />
+    <None Include="Resources\previewer1.png" />
+    <None Include="Resources\Error_32.png" />
+    <None Include="Resources\OK_32.png" />
+    <None Include="Resources\folder-documents.png" />
+    <None Include="Resources\eye2.jpg" />
+    <None Include="Resources\application-exit1.png" />
+    <None Include="Resources\button_fewer1.png" />
+    <None Include="Resources\checkmark1.png" />
+    <None Include="Resources\document-save1.png" />
+    <None Include="Resources\network-wired.png" />
+    <None Include="Resources\debug-step-over.png" />
+    <None Include="Resources\video-x-generic.png" />
+    <None Include="Resources\configure.png" />
+    <None Include="Resources\digikam.png" />
+    <None Include="Resources\accessories-text-editor.png" />
+    <None Include="Resources\drive-harddisk.png" />
+    <None Include="Resources\Light_Green_Eye_2.jpg" />
+    <None Include="Resources\edit-clear1.png" />
+    <None Include="Resources\document-save3.png" />
+    <None Include="Resources\document-save-as.png" />
+    <None Include="Resources\upload-recipe.png" />
+    <None Include="Resources\upload-recipe32x32.png" />
+    <None Include="Resources\upload-recipe32x321.png" />
+    <None Include="Resources\debug-run.ico" />
+    <None Include="Resources\debug-run.png" />
+    <None Include="Resources\debug-run2.png" />
+    <None Include="Resources\debug-run32x32.png" />
+    <None Include="Resources\dialog-information.png" />
+    <None Include="Resources\dialog-information-red.png" />
+    <None Include="Resources\media-recordGray.png" />
+    <None Include="Resources\media-record.png" />
+    <None Include="Resources\folder-photo1.png" />
+    <None Include="Resources\accessories-calculator1.png" />
+    <None Include="Resources\application-x-trash_red.png" />
+    <None Include="Resources\transform-crop-and-resize.png" />
+    <None Include="Resources\transform-crop-and-resize1.png" />
+    <None Include="Resources\preferences-plugin.png" />
+    <None Include="Resources\edit-find1.png" />
+    <None Include="Resources\text-x-c++src.png" />
+    <None Include="Resources\hwinfo.png" />
+    <None Include="Resources\edit-find-red.png" />
+    <None Include="Resources\list-add.png" />
+    <None Include="Resources\folder-photo.ico" />
+    <None Include="Resources\list-remove.png" />
+    <None Include="Resources\dump.png" />
+    <None Include="Resources\SG_Optrel_New.png" />
+    <None Include="Resources\down_arrow.png" />
+    <None Include="Resources\home.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\up_arrow.png" />
+    <None Include="Resources\bin.png" />
+    <None Include="Resources\blank_page.png" />
+    <None Include="Resources\block.png" />
+    <None Include="Resources\chart_pie.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\eject.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\left_arrow.png" />
+    <None Include="Resources\light_bulb.png" />
+    <None Include="Resources\minus.png" />
+    <None Include="Resources\network.png" />
+    <None Include="Resources\page.png" />
+    <None Include="Resources\pause.png" />
+    <None Include="Resources\photo.png" />
+    <None Include="Resources\photo_camera.png" />
+    <None Include="Resources\play.png" />
+    <None Include="Resources\plus.png" />
+    <None Include="Resources\print.png" />
+    <None Include="Resources\record.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\right_arrow.png" />
+    <None Include="Resources\shut_down.png" />
+    <None Include="Resources\stop.png" />
+    <None Include="Resources\tools.png" />
+    <None Include="Resources\process.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\square.png" />
+    <None Include="Resources\print prew2.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\star.png" />
+    <None Include="Resources\unrestricted_param.png" />
+    <None Include="Resources\checkmark2.png" />
+    <None Include="Resources\skip_backward.png" />
+    <None Include="Resources\skip_forward.png" />
+    <None Include="Resources\digitizer.png" />
+    <None Include="Resources\tools c++.png" />
+    <None Include="Resources\down_config.png" />
+    <None Include="Resources\bypass.png" />
+    <None Include="Resources\trendBtnSave_Check.png" />
+    <None Include="Resources\trendBtnSave_Check_crossed.png" />
+    <None Include="Resources\trendBtnSave_Error.png" />
+    <None Include="Resources\trendBtnSave_Error_crossed.png" />
+    <None Include="Resources\trendBtnSave_Uncheck.png" />
+    <None Include="Resources\trendBtnSave_Uncheck_crossed.png" />
+    <None Include="Resources\pdf.png" />
+    <None Include="Resources\base.png" />
+    <None Include="Resources\filter.png" />
+    <None Include="Resources\filter_cam.png" />
+    <Content Include="Supervisore - Dark - Bck.ico" />
+    <Content Include="Supervisore - Dark.ico" />
+    <Content Include="Supervisore.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DisplayManager\DisplayManager.csproj">
+      <Project>{1ffdc578-ec0d-45ef-b585-63545d434a4b}</Project>
+      <Name>DisplayManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExactaEasyCore\ExactaEasyCore.csproj">
+      <Project>{6108663e-7f47-4e1c-9764-4266ac445f9c}</Project>
+      <Name>ExactaEasyCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExEyGateway\ExEyGateway\ExEyGateway.csproj">
+      <Project>{3eb32efe-0199-4253-8b9b-99d580458406}</Project>
+      <Name>ExEyGateway</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExEyWS\ExactaEasyEng.csproj">
+      <Project>{1ec5a2f4-2f55-4c6a-bacc-7c6b760d9edc}</Project>
+      <Name>ExactaEasyEng</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GretelClient\GretelClient.csproj">
+      <Project>{a8d73222-efc2-49ab-8077-939fea585baf}</Project>
+      <Name>GretelClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hvld\Hvld.csproj">
+      <Project>{3071ebb5-c4b4-4e01-a5a2-6556f356d41a}</Project>
+      <Name>Hvld</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\machineConfiguration\machineConfiguration.csproj">
+      <Project>{98441cb8-5635-454d-8ca1-e4b11afab84e}</Project>
+      <Name>machineConfiguration</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(SolutionDir)lib\tbb.dll" "$(TargetDir)"
+copy /Y "$(SolutionDir)lib\tbb_debug.dll" "$(TargetDir)"
+copy /Y "$(SolutionDir)lib\XXHash\XXHashCpp.x86.dll" "$(TargetDir)"
+copy /Y "$(SolutionDir)lib\XXHash\XXHashCpp.x64.dll" "$(TargetDir)"
+
+/*check if all folders exist*/
+if not exist "$(TargetDir)machineConfig\" mkdir "$(TargetDir)machineConfig\"
+copy /Y "$(SolutionDir)ExactaEasy\Model\Recipe.rdlc" "$(TargetDir)machineConfig\"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>taskkill /f /fi "pid gt 0" /im ExactaEasy.exe</PreBuildEvent>
+  </PropertyGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

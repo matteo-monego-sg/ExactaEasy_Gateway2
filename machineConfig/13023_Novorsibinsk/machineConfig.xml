@@ -1,0 +1,146 @@
+<MachineConfiguration>
+  <BypassHMIsendRecipe>true</BypassHMIsendRecipe>
+  
+  <Customer>SPAMI</Customer>
+  <DefaultFolder>D:\SPAMI</DefaultFolder>
+  <DebugEnabled>false</DebugEnabled>
+  <UseConsole>false</UseConsole>
+  <ConsoleLevel>2</ConsoleLevel>
+  <VisualizerRows>1</VisualizerRows>
+  <VisualizerCols>3</VisualizerCols>
+  <PingCheck>false</PingCheck>
+  <TriggerMode>1</TriggerMode>
+  <TriggerSourceManual>false</TriggerSourceManual>
+
+  <NumberOfCamera>6</NumberOfCamera>
+  <NumberOfStation>4</NumberOfStation>
+  <NumberOfSplindles>40</NumberOfSplindles>
+  <NumberOfStrobo>1</NumberOfStrobo>
+  <StrobeSettings>
+	<StrobeSetting>
+		<ID>0</ID>
+		<IP>10.200.0.102</IP>
+		<Path>./Gardasoft_RT820F_20.xml</Path>
+		<StrobeProviderName>GARDASOFT</StrobeProviderName>
+	</StrobeSetting>
+  </StrobeSettings>
+  <MachineType>ExactaEasy</MachineType>
+  <HMIServiceAddress>http://localhost:6543</HMIServiceAddress>
+  <SupervisorServiceAddress>http://localhost:8090/ExactaEasyUI/Supervisor</SupervisorServiceAddress>
+  <CameraProviders>
+    <DefaultCameraProviderName>TestCamera</DefaultCameraProviderName>
+    <Providers>
+      <CameraProvider>
+        <Name>TestCamera</Name>
+        <Type>TestCamera.TestCamera, TestCamera</Type>
+      </CameraProvider>
+      <CameraProvider>
+        <Name>TattileCameraM9</Name>
+        <Type>TattileCameras.TattileCameraM9, TattileCamera</Type>
+		<ExternalDependencies>
+		  <string>TagFilterLib60.dll</string>
+		</ExternalDependencies>
+      </CameraProvider>
+	  <CameraProvider>
+        <Name>TattileCameraM12</Name>
+        <Type>TattileCameras.TattileCameraM12, TattileCamera</Type>
+		<ExternalDependencies>
+		  <string>TagFilterLib60.dll</string>
+		</ExternalDependencies>
+      </CameraProvider>
+    </Providers>
+  </CameraProviders>
+  <CameraSettings>
+    <CameraSetting>
+      <Id>0</Id>
+	  <Head>0</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>M12</CameraType>
+	  <CameraDescription>ST0 - CAM0 - TIP CONTROL</CameraDescription>
+	  <CameraProviderName>TattileCameraM12</CameraProviderName>
+      <Station>0</Station>
+      <Spindle>0</Spindle>
+	  <BufferSize>10</BufferSize>
+      <IP4Address>10.200.10.70</IP4Address>
+	  <PageNumberPosition>1</PageNumberPosition>
+      <DisplayPosition>0</DisplayPosition>
+	  <StroboIP4Address>10.200.0.102</StroboIP4Address>
+	  <StroboChannel>0</StroboChannel>
+    </CameraSetting>
+	<CameraSetting>
+      <Id>1</Id>
+	  <Head>1</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>M12</CameraType>
+	  <CameraDescription>ST0 - CAM1 - TIP CONTROL</CameraDescription>
+	  <CameraProviderName>TattileCameraM12</CameraProviderName>
+      <Station>0</Station>
+      <Spindle>0</Spindle>
+	  <BufferSize>10</BufferSize>
+      <IP4Address>10.200.10.70</IP4Address>
+	  <PageNumberPosition>1</PageNumberPosition>
+      <DisplayPosition>0</DisplayPosition>
+    </CameraSetting>
+	<CameraSetting>
+      <Id>2</Id>
+	  <Head>2</Head>
+	  <BufferSize>10</BufferSize>
+      <CameraType>M12</CameraType>
+	  <CameraDescription>ST0 - CAM2 - TIP CONTROL</CameraDescription>
+	  <CameraProviderName>TattileCameraM12</CameraProviderName>
+      <Station>0</Station>
+      <Spindle>0</Spindle>
+	  <BufferSize>10</BufferSize>
+      <IP4Address>10.200.10.70</IP4Address>
+	  <PageNumberPosition>1</PageNumberPosition>
+      <DisplayPosition>0</DisplayPosition>
+	  <StroboIP4Address>10.200.0.102</StroboIP4Address>
+	  <StroboChannel>5</StroboChannel>
+    </CameraSetting>
+    <CameraSetting>
+      <Id>3</Id>
+      <BufferSize>10</BufferSize>
+      <CameraType>M9</CameraType>
+      <CameraDescription>ST2 - PARTICLE</CameraDescription>
+      <CameraProviderName>TattileCameraM9</CameraProviderName>
+      <Station>1</Station>
+      <Spindle>0</Spindle>
+      <BufferSize>10</BufferSize>
+      <IP4Address>10.200.12.72</IP4Address>
+      <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>0</DisplayPosition>
+      <StroboIP4Address>10.200.0.102</StroboIP4Address>
+      <StroboChannel>1</StroboChannel>
+    </CameraSetting>
+    <CameraSetting>
+      <Id>4</Id>
+      <BufferSize>10</BufferSize>
+      <CameraType>M9</CameraType>
+      <CameraDescription>ST3 - PARTICLE</CameraDescription>
+      <CameraProviderName>TattileCameraM9</CameraProviderName>
+      <Station>2</Station>
+      <Spindle>0</Spindle>
+      <BufferSize>10</BufferSize>
+      <IP4Address>10.200.13.73</IP4Address>
+      <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>1</DisplayPosition>
+      <StroboIP4Address>10.200.0.102</StroboIP4Address>
+      <StroboChannel>2</StroboChannel>
+    </CameraSetting>
+      <CameraSetting>
+      <Id>5</Id>
+      <BufferSize>10</BufferSize>
+      <CameraType>M9</CameraType>
+      <CameraDescription>ST4 - PARTICLE</CameraDescription>
+      <CameraProviderName>TattileCameraM9</CameraProviderName>
+      <Station>3</Station>
+      <Spindle>0</Spindle>
+      <BufferSize>10</BufferSize>
+      <IP4Address>10.200.14.74</IP4Address>
+      <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPosition>2</DisplayPosition>
+      <StroboIP4Address>10.200.0.102</StroboIP4Address>
+      <StroboChannel>3</StroboChannel>
+    </CameraSetting>
+  </CameraSettings>
+</MachineConfiguration>

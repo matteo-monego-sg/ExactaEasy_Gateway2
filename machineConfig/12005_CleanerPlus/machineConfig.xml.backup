@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MachineConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MachineType>CleanerPlus</MachineType>
+  <Customer>SPAMI</Customer>
+  <StartupDelaySec>5</StartupDelaySec>
+  <RegKeyToCheckAtStartup>
+    <RegistryKeyCtrl>
+      <Label>VISUAL STUDIO REDISTRIBUTABLE PACKAGE</Label>
+      <HKLM_or_HKCU>HKLM</HKLM_or_HKCU>
+      <Root>SOFTWARE\Microsoft\DevDiv\VC\Servicing\11.0\RuntimeMinimum</Root>
+      <Value>Install</Value>
+      <ValueExpected>1</ValueExpected>
+    </RegistryKeyCtrl>
+    <RegistryKeyCtrl>
+      <Label>.NET FRAMEWORK 4</Label>
+      <HKLM_or_HKCU>HKLM</HKLM_or_HKCU>
+      <Root>SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full</Root>
+      <Value>Install</Value>
+      <ValueExpected>1</ValueExpected>
+    </RegistryKeyCtrl>
+  </RegKeyToCheckAtStartup>
+  <ViewSplashScreen>0</ViewSplashScreen>
+  <BypassHMIsendRecipe>false</BypassHMIsendRecipe>
+  <BypassHMIKnapp>true</BypassHMIKnapp>
+  <HMIKnappTurnsLimit>0</HMIKnappTurnsLimit>
+  <BypassHMIsendResults>true</BypassHMIsendResults>
+  <EnableOnTopCommunication>false</EnableOnTopCommunication>
+  <UseConsole>false</UseConsole>
+  <ConsoleLevel>3</ConsoleLevel>
+  <WriteLogToFile>false</WriteLogToFile>
+  <LogToFileLevel>false</LogToFileLevel>
+  <DumpResults>false</DumpResults>
+  <DumpImagesAvailable>true</DumpImagesAvailable>
+  <AdaptersCheck />
+  <TriggerMode>1</TriggerMode>
+  <TriggerSourceManual>false</TriggerSourceManual>
+  <UseExternalImageViewer>false</UseExternalImageViewer>
+  <VisualizerKeepRatio>true</VisualizerKeepRatio>
+  <VisualizerImageQuality>2</VisualizerImageQuality>
+  <VisualizerShowColoredBorder>true</VisualizerShowColoredBorder>
+  <NumberOfStation>9</NumberOfStation>
+  <NumberOfCamera>9</NumberOfCamera>
+  <NumberOfSpindles>40</NumberOfSpindles>
+  <NumberOfStrobo>0</NumberOfStrobo>
+  <MaxInspectionQueueLength>10</MaxInspectionQueueLength>
+  <BufferedInspectionImagesPath>C:\Images\</BufferedInspectionImagesPath>
+  <HideRemoteDesktopToolbar>true</HideRemoteDesktopToolbar>
+  <SaveData2DB>false</SaveData2DB>
+  <DBServer>WIN-REBMU4UB61U</DBServer>
+  <DBName>CLEANER</DBName>
+  <DBTable>dbo.DetailedReports</DBTable>
+  <StrobeSettings />
+  <NumberOfDisplayPages>0</NumberOfDisplayPages>
+  <NodeSettings>
+    <NodeSetting>
+      <Id>0</Id>
+      <NodeDescription>Gretel client 0</NodeDescription>
+      <NodeProviderName>GretelNodeBase</NodeProviderName>
+      <ServerIP4Address>10.1.1.29</ServerIP4Address>
+      <IP4Address>10.1.1.52</IP4Address>
+      <Port>27015</Port>
+      <RemoteDesktopType>1</RemoteDesktopType>
+      <User>CLEANERPLUS</User>
+      <Key>spami</Key>
+      <RDPort>0</RDPort>
+    </NodeSetting>
+  </NodeSettings>
+  <StationSettings>
+    <StationSetting>
+      <Id>0</Id>
+      <StationDescription>Body BF</StationDescription>
+      <StationProviderName>GretelStationBase</StationProviderName>
+      <Node>0</Node>
+      <ToolResultsToStoreCollection />
+    </StationSetting>
+    <StationSetting>
+      <Id>1</Id>
+      <StationDescription>Shoulder</StationDescription>
+      <StationProviderName>GretelStationBase</StationProviderName>
+      <Node>0</Node>
+      <ToolResultsToStoreCollection />
+    </StationSetting>
+    <StationSetting>
+      <Id>2</Id>
+      <StationDescription>Rim</StationDescription>
+      <StationProviderName>GretelStationBase</StationProviderName>
+      <Node>0</Node>
+      <ToolResultsToStoreCollection />
+    </StationSetting>
+    <StationSetting>
+      <Id>3</Id>
+      <StationDescription>Neck</StationDescription>
+      <StationProviderName>GretelStationBase</StationProviderName>
+      <Node>0</Node>
+      <ToolResultsToStoreCollection />
+    </StationSetting>
+    <StationSetting>
+      <Id>4</Id>
+      <StationDescription>Mouth DF</StationDescription>
+      <StationProviderName>GretelStationBase</StationProviderName>
+      <Node>0</Node>
+      <ToolResultsToStoreCollection />
+    </StationSetting>
+    <StationSetting>
+      <Id>5</Id>
+      <StationDescription>Bottom</StationDescription>
+      <StationProviderName>GretelStationBase</StationProviderName>
+      <Node>0</Node>
+      <ToolResultsToStoreCollection />
+    </StationSetting>
+    <StationSetting>
+      <Id>6</Id>
+      <StationDescription>Mouth BF A</StationDescription>
+      <StationProviderName>GretelStationBase</StationProviderName>
+      <Node>0</Node>
+      <ToolResultsToStoreCollection />
+    </StationSetting>
+    <StationSetting>
+      <Id>7</Id>
+      <StationDescription>Mouth BF B</StationDescription>
+      <StationProviderName>GretelStationBase</StationProviderName>
+      <Node>0</Node>
+      <ToolResultsToStoreCollection />
+    </StationSetting>
+    <StationSetting>
+      <Id>8</Id>
+      <StationDescription>Body DF</StationDescription>
+      <StationProviderName>GretelStationBase</StationProviderName>
+      <Node>0</Node>
+      <ToolResultsToStoreCollection />
+    </StationSetting>
+  </StationSettings>
+  <CameraSettings>
+    <CameraSetting>
+      <Id>0</Id>
+      <Head>0</Head>
+      <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+      <CameraDescription>Body BF</CameraDescription>
+      <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Station>0</Station>
+      <Node>0</Node>
+      <Spindle>0</Spindle>
+      <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPositionRow>0</DisplayPositionRow>
+      <DisplayPositionCol>0</DisplayPositionCol>
+      <Visualizer>Gretel</Visualizer>
+      <Rotation>0</Rotation>
+      <StroboChannel>0</StroboChannel>
+      <LightControllers />
+    </CameraSetting>
+    <CameraSetting>
+      <Id>1</Id>
+      <Head>1</Head>
+      <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+      <CameraDescription>Shoulder</CameraDescription>
+      <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Station>1</Station>
+      <Node>0</Node>
+      <Spindle>0</Spindle>
+      <PageNumberPosition>2</PageNumberPosition>
+      <DisplayPositionRow>0</DisplayPositionRow>
+      <DisplayPositionCol>1</DisplayPositionCol>
+      <Visualizer>Gretel</Visualizer>
+      <Rotation>90</Rotation>
+      <StroboChannel>0</StroboChannel>
+      <LightControllers />
+    </CameraSetting>
+    <CameraSetting>
+      <Id>2</Id>
+      <Head>2</Head>
+      <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+      <CameraDescription>Rim</CameraDescription>
+      <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Station>2</Station>
+      <Node>0</Node>
+      <Spindle>0</Spindle>
+      <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPositionRow>0</DisplayPositionRow>
+      <DisplayPositionCol>2</DisplayPositionCol>
+      <Visualizer>Gretel</Visualizer>
+      <Rotation>0</Rotation>
+      <StroboChannel>0</StroboChannel>
+      <LightControllers />
+    </CameraSetting>
+    <CameraSetting>
+      <Id>3</Id>
+      <Head>3</Head>
+      <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+      <CameraDescription>Neck</CameraDescription>
+      <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Station>3</Station>
+      <Node>0</Node>
+      <Spindle>0</Spindle>
+      <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPositionRow>0</DisplayPositionRow>
+      <DisplayPositionCol>3</DisplayPositionCol>
+      <Visualizer>Gretel</Visualizer>
+      <Rotation>270</Rotation>
+      <StroboChannel>0</StroboChannel>
+      <LightControllers />
+    </CameraSetting>
+    <CameraSetting>
+      <Id>4</Id>
+      <Head>4</Head>
+      <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+      <CameraDescription>Body DF</CameraDescription>
+      <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Station>4</Station>
+      <Node>0</Node>
+      <Spindle>0</Spindle>
+      <PageNumberPosition>2</PageNumberPosition>
+      <DisplayPositionRow>0</DisplayPositionRow>
+      <DisplayPositionCol>0</DisplayPositionCol>
+      <Visualizer>Gretel</Visualizer>
+      <Rotation>0</Rotation>
+      <StroboChannel>0</StroboChannel>
+      <LightControllers />
+    </CameraSetting>
+    <CameraSetting>
+      <Id>5</Id>
+      <Head>5</Head>
+      <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+      <CameraDescription>Mouth DF</CameraDescription>
+      <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Station>5</Station>
+      <Node>0</Node>
+      <Spindle>0</Spindle>
+      <PageNumberPosition>2</PageNumberPosition>
+      <DisplayPositionRow>0</DisplayPositionRow>
+      <DisplayPositionCol>3</DisplayPositionCol>
+      <Visualizer>Gretel</Visualizer>
+      <Rotation>0</Rotation>
+      <StroboChannel>0</StroboChannel>
+      <LightControllers />
+    </CameraSetting>
+    <CameraSetting>
+      <Id>6</Id>
+      <Head>6</Head>
+      <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+      <CameraDescription>Bottom</CameraDescription>
+      <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Station>6</Station>
+      <Node>0</Node>
+      <Spindle>0</Spindle>
+      <PageNumberPosition>1</PageNumberPosition>
+      <DisplayPositionRow>0</DisplayPositionRow>
+      <DisplayPositionCol>0</DisplayPositionCol>
+      <Visualizer>Gretel</Visualizer>
+      <Rotation>0</Rotation>
+      <StroboChannel>0</StroboChannel>
+      <LightControllers />
+    </CameraSetting>
+    <CameraSetting>
+      <Id>7</Id>
+      <Head>7</Head>
+      <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+      <CameraDescription>Mouth BF A</CameraDescription>
+      <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Station>7</Station>
+      <Node>0</Node>
+      <Spindle>0</Spindle>
+      <PageNumberPosition>2</PageNumberPosition>
+      <DisplayPositionRow>0</DisplayPositionRow>
+      <DisplayPositionCol>2</DisplayPositionCol>
+      <Visualizer>Gretel</Visualizer>
+      <Rotation>270</Rotation>
+      <StroboChannel>0</StroboChannel>
+      <LightControllers />
+    </CameraSetting>
+    <CameraSetting>
+      <Id>8</Id>
+      <Head>8</Head>
+      <BufferSize>10</BufferSize>
+      <CameraType>GretelCamera</CameraType>
+      <CameraDescription>Body DF</CameraDescription>
+      <CameraProviderName>GretelCameraBase</CameraProviderName>
+      <Station>8</Station>
+      <Node>0</Node>
+      <Spindle>0</Spindle>
+      <PageNumberPosition>0</PageNumberPosition>
+      <DisplayPositionRow>0</DisplayPositionRow>
+      <DisplayPositionCol>1</DisplayPositionCol>
+      <Visualizer>Gretel</Visualizer>
+      <Rotation>0</Rotation>
+      <StroboChannel>0</StroboChannel>
+      <LightControllers />
+    </CameraSetting>
+  </CameraSettings>
+  <HMIServiceAddress>net.tcp://localhost:8095/ExactaEasyUI/HMI</HMIServiceAddress>
+  <SupervisorServiceAddress>net.tcp://localhost:8090/ExactaEasyUI/Supervisor</SupervisorServiceAddress>
+  <RejectionCauses>
+    <RejectionCause>
+      <NumericValue>7</NumericValue>
+      <StringValue>TechnicalReject</StringValue>
+    </RejectionCause>
+    <RejectionCause>
+      <NumericValue>6</NumericValue>
+      <StringValue>InsufficientLight</StringValue>
+    </RejectionCause>
+  </RejectionCauses>
+  <CameraProviders>
+    <DefaultCameraProviderName>TestCamera</DefaultCameraProviderName>
+    <Providers>
+      <CameraProvider>
+        <Name>TestCamera</Name>
+        <Type>TestCamera.TestCamera, TestCamera</Type>
+        <ExternalDependencies />
+      </CameraProvider>
+      <CameraProvider>
+        <Name>GretelCameraBase</Name>
+        <Type>GretelClients.GretelCameraBase, GretelClient</Type>
+        <ExternalDependencies />
+      </CameraProvider>
+    </Providers>
+  </CameraProviders>
+  <StationProviders>
+    <DefaultStationProviderName>TestCamera</DefaultStationProviderName>
+    <Providers>
+      <StationProvider>
+        <Name>TestCamera</Name>
+        <Type>TestCamera.TestCamera, TestCamera</Type>
+      </StationProvider>
+      <StationProvider>
+        <Name>GretelStationBase</Name>
+        <Type>GretelClients.GretelStationBase, GretelClient</Type>
+      </StationProvider>
+    </Providers>
+  </StationProviders>
+  <NodeProviders>
+    <DefaultNodeProviderName>TestCamera</DefaultNodeProviderName>
+    <Providers>
+      <NodeProvider>
+        <Name>TestCamera</Name>
+        <Type>TestCamera.TestCamera, TestCamera</Type>
+      </NodeProvider>
+      <NodeProvider>
+        <Name>GretelNodeBase</Name>
+        <Type>GretelClients.GretelNodeBase, GretelClient</Type>
+      </NodeProvider>
+    </Providers>
+  </NodeProviders>
+  <FirstStationIndex>0</FirstStationIndex>
+  <DisplaySettings>
+    <ScreenGridDisplaySettings>
+      <Id>0</Id>
+      <Rows>1</Rows>
+      <Cols>2</Cols>
+    </ScreenGridDisplaySettings>
+    <ScreenGridDisplaySettings>
+      <Id>1</Id>
+      <Rows>1</Rows>
+      <Cols>2</Cols>
+    </ScreenGridDisplaySettings>
+    <ScreenGridDisplaySettings>
+      <Id>2</Id>
+      <Rows>1</Rows>
+      <Cols>4</Cols>
+    </ScreenGridDisplaySettings>
+  </DisplaySettings>
+</MachineConfiguration>
