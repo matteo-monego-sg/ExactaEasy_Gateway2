@@ -288,7 +288,7 @@ namespace ExEyGateway
             try
             {
                 // Creates a new IPC gateway, passing this instance as logic container.
-                _ipcGateway = new IPCGatewayServer<IArticIpcLogic>(this);
+                _ipcGateway = new IPCGatewayServer<IArticIpcLogic>("artic_gateway2_server", this);
                 _ipcGateway.OnClientConnected += IpcGateway_ExactaEasyConnected;
                 _ipcGateway.OnClientDisconnected += IpcGateway_ExactaEasyDisconnected;
                 // Asynchronously listens for a new ExactaEasy connection.

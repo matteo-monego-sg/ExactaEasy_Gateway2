@@ -979,10 +979,10 @@ namespace ExactaEasyEng
             // reference is required.
             _ipcLogic = new ExactaEasyIpcLogic(_appEngineInstance);
             // Creates a new communication gateway with the HMI.
-            _ipcGateway = new IPCGatewayClient<ExactaEasyIpcLogic>(_ipcLogic);
+            _ipcGateway = new IPCGatewayClient<ExactaEasyIpcLogic>("exacta_easy_gateway2_client", _ipcLogic);
             // Subscribes to the connected/disconnected events.
-            _ipcGateway.OnConnectedToServer += IpcGateway_ConnectedToArtic;
-            _ipcGateway.OnDisconnectedFromServer += IpcGateway_DisconnectedFromArtic;
+            _ipcGateway.OnClientConnected += IpcGateway_ConnectedToArtic;
+            _ipcGateway.OnClientDisconnected += IpcGateway_DisconnectedFromArtic;
             // Creates as new Thread for the gateway communication status check.
             _gatewayCommStatusThread = new Thread(
                 new ThreadStart(GatewayCommunicationStatusThread))
@@ -1018,8 +1018,8 @@ namespace ExactaEasyEng
                     break;
                 }
                 // Check if ARTICOE or the test program are running.
-                if (!IPCProcess.IsAnyRunning("artic", "exeygtwtest"))
-                    GatewayCommunicationStatus = GatewayCommunicationStatusEnum.NotConnected;
+                //if (!IPCProcess.IsAnyRunning("artic", "exeygtwtest"))
+                //    GatewayCommunicationStatus = GatewayCommunicationStatusEnum.NotConnected;
 
                 switch (GatewayCommunicationStatus)
                 {

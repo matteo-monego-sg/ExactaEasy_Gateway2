@@ -4,7 +4,6 @@ using OptrelInterProcessComm.Utils;
 using SocketMeister;
 using SPAMI.Util.Logger;
 using System;
-using System.Linq;
 
 namespace OptrelInterProcessComm.Gateways
 {
@@ -19,31 +18,40 @@ namespace OptrelInterProcessComm.Gateways
         /// <summary>
         /// SocketMeister communication object.
         /// </summary>
-        private readonly SocketServer _socketServer;
+        private SocketServer _socketServer;
         /// <summary>
         /// Raised when a client connects to the server.
         /// </summary>
-        public event EventHandler OnClientConnected;
+        public event EventHandler<GatewayClientConnectedEventArgs> OnClientConnected;
         /// <summary>
         ///  Raised when a client disconnects from the server.
         /// </summary>
-        public event EventHandler OnClientDisconnected;
+        public event EventHandler<GatewayClientDisconnectedEventArgs> OnClientDisconnected;
         /// <summary>
         /// Raised when the server starts listening for client connections.
         /// </summary>
-        public event EventHandler OnServerStarted;
+        public event EventHandler<GatewayServerStartedEventArgs> OnServerStarted;
+        /// <summary>
+        /// Raised when the server encounters an error.
+        /// </summary>
+        public event EventHandler<GatewayServerErrorEventArgs> OnServerError;
+        /// <summary>
+        /// Raised when the gateway encounters a serialization error.
+        /// </summary>
+        public event EventHandler<GatewayServerSerializationErrorEventArgs> OnServerSerializationError;
         /// <summary>
         /// Class constructor.
         /// </summary>
-        public IPCGatewayServer(K logic, int port = IPCConstants.DEFAULT_IPC_COMM_PORT) : base(logic)        
+        public IPCGatewayServer(string serverId, K logic, int port = IPCConstants.DEFAULT_IPC_COMM_PORT) : base(serverId, logic)        
         {
             _comPort = port;
-            // Creates a new instance of the socket server.
-            _socketServer = new SocketServer(_comPort, false);
-            // Listen to RequestReceived events.
-            _socketServer.MessageReceived += SocketServer_MessageReceived;
-            _socketServer.ClientConnected += SocketServer_ClientConnected;
-            _socketServer.ClientDisconnected += SocketServer_ClientDisconnected;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        private void IPCGatewayServer_OnGatewayExecutionError(object sender, GatewayExecutionExceptionEventArgs e)
+        {
+            OnServerError?.Invoke(this, new GatewayServerErrorEventArgs(_id, e.ExecutionException));
         }
         /// <summary>
         /// Is the server actually connected to an IPCGatewayClient?
@@ -63,15 +71,28 @@ namespace OptrelInterProcessComm.Gateways
         /// </summary>
         public bool Start()
         {
+            Stop();
             try
-            {
+            { 
+                // Creates a new instance of the socket server.
+                _socketServer = new SocketServer(_comPort, false);
+                // Listen to RequestReceived events.
+                _socketServer.MessageReceived += SocketServer_MessageReceived;
+                _socketServer.ClientConnected += SocketServer_ClientConnected;
+                _socketServer.ClientDisconnected += SocketServer_ClientDisconnected;
+                OnGatewayExecutionError += IPCGatewayServer_OnGatewayExecutionError;
+
                 _socketServer.Start();
-                OnServerStarted?.Invoke(this, EventArgs.Empty);
+                OnServerStarted?.Invoke(this, new GatewayServerStartedEventArgs(_id));
                 return true;
             }
             catch (Exception ex)
             {
-                Log.Line(LogLevels.Error, "IPCGatewayServer::Start", $"IPCGatewayServer could not start: {ex}");
+                Log.Line(
+                    LogLevels.Error, 
+                    "IPCGatewayServer::Start",
+                    $"IPCGatewayServer could not start: {ex}");
+                OnServerError?.Invoke(this, new GatewayServerErrorEventArgs(_id, ex));
                 return false;
             }
         }
@@ -80,13 +101,32 @@ namespace OptrelInterProcessComm.Gateways
         /// </summary>
         public void Stop()
         {
+            if (_socketServer is null)
+                return;
+
             try
             {
+                switch (_socketServer.Status)
+                {
+                    case SocketServerStatus.Stopping:
+                    case SocketServerStatus.Stopped:
+                        // If the server is stopping ar already stopped, exit here or
+                        // meister hangs.
+                        return;
+                }
+                _socketServer.MessageReceived -= SocketServer_MessageReceived;
+                _socketServer.ClientConnected -= SocketServer_ClientConnected;
+                _socketServer.ClientDisconnected -= SocketServer_ClientDisconnected;
+                OnGatewayExecutionError -= IPCGatewayServer_OnGatewayExecutionError;
                 _socketServer.Stop();
             }
             catch (Exception ex)
             {
-                Log.Line(LogLevels.Error, "IPCGatewayServer::Stop", $"IPCGatewayServer could not stop: {ex}");
+                Log.Line(
+                    LogLevels.Error,
+                    "IPCGatewayServer::Stop", 
+                    $"IPCGatewayServer could not stop: {ex}");
+                OnServerError?.Invoke(this, new GatewayServerErrorEventArgs(_id, ex));
             }
         }
         /// <summary>
@@ -94,82 +134,107 @@ namespace OptrelInterProcessComm.Gateways
         /// </summary>
         private void SocketServer_ClientDisconnected(object sender, SocketServer.ClientEventArgs e)
         {
-            OnClientDisconnected?.Invoke(this, e);
+            OnClientDisconnected?.Invoke(this, new GatewayClientDisconnectedEventArgs(e.Client.ClientId.ToString()));
         }
         /// <summary>
         /// Raised when a client connects to the server.
         /// </summary>
         private void SocketServer_ClientConnected(object sender, SocketServer.ClientEventArgs e)
         {
-            OnClientConnected?.Invoke(this, e);
+           OnClientConnected?.Invoke(this, new GatewayClientConnectedEventArgs(e.Client.ClientId.ToString()));
         }
         /// <summary>
         /// Raised when the server receives a message from the client.
         /// </summary>
         private void SocketServer_MessageReceived(object sender, SocketServer.MessageReceivedEventArgs e)
         {
-            var message = IPCSerialization.Deserialize((byte[])e.Parameters[0]);
-
-            if (message is null)
+            // Check the parameters validity and length.
+            if (e is null || e.Parameters is null || e.Parameters.Length == 0)
             {
-                Log.Line(LogLevels.Warning, "IPCGatewayServer::SocketServer_MessageReceived", $"IPCGatewayServer received an IPCMessage null reference.");
+                Log.Line(
+                    LogLevels.Warning,
+                    "IPCGatewayClient::SocketServer_MessageReceived",
+                    $"Invalid MessageReceivedEventArgs parameter.");
+                return;
+            }
+            // Deserializes the byte array into an IPC object.
+            if (!IPCSerialization.Deserialize((byte[])e.Parameters[0], out IPCMessage message, out Exception ex))
+            {
+                // Raise an error event to the client class.
+                OnServerSerializationError?.Invoke(this, new GatewayServerSerializationErrorEventArgs(_id, ex));
                 return;
             }
             // Checks the type of the message.
             switch (message.MessageType)
             {
                 case IPCMessageTypeEnum.Unknown:
-                    throw new Exception("Unknown IPC message type!");
+                    // Raise an error event to the client class.
+                    OnServerError?.Invoke(this, new GatewayServerErrorEventArgs(_id, new Exception("unknown IPC message type")));
+                    break;
 
                 case IPCMessageTypeEnum.Request:
                     // Calls the corresponding function of the logic class (T).
-                    ExecuteLogic(message.Request.FunctionName, message.Request.Parameters, out object _, out Exception _);
+                    ExecuteLogic(message.Request.FunctionName, message.Request.Parameters, out object _);
                     break;
 
                 case IPCMessageTypeEnum.RequestWithResponse:
-                    // The message is a request.
-                    var request = message.Request;
-                    // Calls the corresponding function of the logic class (T).
-                    if (ExecuteLogic(message.Request.FunctionName, request.Parameters, out object result, out Exception ex))
                     {
-                        // If there is a function return value.
-                        if (!(result is null))
-                            message.Response = new IPCResponse(
-                                request.FunctionName,
-                                result,
-                                result.GetType(),
-                                IPCResponseStatusEnum.OK);
-                        else
-                            message.Response = new IPCResponse(
-                                request.FunctionName,
-                                null,
-                                null,
-                                IPCResponseStatusEnum.OK);
-                        // Message is now a response.
-                        message.MessageType = IPCMessageTypeEnum.Response;
-                        // Fill in the request only with the id and functionName.
-                        message.Request.Parameters = null;
-                        // Sends back to the server (ARTIC) the function result.
-                        e.Response = IPCSerialization.Serialize(message).ToArray();
-                    }
-                    else
-                    {
-                        message.Response = new IPCResponse(
-                            request.FunctionName,
-                            null,
-                            null,
-                            IPCResponseStatusEnum.KO,
-                            $"Remote IPC function exception: {ex.Message}");
-                        // Message is now a response.
-                        message.MessageType = IPCMessageTypeEnum.Response;
-                        // Check if the request can be dropped.
-                        // Fill in the request only with the id and functionName.
-                        message.Request = new IPCRequest()
+                        // The message is a request.
+                        var request = message.Request;
+                        // Calls the corresponding function of the logic class (T).
+                        if (ExecuteLogic(message.Request.FunctionName, request.Parameters, out object result))
                         {
-                            FunctionName = request.FunctionName
-                        };
-                        // Sends back to the server (ARTIC) the function result.
-                        e.Response = IPCSerialization.Serialize(message).ToArray();
+                            // If there is a function return value.
+                            if (!(result is null))
+                                message.Response = new IPCResponse(
+                                    request.FunctionName,
+                                    result,
+                                    result.GetType(),
+                                    IPCResponseStatusEnum.OK);
+                            else
+                                message.Response = new IPCResponse(
+                                    request.FunctionName,
+                                    null,
+                                    null,
+                                    IPCResponseStatusEnum.OK);
+                            // Message is now a response.
+                            message.MessageType = IPCMessageTypeEnum.Response;
+                            // Fill in the request only with the id and functionName.
+                            message.Request.Parameters = null;
+                            // Sends back to the server (ARTIC) the function result.
+                            byte[] data = null;
+                            if (!IPCSerialization.Serialize(message, out data, out Exception serEx))
+                            {
+                                OnServerSerializationError?.Invoke(this, new GatewayServerSerializationErrorEventArgs(_id, serEx));
+                                return;
+                            }
+                            e.Response = data;
+                        }
+                        else
+                        {
+                            message.Response = new IPCResponse(
+                                request.FunctionName,
+                                null,
+                                null,
+                                IPCResponseStatusEnum.KO,
+                                $"Remote IPC function exception.");
+                            // Message is now a response.
+                            message.MessageType = IPCMessageTypeEnum.Response;
+                            // Check if the request can be dropped.
+                            // Fill in the request only with the id and functionName.
+                            message.Request = new IPCRequest()
+                            {
+                                FunctionName = request.FunctionName
+                            };
+                            // Sends back to the server (ARTIC) the function result.
+                            byte[] data = null;
+                            if (!IPCSerialization.Serialize(message, out data, out Exception serEx))
+                            {
+                                OnServerSerializationError?.Invoke(this, new GatewayServerSerializationErrorEventArgs(_id, serEx));
+                                return;
+                            }
+                            e.Response = data;
+                        }
                     }
                     break;
             }
@@ -180,7 +245,9 @@ namespace OptrelInterProcessComm.Gateways
         /// </summary>
         public void PushRequest(IPCRequest request)
         {
-            if (request is null) return;
+            if (request is null) 
+                return;
+
             var msg = new IPCMessage()
             {
                 MessageType = IPCMessageTypeEnum.Request,
@@ -189,15 +256,27 @@ namespace OptrelInterProcessComm.Gateways
 
             try
             {
-                var client = _socketServer.GetClients().FirstOrDefault();
-                if (client is null) return;
+                var clients = _socketServer.GetClients();
+                // If there are no clients connected, exit immediately.
+                if (clients is null || clients.Count == 0) 
+                    return;
 
-                var data = IPCSerialization.Serialize(msg);
-                client.SendMessage(new object[] { data });
+                byte[] data = null;
+                if (!IPCSerialization.Serialize(msg, out data, out Exception ex))
+                {
+                    OnServerSerializationError?.Invoke(this, new GatewayServerSerializationErrorEventArgs(_id, ex));
+                    return;
+                }
+                // Sends the message to the first client only.
+                clients[0].SendMessage(new object[] { data });
             }
             catch(Exception ex)
             {
-                Log.Line(LogLevels.Error, "IPCGatewayServer::PushRequest", $"PushRequest failed: {ex}");
+                Log.Line(
+                    LogLevels.Error, 
+                    "IPCGatewayServer::PushRequest", 
+                    $"PushRequest failed: {ex}");
+                OnServerError?.Invoke(this, new GatewayServerErrorEventArgs(_id, ex));
             }
         }
         /// <summary>
@@ -222,33 +301,52 @@ namespace OptrelInterProcessComm.Gateways
 
             try
             {
-                var client = _socketServer.GetClients().FirstOrDefault();
-
-                if (client is null)
+                var clients = _socketServer.GetClients();
+                // If there are no clients connected, exit immediately.
+                if (clients is null || clients.Count == 0)
                 {
-                    msg.Response = new IPCResponse(string.Empty, null, null, IPCResponseStatusEnum.KO, "no client connected");
+                    msg.Response = new IPCResponse(string.Empty, null, null, IPCResponseStatusEnum.KO, "no clients connected");
                     msg.MessageType = IPCMessageTypeEnum.Response;
                     return msg;
                 }
-
-                var data = IPCSerialization.Serialize(msg);
-                var response = client.SendMessage(new object[] { data }, responseTimeoutMs, true);
+                   
+                byte[] data = null;
+                if (!IPCSerialization.Serialize(msg, out data, out Exception serEx))
+                {
+                    OnServerSerializationError?.Invoke(this, new GatewayServerSerializationErrorEventArgs(_id, serEx));
+                    msg.Response = new IPCResponse(request.FunctionName, null, null, IPCResponseStatusEnum.KO, "serialization exception thrown");
+                    msg.MessageType = IPCMessageTypeEnum.Response;
+                    return msg;
+                }
+                // Sends the message to all the currently connected clients.
+                var response = clients[0].SendMessage(new object[] { data }, responseTimeoutMs, true);
 
                 if (response is null)
                 {
-                    msg.Response = new IPCResponse(request.FunctionName, null, null, IPCResponseStatusEnum.KO, "Response timeout");
+                    msg.Response = new IPCResponse(request.FunctionName, null, null, IPCResponseStatusEnum.KO, "response timeout");
                     msg.MessageType = IPCMessageTypeEnum.Response;
                     return msg;
                 }
                 else
                 {
-                    return IPCSerialization.Deserialize(response);
+                    if (!IPCSerialization.Deserialize(response, out msg, out Exception desEx))
+                    {
+                        OnServerSerializationError?.Invoke(this, new GatewayServerSerializationErrorEventArgs(_id, desEx));
+                        msg.Response = new IPCResponse(request.FunctionName, null, null, IPCResponseStatusEnum.KO, "deserialization exception thrown");
+                        msg.MessageType = IPCMessageTypeEnum.Response;
+                        return msg;
+                    }
+                    return msg;
                 }
             }
             catch(Exception ex)
             {
-                Log.Line(LogLevels.Error, "IPCGatewayServer::PushRequestWithResponse", $"PushRequestWithResponse failed: {ex}");
-                msg.Response = new IPCResponse(request.FunctionName, null, null, IPCResponseStatusEnum.KO, "Serialization/Push exception");
+                Log.Line(
+                    LogLevels.Error, 
+                    "IPCGatewayServer::PushRequestWithResponse", 
+                    $"PushRequestWithResponse failed: {ex}");
+                OnServerError?.Invoke(this, new GatewayServerErrorEventArgs(_id, ex));
+                msg.Response = new IPCResponse(request.FunctionName, null, null, IPCResponseStatusEnum.KO, "serialization/push exception");
                 msg.MessageType = IPCMessageTypeEnum.Response;
                 return msg;
             }

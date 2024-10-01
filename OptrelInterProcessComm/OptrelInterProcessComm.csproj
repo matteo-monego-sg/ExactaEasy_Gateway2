@@ -35,16 +35,16 @@
       <HintPath>..\lib\Logger.dll</HintPath>
     </Reference>
     <Reference Include="MessagePack, Version=2.5.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be, processorArchitecture=MSIL">
-      <HintPath>..\packages\MessagePack.2.5.140\lib\netstandard2.0\MessagePack.dll</HintPath>
+      <HintPath>..\packages\MessagePack.2.5.172\lib\net472\MessagePack.dll</HintPath>
     </Reference>
     <Reference Include="MessagePack.Annotations, Version=2.5.0.0, Culture=neutral, PublicKeyToken=b4a0369545f0a1be, processorArchitecture=MSIL">
-      <HintPath>..\packages\MessagePack.Annotations.2.5.140\lib\netstandard2.0\MessagePack.Annotations.dll</HintPath>
+      <HintPath>..\packages\MessagePack.Annotations.2.5.172\lib\netstandard2.0\MessagePack.Annotations.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.NET.StringTools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.NET.StringTools.17.9.5\lib\net472\Microsoft.NET.StringTools.dll</HintPath>
+      <HintPath>..\packages\Microsoft.NET.StringTools.17.11.4\lib\net472\Microsoft.NET.StringTools.dll</HintPath>
     </Reference>
     <Reference Include="SocketMeister, Version=4.0.6.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SocketMeister.4.0.6\lib\net472\SocketMeister.dll</HintPath>
@@ -79,6 +79,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gateways\EventArgs\GatewayClientConnectedEventArgs.cs" />
+    <Compile Include="Gateways\EventArgs\GatewayClientDisconnectedEventArgs.cs" />
+    <Compile Include="Gateways\EventArgs\GatewayClientErrorEventArgs.cs" />
+    <Compile Include="Gateways\EventArgs\GatewayExecutionException.cs" />
+    <Compile Include="Gateways\EventArgs\GatewayClientSerializationErrorEventArgs.cs" />
+    <Compile Include="Gateways\EventArgs\GatewayServerErrorEventArgs.cs" />
+    <Compile Include="Gateways\EventArgs\GatewayServerSerializationErrorEventArgs.cs" />
+    <Compile Include="Gateways\EventArgs\GatewayServerStartedEventArgs.cs" />
     <Compile Include="Messaging\IPCParameter.cs" />
     <Compile Include="Messaging\IPCRequest.cs" />
     <Compile Include="Messaging\IPCResponse.cs" />

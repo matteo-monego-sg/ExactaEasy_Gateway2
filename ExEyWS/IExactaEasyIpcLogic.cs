@@ -91,5 +91,9 @@ namespace ExactaEasyEng
         /// 
         /// </summary>
         int SetWorkingMode(int workingMode);
+        /// <summary>
+        /// 
+        /// </summary>
+        int SetCSVRotationParameters(string csv);
     }
 }

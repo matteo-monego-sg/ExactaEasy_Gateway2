@@ -13,6 +13,10 @@ namespace OptrelInterProcessComm.Gateways
     public abstract class IPCGatewayBase<K>
     {
         /// <summary>
+        /// The gateway unique ID.
+        /// </summary>
+        protected readonly string _id;
+        /// <summary>
         /// The _logic object Type.
         /// </summary>
         private readonly Type _logicClassType;
@@ -33,10 +37,15 @@ namespace OptrelInterProcessComm.Gateways
         /// </summary>
         public abstract bool IsConnected { get; }
         /// <summary>
+        /// Raised when an IPC call to a remote function fails due to an exception.
+        /// </summary>
+        public event EventHandler<GatewayExecutionExceptionEventArgs> OnGatewayExecutionError;
+        /// <summary>
         /// Class constructor 1.
         /// </summary>
-        public IPCGatewayBase(K serverLogic) : base()
+        public IPCGatewayBase(string gatewayId, K serverLogic) : base()
         {
+            _id = gatewayId;
             _logic = serverLogic;
             _logicClassType = _logic.GetType();
             // Cache all the functions of the logic type.
@@ -63,9 +72,8 @@ namespace OptrelInterProcessComm.Gateways
         /// <summary>
         /// Calls a function of the logic interface K.
         /// </summary>
-        protected bool ExecuteLogic(string func, IEnumerable<IPCParameter> parms, out object result, out Exception exception)
+        protected bool ExecuteLogic(string func, IEnumerable<IPCParameter> parms, out object result)
         {
-            exception = null;
             result = null;
             try
             {
@@ -77,6 +85,14 @@ namespace OptrelInterProcessComm.Gateways
                 // ---------------
                 // Gets the type of the derived class and the function to be called by reflection.
                 var method = _logicMethods[func];
+                // CASE 1) NO PARAMETERS.
+                if (parms is null || parms.Count() == 0)
+                {
+                    // Executes the function.
+                    result = method.Invoke(_logic, null);
+                    return true;
+                }
+                // CASE 2) PARAMETERS.
                 // Aligns the parameter value type to the correct one.
                 foreach (var p in parms)
                 {
@@ -89,10 +105,42 @@ namespace OptrelInterProcessComm.Gateways
                 result = method.Invoke(_logic, parms.Select(x => x.Value).ToArray());
                 return true;
             }
+            catch (KeyNotFoundException knfex)
+            {
+                Log.Line(
+                   LogLevels.Error,
+                   "BaseIpcGateway::ExecuteLogic",
+                   $"member '{func}' has not been found in the remote IPC logic class.");
+                // Raise an error evento to the client class.
+                OnGatewayExecutionError?.Invoke(
+                    this,
+                    new GatewayExecutionExceptionEventArgs(
+                        _id,
+                        new Exception($"member '{func}' has not been found in the remote IPC logic class.", knfex)));
+                return false;
+            }
+            catch (TargetParameterCountException tpcex)
+            {
+                Log.Line(
+                      LogLevels.Error,
+                      "BaseIpcGateway::ExecuteLogic",
+                      $"member '{func}' has been invoked with a wrong number of paramters.");
+                // Raise an error evento to the client class.
+                OnGatewayExecutionError?.Invoke(
+                    this,
+                    new GatewayExecutionExceptionEventArgs(
+                        _id,
+                        new Exception($"member '{func}' has been invoked with a wrong number of paramters.", tpcex)));
+                return false;
+            }
             catch (Exception ex)
             {
-                Log.Line(LogLevels.Warning, "BaseIpcGateway::ExecuteLogic", $"Could not execute function '{func}': {ex.Message}");
-                exception = ex;
+                Log.Line(
+                    LogLevels.Error,
+                    "BaseIpcGateway::ExecuteLogic",
+                    $"could not execute the remote function '{func}': {ex.Message}");
+                // Raise an error evento to the client class.
+                OnGatewayExecutionError?.Invoke(this, new GatewayExecutionExceptionEventArgs(_id, ex));
                 return false;
             }
         }

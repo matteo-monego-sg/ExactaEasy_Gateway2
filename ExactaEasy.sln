@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptrelInterProcessComm", "O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{E574A57E-8CEA-4C61-BA1E-C7D9BC1B43F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptrelInterProcessTest", "OptrelInterProcessTest\OptrelInterProcessTest.csproj", "{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -286,12 +288,32 @@ Global
 		{E574A57E-8CEA-4C61-BA1E-C7D9BC1B43F5}.Release|x64.Build.0 = Release|x64
 		{E574A57E-8CEA-4C61-BA1E-C7D9BC1B43F5}.Release|x86.ActiveCfg = Release|x86
 		{E574A57E-8CEA-4C61-BA1E-C7D9BC1B43F5}.Release|x86.Build.0 = Release|x86
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Debug|Win32.Build.0 = Debug|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Debug|x64.Build.0 = Debug|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Debug|x86.Build.0 = Debug|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Release|Win32.ActiveCfg = Release|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Release|Win32.Build.0 = Release|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Release|x64.ActiveCfg = Release|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Release|x64.Build.0 = Release|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Release|x86.ActiveCfg = Release|Any CPU
+		{FDE52627-8CEB-4C4A-A455-9F5DDBB7923B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		RESX_SortFileContentOnSave = True
 		SolutionGuid = {771E35A8-6E4F-4F17-B0F4-A519C62690C1}
+		RESX_SortFileContentOnSave = True
 	EndGlobalSection
 EndGlobal
